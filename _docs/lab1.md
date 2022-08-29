@@ -43,7 +43,7 @@ You will:
 Search your computer for RStudio.exe and open the program. It should
 look something like this:
 
-![](pic2.png)
+![](/pic2.png)
 
 # Create a script file
 
