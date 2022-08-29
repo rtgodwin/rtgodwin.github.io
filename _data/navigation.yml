@@ -1,5 +1,11 @@
 # main links
 main:
+  - title: "ECON 3040"
+    url: /3040/
+  - title: "ECON 7010"
+    url: /7010/
+  - title: "Research"
+    url: /research/
   - title: "Quick-Start Guide"
     url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "CV"
