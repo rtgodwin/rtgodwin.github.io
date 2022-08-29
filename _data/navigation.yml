@@ -15,7 +15,11 @@ docs:
   - title: Course Information
     children:
       - title: "Course Outline"
-        url: /docs/3040/
+        url: /3040/outline
+  - title: Computer Labs
+    children:
+      - title: "Installing R and RStudio"
+        url: /3040/R
     
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
