@@ -16,11 +16,11 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-CA"
-title                    : "Site Title"
+title                    : "RTG Teaching and Research"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Your Name"
-description              : "An amazing website."
+name                     : "Ryan T. Godwin"
+description              : "A website for hosting teaching resources and displaying research."
 url                      : "https://rtgodwin.com"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : "rtgodwin/rtgodwin.github.io"
@@ -104,11 +104,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
+  name             : "Ryan T. Godwin"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an **amazing** person."
-  location         : "Somewhere"
-  email            :
+  bio              : "Associate professor of economics at the University of Manitoba."
+  location         : "Winnipeg"
+  email            : "ryan.godwin@umanitoba.ca"
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
