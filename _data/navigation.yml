@@ -19,7 +19,7 @@ docs:
   - title: Computer Labs
     children:
       - title: "Installing R and RStudio"
-        url: /3040/R
+        url: /3040/lab1.html
     
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
