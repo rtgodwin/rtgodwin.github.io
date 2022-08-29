@@ -18,8 +18,8 @@ docs:
         url: /3040/outline
   - title: Computer Labs
     children:
-      - title: "Installing R and RStudio"
-        url: /3040/lab1.html
+      - title: "1. Intro to R and RStudio"
+        url: /3040/lab1/
     
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
