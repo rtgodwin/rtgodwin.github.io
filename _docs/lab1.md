@@ -523,6 +523,13 @@ function (“lm” stands for “linear model”):
 
 ```r
     lm(Sales ~ Score, data = vid2)
+    
+    Call:
+lm(formula = Sales ~ Score, data = vid2)
+
+Coefficients:
+(Intercept)        Score  
+    -2.1472       0.8912  
 ```
 
 The interpretation of the results is that an increase in critic score of
