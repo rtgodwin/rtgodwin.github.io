@@ -1,3 +1,10 @@
+---
+title: "Lab 1"
+permalink: /3040/lab1/
+excerpt: "Introduction to R and RStudio"
+toc: true
+---
+
 ------------------------------------------------------------------------
 
 This tutorial will start getting you accustomed to R and RStudio. Please
