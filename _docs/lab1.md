@@ -97,7 +97,7 @@ You can create objects in R. Objects can be vectors, matrices, character
 strings, data frames, etc. Create two different scalars (give them any
 name you like, it doesn’t have to be `a` and `b`):
 
-```{r}
+```r
     a <- 3
     b <- 5
 ```
