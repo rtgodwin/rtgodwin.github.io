@@ -251,74 +251,6 @@ We will use these logical operators to create *subsamples*. We can
 choose certain observations in the data set based on values of the
 variables.
 
-# Indexing
-
-Indexing allows us to extract parts of a vector, matrix, or data set.
-For example, to get the third value from `myvector` use:
-
-    myvector[3]
-
-    ## [1] 4
-
-We need to create a matrix for the next example. Copy-paste the
-following command and run it (don’t worry about what it means, just do
-it):
-
-    mymatrix <- matrix(c(rep(1:2,2), 1:8), 4, 3)
-
-Again, you’ll see the object you created pop up in the top-right of your
-screen. Click the “spreadsheet” icon next to the data set to view it:
-
-![](https://rtgodwin.com/3040/images/pic6.png)  
-  
-Close the “mymatrix” tab when you are done. You can also view an object
-by entering its name:
-
-    mymatrix
-
-    ##      [,1] [,2] [,3]
-    ## [1,]    1    1    5
-    ## [2,]    2    2    6
-    ## [3,]    1    3    7
-    ## [4,]    2    4    8
-
-Suppose you want to extract the `6` from the matrix. You would ask for
-the 2nd row, 3rd column:
-
-    mymatrix[2, 3]
-
-    ## [1] 6
-
-Suppose you wanted the entire 3rd row of the matrix. You would ask for
-the 3rd row, and all columns (leave a blank):
-
-    mymatrix[3, ]
-
-    ## [1] 1 3 7
-
-Now, let’s combine indexing and logical operators. First, let’s see
-which elements in the first column are equal to 1:
-
-    mymatrix[, 1] == 1
-
-    ## [1]  TRUE FALSE  TRUE FALSE
-
-and use this to get only the rows that have a 1 in their 1st column:
-
-    mymatrix[mymatrix[, 1] == 1, ]
-
-    ##      [,1] [,2] [,3]
-    ## [1,]    1    1    5
-    ## [2,]    1    3    7
-
-On your own, try to extract only the rows for which the number in the
-2nd column is greater than or equal to 2, and also less than 4.
-
-<span
-class="spoiler">`mymatrix[mymatrix[, 2] >= 2 & mymatrix[, 2] < 4, ]`</span>
-
-This will get easier when the columns have names.
-
 # Load data
 
 The data for this tutorial was scraped by [Abdulshaheed
@@ -333,7 +265,9 @@ simple and common format for storing data.
 RStudio can read data from your computer, or from the internet. Load the
 data with:
 
+```r
     mydata <- read.csv("https://rtgodwin.com/data/vidsales.csv")
+```
 
 We have created a new object called `mydata`, and have assigned it the
 values in the `.csv` file using the assignment operator `<-`. You could
@@ -363,7 +297,7 @@ style="width:50.0%" />
 Each variable name is listed, along with some info. Notice that the
 variables each have a type:
 
-<center>
+<div align="center">
 
 <font size = "3">
 
@@ -391,7 +325,7 @@ variables each have a type:
 </table>
 
 </font>
-</center>
+</div>
 
 The “character” variables can be used to create dummy variables (more on
 this later!)
