@@ -108,9 +108,11 @@ them values using the assignment operator `<-` (the “less than” symbol
 followed by the “minus” symbol). Notice that `a` and `b` pop up in the
 top-right of your screen. We can now refer to these objects by name:
 
+```r
     a * b
 
     ## [1] 15
+```    
 
 To create a vector in R we can use the “combine” function, `c()`:
 
