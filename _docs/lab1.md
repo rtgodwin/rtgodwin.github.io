@@ -117,9 +117,10 @@ You can create objects in R. Objects can be vectors, matrices, character
 strings, data frames, etc. Create two different scalars (give them any
 name you like, it doesn’t have to be `a` and `b`):
 
+```r
     a <- 3
     b <- 5
-
+```
 Note that you can copy-paste commands in the gray boxes directly into R.
 
 We have created two new objects called `a` and `b`, and have assigned
