@@ -333,6 +333,7 @@ this later!)
 To explore the data, we can calculate “summary” statistics for all the
 variables:
 
+```r
     summary(mydata)
 
     ##      Name              Genre           ESRB_Rating          Platform        
@@ -349,6 +350,7 @@ variables:
     ##                     Mean   : 7.27   Mean   : 1.177   Mean   :2007  
     ##                     3rd Qu.: 8.30   3rd Qu.: 1.100   3rd Qu.:2010  
     ##                     Max.   :10.00   Max.   :82.860   Max.   :2020
+```
 
 The min, max, quartiles, and mean have been calculated. For example, the
 sample mean `Score` is 7.27.
@@ -356,19 +358,22 @@ sample mean `Score` is 7.27.
 We can extract variables from the data set, and perform functions on
 them. To calculate the sample variance for `Sales`:
 
+```r
     var(mydata$Sales)
 
     ## [1] 7.607421
+```
 
 **Important:** when we type `mydata$Sales` we are getting the `Sales`
 variable from within the `mydata` data set.
 
 Now, calculate the correlation between `Sales` and `Score`:
 
+```r
     cor(mydata$Sales, mydata$Score)
 
     ## [1] 0.2634555
-
+```
 What does this tell you?
 
 ## Sub-sampling
@@ -379,6 +384,7 @@ create sub-samples.
 Nintendo is my favourite publisher. Let’s see their critic scores
 vs. the critic scores from other publishers:
 
+```r
     mean(subset(mydata$Score, mydata$Publisher == "Nintendo"))
 
     ## [1] 7.799296
@@ -386,6 +392,7 @@ vs. the critic scores from other publishers:
     mean(subset(mydata$Score, mydata$Publisher != "Nintendo"))
 
     ## [1] 7.21722
+```
 
 Notice how we have used logical operators to create two sub-samples:
 Nintendo games, and other games.
@@ -403,7 +410,9 @@ Now, find all the video games that have received a perfect score of 10.
 For the rest of the tutorial, we’ll use a sub-sample of all video games
 that have sales 2 million USD or more:
 
+```r
     vid2 <- subset(mydata, mydata$Sales >= 2)
+```
 
 The above line creates a new data set, by selecting only the rows from
 `mydata` which have `Sales >= 2`. The new data set shows up in the
@@ -413,17 +422,21 @@ top-right panel. Check the sample size.
 
 Visualization is important. Plot a histogram of critic scores:
 
+```r
     hist(vid2$Score)
+```
 
 ![](lab1-revised_files/figure-markdown_strict/histo-1.png)
 
 Many options are available to customize the histogram, see `?hist`.
 Let’s add some labels, and control the number of “breakpoints”:
 
+```r
     hist(vid2$Score, 
          main = "Histogram of video game critic scores", 
          xlab = "score", 
          breaks = 10)
+```
 
 ![](lab1-revised_files/figure-markdown_strict/histo2-1.png)
 
@@ -431,17 +444,21 @@ The scatterplot is a widely used tool for visualizing the relationship
 between two variables. Draw a scatterplot for `Sales` and `Score`,
 adding a title and labeling the axis:
 
+```r
     plot(vid2$Score, vid2$Sales, 
          main = "critic scores and video game sales", 
          xlab = "score", ylab = "Sales")
+```
 
 ![](lab1-revised_files/figure-markdown_strict/scats2-1.png)
 
 We can also change the color and style of the dots:
 
+```r
     plot(vid2$Score, vid2$Sales, 
          col = 3, 
          pch = 16)
+```
 
 ![](lab1-revised_files/figure-markdown_strict/scats3-1.png)
 
@@ -456,6 +473,7 @@ and use `G` to control the colour of each data point. We begin by
 setting all rows of the variable equal to 1, and then change the value
 of `G` based on the game’s `Genre`. Copy and paste the code below:
 
+```r
     vid2$G <- 1
     vid2$G[vid2$Genre == "Action"] <- 2
     vid2$G[vid2$Genre == "Sports"] <- 3
@@ -463,24 +481,29 @@ of `G` based on the game’s `Genre`. Copy and paste the code below:
     vid2$G[vid2$Genre == "Role-Playing"] <- 4
     vid2$G[vid2$Genre == "Platform"] <- 5
     vid2$G[vid2$Genre == "Racing"] <- 6
+```
 
 For example, if `Genre` is equal to `"Action"`, the variable `G` gets a
 value of 2. Look at this `G` variable in the spreadsheet to understand
 what has happened, Now, use this variable to determine the colour for
 each data point:
 
+```r
     plot(vid2$Score, vid2$Sales, col=vid2$G, pch=16,
          main = "video game sales and scores by genre",
          xlab = "score", ylab = "sales")
+```
 
 ![](lab1-revised_files/figure-markdown_strict/scats4-1.png)
 
 We need to add a legend to the plot to show what the colours mean:
 
+```r
     plot(vid2$Score, vid2$Sales, col=vid2$G, pch=16)
     legend("topleft", 
            legend = c("Action", "Sports", "Shooter", "Role-Playing", "Platform", "Racing", "Other"), 
            col=c(2, 3, 7, 4, 5, 6, 1), pch=16)
+```
 
 ![](lab1-revised_files/figure-markdown_strict/leg-1.png)
 
@@ -496,7 +519,9 @@ What is the average increase in `Sales` associated with an increase in
 `Score`? We can estimate a simple linear regression using the `lm()`
 function (“lm” stands for “linear model”):
 
+```r
     lm(Sales ~ Score, data = vid2)
+```
 
 The interpretation of the results is that an increase in critic score of
 1 is associated with an average increase in sales of $0.89 million.
