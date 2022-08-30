@@ -513,7 +513,9 @@ In the “plots” window, click “Export” and “Save as Image…”. This w
 you can import graphics you create into Word, or another word processor.
 
 <img src="https://rtgodwin.com/3040/images/pic10.png"
-style="width:50.0%" /> \# Simple least-squares regression
+style="width:50.0%" />
+
+# Simple least-squares regression
 
 What is the average increase in `Sales` associated with an increase in
 `Score`? We can estimate a simple linear regression using the `lm()`
