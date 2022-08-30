@@ -1,3 +1,10 @@
+---
+title: "Lab 1"
+permalink: /3040/lab1/
+excerpt: "Introduction to R and RStudio"
+toc: true
+---
+
 ------------------------------------------------------------------------
 
 This tutorial will start getting you accustomed to R and RStudio. Please
@@ -38,7 +45,7 @@ Click on “File”, “New File”, “R Script”.
 
 R’s arithmetic operators include:
 
-<center>
+<div align="center">
 
 <font size = "3">
 
@@ -74,7 +81,7 @@ R’s arithmetic operators include:
 </table>
 
 </font>
-</center>
+</div>
 
 Type the following command into your R script: `1 + 2`. Run the command
 by highlighting it, or making sure the cursor is active at the end of
@@ -90,9 +97,10 @@ You can create objects in R. Objects can be vectors, matrices, character
 strings, data frames, etc. Create two different scalars (give them any
 name you like, it doesn’t have to be `a` and `b`):
 
+```{r}
     a <- 3
     b <- 5
-
+```
 Note that you can copy-paste commands in the gray boxes directly into R.
 
 We have created two new objects called `a` and `b`, and have assigned
