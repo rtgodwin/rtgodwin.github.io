@@ -64,7 +64,7 @@ Click on “File”, “New File”, “R Script”.
 
 R’s arithmetic operators include:
 
-<center>
+<div align="center">
 
 <font size = "3">
 
@@ -100,7 +100,7 @@ R’s arithmetic operators include:
 </table>
 
 </font>
-</center>
+</div>
 
 Type the following command into your R script: `1 + 2`. Run the command
 by highlighting it, or making sure the cursor is active at the end of
