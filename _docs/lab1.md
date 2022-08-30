@@ -116,7 +116,9 @@ top-right of your screen. We can now refer to these objects by name:
 
 To create a vector in R we can use the “combine” function, `c()`:
 
+```r
     myvector <- c(1, 2, 4, 6, 7)
+```
 
 # Simple functions in R
 
