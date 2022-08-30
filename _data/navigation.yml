@@ -20,7 +20,16 @@ docs:
     children:
       - title: "1. Intro to R and RStudio"
         url: /3040/lab1/
-    
+
+7010:
+  - title: TEST
+    children:
+      - title: "Woah"
+        url: /7010/outline
+  - title: TEST2
+    children:
+      - title: "1. big test"
+        url: /7010/lab1/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
