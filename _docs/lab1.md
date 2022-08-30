@@ -127,7 +127,7 @@ arguments of the function in parentheses: `functionname(arguments)`.
 
 There are thousands of functions in R. Here are a few that we’ll need:
 
-<center>
+<div align="center">
 
 <font size = "3">
 
@@ -154,13 +154,15 @@ There are thousands of functions in R. Here are a few that we’ll need:
 </table>
 
 </font>
-</center>
+</div>
 
 Try all of these functions on `myvector`. For example:
 
+```r
     sum(myvector)
 
     ## [1] 20
+```
 
 The `sum()` function is looking for arguments that it can add together.
 Put an object in the brackets, and the function will try to add. Try
@@ -173,7 +175,7 @@ by the function name, and running the command. For example, try
 Logical operators are used to determine whether something is `TRUE` or
 `FALSE`. Some logical operators are:
 
-<center>
+<div align="center">
 
 <font size = "3">
 
@@ -213,13 +215,14 @@ Logical operators are used to determine whether something is `TRUE` or
 </table>
 
 </font>
-</center>
+</div>
 
 The operators `&` “and” and `|` “or” may be used to combine the above
 operators.
 
 Try entering the following commands:
 
+```r
     8 > 4
 
     ## [1] TRUE
@@ -239,6 +242,7 @@ Try entering the following commands:
     myvector > 3 & myvector < 7
 
     ## [1] FALSE FALSE  TRUE  TRUE FALSE
+```
 
 For the last example, R has checked to see whether each element in
 `myvector` is greater than 3 and less than 7.
