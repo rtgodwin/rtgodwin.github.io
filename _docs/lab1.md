@@ -19,25 +19,6 @@ of users have contributed “add-on” packages that are readily
 downloadable by anyone. [RStudio](https://www.rstudio.com/) is a free
 extension to R, that we will be using for the course.
 
-# Objectives
-
-You will:
-
--   [Open RStudio](#open)
--   [Create a script file](#script)
--   [Use R as a calculator](#calc)
--   [Create an object](#create)
--   [Explore simple functions in R](#funcs)
--   [Use logical operators](#logic)
--   [Use indexing](#index)
--   [Load data](#load)
--   [Explore data](#explore)
--   [Create histograms and scatterplots](#plots)
--   [Create new variables](#newvar)
--   [Import your histogram, scatterplot, and table into a Word
-    document](#import)
--   [Save your script file](#savescript)
-
 # Open RStudio
 
 Search your computer for RStudio.exe and open the program. It should
