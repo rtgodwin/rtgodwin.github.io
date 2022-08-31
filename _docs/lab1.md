@@ -426,7 +426,7 @@ Visualization is important. Plot a histogram of critic scores:
     hist(vid2$Score)
 ```
 
-![](lab1-revised_files/figure-markdown_strict/histo-1.png)
+![](https://rtgodwin.com/3040/images/histo-1.png)
 
 Many options are available to customize the histogram, see `?hist`.
 Let’s add some labels, and control the number of “breakpoints”:
@@ -438,7 +438,7 @@ Let’s add some labels, and control the number of “breakpoints”:
          breaks = 10)
 ```
 
-![](lab1-revised_files/figure-markdown_strict/histo2-1.png)
+![](https://rtgodwin.com/3040/images/histo2-1.png)
 
 The scatterplot is a widely used tool for visualizing the relationship
 between two variables. Draw a scatterplot for `Sales` and `Score`,
@@ -450,7 +450,7 @@ adding a title and labeling the axis:
          xlab = "score", ylab = "Sales")
 ```
 
-![](lab1-revised_files/figure-markdown_strict/scats2-1.png)
+![](https://rtgodwin.com/3040/images/scats2-1.png)
 
 We can also change the color and style of the dots:
 
@@ -460,7 +460,7 @@ We can also change the color and style of the dots:
          pch = 16)
 ```
 
-![](lab1-revised_files/figure-markdown_strict/scats3-1.png)
+![](https://rtgodwin.com/3040/images/scats3-1.png)
 
 Type `?pch` to see the different styles, and Google to see the different
 colours.
@@ -494,7 +494,7 @@ each data point:
          xlab = "score", ylab = "sales")
 ```
 
-![](lab1-revised_files/figure-markdown_strict/scats4-1.png)
+![](https://rtgodwin.com/3040/images/scats4-1.png)
 
 We need to add a legend to the plot to show what the colours mean:
 
@@ -505,7 +505,7 @@ We need to add a legend to the plot to show what the colours mean:
            col=c(2, 3, 7, 4, 5, 6, 1), pch=16)
 ```
 
-![](lab1-revised_files/figure-markdown_strict/leg-1.png)
+![](https://rtgodwin.com/3040/images/leg-1.png)
 
 # Import your work into Word
 
