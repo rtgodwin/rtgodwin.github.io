@@ -20,6 +20,10 @@ docs:
     children:
       - title: "1. Intro to R and RStudio"
         url: /3040/lab1/
+  - title: Assignments
+    children:
+      - title: "Assignment 1"
+        url: https://rtgodwin.com/3040/assignments/assign1.pdf
 
 pages:
   - title: TEST
