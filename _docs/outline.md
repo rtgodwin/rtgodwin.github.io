@@ -22,7 +22,7 @@ The principal objective of this course is to provide a basic introduction to eco
 I will be making frequent edits and revisions to the textbook this semester.
 {: .notice--danger}
 
-## Recommended Textbook
+# Recommended Textbook
 Stock, J. H. & Watson M. W., *Introduction to Econometrics 3rd Edition*
 
 ## Course Website
