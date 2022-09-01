@@ -8,7 +8,7 @@ toc: false
 
 ## Course Info
 
-| Instructor | email | Time              | Days          | Where                  | CRN   | Office Hour |
+| Instructor | email | Time              | Days          | Location                  | CRN   | Office Hour |
 | :------: | :--------------: | :---------------: | :-----------: | :--------------------: | :---: | :----: |
 | Ryan Godwin | ryan.godwin@umanitoba.ca | 1:00 pm - 2:15 pm | TR            | ST. PAUL'S COLLEGE 258 | 12952 | Tuesdays, 2:40 - 3:40 |
 
