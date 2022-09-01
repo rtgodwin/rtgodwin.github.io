@@ -7,7 +7,7 @@ toc: false
 ---
 
 ## Previous midterms
-|                                                        |                                                              |
+| [2021](https://rtgodwin.com/3040/oldexams/mid2021.pdf) | [Answers](https://rtgodwin.com/3040/oldexams/mid2021ans.pdf) |
 | ------------------------------------------------------ | ------------------------------------------------------------ |
 | [2020](https://rtgodwin.com/3040/oldexams/mid2020.pdf) | [Answers](https://rtgodwin.com/3040/oldexams/mid2020ans.pdf) | 
 
