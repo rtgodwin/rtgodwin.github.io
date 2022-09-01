@@ -36,6 +36,14 @@ rtgodwin.com/3040
 | Midterm Exam<br>(October 20) 	| 35%    	|
 | Final Exam                   	| 50%    	|
 
+# Assignments
+
+You will use RStudio and work with data in order to complete your assignments. All assignments must be completed independently.
+
+# Midterm and Final
+
+These will be closed book exams. The midterm will take place in the regular class room/time. The final exam will be scheduled by the university. The final exam is *cumulative*.
+
 ## Anouncements
 
 **The first three lectures will proceed as follows:**
