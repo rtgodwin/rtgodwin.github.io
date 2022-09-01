@@ -6,16 +6,26 @@ main:
     url: /7010/
   - title: "Research"
     url: /research/
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
   - title: "CV"
     url: /cv/
 
 docs:
-  - title: Course Information
+  - title: General Resources
     children:
-      - title: "Course Outline"
+      - title: "Outline"
         url: /3040/outline
+      - title: "Textbook"
+        url: /3040/introeconometrics
+      - title: "Previous Exams"
+        url: /3040/oldexams
+  - title: Lecture Slides
+    children:
+      - title: 1 - Course Intro
+        url: /3040/slides1.pdf
+      - title: 2 - Probability Review
+        url: /3040/slides2.pdf
+      - title: 3 - Statistics Review
+        url: /3040/slides3.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
