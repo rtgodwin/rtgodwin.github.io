@@ -10,6 +10,8 @@ main:
     url: /cv/
 
 docs:
+  - title: Home
+    url: /3040/
   - title: General Resources
     children:
       - title: "Outline"
