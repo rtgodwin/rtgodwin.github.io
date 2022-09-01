@@ -74,15 +74,31 @@ All course material is copyrighted by Ryan Godwin, 2022. No audio or video recor
 
 ## Tentative Course Topics
 
-•	Review of Probability
-•	Review of Statistics
-•	Linear Regression with One Regressor
-•	Hypothesis Tests
-•	Linear Regression with Multiple Regressors
-•	Hypothesis Tests in Multiple Regression
-•	Nonlinear Regression Functions
-•	Heteroskedasticity
-•	Instrumental Variables
+*	Review of Probability
+*	Review of Statistics
+*	Linear Regression with One Regressor
+*	Hypothesis Tests
+*	Linear Regression with Multiple Regressors
+*	Hypothesis Tests in Multiple Regression
+*	Nonlinear Regression Functions
+*	Heteroskedasticity
+*	Instrumental Variables
+
+## Student Accessibility Services
+Students with disabilities should contact Student Accessibility Services to facilitate the implementation of accommodations, and meet with me to discuss the accommodations recommended by Student Accessibility Services.
+
+**Regulations Regarding the Retention and Disposal of Term Work** Information regarding the breakdown of grades assigned to a student in a given course (i.e., grades assigned for term work, class participation, final examination, etc.) must be retained by the instructor and/or the respective department for three years following the end of term in which the course was taken. No student will be permitted to submit term work for assessment to the instructor (and term work should not be returned to students) by any means which allows unrestricted and unauthorized public access to the term work. For example, term papers, term tests or other written assignments should not be received or returned from a box outside the instructor’s office door, but a student could provide a self-addressed stamped envelope for return of the term work. Unreturned term work must be kept in a secure and confidential department area for a minimum of four (4) months following the end of the course and until destroyed by confidential measures. The Final day of the University’s Final Examination period each term is considered as the last day of the term. Instructors shall include on their course outlines a statement to the effect that unreturned term work will become the property of the Faculty of Arts and will be subject to confidential destruction.
+{: .notice--info}
+
+## Academic Supports
+
+### Writing and Learning Support
+
+The Academic Learning Centre (ALC) offers services that may be helpful to you throughout your academic program. Through the ALC, you can meet with a learning specialist to discuss concerns such as time management, learning strategies, and test-taking strategies. The ALC also offers peer supported study groups called Supplemental Instruction (SI) for certain courses that students have typically found difficult. In these study groups, students have opportunities to ask questions, compare notes, discuss content, solve practice problems, and develop new study strategies in a group-learning format. 
+You can also meet one-to-one with a writing tutor who can give you feedback at any stage of the writing process, whether you are just beginning to work on a written assignment or already have a draft. If you are interested in meeting with a writing tutor, reserve your appointment two to three days in advance of the time you would like to meet. Also, plan to meet with a writing tutor a few days before your paper is due so that you have time to work with the tutor’s feedback.
+These Academic Learning Centre services are free for U of M students. For more information, please visit the Academic Learning Centre website at: http://umanitoba.ca/student/academiclearning/
+You can also contact the Academic Learning Centre by calling 204-480-1481 or by visiting 201 Tier Building.
+
 
 ## Anouncements
 
