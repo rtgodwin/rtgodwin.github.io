@@ -7,7 +7,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-**[Quantitative Methods in Economics](https://rtgodwin.com/quantecon.pdf)** is currently in use for all sections of ECON 2040 at the University of Manitoba. It is an introductory text covering the basics of statistics and probability for an economics program. Data analysis is performed using R. The book ends with least squares, and a brief introduction to multiple regression.
+**[Quantitative Methods in Economics](https://rtgodwin.com/quantecon.pdf)** is currently in use for all sections of *ECON 2040* at the University of Manitoba. It is an introductory text covering the basics of statistics and probability for an economics program. Data analysis is performed using R. The book ends with least squares, and a brief introduction to multiple regression.
 {: .notice--info}
 
 **[Introduction to Econometrics](https://rtgodwin.com/introeconometrics.pdf)** is the textbook that I use for teaching ECON 3040. It begins with a review of statistics and probability, then proceeds to multiple regression, omitted variable bias, dummy variables, non-linearities, and instrumental variables.
