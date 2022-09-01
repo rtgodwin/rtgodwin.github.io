@@ -72,6 +72,18 @@ I own the copyright to all course content. Sharing my content (e.g. on Course He
 All course material is copyrighted by Ryan Godwin, 2022. No audio or video recording of this material, lectures, or presentations is allowed in any format, openly or surreptitiously, in whole or in part without permission of Ryan Godwin. Course materials are for the participant’s private study and research, and must not be shared. Violation of these and other Academic Integrity principles, will lead to serious disciplinary action.
 {: .notice--warning}
 
+## Tentative Course Topics
+
+•	Review of Probability
+•	Review of Statistics
+•	Linear Regression with One Regressor
+•	Hypothesis Tests
+•	Linear Regression with Multiple Regressors
+•	Hypothesis Tests in Multiple Regression
+•	Nonlinear Regression Functions
+•	Heteroskedasticity
+•	Instrumental Variables
+
 ## Anouncements
 
 **The first three lectures will proceed as follows:**
