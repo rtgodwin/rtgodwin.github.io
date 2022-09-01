@@ -18,7 +18,7 @@ toc: false
 | [2014](https://rtgodwin.com/3040/oldexams/mid2014.pdf)   | [Answers](https://rtgodwin.com/3040/oldexams/mid2014ans.pdf)  |
 | [2013](https://rtgodwin.com/3040/oldexams/mid2013.pdf)   | [Answers](https://rtgodwin.com/3040/oldexams/mid2013ans.pdf)  |
 
-## Previous midterms
+## Previous finals
 
 | Year                                                     | Answer Key
 | :------------------------------------------------------: | :------------------------------------------------------------: |
