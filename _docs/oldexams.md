@@ -1,7 +1,7 @@
 ---
 title: "ECON 3040 - Previous Exams"
 permalink: /3040/oldexams
-excerpt: "ECON 3040 Home"
+excerpt: "ECON 3040 exams"
 last_modified_at:
 toc: false
 ---
