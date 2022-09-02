@@ -51,13 +51,13 @@ pages:
   - title: Lecture Slides
     children:
       - title: 1 - Course Intro
-        url: /7010/slides1.pdf
+        url: /7010/slides/slides1.pdf
       - title: 2 - Basic Multiple Regression I
-        url: /7010/slides2.pdf
+        url: /7010/slides/slides2.pdf
       - title: 3 - Basic Multiple Regression II
-        url: /7010/slides3.pdf
+        url: /7010/slides/slides3.pdf
       - title: 4 - Properties of Least Squares
-        url: /7010/slides4.pdf
+        url: /7010/slides/slides4.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
