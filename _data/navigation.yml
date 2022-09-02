@@ -58,6 +58,10 @@ pages:
         url: /7010/slides3.pdf
       - title: 4 - Properties of Least Squares
         url: /7010/slides4.pdf
+  - title: Computer Labs
+    children:
+      - title: "1. Intro to R and RStudio"
+        url: /7010/lab1/
   - title: Assignments
     children:
       - title: "Assignment 1"
