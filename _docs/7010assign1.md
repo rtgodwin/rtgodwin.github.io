@@ -1,4 +1,11 @@
-**Due: Feb. 21st**. Worth 5% of your mark. For each answer include the R
+---
+title: "7010 Assignment 1"
+permalink: /7010/assign1/
+excerpt: "Assignment 1"
+toc: false
+---
+
+**Due: Sept. 28th**. Worth 2% of your mark. For each answer include the R
 code that you use, as well as a brief explanation. Upload your answers
 to the assignment 1 dropbox on UM Learn.
 
