@@ -10,7 +10,7 @@ main:
     url: /cv/
 
 docs:
-  - title: Home
+  - title: 3040 Home
     url: /3040/
   - title: General Resources
     children:
