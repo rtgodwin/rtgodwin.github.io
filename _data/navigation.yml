@@ -42,10 +42,10 @@ pages:
     children:
       - title: "Woah"
         url: /7010/outline
-  - title: TEST2
+  - title: Assignments
     children:
-      - title: "1. big test"
-        url: /7010/lab1/
+      - title: "Assignment 1"
+        url: /7010/assign1/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
