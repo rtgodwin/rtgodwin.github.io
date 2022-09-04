@@ -62,6 +62,8 @@ pages:
     children:
       - title: "1. Intro to R and RStudio"
         url: /7010/lab1/
+      - title: "2. Assignment 1 hints"
+        url: /7010/lab2/
   - title: Assignments
     children:
       - title: "Assignment 1"
