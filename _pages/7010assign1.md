@@ -3,6 +3,8 @@ title: "7010 Assignment 1"
 permalink: /7010/assign1/
 excerpt: "Assignment 1"
 toc: false
+sidebar:
+  nav: "pages"
 ---
 
 **Due: Sept. 28th**. Worth 2% of your mark. For each answer include the R
