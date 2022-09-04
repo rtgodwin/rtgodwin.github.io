@@ -4,8 +4,8 @@ permalink: /7010/outline
 excerpt: "Outline"
 last_modified_at:
 toc: false
-nav:
-  "pages"
+sidebar:
+  nav: "pages"
 ---
 
 ## Course Info
