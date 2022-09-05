@@ -1,0 +1,135 @@
+"country","continent","co2","gdp.per.cap"
+"Afghanistan","Asia",0.0854,974.5803384
+"Albania","Europe",1.3,5937.029526
+"Algeria","Africa",3.19,6223.367465
+"Angola","Africa",1.2,4797.231267
+"Argentina","Americas",4.38,12779.37964
+"Australia","Oceania",17.8,34435.36744
+"Austria","Europe",8.39,36126.4927
+"Bahrain","Asia",25.9,29796.04834
+"Bangladesh","Asia",0.302,1391.253792
+"Belgium","Europe",9.68,33692.60508
+"Benin","Africa",0.532,1441.284873
+"Bolivia","Americas",1.31,3822.137084
+"Bosnia and Herzegovina","Europe",4.68,7446.298803
+"Botswana","Africa",2.21,12569.85177
+"Brazil","Americas",1.9,9065.800825
+"Bulgaria","Europe",6.91,10680.79282
+"Burkina Faso","Africa",0.116,1217.032994
+"Burundi","Africa",0.0236,430.0706916
+"Cambodia","Asia",0.253,1713.778686
+"Cameroon","Africa",0.317,2042.09524
+"Canada","Americas",16.8,36319.23501
+"Central African Republic","Africa",0.0592,706.016537
+"Chad","Africa",0.0429,1704.063724
+"Chile","Americas",4.34,13171.63885
+"China","Asia",5.26,4959.114854
+"Colombia","Americas",1.41,7006.580419
+"Comoros","Africa",0.16,986.1478792
+"Congo, Dem. Rep.","Africa",0.0301,277.5518587
+"Congo, Rep.","Africa",0.305,3632.557798
+"Costa Rica","Americas",1.86,9645.06142
+"Cote d'Ivoire","Africa",0.355,1544.750112
+"Croatia","Europe",5.46,14619.22272
+"Cuba","Americas",2.37,8948.102923
+"Czech Republic","Europe",11.9,22833.30851
+"Denmark","Europe",9.19,35278.41874
+"Djibouti","Africa",0.571,2082.481567
+"Dominican Republic","Americas",2.23,6025.374752
+"Ecuador","Americas",2.24,6873.262326
+"Egypt","Africa",2.38,5581.180998
+"El Salvador","Americas",1.15,5728.353514
+"Equatorial Guinea","Africa",5.78,12154.08975
+"Eritrea","Africa",0.14,641.3695236
+"Ethiopia","Africa",0.0742,690.8055759
+"Finland","Europe",12.1,33207.0844
+"France","Europe",5.96,30470.0167
+"Gabon","Africa",2.77,13206.48452
+"Gambia","Africa",0.229,752.7497265
+"Germany","Europe",9.6,32170.37442
+"Ghana","Africa",0.433,1327.60891
+"Greece","Europe",8.63,27538.41188
+"Guatemala","Americas",0.922,5186.050003
+"Guinea","Africa",0.195,942.6542111
+"Guinea-Bissau","Africa",0.16,579.231743
+"Haiti","Americas",0.25,1201.637154
+"Honduras","Americas",1.14,3548.330846
+"Hungary","Europe",5.59,18008.94444
+"Iceland","Europe",7.57,36180.78919
+"India","Asia",1.19,2452.210407
+"Indonesia","Asia",1.61,3540.651564
+"Iran","Asia",7.21,11605.71449
+"Iraq","Asia",2.19,4471.061906
+"Ireland","Europe",10.1,40675.99635
+"Israel","Asia",9.11,25523.2771
+"Italy","Europe",7.8,28569.7197
+"Jamaica","Americas",3.48,7320.880262
+"Japan","Asia",9.74,31656.06806
+"Jordan","Asia",3.56,4519.461171
+"Kenya","Africa",0.258,1463.249282
+"Kuwait","Asia",30.1,47306.98978
+"Lebanon","Asia",3.29,10461.05868
+"Lesotho","Africa",1.05,1569.331442
+"Liberia","Africa",0.19,414.5073415
+"Libya","Africa",8.37,12057.49928
+"Madagascar","Africa",0.0934,1044.770126
+"Malawi","Africa",0.0641,759.3499101
+"Malaysia","Asia",6.94,12451.6558
+"Mali","Africa",0.0737,1042.581557
+"Mauritania","Africa",0.557,1803.151496
+"Mauritius","Africa",2.99,10956.99112
+"Mexico","Americas",4.3,11977.57496
+"Mongolia","Asia",4.66,3095.772271
+"Montenegro","Europe",3.63,9253.896111
+"Morocco","Africa",1.61,3820.17523
+"Mozambique","Africa",0.102,823.6856205
+"Myanmar","Asia",0.262,944
+"Namibia","Africa",1.14,4811.060429
+"Nepal","Asia",0.0997,1091.359778
+"Netherlands","Europe",10.7,36797.93332
+"New Zealand","Oceania",7.95,25185.00911
+"Nicaragua","Americas",0.834,2749.320965
+"Niger","Africa",0.0493,619.6768924
+"Nigeria","Africa",0.649,2013.977305
+"Norway","Europe",9.55,49357.19017
+"Oman","Asia",16.4,22316.19287
+"Pakistan","Asia",0.991,2605.94758
+"Panama","Americas",2.08,9809.185636
+"Paraguay","Americas",0.693,4172.838464
+"Peru","Americas",1.52,7408.905561
+"Philippines","Asia",0.808,3190.481016
+"Poland","Europe",8.2,15389.92468
+"Portugal","Europe",5.66,20509.64777
+"Romania","Europe",4.86,10808.47561
+"Rwanda","Africa",0.059,863.0884639
+"Sao Tome and Principe","Africa",0.517,1598.435089
+"Saudi Arabia","Asia",15.4,21654.83194
+"Senegal","Africa",0.436,1712.472136
+"Serbia","Europe",5.74,9786.534714
+"Sierra Leone","Africa",0.107,862.5407561
+"Singapore","Asia",4.21,47143.17964
+"Slovak Republic","Europe",6.81,18678.31435
+"Slovenia","Europe",8.07,25768.25759
+"Somalia","Africa",0.0551,926.1410683
+"South Africa","Africa",9.35,9269.657808
+"Spain","Europe",7.89,28821.0637
+"Sri Lanka","Asia",0.624,3970.095407
+"Sudan","Africa",0.438,2602.394995
+"Swaziland","Africa",0.934,4513.480643
+"Sweden","Europe",5.24,33859.74835
+"Switzerland","Europe",5.02,37506.41907
+"Syria","Asia",3.39,4184.548089
+"Tanzania","Africa",0.141,1107.482182
+"Thailand","Asia",3.81,7458.396327
+"Togo","Africa",0.235,882.9699438
+"Trinidad and Tobago","Americas",34.7,18008.50924
+"Tunisia","Africa",2.34,7092.923025
+"Turkey","Europe",4.09,8458.276384
+"Uganda","Africa",0.0945,1056.380121
+"United Kingdom","Europe",8.6,33203.26128
+"United States","Americas",19.3,42951.65309
+"Uruguay","Americas",1.8,10611.46299
+"Venezuela","Americas",5.81,11415.80569
+"Vietnam","Asia",1.22,2441.576404
+"Zambia","Africa",0.152,1271.211593
+"Zimbabwe","Africa",0.742,469.7092981
