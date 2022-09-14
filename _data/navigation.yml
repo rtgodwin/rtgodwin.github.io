@@ -48,6 +48,8 @@ pages:
         url: /econometrics1.pdf
       - title: "Previous Exams"
         url: /7010/oldexams
+      - title: "Matrices Review"
+        url: /7010/matrices.pdf
   - title: Lecture Slides
     children:
       - title: 1 - Course Intro
