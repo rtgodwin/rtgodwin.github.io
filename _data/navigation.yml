@@ -60,6 +60,8 @@ pages:
         url: /7010/slides/slides3.pdf
       - title: 4 - Properties of Least Squares
         url: /7010/slides/slides4.pdf
+      - title: 5 - Applications of FWL
+        url: /7010/slides/slides5.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
