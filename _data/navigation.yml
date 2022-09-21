@@ -38,6 +38,8 @@ docs:
     children:
       - title: "1. Intro to R and RStudio"
         url: /3040/lab1/
+      - title: "Video for Lab 1"
+        url: https://www.youtube.com/watch?v=CXToeZnajco
   - title: Assignments
     children:
       - title: "Assignment 1"
@@ -72,6 +74,8 @@ pages:
     children:
       - title: "1. Intro to R and RStudio"
         url: /7010/lab1/
+      - title: "Video for Lab 1"
+        url: https://www.youtube.com/watch?v=CXToeZnajco
       - title: "2. Assignment 1 hints"
         url: /7010/lab2/
   - title: Assignments
