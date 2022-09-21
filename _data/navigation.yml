@@ -28,6 +28,12 @@ docs:
         url: /3040/slides2.pdf
       - title: 3 - Statistics Review
         url: /3040/slides3.pdf
+      - title: 4.1 - Fitting a line through data
+        url: /3040/ch4-1.pdf
+      - title: 4.2 - Least Squares 1
+        url: /3040/ch4-2.pdf
+      - title: 4.3 - Least Squares 2
+        url: /3040/ch4-3.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
