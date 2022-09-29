@@ -34,6 +34,12 @@ docs:
         url: /3040/ch4-2.pdf
       - title: 4.3 - Least Squares 2
         url: /3040/ch4-3.pdf
+      - title: 5.1 - R-square
+        url: /3040/ch5-1.pdf
+      - title: 5.2 - Hypothesis Testing
+        url: /3040/ch5-2.pdf
+      - title: 5.3 - Dummy variables
+        url: /3040/ch5-3.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
