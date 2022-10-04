@@ -80,6 +80,8 @@ pages:
         url: /7010/slides/slides6.pdf
       - title: 7 - Finite properties of LS
         url: /7010/slides/slides7.pdf
+      - title: 8 - Simple hypothesis testing
+        url: /7010/slides/slides8.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
