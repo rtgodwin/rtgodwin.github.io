@@ -14,20 +14,16 @@ On Mars, Jim is the only person selling Earth rocks. There is no substitute for 
 ```r
 rocks <- read.csv("https://rtgodwin.com/data/monopolist.csv")
 ```
-Note that you can copy-paste commands in the gray boxes directly into R.
 
-We have created two new objects called `a` and `b`, and have assigned
-them values using the assignment operator `<-` (the “less than” symbol
-followed by the “minus” symbol). Notice that `a` and `b` pop up in the
-top-right of your screen. We can now refer to these objects by name:
+# Explore the data
+
+Look at the data in a spreadsheet (close the spreadsheet when done):
 
 ```r
-    a * b
-
-    ## [1] 15
+View(rocks)
 ```    
 
-To create a vector in R we can use the “combine” function, `c()`:
+There are three variables in the data. `quantity` is the amount of moon rocks sold on a day, `price` is the price set by the monopolist for that day, and `bad.weather` is a dummy variable equal to 1 if the weather on Mars was bad for that day, or equal to 0 if the weather was good.
 
 ```r
     myvector <- c(1, 2, 4, 6, 7)
