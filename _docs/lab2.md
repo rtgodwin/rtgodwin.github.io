@@ -25,47 +25,50 @@ View(rocks)
 
 There are three variables in the data. `quantity` is the amount of moon rocks sold on a day, `price` is the price set by the monopolist for that day, and `bad.weather` is a dummy variable equal to 1 if the weather on Mars was bad for that day, or equal to 0 if the weather was good.
 
+Create a new variable to control the colour of each data point, based on the `bad.weather` dummy variable:
+
 ```r
-    myvector <- c(1, 2, 4, 6, 7)
+rocks$mycol[rocks$bad.weather == 1] <- "orange"
+rocks$mycol[rocks$bad.weather == 0] <- "purple"
 ```
 
-# Simple functions in R
+Plot the data. Put `price` on the x-axis, and `quantity` on the y-axis (so that the data depict an "inverse" demand curve), and use `mycol` to determine colour:
 
-To call a function in R, type the name of the function, and the
-arguments of the function in parentheses: `functionname(arguments)`.
+```{r plot}
+plot(x = rocks$price, y = rocks$quantity,
+     main = "Price and Quantity of Earth Rocks",
+     xlab = "Price",
+     ylab = "Quantity",
+     pch = 16,
+     col = rocks$mycol)
 
-There are thousands of functions in R. Here are a few that we’ll need:
+legend("topright", 
+       legend = c("bad weather", "good weather"), 
+       col=c("orange", "purple"), pch=16)
+```
+![](https://rtgodwin.com/3040/images/plot-1.png)
 
-<div align="center">
+# Estimate the effect of an increase in price on quantity
 
-<font size = "3">
+To estimate the model $quantity = \beta_0 + \beta_1price + \epsilon$, we can use the `lm()` function:
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: center;">Function</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: center;">sum()</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">mean()</td>
-</tr>
-<tr class="odd">
-<td style="text-align: center;">var()</td>
-</tr>
-<tr class="even">
-<td style="text-align: center;">summary()</td>
-</tr>
-</tbody>
-</table>
+```r
+lm(quantity ~ price, data = rocks)
+```
+```
+Call:
+lm(formula = quantity ~ price, data = rocks)
 
-</font>
-</div>
+Coefficients:
+(Intercept)        price  
+    18.7532      -0.4266  
+```
 
-Try all of these functions on `myvector`. For example:
+To get more information about the estimated model, such as the estimated standard errors and $R^2$, we need to put the `lm()` function inside the `summary()` function:
+
+```r
+summary(lm(quantity ~ price, data = rocks))
+```
 
 ```r
     sum(myvector)
