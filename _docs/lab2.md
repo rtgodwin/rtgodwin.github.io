@@ -89,6 +89,66 @@ Multiple R-squared:  0.6784,	Adjusted R-squared:  0.676
 F-statistic: 274.3 on 1 and 130 DF,  p-value: < 2.2e-16
 ```
 
+### Interpretation of the results
+
+The estimated intercept is $b_0 = 18.75$ and the estimated slope is $b_1 = -0.43$. The estimated standard errors for $b_0$ and $b_1$ are 0.293 and 0.026, respectively. The interpretation of $b_1$ is: when price increases by 1, quantity demanded decreases by 0.43 on average.
+
+$R^2 = 0.68$, meaning that `price` explains 68% of the variation in `quantity`.
+
+# Calculate a 95% confidence interval around the estimated slope
+
+A 95% confidence interval around $b_1$ can be calculated by the formula:
+
+$b_1 \pm t_c \times s.e.(b_1)$
+
+where $t_c$ is the 95% critical value from the t-distribution. To get this critical value use:
+
+```r
+qt(0.975, 130)
+```
+
+```
+[1] 1.97838
+```
+
+We use 0.975 because we want the t-value that puts 2.5% area in the tail (5% area in both tails for the 95% confidence). We use 130 for the degrees of freedom ($n - 2$).
+
+Now, the 95% confidence interval is:
+
+```r
+-0.43 - 1.98 * 0.026
+-0.43 + 1.98 * 0.026
+```
+
+```
+[1] -0.48148
+[1] -0.37852
+```
+
+So, the interval is $[-0.48, -0.38]$. This interval contains all values for any null hypotheses involving $\beta_1$ that we will fail to reject at the 5% significance level.
+
+# Hypothesis tests
+
+Test the hypothesis that the demand curve is "flat" (i.e. price has no effect on quantity demanded).
+
+Mathematically, this hypothesis is:\
+$H_0: \beta_1 = 0$\
+$H_A: \beta_1 \neq 0$
+
+The t-statistic for this hypothesis test is:
+$t = \frac{b_1 - \beta_{1,0}}{s.e.(b_1)} = \frac{-0.43 - 0}{0.026}$
+
+Calculate this in R:
+
+```r
+tstat <- -0.43 / 0.026
+tstat
+```
+
+```
+[1] -16.53846
+```
+
 The `sum()` function is looking for arguments that it can add together.
 Put an object in the brackets, and the function will try to add. Try
 `mean(myvector)`. You can get help on a function by typing `?` followed
