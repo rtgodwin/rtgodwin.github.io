@@ -63,17 +63,30 @@ Coefficients:
 (Intercept)        price  
     18.7532      -0.4266  
 ```
-
 To get more information about the estimated model, such as the estimated standard errors and $R^2$, we need to put the `lm()` function inside the `summary()` function:
 
 ```r
 summary(lm(quantity ~ price, data = rocks))
 ```
 
-```r
-    sum(myvector)
+```
+Call:
+lm(formula = quantity ~ price, data = rocks)
 
-    ## [1] 20
+Residuals:
+     Min       1Q   Median       3Q      Max 
+-2.45023 -0.60202  0.01372  0.68612  2.22578 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 18.75320    0.29292   64.02   <2e-16 ***
+price       -0.42657    0.02576  -16.56   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.9019 on 130 degrees of freedom
+Multiple R-squared:  0.6784,	Adjusted R-squared:  0.676 
+F-statistic: 274.3 on 1 and 130 DF,  p-value: < 2.2e-16
 ```
 
 The `sum()` function is looking for arguments that it can add together.
