@@ -2,7 +2,7 @@
 title: "Lab 2"
 permalink: /3040/lab2/
 excerpt: "Monopolist's Demand Curve"
-toc: true
+toc: false
 ---
 
 ------------------------------------------------------------------------
