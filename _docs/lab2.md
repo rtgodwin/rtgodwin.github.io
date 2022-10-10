@@ -171,7 +171,7 @@ Notice that in the results of the `summary()` command, a `t value` of -16.56 and
 
 # Estimate a model with a dummy variable
 
-Perhaps people on Mars get even more homesick when the weather on Mars is bad, and demand for Earth rocks goes up. We can estimate the effect of bad weather on quantity demanded using the model:\
+Perhaps people on Mars get even more homesick when the weather on Mars is bad, and demand for Earth rocks goes up. We can estimate the effect of bad weather on quantity demanded using the model:
 
 $quantity = \beta_0 + \beta_1bad.weather + \epsilon$
 
