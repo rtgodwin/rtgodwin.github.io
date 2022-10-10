@@ -181,7 +181,48 @@ Dummy variables can be used on the right hand side of the population model as us
 summary(lm(quantity ~ bad.weather, data = rocks))
 ```
 
+```
+Call:
+lm(formula = quantity ~ bad.weather, data = rocks)
 
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-4.2099 -1.0433  0.2518  1.1932  3.4750 
 
-  
-  
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  14.1326     0.1957  72.229   <2e-16 ***
+bad.weather  -0.1064     0.2767  -0.385    0.701    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 1.59 on 130 degrees of freedom
+Multiple R-squared:  0.001137,	Adjusted R-squared:  -0.006547 
+F-statistic: 0.148 on 1 and 130 DF,  p-value: 0.7011
+```
+
+$b_0 = 14.13$ and $b_1 = -0.11$. $b_1$ is the estimated difference between the average quantity demanded between the two groups. It is estimated that people by fewer Earth rocks when the weather is bad. The sample average quantity demanded is 14.13 on good weather days, and $b_0 + b_1 = 14.13 - 0.11 = 14.02$ on bad weather days.
+
+# Test the hypothesis that there is no difference between the two groups
+
+In other words, test the hypothesis that the quantity demanded is the same on bad weather days as it is on good weather days. The null hypothesis is $H_0: \beta_1 = 0$. This is the same as a **test of significance** of the dummy variable. R has already performed this test. The p-value is 0.701. We fail to reject the null hypothesis at any significance level. Weather does not appear to make a difference for quantity demanded. 
+
+# Add the demand curve to the plot
+
+We can add the estimated demand curve from above to the plot, by using the `abline()` function after calling the `plot()` function:
+
+```r addline
+plot(x = rocks$price, y = rocks$quantity,
+     main = "Price and Quantity of Earth Rocks",
+     xlab = "Price",
+     ylab = "Quantity",
+     pch = 16,
+     col = rocks$mycol)
+
+legend("topright", 
+       legend = c("bad weather", "good weather"), 
+       col=c("orange", "purple"), pch=16)
+
+abline(lm(quantity ~ price, data = rocks), col = "blue")
+```
+![](https://rtgodwin.com/3040/images/addline-1.png)
