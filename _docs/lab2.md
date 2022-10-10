@@ -34,7 +34,7 @@ rocks$mycol[rocks$bad.weather == 0] <- "purple"
 
 Plot the data. Put `price` on the x-axis, and `quantity` on the y-axis (so that the data depict an "inverse" demand curve), and use `mycol` to determine colour:
 
-```{r plot}
+```r
 plot(x = rocks$price, y = rocks$quantity,
      main = "Price and Quantity of Earth Rocks",
      xlab = "Price",
