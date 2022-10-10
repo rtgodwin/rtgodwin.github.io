@@ -211,7 +211,7 @@ In other words, test the hypothesis that the quantity demanded is the same on ba
 
 We can add the estimated demand curve from above to the plot, by using the `abline()` function after calling the `plot()` function:
 
-```r addline
+```r
 plot(x = rocks$price, y = rocks$quantity,
      main = "Price and Quantity of Earth Rocks",
      xlab = "Price",
