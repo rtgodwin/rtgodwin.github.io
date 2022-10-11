@@ -86,6 +86,8 @@ pages:
         url: /7010/slides/slides7.pdf
       - title: 8 - Simple hypothesis testing
         url: /7010/slides/slides8.pdf
+      - title: 9 - Asymptotics
+        url: /7010/slides/slides9.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
