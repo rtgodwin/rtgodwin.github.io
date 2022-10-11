@@ -100,6 +100,8 @@ pages:
     children:
       - title: "Assignment 1"
         url: /7010/assign1/
+      - title: "Assignment 2"
+        url: /7010/assign2/
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
