@@ -94,6 +94,8 @@ pages:
         url: /7010/slides/slides8.pdf
       - title: 9 - Asymptotics
         url: /7010/slides/slides9.pdf
+      - title: 10 - Instrumental Variables
+        url: /7010/slides/slides10.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
