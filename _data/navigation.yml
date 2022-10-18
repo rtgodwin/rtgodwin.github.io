@@ -60,6 +60,8 @@ docs:
         url: https://rtgodwin.com/3040/assignments/assign1.pdf
       - title: "Assignment 2"
         url: https://rtgodwin.com/3040/assignments/assign2.pdf
+      - title: "Assign. 2 Answers"
+        url: /3040/assign2ans/
 
 pages:
   - title: 7010 Home
@@ -110,8 +112,7 @@ pages:
         url: /7010/assign1/
       - title: "Assignment 2"
         url: /7010/assign2/
-      - title: "Assign. 2 Answers"
-        url: /3040/assign2ans/
+
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
   # - title: "Sample Posts"
