@@ -189,7 +189,7 @@ Since `revenue` is the dependent variable, it should go on the y-axis. We can pu
 
 First we create this variable to determine the colour of each data point:
 
-```{r mycol}
+```r
 mydata$mycol[mydata$weekend == 1] <- "orange"
 mydata$mycol[mydata$weekend == 0] <- "purple"
 ```
