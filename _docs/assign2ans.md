@@ -147,7 +147,7 @@ With a p-value of 0.67 we fail to reject the null at the 10% significance level 
 
 ### Question 5
 
-Perhaps people consume more ice cream on the weekends. We can estimate the effect of `weeked` on `revenue` using the model:\
+Perhaps people consume more ice cream on the weekends. We can estimate the effect of `weekend` on `revenue` using the model:\
 
 $revenue = \beta_0 + \beta_1weekend + \epsilon$
 
@@ -177,7 +177,7 @@ summary(lm(revenue ~ weekend, data = mydata))
 ## F-statistic: 70.93 on 1 and 140 DF,  p-value: 3.958e-14
 ```
 
-$b_0 = 501.32$ and $b_1 = 19.08$. $b_0$ is the sample average revenue on weekdays. $b_1$ is the difference between the sample average revenue on weekends compared to weekdays. That is, the sample average revenue is \$19.08 higher on weekends. The sample average revenue on weekends is $b_0 + b_1 = 501.32 + 19.08 = 520.40$.
+$b_0 = 501.32$ and $b_1 = 19.08$. $b_0$ is the sample average revenue on weekdays. $b_1$ is the difference between the sample average revenue on weekends compared to weekdays. That is, the sample average revenue is 19.08 higher on weekends. The sample average revenue on weekends is $b_0 + b_1 = 501.32 + 19.08 = 520.40$.
 
 ### Question 6
 
@@ -196,7 +196,7 @@ mydata$mycol[mydata$weekend == 0] <- "purple"
 
 Then we plot the data, add a legend, and add the estimated LS line to the plot:
 
-```{r addline}
+```r
 plot(x = mydata$temp, y = mydata$revenue,
      main = "Ice cream revenue and temperature",
      xlab = "Temperature",
