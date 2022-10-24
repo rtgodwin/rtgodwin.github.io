@@ -68,7 +68,7 @@ summary(lm(wage ~ ethnicity, data = cps))
 ```
 How would you interpret the estimated coefficients?
 
-Answer: Hispanics make \$ 1.9946 less on average compared to whites, and other ethnicities make \$ 1.2196 less on average compared to whites, according to this data.
+Answer: Hispanics make \$\ 1.9946 less on average compared to whites, and other ethnicities make \$\ 1.2196 less on average compared to whites, according to this data.
 
 # Estimate the returns to education
 
