@@ -54,6 +54,8 @@ docs:
         url: https://www.youtube.com/watch?v=CXToeZnajco
       - title: "2. Least Squares"
         url: /3040/lab2/
+      - title: "3. Multiple Regression"
+        url: /3040/lab3/
   - title: Assignments
     children:
       - title: "Assignment 1"
