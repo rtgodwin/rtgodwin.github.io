@@ -129,7 +129,7 @@ We just "plug" the numbers into the estimated equation. Take a moment to let the
 
 In order to avoid omitted variable bias, we need to include variables that are correlated with `education`, and are determinants of `wage`. Notice that things like `age` and `experience` are correlated with `education` (think about why):
 
-```{r c11}
+```r
 cor(cps$education, cps$experience)
 cor(cps$education, cps$age)
 ```
