@@ -46,6 +46,10 @@ docs:
         url: /3040/ch6-2.pdf
       - title: 6.3 - Adjusted R-square
         url: /3040/ch6-3.pdf
+      - title: 7.1 - Joint hypothesis tests I
+        url: /3040/ch7-1.pdf
+      - title: 7.2 - Joint hypothesis tests II
+        url: /3040/ch7-2.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
