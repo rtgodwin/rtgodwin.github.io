@@ -104,6 +104,8 @@ pages:
         url: /7010/slides/slides9.pdf
       - title: 10 - Instrumental Variables
         url: /7010/slides/slides10.pdf
+      - title: 11 - Multiple hypothesis testing
+        url: /7010/slides/slides11.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
