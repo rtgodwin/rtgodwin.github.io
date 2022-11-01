@@ -10,6 +10,7 @@ toc: false
 
 | Year                                                  | Answer Key
 | :---------------------------------------------------: | :--------------------------------------------------------: |
+| [2022](https://rtgodwin.com/3040/exams/mid2022.pdf)   | [Answers](https://rtgodwin.com/3040/exams/mid2022ans.pdf)  |
 | [2021](https://rtgodwin.com/3040/exams/mid2021.pdf)   | [Answers](https://rtgodwin.com/3040/exams/mid2021ans.pdf)  |
 | [2020](https://rtgodwin.com/3040/exams/mid2020.pdf)   | [Answers](https://rtgodwin.com/3040/exams/mid2020ans.pdf)  |
 | [2018](https://rtgodwin.com/3040/exams/mid22018.pdf)   | [Answers](https://rtgodwin.com/3040/exams/mid22018ans.pdf)  |
