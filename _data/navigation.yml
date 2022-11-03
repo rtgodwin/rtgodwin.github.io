@@ -124,6 +124,8 @@ pages:
         url: /7010/assign1/
       - title: "Assignment 2"
         url: /7010/assign2/
+      - title: "Assignment 3"
+        url: https://rtgodwin.com/7010/assignments/assign3.pdf
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
