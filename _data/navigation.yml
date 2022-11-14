@@ -110,6 +110,8 @@ pages:
         url: /7010/slides/slides10.pdf
       - title: 11 - Multiple hypothesis testing
         url: /7010/slides/slides11.pdf
+      - title: 12 - Non-linear models
+        url: /7010/slides/slides12.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
