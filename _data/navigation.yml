@@ -54,6 +54,8 @@ docs:
         url: /3040/ch8-1.pdf
       - title: 8.2 - Non-linear II
         url: /3040/ch8-2.pdf
+      - title: 8.3 - Logs
+        url: /3040/ch8-3.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
