@@ -41,6 +41,9 @@ Create a plot of life expectancy and education:
 plot(health$HC3, health$DALE)
 ```
 
+![](https://rtgodwin.com/3040/images/p1.png)
+
+
 ```r
 head(cps)
 ```
