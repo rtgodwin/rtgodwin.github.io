@@ -43,6 +43,23 @@ plot(health$HC3, health$DALE)
 
 ![](https://rtgodwin.com/3040/images/p1.png)
 
+There appears to be a possible non-linear (concave) relationship between education and life expectancy. Now, let's look at a plot of life expectancy and health spending:
+
+```r
+plot(health$HEXP, health$DALE)
+```
+
+![](https://rtgodwin.com/3040/images/p2.png)
+
+There is definitely a non-linear relationship here. It is possible that, instead of a dollar amount change in spending, a proportional (percentage) change in spending has a constant effect of life expectancy. To capture this idea, we take the log of spending:
+
+```r
+plot(log(health$HEXP), health$DALE)
+```
+
+We have "linearized" the relationship! 
+
+![](https://rtgodwin.com/3040/images/p3.png)
 
 ```r
 head(cps)
