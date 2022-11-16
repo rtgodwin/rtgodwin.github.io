@@ -96,7 +96,35 @@ and then we use the `lm()` command:
 
 ```r
 mod1 <- lm(DALE ~ log(HEXP) + HC3 + HC3sq + HC3cube + OECD + OECD*log(HEXP) 
-           + OECD*HC3 + OECD*HC3sq + OECD*HCcube + GINI + TROPICS + POPDEN 
+           + OECD*HC3 + OECD*HC3sq + OECD*HC3cube + GINI + TROPICS + POPDEN 
            + PUBTHE + GDPC + VOICE + GEFF, data = health)
 summary(mod1)
+```
+
+```
+Coefficients:
+                 Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     2.596e+01  6.262e+00   4.145 5.30e-05 ***
+log(HEXP)       5.364e+00  1.098e+00   4.885 2.33e-06 ***
+HC3             3.779e+00  3.015e+00   1.253  0.21177    
+HC3sq          -1.373e-01  5.940e-01  -0.231  0.81748    
+HC3cube        -6.023e-03  3.545e-02  -0.170  0.86531    
+OECD            1.616e+01  8.266e+01   0.195  0.84525    
+GINI           -2.475e+01  7.091e+00  -3.491  0.00061 ***
+TROPICS        -2.336e+00  1.164e+00  -2.007  0.04625 *  
+POPDEN          1.082e-04  1.813e-04   0.597  0.55148    
+PUBTHE         -2.528e-03  2.597e-02  -0.097  0.92258    
+GDPC           -1.834e-04  1.921e-04  -0.955  0.34097    
+VOICE           5.840e-01  8.521e-01   0.685  0.49406    
+GEFF            9.972e-02  1.091e+00   0.091  0.92731    
+log(HEXP):OECD -7.010e-01  2.527e+00  -0.277  0.78177    
+HC3:OECD       -1.119e+00  3.541e+01  -0.032  0.97484    
+HC3sq:OECD     -1.506e-01  4.516e+00  -0.033  0.97344    
+HC3cube:OECD    1.238e-02  1.870e-01   0.066  0.94730    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 6.17 on 174 degrees of freedom
+Multiple R-squared:  0.7694,	Adjusted R-squared:  0.7481 
+F-statistic: 36.28 on 16 and 174 DF,  p-value: < 2.2e-16
 ```
