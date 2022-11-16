@@ -43,7 +43,7 @@ plot(health$HC3, health$DALE)
 
 ![](https://rtgodwin.com/3040/images/p1.png)
 
-There appears to be a possible non-linear (concave) relationship between education and life expectancy. Now, let's look at a plot of life expectancy and health spending:
+There appears to be a possible non-linear (concave) relationship between education and life expectancy. To capture this, I will use a polynomial of HC3. Next, let's look at a plot of life expectancy and health spending:
 
 ```r
 plot(health$HEXP, health$DALE)
@@ -74,6 +74,10 @@ legend("bottomright", c("non OECD", "OECD"), pch = 16, col = c("red", "blue"))
 ![](https://rtgodwin.com/3040/images/p4.png)
 
 From the plot, it is difficult to tell whether the effect of spending on life expectancy differs between OECD and non-OECD countries.
+
+In order to allow the effect of education and spending to differ by OECD status, we need to allow the OECD dummy to _interact_ with the education and spending. We also need to allow for the non-linear relationship between the variables. To accomplish all this, we'll estimate the model:
+
+$DALE = \beta_0 + \beta_1 \log(HEXP) + \beta_2 HC3 + \beta_3HC3^2 + \beta_4HC3^3 + \beta_5OECD + GINI + TROPICS + POPDEN + PUBTHE + GDPC + VOICE + GEFF + OECD \times log(HEXP) + OECD \times HC3 + OECD \times HC3sq$
 
 ```
 ##    wage education experience age ethnicity region gender occupation
