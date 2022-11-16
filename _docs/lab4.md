@@ -14,6 +14,7 @@ This lab uses life expectancy and health care expenditure data from Greene, exam
 ```r
 health <- read.csv("https://rtgodwin.com/data/health.csv")
 ```
+# Explore the data
 
 The data is from 1997, and contains information on 191 countries with:
 
@@ -75,6 +76,8 @@ legend("bottomright", c("non OECD", "OECD"), pch = 16, col = c("red", "blue"))
 
 From the plot, it is difficult to tell whether the effect of spending on life expectancy differs between OECD and non-OECD countries.
 
+# Estimate a model with interaction terms
+
 In order to allow the effect of education and spending to differ by OECD status, we need to allow the OECD dummy to _interact_ with the education and spending. We also need to allow for the non-linear relationship between the variables. To accomplish all this, we'll estimate the model:
 
 $$DALE = \beta_0 + \beta_1 \log(HEXP) + \beta_2 HC3 + \beta_3HC3^2 + \beta_4HC3^3$$
@@ -128,3 +131,9 @@ Residual standard error: 6.17 on 174 degrees of freedom
 Multiple R-squared:  0.7694,	Adjusted R-squared:  0.7481 
 F-statistic: 36.28 on 16 and 174 DF,  p-value: < 2.2e-16
 ```
+
+# Model selection
+
+## Order of the polynomial
+
+The polynomial in HC3 is order 3 (it goes up to a cibed term), but it looks like the cubed term may be insignificant. To test to see if the cubed term is needed (if it's insignificant), we actually need to perform a _joint_ hypothesis test to see if _both_ $HC3^3$ _and_ $OECD \time HC^3$ are _jointly_ insignificant. To do this, we can use the F-test. Estimate a model _without_ the cubed terms (the restricted model), and compare the two models using the `anova()` function:
