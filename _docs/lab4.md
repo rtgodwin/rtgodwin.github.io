@@ -20,7 +20,7 @@ The data is from 1997, and contains information on 191 countries with:
 | Variable                   	| Description 	|
 |------------------------------	|--------	|
 | DALE                  	| Disability adjusted life expectancy, in years    	|
-| HEXP 	| Health care expenditure    	|
+| HEXP 	| Per capita health care expenditure    	|
 | HC3                   	| Education   	|
 | OECD  | A dummy variable =1 if country is in OECD, 0 otherwise |
 | GINI | The GINI coefficient of income inequality |
@@ -28,7 +28,7 @@ The data is from 1997, and contains information on 191 countries with:
 | VOICE | An index measuring the level of democracy |
 | TROPICS | A dummy variable =1 if country is in the tropics, 0 otherwise |
 | POPDEN | A measure of population density |
-| PUBTHE | A measure of public government spending |
+| PUBTHE | Proportion of health expenditure paid by bublic authorities |
 | GDPC | GDP per capita |
 
 
