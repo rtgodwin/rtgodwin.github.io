@@ -17,6 +17,22 @@ health <- read.csv("https://rtgodwin.com/data/health.csv")
 
 The data is from 1997, and contains information on 191 countries with:
 
+| Variable                   	| Description 	|
+|------------------------------	|--------	|
+| DALE                  	| Disability adjusted life expectancy, in years    	|
+| HEXP 	| Health care expenditure    	|
+| HC3                   	| Education   	|
+| OECD  | A dummy variable =1 if country is in OECD, 0 otherwise |
+| GINI | The GINI coefficient of income inequality |
+| GEFF | An index measuring government effectiveness |
+| VOICE | An index measuring the level of democracy |
+| TROPICS | A dummy variable =1 if country is in the tropics, 0 otherwise |
+| POPDEN | A measure of population density |
+| PUBTHE | A measure of public government spending |
+| GDPC | GDP per capita |
+
+
+
 ```r
 head(cps)
 ```
