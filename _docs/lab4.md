@@ -57,13 +57,23 @@ There is definitely a non-linear relationship here. It is possible that, instead
 plot(log(health$HEXP), health$DALE)
 ```
 
-We have "linearized" the relationship! 
-
 ![](https://rtgodwin.com/3040/images/p3.png)
 
+We have "linearized" the relationship! Before we start modelling, let's colour-code the data point by OECD status:
+
 ```r
-head(cps)
+health$col <- "red"
+health$col[health$OECD == 1] <- "blue"
+plot(log(health$HEXP), health$DALE, 
+     main = "Health care expenditure and life expectancy by OECD status",
+     xlab = "log health expenditure", ylab = "disability adjusted life expectancy",
+     pch = 16, cex = 1, col = health$col)
+legend("bottomright", c("non OECD", "OECD"), pch = 16, col = c("red", "blue"))
 ```
+
+![](https://rtgodwin.com/3040/images/p4.png)
+
+From the plot, it is difficult to tell whether the effect of spending on life expectancy differs between OECD and non-OECD countries.
 
 ```
 ##    wage education experience age ethnicity region gender occupation
