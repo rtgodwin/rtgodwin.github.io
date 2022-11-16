@@ -31,7 +31,15 @@ The data is from 1997, and contains information on 191 countries with:
 | PUBTHE | Proportion of health expenditure paid by bublic authorities |
 | GDPC | GDP per capita |
 
+In this lab, we want to investigate whether OECD countries are more efficient in their delivery of health care (DALE), through spending and education. That is, we want to see if the effect of HEXP and HC3 on DALE is different for OECD vs. non-OECD countries.
 
+Before we can do this, we need to specify the right _functional form_. We need to see if there are non-linearities between the variables of interest.
+
+Create a plot of life expectancy and education:
+
+```r
+plot(health$HC3, health$DALE)
+```
 
 ```r
 head(cps)
