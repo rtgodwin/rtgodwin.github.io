@@ -81,6 +81,22 @@ $$DALE = \beta_0 + \beta_1 \log(HEXP) + \beta_2 HC3 + \beta_3HC3^2 + \beta_4HC3^
 
 $$ + \beta_5OECD + \beta_{13}[OECD \times log(HEXP)] + \beta_{14}[OECD \times HC3] + \beta_{15}[OECD \times HC3^2] + \beta_{16}[OECD \times HC3^3]$$
 
-$$ + \beta_6GINI + \beta_7TROPICS + \beta_8POPDEN + \beta_9PUBTHE + \beta_{10}GDPC + \beta_{11}VOICE + \beta_{12}GEFF$$
+$$ + \beta_6GINI + \beta_7TROPICS + \beta_8POPDEN + \beta_9PUBTHE + \beta_{10}GDPC + \beta_{11}VOICE + \beta_{12}GEFF + \epsilon$$
 
+In the model above, the 1st line contains the main variables of interest (health expenditure and education), the 2nd line contains the OECD dummy interacting with the main variables of interest, and the 3rd line contains the "controls" (variables that we may need to avoid omitted variable bias).
 
+To estimate this model in R, we first need to create the squared and cubed terms for education:
+
+```r
+health$HC3sq <- health$HC3 ^ 2
+health$HC3cube <- health$HC3 ^ 3
+```
+
+and then we use the `lm()` command:
+
+```r
+mod1 <- lm(DALE ~ log(HEXP) + HC3 + HC3sq + HC3cube + OECD + OECD*log(HEXP) 
+           + OECD*HC3 + OECD*HC3sq + OECD*HCcube + GINI + TROPICS + POPDEN 
+           + PUBTHE + GDPC + VOICE + GEFF, data = health)
+summary(mod1)
+```
