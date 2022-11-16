@@ -77,10 +77,10 @@ From the plot, it is difficult to tell whether the effect of spending on life ex
 
 In order to allow the effect of education and spending to differ by OECD status, we need to allow the OECD dummy to _interact_ with the education and spending. We also need to allow for the non-linear relationship between the variables. To accomplish all this, we'll estimate the model:
 
-$$DALE = \beta_0 + \beta_1 \log(HEXP) + \beta_2 HC3 + \beta_3HC3^2 + \beta_4HC3^3 + \beta_5OECD + \beta_6GINI + \beta_7TROPICS$$
+$$DALE = \beta_0 + \beta_1 \log(HEXP) + \beta_2 HC3 + \beta_3HC3^2 + \beta_4HC3^3$$
 
-$$ + \beta_8POPDEN + \beta_9PUBTHE + \beta_{10}GDPC + \beta_{11}VOICE + \beta_{12}GEFF + \beta_{13}[OECD \times log(HEXP)]$$
+$$ + \beta_5OECD + \beta_{13}[OECD \times log(HEXP)] + \beta_{14}[OECD \times HC3] + \beta_{15}[OECD \times HC3^2] + \beta_{16}[OECD \times HC3^3]$$
 
-$$ + \beta_{14}OECD \times HC3 + \beta_{15}OECD \times HC3^2 + \beta_{16}OECD \times HC3^3 $$
+$$ + \beta_6GINI + \beta_7TROPICS + \beta_8POPDEN + \beta_9PUBTHE + \beta_{10}GDPC + \beta_{11}VOICE + \beta_{12}GEFF$$
 
 
