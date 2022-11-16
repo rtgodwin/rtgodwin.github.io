@@ -210,3 +210,52 @@ Model 2: DALE ~ log(HEXP) + HC3 + OECD + OECD * log(HEXP) + OECD * HC3 +
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 ```
+With a p-value of 0.03819 we reject the null hypothesis (that the squared terms are not needed), and decide to keep the model with the squared terms (model 2).
+
+## Dropping insignificant variables
+
+Several of the controls look insignificant. We test the null hypothesis that they are not needed by dropping them all (restricted model under the null), and then comparing them to model 2 (unrestricted model under the alternative hypothesis).
+
+```r
+mod4 <- lm(DALE ~ log(HEXP) + HC3 + HC3sq + OECD + OECD*log(HEXP) 
+           + OECD*HC3 + OECD*HC3sq + GINI + TROPICS, data = health)
+anova(mod2, mod4)
+```
+
+```
+Model 1: DALE ~ log(HEXP) + HC3 + HC3sq + OECD + OECD * log(HEXP) + OECD * 
+    HC3 + OECD * HC3sq + GINI + TROPICS + POPDEN + PUBTHE + GDPC + 
+    VOICE + GEFF
+Model 2: DALE ~ log(HEXP) + HC3 + HC3sq + OECD + OECD * log(HEXP) + OECD * 
+    HC3 + OECD * HC3sq + GINI + TROPICS
+  Res.Df    RSS Df Sum of Sq      F Pr(>F)
+1    176 6625.6                           
+2    181 6709.3 -5   -83.706 0.4447 0.8167
+```
+
+With a p-value of 0.8167 we favour the restricted model (we fail to reject the null). The controls that we dropped are jointly insignificant. We now have the model:
+
+```r
+summary(mod4)
+```
+
+```
+Coefficients:
+                Estimate Std. Error t value Pr(>|t|)    
+(Intercept)     25.34268    3.62726   6.987 5.20e-11 ***
+log(HEXP)        4.81602    0.60615   7.945 2.00e-13 ***
+HC3              4.42646    1.04809   4.223 3.81e-05 ***
+HC3sq           -0.24207    0.08979  -2.696 0.007684 ** 
+OECD            22.82463   23.61794   0.966 0.335128    
+GINI           -22.58137    6.74951  -3.346 0.000998 ***
+TROPICS         -2.20459    1.10996  -1.986 0.048522 *  
+log(HEXP):OECD  -1.60578    2.01375  -0.797 0.426259    
+HC3:OECD        -2.14219    5.86605  -0.365 0.715400    
+HC3sq:OECD       0.06755    0.35046   0.193 0.847381    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 6.088 on 181 degrees of freedom
+Multiple R-squared:  0.7664,	Adjusted R-squared:  0.7548 
+F-statistic: 65.98 on 9 and 181 DF,  p-value: < 2.2e-16
+```
