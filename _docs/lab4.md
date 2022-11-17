@@ -259,3 +259,53 @@ Residual standard error: 6.088 on 181 degrees of freedom
 Multiple R-squared:  0.7664,	Adjusted R-squared:  0.7548 
 F-statistic: 65.98 on 9 and 181 DF,  p-value: < 2.2e-16
 ```
+
+# Test the hypothesis that OECD countries are more efficient at producing life expectancy
+
+We want to test if the effect of health care expenditure, and education, is different between OECD and non-OECD countries. To test this hypothesis, we can estimate two models. The _unrestricted_ model `mod4` has already been estimated above. The _restricted_ model is obtained by dropping all of the interaction terms. The restricted model does not have interaction variables that allow OECD to have differeing effects:
+
+```r
+mod5 <- lm(DALE ~ log(HEXP) + HC3 + HC3sq + OECD + GINI + TROPICS,
+           data = health)
+anova(mod4, mod5)
+```
+
+```
+Model 1: DALE ~ log(HEXP) + HC3 + HC3sq + OECD + OECD * log(HEXP) + OECD * 
+    HC3 + OECD * HC3sq + GINI + TROPICS
+Model 2: DALE ~ log(HEXP) + HC3 + HC3sq + OECD + GINI + TROPICS
+  Res.Df    RSS Df Sum of Sq      F Pr(>F)
+1    181 6709.3                           
+2    184 6814.3 -3   -105.02 0.9444 0.4204
+```
+
+With a p-value of 0.4204, we fail to reject the null hypothesis (we choose `mod5` in favour of `mod4`. We cpnclude that OECD countries are not more efficient than non-OECD countries, in terms of increasing life expectancy through education and health care spending.
+
+## Interpreting the coefficients
+
+As an aside, let's interpret some of the estimated coefficients from `mod5`.
+
+```r
+summary(mod5)
+```
+
+```
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  24.85363    3.56998   6.962 5.74e-11 ***
+log(HEXP)     4.60608    0.57572   8.001 1.35e-13 ***
+HC3           5.07654    0.90346   5.619 7.01e-08 ***
+HC3sq        -0.30281    0.07346  -4.122 5.67e-05 ***
+OECD         -1.27083    1.79905  -0.706  0.48084    
+GINI        -22.09751    6.65420  -3.321  0.00108 ** 
+TROPICS      -2.31260    1.10483  -2.093  0.03770 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 6.086 on 184 degrees of freedom
+Multiple R-squared:  0.7627,	Adjusted R-squared:  0.755 
+F-statistic: 98.59 on 6 and 184 DF,  p-value: < 2.2e-16
+```
+
+The estimated coefficient `4.60608` is interpreted as: a 1\% increase in per capita health care spending is associated with an increase in life expectancy of 0.046 years (about 17 days). Education has a positive (the sign on `HC3` is positive) but diminishing (the sign on `HC3sq` is negative) effect on life expectancy. For countries with low levels of education the effect is large:
+
