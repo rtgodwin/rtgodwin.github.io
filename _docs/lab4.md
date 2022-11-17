@@ -22,7 +22,7 @@ The data is from 1997, and contains information on 191 countries with:
 |------------------------------	|--------	|
 | DALE                  	| Disability adjusted life expectancy, in years    	|
 | HEXP 	| Per capita health care expenditure    	|
-| HC3                   	| Education   	|
+| HC3                   	| Average years of education   	|
 | OECD  | A dummy variable =1 if country is in OECD, 0 otherwise |
 | GINI | The GINI coefficient of income inequality |
 | GEFF | An index measuring government effectiveness |
@@ -309,3 +309,32 @@ F-statistic: 98.59 on 6 and 184 DF,  p-value: < 2.2e-16
 
 The estimated coefficient `4.60608` is interpreted as: a 1\% increase in per capita health care spending is associated with an increase in life expectancy of 0.046 years (about 17 days). Education has a positive (the sign on `HC3` is positive) but diminishing (the sign on `HC3sq` is negative) effect on life expectancy. For countries with low levels of education the effect is large:
 
+```r
+life.for.3years.edu <- predict(mod5, data.frame(HEXP=100, HC3=3, HC3sq=9,
+                                                OECD=0, GINI=.5, TROPICS=0))
+life.for.2years.edu <- predict(mod5, data.frame(HEXP=100, HC3=2, HC3sq=4,
+                                                OECD=0, GINI=.5, TROPICS=0))
+life.for.3years.edu - life.for.2years.edu
+```
+
+```
+3.562519
+```
+
+For countries with only 2 years of average education, an extra year of education increases life expectancy by 3.5 years on average. In the above R code, we used `mod5` to get LS predicted values for two _representative_ countries (one with 3 years and one with 2 years), and took the difference. The other values that we chose for the "x" variables could be anything; the effects cancel out when we take differences.
+
+We repeat the same procedure for a country with 8 years and 7 years of average education:
+
+```r
+life.for.8years.edu <- predict(mod5, data.frame(HEXP=100, HC3=8, HC3sq=64,
+                                                OECD=0, GINI=.5, TROPICS=0))
+life.for.7years.edu <- predict(mod5, data.frame(HEXP=100, HC3=7, HC3sq=49,
+                                                OECD=0, GINI=.5, TROPICS=0))
+life.for.8years.edu - life.for.7years.edu
+```
+
+```
+0.5344686
+```
+
+The effect has diminished to 0.5 years.
