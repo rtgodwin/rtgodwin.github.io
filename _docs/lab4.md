@@ -136,7 +136,7 @@ F-statistic: 36.28 on 16 and 174 DF,  p-value: < 2.2e-16
 
 ## Order of the polynomial
 
-The polynomial in HC3 is order 3 (it goes up to a cibed term), but it looks like the cubed term may be insignificant. To test to see if the cubed term is needed (if it's insignificant), we actually need to perform a _joint_ hypothesis test to see if _both_ $HC3^3$ _and_ $OECD \times HC^3$ are _jointly_ insignificant. To do this, we can use the F-test. Estimate a model _without_ the cubed terms (the restricted model), and compare the two models using the `anova()` function:
+The polynomial in HC3 is order 3 (it goes up to a cubed term), but it looks like the cubed term may be insignificant. To test to see if the cubed term is needed (if it's insignificant), we actually need to perform a _joint_ hypothesis test to see if _both_ $HC3^3$ _and_ $OECD \times HC^3$ are _jointly_ insignificant. To do this, we can use the F-test. Estimate a model _without_ the cubed terms (the restricted model), and compare the two models using the `anova()` function:
 
 ```r
 mod2 <- lm(DALE ~ log(HEXP) + HC3 + HC3sq + OECD + OECD*log(HEXP) 
