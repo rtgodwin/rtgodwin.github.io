@@ -87,6 +87,8 @@ predict(mod1, data.frame(ed=12, exp=5, iqscore=100, black="no", sinmom14="no",
 
 In the code above, we have chosen a "representative" worker, and predicted their wage based on their characteristics. The model predicts that a worker with 12 years of education, 5 years work experience, an IQ of 100, who isn't black and whose mom wasn't single, and whose mom and dad each had 12 years of education, would make an hourly wage of 4.49 dollars per hour.
 
+You don't have to use the `predict()` function for this question, you could also calculate a predicted value "by hand".
+
 ### Question 5
 
 The three variables: `sinmom14yes`, `momed`, and `daded` all have small t-statistics which indicate they are all _individually_ insignificant. However, we know that dropping them all from the model, all at once, requires that all 3 variables be _jointly_ insignificant. To justify dropping these 3 variables from the model, we need to test the null hypothesis:
@@ -111,6 +113,8 @@ Model 2: wage ~ ed + exp + iqscore + black
 2   1839 105237952 -3   -245840 1.433 0.2313
 ```
 With an F-stat of 1.433 and a p-value of 0.2313, we **fail to reject** the null hypothesis that all 3 variables are jointly insignificant. We can drop them from the model.
+
+You don't have to use the `anova()` function for this question, you could also calculate the F-stat "by hand".
 
 ### Question 6
 
