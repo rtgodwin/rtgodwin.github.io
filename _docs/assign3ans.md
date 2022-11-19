@@ -1,7 +1,7 @@
 ---
-title: "Assignment 2 Answer Key"
-permalink: /3040/assign2ans/
-excerpt: "Ice cream revenue - Answer Key"
+title: "Assignment 3 Answer Key"
+permalink: /3040/assign3ans/
+excerpt: "Schooling - Answer Key"
 toc: false
 ---
 
@@ -9,94 +9,90 @@ toc: false
 
 ### Question 1
 
-Download the data using:
-
-```r
-mydata <- read.csv("https://rtgodwin.com/data/icecream.csv")
-```
-
 To estimate the model:
 
-$revenue = \beta_0 + \beta_1temp + \epsilon$
+$wage = \beta_0 + \beta_1ed + \epsilon$
 
 and view a summary of the results, we can use:
 
 ```r
-summary(lm(revenue ~ temp, data=mydata))
+summary(lm(wage ~ ed, data=school))
 ```
 ```
-## 
-## Call:
-## lm(formula = revenue ~ temp, data = mydata)
-## 
-## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -26.000  -7.848  -1.526   7.106  26.231 
-## 
-## Coefficients:
-##             Estimate Std. Error t value Pr(>|t|)    
-## (Intercept)  409.960      9.009   45.51   <2e-16 ***
-## temp           3.848      0.356   10.81   <2e-16 ***
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
-## Residual standard error: 11.09 on 140 degrees of freedom
-## Multiple R-squared:  0.4549, Adjusted R-squared:  0.451 
-## F-statistic: 116.8 on 1 and 140 DF,  p-value: < 2.2e-16
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  216.803     36.364   5.962 2.98e-09 ***
+ed            29.325      2.597  11.293  < 2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 256.5 on 1842 degrees of freedom
+Multiple R-squared:  0.06475,	Adjusted R-squared:  0.06424 
+F-statistic: 127.5 on 1 and 1842 DF,  p-value: < 2.2e-16
 ```
-The above output from the `summary()` function is ugly, and the person you are reporting your work to does not want to see it. You should make an effort to format the results, and pick out the important information, for example in a table:
-
-<div align="center">
-
-<font size = "4">
-
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"></th>
-<th style="text-align: right;">Estimate</th>
-<th style="text-align: right;">Std. Error</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">intercept</td>
-<td style="text-align: right;">410.0</td>
-<td style="text-align: right;">9.009</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">temp</td>
-<td style="text-align: right;">3.848</td>
-<td style="text-align: right;">0.356</td>
-</tr>
-</tbody>
-</table>
-
-</font>
-</div>
-
-The estimated slope of 3.848 can be interpreted as follows: For every increase in temperature of $1^{\circ}C$, revenue increases by $3.85.
+The estimated slope of 29.325 is interpreted as: it is estimated that an increase in education of 1 year leads to an increase in wage of 29 cents per hour.
 
 ### Question 2
 
-The $R^2$ for the model is 0.4549, meaning that 46% of the variation in revenue can be explained by temperature.
+The reason that we should include the other variable in the model is to avoid omitted variable bias (OVB). If a variable is correlated with education, and also determines wage, then leaving it out of the model will cause least-squares estimation to be biased. So, we need to estimate a "multiple regression model" that includes these other variables.
 
 ### Question 3
 
-A 95% confidence interval around $b_1$ can be calculated by the formula:
-
-$b_1 \pm t_c \times s.e.(b_1)$
-
-where $t_c$ is the 95% critical value from the t-distribution. To get this critical value use:
+To estimate the model with wage on the LHS and all other variable on the RHS, we can use either:
 
 ```r
-qt(0.975, 140)
+mod1 <- lm(wage ~ ., dat=school)
 ```
-```
-## [1] 1.977054
+or
+```r
+mod1 <- lm(wage ~ ed + exp + iqscore + black + sinmom14 + momed + daded, data=school)
 ```
 
-We use 0.975 because we want the t-value that puts 2.5% area in the tail (5% area in both tails for the 95% confidence). We use 140 for the degrees of freedom ($n - 2$).
+and then:
+```r
+summary(mod1)
+```
+```
+Coefficients:
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -452.8176    64.3296  -7.039 2.72e-12 ***
+ed            47.6204     3.3721  14.122  < 2e-16 ***
+exp           28.1799     1.8580  15.167  < 2e-16 ***
+iqscore        1.2859     0.4651   2.765  0.00575 ** 
+blackyes     -81.2574    18.3346  -4.432 9.89e-06 ***
+sinmom14yes   -7.6014    20.6584  -0.368  0.71295    
+momed          2.7606     2.4434   1.130  0.25870    
+daded          2.3158     2.2235   1.042  0.29777    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 239.1 on 1836 degrees of freedom
+Multiple R-squared:   0.19,	Adjusted R-squared:  0.1869 
+F-statistic: 61.51 on 7 and 1836 DF,  p-value: < 2.2e-16
+```
+
+The model has become more accurate in terms of describing the wage data (the $R^2$ is now 0.19 instead of 0.07), but the main difference to pint out is the estimated returns to education. In this estimated model, the effect of education on wage is now 47.6 cents. This is 1.5 times the effect that was estimated in the model in question 1. The model in question 1 was suffering from omitted variable bias.
+
+### Question 4
+
+We can use the `predict()` function:
+
+```r
+predict(mod1, data.frame(ed=12, exp=5, iqscore=100, black="no", sinmom14="no",
+                         momed=12, daded=12))
+```
+```
+449.0337
+```
+
+In the code above, we have chosen a "representative" worker, and predicted their wage based on their characteristics. The model predicts that a worker with 12 years of education, 5 years work experience, an IQ of 100, who isn't black and whose mom wasn't single, and whose mom and dad each had 12 years of education, would make an hourly wage of 4.49 dollars per hour.
+
+### Question 5
+
+The three variables: `sinmom14yes`, `momed`, and `daded` all have small t-statistics which indicate they are all _individually_ insignificant. However, we know that dropping them all from the model, all at once, requires that all 3 variables be _jointly_ insignificant. To justify dropping these 3 variables from the model, we need to test the null hypothesis that:
+
+$H_0: \beta_{sinmom14} = 0 \text{ and }$
+
 
 Now, the 95% confidence interval is:
 
