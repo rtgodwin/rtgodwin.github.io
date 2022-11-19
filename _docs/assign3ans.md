@@ -89,121 +89,29 @@ In the code above, we have chosen a "representative" worker, and predicted their
 
 ### Question 5
 
-The three variables: `sinmom14yes`, `momed`, and `daded` all have small t-statistics which indicate they are all _individually_ insignificant. However, we know that dropping them all from the model, all at once, requires that all 3 variables be _jointly_ insignificant. To justify dropping these 3 variables from the model, we need to test the null hypothesis that:
+The three variables: `sinmom14yes`, `momed`, and `daded` all have small t-statistics which indicate they are all _individually_ insignificant. However, we know that dropping them all from the model, all at once, requires that all 3 variables be _jointly_ insignificant. To justify dropping these 3 variables from the model, we need to test the null hypothesis:
 
-$H_0: \beta_{sinmom14} = 0 \text{ and }$
+$H_0: \beta_{sinmom14} = 0 \text{ and } \beta_{momed} = 0 \text{ and } \beta_{daded} = 0$
 
-
-Now, the 95% confidence interval is:
-
-```r
-3.848 - 1.977 * 0.356
-```
-```
-## [1] 3.144188
-```
-```r
-3.848 + 1.977 * 0.356
-```
-```
-## [1] 4.551812
-```
-
-So, the interval is $[3.14, 4.55]$. This interval contains all values for any null hypotheses involving $\beta_1$ that we will fail to reject at the 5% significance level.
-
-### Question 4
-The hypothesis is formulated by:\
-$H_0: \beta_1 = 4$\
-$H_A: \beta_1 \neq 4$
-
-The t-statistic for this hypothesis test is:
-$t = \frac{b_1 - \beta_{1,0}}{s.e.(b_1)} = \frac{3.848 - 4}{0.356}$
-
-Calculate this in R:
+We can do this by estimating the model under the null hypothesis (the "restricted" model, where we drop the 3 variables):
 
 ```r
-tstat <- (3.848 - 4) / 0.356
-tstat
+mod2 <- lm(wage ~ ed + exp + iqscore + black, data=school)
 ```
-```
-## [1] -0.4269663
-```
-To get the p-value, we can use:
+and then calculating the F-statistic and p-value using the `anova()` function:
 
 ```r
-2 * pt(tstat, df = 140, lower.tail = TRUE)
+anova(mod1, mod2)
 ```
 ```
-## [1] 0.6700598
+Model 1: wage ~ ed + exp + iqscore + black + sinmom14 + momed + daded
+Model 2: wage ~ ed + exp + iqscore + black
+  Res.Df       RSS Df Sum of Sq     F Pr(>F)
+1   1836 104992112                          
+2   1839 105237952 -3   -245840 1.433 0.2313
 ```
-
-Note that we want the area in the "tail" of the distribution, so in this case we had to use `lower.tail = TRUE`. We multiplied by 2 because $H_A$ is two sided.
-
-With a p-value of 0.67 we fail to reject the null at the 10% significance level (or any common significance level).
-
-### Question 5
-
-Perhaps people consume more ice cream on the weekends. We can estimate the effect of `weekend` on `revenue` using the model:\
-
-$revenue = \beta_0 + \beta_1weekend + \epsilon$
-
-The R code to estimate the above population model is:
-
-```r
-summary(lm(revenue ~ weekend, data = mydata))
-```
-```
-## 
-## Call:
-## lm(formula = revenue ~ weekend, data = mydata)
-## 
-## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -30.032  -7.112  -0.649   7.891  46.030 
-## 
-## Coefficients:
-##             Estimate Std. Error t value Pr(>|t|)    
-## (Intercept)  501.315      1.217 411.791  < 2e-16 ***
-## weekend       19.082      2.266   8.422 3.96e-14 ***
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
-## Residual standard error: 12.23 on 140 degrees of freedom
-## Multiple R-squared:  0.3363, Adjusted R-squared:  0.3315 
-## F-statistic: 70.93 on 1 and 140 DF,  p-value: 3.958e-14
-```
-
-$b_0 = 501.32$ and $b_1 = 19.08$. $b_0$ is the sample average revenue on weekdays. $b_1$ is the difference between the sample average revenue on weekends compared to weekdays. That is, the sample average revenue is 19.08 higher on weekends. The sample average revenue on weekends is $b_0 + b_1 = 501.32 + 19.08 = 520.40$.
+With an F-stat of 1.433 and a p-value of 0.2313, we **fail to reject** the null hypothesis that all 3 variables are jointly insignificant. We can drop them from the model.
 
 ### Question 6
 
-In other words, test the hypothesis that the revenue is the same on weekends as it is on weekdays. Although we estimated a difference of 19.08, this difference may not be significant given the variability of the estimator. The null hypothesis is $H_0: \beta_1 = 0$. This is the same as a **test of significance** of the dummy variable. R has already performed this test. The p-value is `3.96e-14`, which is very small. We reject the null hypothesis at any significance level. Weekends appear to make a difference for ice cream sales revenues.
-
-### Question 7
-
-Since `revenue` is the dependent variable, it should go on the y-axis. We can put the continuous variable `temp` on the x-axis, and we can graph the dummy variable `weekend` by giving each data point a different colour based on whether $weekend = 1$ or $weekend = 0$.
-
-First we create this variable to determine the colour of each data point:
-
-```r
-mydata$mycol[mydata$weekend == 1] <- "orange"
-mydata$mycol[mydata$weekend == 0] <- "purple"
-```
-
-Then we plot the data, add a legend, and add the estimated LS line to the plot:
-
-```r
-plot(x = mydata$temp, y = mydata$revenue,
-     main = "Ice cream revenue and temperature",
-     xlab = "Temperature",
-     ylab = "Revenue",
-     pch = 16,
-     col = mydata$mycol)
-
-legend("topright",
-       legend = c("weekend", "weekday"),
-       col=c("orange", "purple"), pch=16)
-
-abline(lm(revenue ~ temp, data = mydata), col = "blue")
-```
-![](https://rtgodwin.com/3040/images/assign2addline-1.png)
+We have now estimated three different models, each providing a different estimate for the returns to education. The model from Question 1 likely suffers from omitted variable bias, so we shouldn't use this model. Using either the model from question 3 or from question 6, we could report the estimated returns to education as either 48 cents, or 49 cents. 
