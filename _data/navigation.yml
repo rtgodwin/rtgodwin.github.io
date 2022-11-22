@@ -124,6 +124,8 @@ pages:
         url: /7010/slides/slides11.pdf
       - title: 12 - Non-linear models
         url: /7010/slides/slides12.pdf
+      - title: 13 - Heteroskedasticity I
+        url: /7010/slides/het.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
