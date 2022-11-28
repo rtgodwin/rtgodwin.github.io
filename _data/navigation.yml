@@ -60,6 +60,8 @@ docs:
         url: /3040/ch8-4.pdf
       - title: 9 - Heteroskedasticity
         url: /3040/ch9.pdf
+      - title: 10 - Instrumental variables
+        url: /3040/iv.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
