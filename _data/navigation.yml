@@ -128,6 +128,8 @@ pages:
         url: /7010/slides/slides12.pdf
       - title: 13 - Heteroskedasticity
         url: /7010/slides/het2.pdf
+      - title: 14 - Intro Time Series
+        url: /7010/slides/time.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
