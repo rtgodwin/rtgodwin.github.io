@@ -23,8 +23,8 @@ toc: false
 
 | Year                                                  | Answer Key
 | :---------------------------------------------------: | :---------------------------------------------------------: |
-| [2021](https://rtgodwin.com/3040/exams/final2021.pdf) | [Answers](https://rtgodwin.com/3040/exams/final2021ans.pdf) |
-| [2020](https://rtgodwin.com/3040/exams/final2020.pdf) | [Answers](https://rtgodwin.com/3040/exams/final2020ans.pdf) |
+| [2022](https://rtgodwin.com/3040/exams/final2022.pdf) | [Answers](https://rtgodwin.com/3040/exams/final2022ans.pdf) |
+| [2020](https://rtgodwin.com/3040/exams/final2020.pdf) | [Answers](https://rtgodwin.com/3040/exams/final 2020 answer key.pdf) |
 | [2019](https://rtgodwin.com/3040/exams/final2019.pdf) |                                                             |
 | [2015](https://rtgodwin.com/3040/exams/final2015.pdf) | [Answers](https://rtgodwin.com/3040/exams/final2015ans.pdf) |
 | [2014](https://rtgodwin.com/3040/exams/final2014.pdf) | [Answers](https://rtgodwin.com/3040/exams/final2014ans.pdf) |
