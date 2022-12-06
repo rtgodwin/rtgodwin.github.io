@@ -136,6 +136,8 @@ pages:
         url: /7010/slides/time.pdf
       - title: 15 - MLE 1
         url: /7010/slides/MLE1.pdf
+      - title: 16 - MLE 2
+        url: /7010/slides/MLE2.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
