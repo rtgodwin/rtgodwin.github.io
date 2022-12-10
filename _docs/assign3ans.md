@@ -71,7 +71,7 @@ Multiple R-squared:   0.19,	Adjusted R-squared:  0.1869
 F-statistic: 61.51 on 7 and 1836 DF,  p-value: < 2.2e-16
 ```
 
-The model has become more accurate in terms of describing the wage data (the $R^2$ is now 0.19 instead of 0.07), but the main difference to pint out is the estimated returns to education. In this estimated model, the effect of education on wage is now 47.6 cents. This is 1.5 times the effect that was estimated in the model in question 1. The model in question 1 was suffering from omitted variable bias.
+The model has become more accurate in terms of describing the wage data (the $R^2$ is now 0.19 instead of 0.07), but the main difference to point out is the estimated returns to education. In this estimated model, the effect of education on wage is now 47.6 cents. This is 1.5 times the effect that was estimated in the model in question 1. The model in question 1 was suffering from omitted variable bias.
 
 ### Question 4
 
