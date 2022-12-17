@@ -96,18 +96,43 @@ F-statistic:  1431 on 16 and 61378 DF,  p-value: < 2.2e-16
 We need to take the difference between the predicted `wage` for when education equals 13 years, and for when education equals 12 years:
 
 ```r
-w13years <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3, 
-                                     yrseduc = 13, yrseduc2 = 13^2, yrseduc3 = 13^3, 
+w13 <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3, 
+                                yrseduc = 13, yrseduc2 = 13^2, yrseduc3 = 13^3,
+                                location = "south"))
+w12 <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3,
+                                yrseduc = 12, yrseduc2 = 12^2, yrseduc3 = 12^3, 
                                      location = "south"))
-w12years <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3, 
-                                     yrseduc = 12, yrseduc2 = 12^2, yrseduc3 = 12^3, 
-                                     location = "south"))
-w13years - w12years
+w13 - w12
+```
+
+```
+1.913595
+```
+
+This says that wage is predicted to increase by 1.91 dollars per hour, for an additional year of education, when the worker already has 12 years of education.
+
+We had to provide values for all of the variables, because we are calculating an LS predicted value. The values for `female`, `age`, and `location` do not affect the predicted difference of `1.913595`, because the values of those variables are the same for both predicted values, so when we subtract them, they cancel out.
+
+The predicted effect of wage on education of `1.913595` depends on the value of education that we started at (12). To see this, we can try the same process above, but starting at 16 years of education:
+
+```r
+w17 <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3, 
+                                yrseduc = 17, yrseduc2 = 17^2, yrseduc3 = 17^3,
+                                location = "south"))
+w16 <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3,
+                                yrseduc = 16, yrseduc2 = 16^2, yrseduc3 = 16^3, 
+                                location = "south"))
+w17 - w16
 ```
 
 ```
 1.707046
 ```
+
+The effect of education on wage is _diminishing_.
+
+### Question 4
+
 
 $wage = \beta_0 + \beta_1ed + \epsilon$
 
