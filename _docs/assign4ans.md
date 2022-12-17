@@ -133,10 +133,52 @@ The effect of education on wage is _diminishing_.
 
 ### Question 4
 
+Download the data:
 
-$wage = \beta_0 + \beta_1ed + \epsilon$
+```r
+cps <- read.csv("http://rtgodwin.com/data/cps1985.csv")
+```
 
-and view a summary of the results, we can use:
+Estimate the model assuming homoskedasticity:
+
+```r
+cps.mod <- lm(log(wage) ~ education + gender + age + experience + gender *
+                education, data = cps)
+summary(cps.mod)
+```
+
+```
+Coefficients:
+                     Estimate Std. Error t value Pr(>|t|)    
+(Intercept)           0.53764    0.70887   0.758 0.448521    
+education             0.18311    0.11333   1.616 0.106753    
+gendermale            0.69499    0.20315   3.421 0.000672 ***
+age                  -0.06472    0.11345  -0.570 0.568616    
+experience            0.07754    0.11355   0.683 0.494959    
+education:gendermale -0.03362    0.01531  -2.196 0.028545 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4509 on 528 degrees of freedom
+Multiple R-squared:  0.2769,	Adjusted R-squared:  0.2701 
+F-statistic: 40.44 on 5 and 528 DF,  p-value: < 2.2e-16
+```
+
+If there is heteroskedasticity (instead of homoskedasticity), then the standard errors, t-values, and p-values, are all wrong. We can test for heteroskedasticity using:
+
+```r
+install.packages("skedastic")
+library(skedastic)
+white(cps.mod)
+```
+
+```
+statistic p.value parameter method       alternative
+      <dbl>   <dbl>     <dbl> <chr>        <chr>      
+1      7.37   0.690        10 White's Test greater    
+```
+
+The null hypothesis is that we have _homoskedasticity_, that is, $H_0:\operatorname{var}(\epsilon_i)\sigma^2 ; \forall i$
 
 ```r
 summary(lm(wage ~ ed, data=school))
