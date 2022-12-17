@@ -96,8 +96,12 @@ F-statistic:  1431 on 16 and 61378 DF,  p-value: < 2.2e-16
 We need to take the difference between the predicted `wage` for when education equals 13 years, and for when education equals 12 years:
 
 ```r
-w13years <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3, yrseduc = 13, yrseduc2 = 13^2, yrseduc3 = 13^3, location = "south"))
-w12years <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3, yrseduc = 12, yrseduc2 = 12^2, yrseduc3 = 12^3, location = "south"))
+w13years <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3, 
+                                     yrseduc = 13, yrseduc2 = 13^2, yrseduc3 = 13^3, 
+                                     location = "south"))
+w12years <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3, 
+                                     yrseduc = 12, yrseduc2 = 12^2, yrseduc3 = 12^3, 
+                                     location = "south"))
 w13years - w12years
 ```
 
