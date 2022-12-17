@@ -53,6 +53,58 @@ Since `age3` is significant, we leave it in the model. The order of the polynomi
 
 ### Question 2
 
+We can include the interaction terms by including `female*age`, for example, in the `lm()` function:
+
+```r
+mod2 <- lm(ahe ~ female + age + age2 + age3 + yrseduc + yrseduc2 + yrseduc3 
+           + female*age + female*age2 + female*age3 
+           + female*yrseduc + female*yrseduc2 + female*yrseduc3 
+           + location, data=cps)
+summary(mod2)
+```
+
+```
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       -9.476e+00  3.258e+00  -2.908  0.00363 ** 
+female             5.327e+00  5.234e+00   1.018  0.30876    
+age                2.077e+00  1.794e-01  11.579  < 2e-16 ***
+age2              -3.468e-02  4.434e-03  -7.821 5.32e-15 ***
+age3               1.822e-04  3.520e-05   5.176 2.27e-07 ***
+yrseduc           -5.792e+00  5.474e-01 -10.582  < 2e-16 ***
+yrseduc2           5.616e-01  4.368e-02  12.855  < 2e-16 ***
+yrseduc3          -1.350e-02  1.122e-03 -12.032  < 2e-16 ***
+locationnortheast  1.218e+00  1.049e-01  11.615  < 2e-16 ***
+locationsouth      1.197e-02  9.442e-02   0.127  0.89912    
+locationwest       7.416e-01  9.995e-02   7.419 1.19e-13 ***
+female:age        -7.454e-01  2.719e-01  -2.741  0.00613 ** 
+female:age2        1.216e-02  6.717e-03   1.811  0.07017 .  
+female:age3       -6.091e-05  5.329e-05  -1.143  0.25299    
+female:yrseduc     1.672e+00  9.192e-01   1.820  0.06884 .  
+female:yrseduc2   -1.713e-01  7.241e-02  -2.365  0.01802 *  
+female:yrseduc3    5.160e-03  1.847e-03   2.793  0.00522 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 8.644 on 61378 degrees of freedom
+Multiple R-squared:  0.2717,	Adjusted R-squared:  0.2715 
+F-statistic:  1431 on 16 and 61378 DF,  p-value: < 2.2e-16
+```
+
+### Question 3
+
+We need to take the difference between the predicted `wage` for when education equals 13 years, and for when education equals 12 years:
+
+```r
+w13years <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3, yrseduc = 13, yrseduc2 = 13^2, yrseduc3 = 13^3, location = "south"))
+w12years <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3, yrseduc = 12, yrseduc2 = 12^2, yrseduc3 = 12^3, location = "south"))
+w13years - w12years
+```
+
+```
+1.707046
+```
+
 $wage = \beta_0 + \beta_1ed + \epsilon$
 
 and view a summary of the results, we can use:
