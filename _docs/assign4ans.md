@@ -113,7 +113,23 @@ This says that wage is predicted to increase by 1.91 dollars per hour, for an ad
 
 We had to provide values for all of the variables, because we are calculating an LS predicted value. The values for `female`, `age`, and `location` do not affect the predicted difference of `1.913595`, because the values of those variables are the same for both predicted values, so when we subtract them, they cancel out.
 
-The predicted effect of wage on education of `1.913595` depends on the value of education that we started at (12). To see this, we can try the same process above, but starting at 16 years of education:
+We also need to calculate the predicted effect for _women_ (so this time we are going to set `female = 1`):
+
+```r
+w13f <- predict(mod2, data.frame(female = 1,age = 40, age2 = 40^2, age3 = 40^3, 
+                                yrseduc = 13, yrseduc2 = 13^2, yrseduc3 = 13^3,
+                                location = "south"))
+w12f <- predict(mod2, data.frame(female = 1,age = 40, age2 = 40^2, age3 = 40^3,
+                                yrseduc = 12, yrseduc2 = 12^2, yrseduc3 = 12^3, 
+                                location = "south"))
+w13f - w12f
+```
+
+```
+1.724366
+```
+
+The predicted effect of wage on education for men of `1.913595` depends on the value of education that we started at (12). To see this, we can try the same process above, but starting at 16 years of education:
 
 ```r
 w17 <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3, 
@@ -128,7 +144,6 @@ w17 - w16
 ```
 1.707046
 ```
-
 The effect of education on wage is _diminishing_.
 
 ### Question 4
