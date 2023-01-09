@@ -8,18 +8,18 @@ toc: false
 
 ## Course Info
 
-Instructor: Ryan Godwin
-
-Office Hour: Tuesdays, 2:40 - 3:40
-
-Office Location: 646 Fletcher Argue
-
-email: ryan.godwin@umanitoba.ca
+Instructor: Ryan Godwin  
+Office Hour: Tuesdays, 2:40 - 3:40  
+Office Location: 646 Fletcher Argue  
+email: ryan.godwin@umanitoba.ca  
 
 | Section | Time              | Days          | Location               | CRN   |
 | :-----: | :---------------: | :-----------: | :--------------------: | :---: | 
 | A01     | 1:00 pm - 2:15 pm | TR            | ST. PAUL'S COLLEGE 258 | 53007 | 
 | A02     | 4:00 pm - 5:15 pm | TR            | ST. PAUL'S COLLEGE 258 | 58511 | 
+
+Attendance is mandatory.
+{: .notice--danger}
 
 ## Course Description
 
@@ -65,7 +65,7 @@ Students appealing any term work (including, assignments, midterm, final exam) w
 
 A missed assessment will result in make-up work, or reweighting of your grade.
 
-Nov. 22, 2022, is the last day for voluntary withdrawal from the course.
+Mar. 22, 2023, is the last day for voluntary withdrawal from the course.
 
 ## Academic Integrity
 
@@ -78,7 +78,7 @@ Ignorance is not a defense. Familiarize yourself with section 2.5 of Academic Mi
 I own the copyright to all course content. Sharing my content (e.g. on Course Hero) is illegal!
 {: .notice--danger}
 
-All course material is copyrighted by Ryan Godwin, 2022. No audio or video recording of this material, lectures, or presentations is allowed in any format, openly or surreptitiously, in whole or in part without permission of Ryan Godwin. Course materials are for the participant’s private study and research, and must not be shared. Violation of these and other Academic Integrity principles, will lead to serious disciplinary action.
+All course material is copyrighted by Ryan Godwin, 2023. No audio or video recording of this material, lectures, or presentations is allowed in any format, openly or surreptitiously, in whole or in part without permission of Ryan Godwin. Course materials are for the participant’s private study and research, and must not be shared. Violation of these and other Academic Integrity principles, will lead to serious disciplinary action.
 {: .notice--warning}
 
 ## Tentative Course Topics
