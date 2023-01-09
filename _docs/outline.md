@@ -42,7 +42,7 @@ rtgodwin.com/3040
 | Assessment                   	| Weight 	|
 |------------------------------	|--------	|
 | Assignments                  	| 15%    	|
-| Midterm Exam<br>(October 20) 	| 35%    	|
+| Midterm Exam<br>(February 28)	| 35%    	|
 | Final Exam                   	| 50%    	|
 
 ### Assignments
