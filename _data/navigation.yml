@@ -68,32 +68,32 @@ docs:
         url: /3040/lab1/
       - title: "Video for Lab 1"
         url: https://www.youtube.com/watch?v=CXToeZnajco
-      - title: "2. Least Squares"
-        url: /3040/lab2/
-      - title: "3. Multiple Regression"
-        url: /3040/lab3/
-      - title: "4. Polynomials, logs, and interactions"
-        url: /3040/lab4/
+#      - title: "2. Least Squares"
+#        url: /3040/lab2/
+#      - title: "3. Multiple Regression"
+#        url: /3040/lab3/
+#      - title: "4. Polynomials, logs, and interactions"
+#        url: /3040/lab4/
   - title: Assignments
     children:
       - title: "Assignment 1"
         url: https://rtgodwin.com/3040/assignments/assign1.pdf
-      - title: "Assignment 2"
-        url: https://rtgodwin.com/3040/assignments/assign2.pdf
-      - title: "Assign. 2 Answers"
-        url: /3040/assign2ans/
-      - title: "Assignment 3"
-        url: https://rtgodwin.com/3040/assignments/assign3.pdf
-      - title: "Assign. 3 Answers"
-        url: /3040/assign3ans/
-      - title: "Assignment 4"
-        url: https://rtgodwin.com/3040/assignments/assign4.pdf
-      - title: "Assign. 4 Answers"
-        url: /3040/assign4ans/
-      - title: "Assignment 5"
-        url: https://rtgodwin.com/3040/assignments/assign5.pdf
-      - title: "Assign. 5 Answers"
-        url: /3040/assign5ans/
+#      - title: "Assignment 2"
+#        url: https://rtgodwin.com/3040/assignments/assign2.pdf
+#      - title: "Assign. 2 Answers"
+#        url: /3040/assign2ans/
+#      - title: "Assignment 3"
+#        url: https://rtgodwin.com/3040/assignments/assign3.pdf
+#      - title: "Assign. 3 Answers"
+#        url: /3040/assign3ans/
+#      - title: "Assignment 4"
+#        url: https://rtgodwin.com/3040/assignments/assign4.pdf
+#      - title: "Assign. 4 Answers"
+#        url: /3040/assign4ans/
+#      - title: "Assignment 5"
+#        url: https://rtgodwin.com/3040/assignments/assign5.pdf
+#      - title: "Assign. 5 Answers"
+#        url: /3040/assign5ans/
 
 pages:
   - title: 7010 Home
