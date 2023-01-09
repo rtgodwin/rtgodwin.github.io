@@ -8,11 +8,15 @@ toc: false
 
 ## Course Info
 
-| Instructor | Time              | Days          | Location                  | CRN   | Office Hour |
-| :------: | :---------------: | :-----------: | :--------------------: | :---: | :----: |
-| Ryan Godwin | 1:00 pm - 2:15 pm | TR            | ST. PAUL'S COLLEGE 258 | 12952 | Tuesdays, 2:40 - 3:40 |
-
+Instructor: Ryan Godwin
+Office Hour: Tuesdays, 2:40 - 3:40
+Office Location: 646 Fletcher Argue
 email: ryan.godwin@umanitoba.ca
+
+| Section | Time              | Days          | Location               | CRN   |
+| :-----: | :---------------: | :-----------: | :--------------------: | :---: | 
+| A01     | 1:00 pm - 2:15 pm | TR            | ST. PAUL'S COLLEGE 258 | 53007 | 
+| A02     | 4:00 pm - 5:15 pm | TR            | ST. PAUL'S COLLEGE 258 | 58511 | 
 
 ## Course Description
 
@@ -85,6 +89,7 @@ All course material is copyrighted by Ryan Godwin, 2022. No audio or video recor
 *	Nonlinear Regression Functions
 *	Heteroskedasticity
 *	Instrumental Variables
+*	Panel Data
 
 ## Student Accessibility Services
 Students with disabilities should contact Student Accessibility Services to facilitate the implementation of accommodations, and meet with me to discuss the accommodations recommended by Student Accessibility Services.
