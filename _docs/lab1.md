@@ -420,10 +420,10 @@ top-right panel. Check the sample size.
 
 ## Hint for Assignment 1, Question 2. Create a subsample using the "or" `|` operator.
 
-To create a subsample that includes two (or more) video game publishers (lets take "Nintendo" and "Microsoft Game Studios" as an example), we can use the "or" operator `|`:
+To create a subsample that includes two (or more) video game publishers (let's take "Nintendo" and "Atari" as an example), we can use the "or" operator `|`:
 
 ```r
-    vid3 <- subset(mydata, Publisher == "Nintendo" | Publisher == "Microsoft Game Studios")
+    vid3 <- subset(mydata, Publisher == "Nintendo" | Publisher == "Atari")
 ```
 
 The `vid3` subset only contains only 2 different publishers!
