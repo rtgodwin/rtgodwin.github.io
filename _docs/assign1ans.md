@@ -7,44 +7,55 @@ toc: false
 
 ------------------------------------------------------------------------
 
+Each question is worth 0.5 marks, for a total of 3 marks. Part marks are ggiven where possible.
+
 ### Question 1
 
 Download the data using:
 
 ```r
-mydata <- read.csv("https://rtgodwin.com/data/icecream.csv")
+mydata <- read.csv("https://rtgodwin.com/data/vidsales.csv")
 ```
 
-To estimate the model:
+There is no "Answers" part for this question.
 
-$revenue = \beta_0 + \beta_1temp + \epsilon$
+### Question 2
 
-and view a summary of the results, we can use:
+There are several ways to create the subsample, but the one recommended in class is:
 
 ```r
-summary(lm(revenue ~ temp, data=mydata))
+sub <- subset(mydata, Platform == "PS4" | Platform == "XOne")
 ```
+
+Alternatively, you could use:
+
+```r
+sub <- mydata[mydata$Platform == "PS4" | mydata$Platform == "XOne", ]
 ```
-## 
-## Call:
-## lm(formula = revenue ~ temp, data = mydata)
-## 
-## Residuals:
-##     Min      1Q  Median      3Q     Max 
-## -26.000  -7.848  -1.526   7.106  26.231 
-## 
-## Coefficients:
-##             Estimate Std. Error t value Pr(>|t|)    
-## (Intercept)  409.960      9.009   45.51   <2e-16 ***
-## temp           3.848      0.356   10.81   <2e-16 ***
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
-## Residual standard error: 11.09 on 140 degrees of freedom
-## Multiple R-squared:  0.4549, Adjusted R-squared:  0.451 
-## F-statistic: 116.8 on 1 and 140 DF,  p-value: < 2.2e-16
+
+You could also create two separate subsamples:
+
+```r
+subX <- subset(mydata, Platform == "PS4")
+subP <- subset(mydata, Platform == "XOne")
 ```
-The above output from the `summary()` function is ugly, and the person you are reporting your work to does not want to see it. You should make an effort to format the results, and pick out the important information, for example in a table:
+
+and then combine them into one subsample:
+
+```r
+sub <- rbind(subX, subP)
+```
+
+### Question 3
+
+Answers should be presented in a table:
+
+|       |               | sample mean | sample var. |  min |  max  |
+|:-----:|:-------------:|:-----------:|:-----------:|:----:|:-----:|
+| Sales |      Xbox One |     1.66    |     2.77    | 0.02 |  8.72 |
+|       | Playstation 4 |     2.91    |    12.77    | 0.01 | 19.39 |
+| Score |      Xbox One |     7.85    |     0.83    |  5.1 |  9.4  |
+|       | Playstation 4 |     7.82    |     1.80    |  1.0 |  10.0 |
 
 <div align="center">
 
