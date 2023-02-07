@@ -50,6 +50,8 @@ sub <- rbind(subX, subP)
 
 Answers should be presented in a table:
 
+<div align="center">
+
 |       |               | sample mean | sample var. |  min |  max  |
 |:-----:|:-------------:|:-----------:|:-----------:|:----:|:-----:|
 | Sales |      Xbox One |     1.66    |     2.77    | 0.02 |  8.72 |
@@ -57,6 +59,8 @@ Answers should be presented in a table:
 | Score |      Xbox One |     7.85    |     0.83    |  5.1 |  9.4  |
 |       | Playstation 4 |     7.82    |     1.80    |  1.0 |  10.0 |
 
+</div>  
+  
 <div align="center">
 
 <font size = "4">
