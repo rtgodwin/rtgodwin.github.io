@@ -51,6 +51,8 @@ sub <- rbind(subX, subP)
 Answers should be presented in a table:
 
 <div align="center">
+  
+Table 1: _Sales_ and _critic score_ summary statistics for Xbox One ($n=57$) and Playstation 4 ($n=96$) video games.
 
 |       |               | sample mean | sample var. |  min |  max  |
 |:-----:|:-------------:|:-----------:|:-----------:|:----:|:-----:|
@@ -61,36 +63,22 @@ Answers should be presented in a table:
 
 </div>  
   
-<div align="center">
+There are many ways to get the answers for the above table. One such way is:
 
-<font size = "4">
+```r
+sum(sub$Platform == "XOne")
+sum(sub$Platform == "PS4")
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;"></th>
-<th style="text-align: right;">Estimate</th>
-<th style="text-align: right;">Std. Error</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">intercept</td>
-<td style="text-align: right;">410.0</td>
-<td style="text-align: right;">9.009</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">temp</td>
-<td style="text-align: right;">3.848</td>
-<td style="text-align: right;">0.356</td>
-</tr>
-</tbody>
-</table>
+summary(sub$Sales[sub$Platform == "XOne"])
+var(sub$Sales[sub$Platform == "XOne"])
+summary(sub$Sales[sub$Platform == "PS4"])
+var(sub$Sales[sub$Platform == "PS4"])
 
-</font>
-</div>
-
-The estimated slope of 3.848 can be interpreted as follows: For every increase in temperature of $1^{\circ}C$, revenue increases by $3.85.
+summary(sub$Score[sub$Platform == "XOne"])
+var(sub$Score[sub$Platform == "XOne"])
+summary(sub$Score[sub$Platform == "PS4"])
+var(sub$Score[sub$Platform == "PS4"])
+```
 
 ### Question 2
 
