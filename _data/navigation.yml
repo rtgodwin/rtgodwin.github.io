@@ -78,6 +78,8 @@ docs:
     children:
       - title: "Assignment 1"
         url: https://rtgodwin.com/3040/assignments/assign1.pdf
+      - title: "Assign. 1 Answers"       
+        url: /3040/assign1ans/
 #      - title: "Assignment 2"
 #        url: https://rtgodwin.com/3040/assignments/assign2.pdf
 #      - title: "Assign. 2 Answers"
