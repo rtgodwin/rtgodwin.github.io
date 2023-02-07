@@ -1,7 +1,7 @@
 ---
-title: "Assignment 2 Answer Key"
-permalink: /3040/assign2ans/
-excerpt: "Ice cream revenue - Answer Key"
+title: "Assignment 1 Answer Key"
+permalink: /3040/assign1ans/
+excerpt: "Sales from different video game consoles - Answer Key"
 toc: false
 ---
 
