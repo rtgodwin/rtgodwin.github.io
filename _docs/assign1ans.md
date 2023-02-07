@@ -50,8 +50,6 @@ sub <- rbind(subX, subP)
 
 Answers should be presented in a table:
 
-<div align="center">
-  
 Table 1: _Sales_ and _critic score_ summary statistics for Xbox One ($n=57$) and Playstation 4 ($n=96$) video games.
 
 |       |               | sample mean | sample var. |  min |  max  |
@@ -61,7 +59,6 @@ Table 1: _Sales_ and _critic score_ summary statistics for Xbox One ($n=57$) and
 | Score |      Xbox One |     7.85    |     0.83    |  5.1 |  9.4  |
 |       | Playstation 4 |     7.82    |     1.80    |  1.0 |  10.0 |
 
-</div>  
   
 There are many ways to get the answers for the above table. One such way is:
 
