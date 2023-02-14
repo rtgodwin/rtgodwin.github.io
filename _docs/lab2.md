@@ -9,7 +9,7 @@ toc: false
 
 # Background Story: A Monopolist's Demand Curve
 
-On Mars, Jim is the only person selling Earth rocks. There is no substitute for authentic Earth rocks, so Jim is a monopolist. Jim controls the price. Jim has tried randomly changing the price of Earth rocks 132 times; for each price change, Jim recorded the quantity (in cubic cm) of Earth rocks sold for that day. Load the data into RStudio:
+On Mars, Jim is the only person selling Earth rocks. There is no substitute for authentic Earth rocks, so Jim is a monopolist. Jim controls the price. Jim has tried changing the price of Earth rocks 132 times; for each price change, Jim recorded the quantity (in cubic cm) of Earth rocks sold for that day. Load the data into RStudio:
 
 ```r
 rocks <- read.csv("https://rtgodwin.com/data/monopolist.csv")
