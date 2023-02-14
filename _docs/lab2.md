@@ -149,7 +149,7 @@ tstat
 [1] -16.53846
 ```
 
-Since this t-stat is outside of the 95% confidence interval, we know we will reject the null at the 5% significance level. We should also get the p-value:
+Since this t-stat is less than -1.97838, we know we will reject the null at the 5% significance level. However, we can still get the p-value:
 
 ```r
 2 * pt(tstat, df = 130, lower.tail = TRUE)
