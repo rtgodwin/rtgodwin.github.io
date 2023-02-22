@@ -18,5 +18,3 @@ You will begin in the famous tavern the [Yawning Portal](https://rtgodwin.com/dn
 - Due to negligence and the rumoured near bankruptcy of Waterdeep, Dagult *Neverember* was voted out of his seat as *Open Lord of Waterdeep*. In the city of Neverwinter at the time of his ousting, he has not returned to Waterdeep. Laeral Silverhand has taken his place.
 - Crime is on the rise. Numerous criminial factions in Waterdeep appear more active, going so far as to fight one another in the streets.
 - Factions are prominent in Waterdeep: Force Grey, Harpers, Xanathar Guild, Zhentarim, and others.
-
-Spoiler: the heist has already occurred!
