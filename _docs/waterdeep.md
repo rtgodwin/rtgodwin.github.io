@@ -6,8 +6,6 @@ last_modified_at:
 toc: false
 ---
 
-Spoiler: the heist has already occurred.
-
 You will begin in the famous tavern the [Yawning Portal](https://rtgodwin.com/dnd/1001.png), in the [city of Waterdeep](https://rtgodwin.com/dnd/wdhplayer.jpg).
 
 - Waterdeep is the most civilized city on the sword coast, with firm laws and swift justice. The [laws](https://rtgodwin.com/dnd/c002.png) are enforced strictly.
@@ -17,5 +15,8 @@ You will begin in the famous tavern the [Yawning Portal](https://rtgodwin.com/dn
 
 ## Some Facts
 
-- Due to negligence, and the rumoured near bankruptcy of Waterdeep, Dagult Neverember was voted out of his seat as *Open Lord of Waterdeep*.
-- Crime is on the rise. Numerous criminial factions in Waterdeep appear more active, going so far as to fight one another in the streets. In response, the High Wizard of Waterdeep, Vajra "Blackstaff" Safahr, has activated her independent enforcers, the Gray Hands.
+- Due to negligence and the rumoured near bankruptcy of Waterdeep, Dagult Neverember was voted out of his seat as *Open Lord of Waterdeep*. In Neverwinter at the time, he has not returned to Waterdeep. Laeral Silverhand has taken his place.
+- Crime is on the rise. Numerous criminial factions in Waterdeep appear more active, going so far as to fight one another in the streets.
+- Factions are prominent in Waterdeep: Force Grey, Harpers, Xanathar Guild, Zhentarim, and others.
+
+Spoiler: the heist has already occurred!
