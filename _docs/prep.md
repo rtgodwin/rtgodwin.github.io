@@ -15,6 +15,13 @@ toc: false
 - Renaer Neverember
 - Hyustus Staget
 
+## Secrets
+- There is a great struggle in the underworld. Zhents appear to be at war with a large thieves guild.
+- - All of the thieves of Waterdeep have begun to band together under a single organization.
+- Zhentarim and Xanathar's guild are at war, other factions are fighting too
+- Xanathar's guild is new, Xanathar's identity is a mystery
+- Raenar Neverember is Dagault Nevember's son but the two don't get along. Raenar stayed in Waterdeep to try to undo what his father had done.
+
 ## Scenes
 
 ### Tavern brawl
