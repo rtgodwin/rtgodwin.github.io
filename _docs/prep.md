@@ -8,6 +8,13 @@ toc: false
 
 # Session 1
 
+## NPCs
+- Yagra
+- Volothamp Geddarm
+- Old Xoblob
+- Dagault Neverember
+- Hyustus Staget
+
 ## Scenes
 
 ### Tavern brawl
@@ -18,12 +25,16 @@ toc: false
 
 Yagra (Zhent) vs. 5 Xanathar guild.
 
+Crowd is cheering / booing.
+
 Get involved: roll initiative. to hit: 1d20 + prof. dmg: 1 + STR. Krentz at 3hp.
 Hang back: Yagra beats Krentz unconscious, gets beaten herself. Durnan yells "out!" Gang carries out Krentz.
 
 ### Troll
 
-> Shouts of alarm suddenly ring out as a hulking creature climbs up out of the shaft in the middle of the taproom — a monster with warty green skin, a tangled nest of wiry black hair, a long, carrot-shaped nose, and bloodshot eyes. As it bares its yellow teeth and howls, you can see that a half-dozen bat-like creatures are attached to its body, with three more circling above it like flies. Everyone in the tavern reacts in fear except for the barkeep, Durnan, who shouts, “Troll!”
+> Shouts of alarm suddenly ring out as a hulking creature climbs up out of the shaft in the middle of the taproom — a monster with warty green skin, a tangled nest of wiry black hair, a long, carrot-shaped nose, and bloodshot eyes. It bares its yellow teeth and howls. Everyone in the tavern reacts in fear except for the barkeep, Durnan, who shouts, “Troll!”
+
+- Full health Troll. Attacks whoever gets a big hit.
 
 ### Talk with NPCs
 
