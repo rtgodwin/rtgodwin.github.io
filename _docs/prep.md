@@ -18,4 +18,4 @@ toc: false
 
 Yagra (Zhent) vs. 5 Xanathar guild.
 
-Get involved: roll initiative. to hit: 1d20 + prof. dmg: 1 + STR.
+Get involved: roll initiative. to hit: 1d20 + prof. dmg: 1 + STR. Krentz at 3hp.
