@@ -12,7 +12,7 @@ toc: false
 - Yagra
 - Volothamp Geddarm
 - Old Xoblob
-- Dagault Neverember
+- Renaer Neverember
 - Hyustus Staget
 
 ## Scenes
