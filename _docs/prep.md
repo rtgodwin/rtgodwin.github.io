@@ -25,6 +25,11 @@ toc: false
 
 ## Scenes
 
+### Rules
+- No more group rolls. Need a role-playing reason for soing something.
+- Metagaming. Can't discuss tactics, or act on unknown information.
+- Characters have to act consistently.
+
 ### Transition
 - Finethir never produced any gold, but allowed you to stay at his place for as long as you wanted.
 - You destroyed a magic ring, restored a Wizard to his true self, and are looking for glory, so you visit the most well known tavern for hosting adventurers: the Yawning Portal in Waterdeep.
@@ -83,12 +88,19 @@ Hang back: Yagra beats Krentz unconscious, gets beaten herself. Durnan yells "ou
 
 Dock ward isn't safe.
 
-> Tall, densely packed tenements leave most of the neighborhood in shadow at ground level. Most of the streetlamps have had their glass smashed and their candles stolen, and the smells of salt air and excrement linger as you pass by rows of run-down buildings. You get to a street corner (I think Tiddles knows his way around the city already.) One nearby shop stands out from the others. It has a deep purple facade, and in its window hangs a stuffed beholder. Above the door hangs a sign whose elaborate letters spell out “Old Xoblob Shop.”
+> Tall, densely packed tenements leave most of the neighborhood in shadow at ground level. Most of the streetlamps have had their glass smashed and their candles stolen, and the smells of salt air and excrement linger as you pass by rows of run-down buildings. You get to a street corner (I think Tiddles knows his way around the city already.) It overlooks the Skewered Dragon. One nearby shop stands out from the others. It has a deep purple facade, and in its window hangs a stuffed beholder. Above the door hangs a sign whose elaborate letters spell out “Old Xoblob Shop.”
 
 Decide to go into the shop or continue.
+
+#### Shop
 
 > A cloud of lavender-scented purple smoke trails out of the shop’s door as you peer inside. Every wall is painted purple, and every dusty knickknack on the shelves is dyed a deep violet. The hairless old gnome sitting cross-legged on the counter wears plum-colored robes. His cheeks are decorated with nine purple face-painted eyes.
 
 >The gnome lowers a pipe and exhales a cloud of lavender smoke before raising a hand. “Hail and well met! Come browse the shelves of the most curious curiosity shop in the world!”
+
+- Roll trinkets in Chap. 5, sells for 1d6 gold.
+- DC 13 Intimidation or Persuasion:
+- > He says that Floon and a well-dressed fellow of similar appearance and bearing (Renaer Neverember, though the gnome doesn’t know his name and didn’t recognize him) were jumped outside the shop by rough-looking men in black leather armor. Xoblob thinks there were five attackers, but none of them looked familiar. One of them had a black tattoo of a winged snake on his neck.
+
 
 
