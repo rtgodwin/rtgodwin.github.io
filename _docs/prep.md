@@ -21,6 +21,7 @@ toc: false
 - Zhentarim and Xanathar's guild are at war, other factions are fighting too
 - Xanathar's guild is new, Xanathar's identity is a mystery
 - Raenar Neverember is Dagault Nevember's son but the two don't get along. Raenar stayed in Waterdeep to try to undo what his father had done.
+- Dagault Neverember embezzled a large amount of gold.
 
 ## Scenes
 
