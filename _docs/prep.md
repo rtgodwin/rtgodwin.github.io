@@ -53,8 +53,23 @@ Hang back: Yagra beats Krentz unconscious, gets beaten herself. Durnan yells "ou
 
 > He strokes his mustache, adjusts his floppy hat, and tightens his scarf. “Volothamp Geddarm, chronicler, wizard, and celebrity, at your service. I trust you’ve noted the violence in our fair city these past tendays. I haven’t seen so much blood since my last visit to Baldur’s Gate! But now I fear I have misplaced a friend amid this odious malevolence.
 
-“My friend’s name is Floon Blagmaar. He’s got more beauty than brains, and I worry he took a bad way home a couple nights ago and was kidnapped — or worse. If you agree to track him down with all due haste, I can offer you ten dragons apiece now, and I can give you each ten times that when you find Floon. May I prevail upon you in my hour of need?”
+> “My friend’s name is Floon Blagmaar. He’s got more beauty than brains, and I worry he took a bad way home a couple nights ago and was kidnapped — or worse. If you agree to track him down with all due haste, I can offer you ten dragons apiece now, and I can give you each ten times that when you find Floon. May I prevail upon you in my hour of need?”
+
+- Offer 10 gold to accept. DC 10 Insight - he ain't got the money. Awaiting payments for Volo's guide to monsters.
+- Volo describes Floon as a handsome human male in his early thirties with wavy red-blond hair. He was dressed in princely garb when Volo last saw him.
+- Two nights ago, before Floon disappeared, he and Volo were drinking and merrymaking at the Skewered Dragon, a dark, bawdy tavern in the Dock Ward. Volo recommends that the characters start their search there.
+- Embarrassed that he got Floon in trouble.
+- Skewered Dragon is dubious and Zhentarim owned.
+- Between Net st. and Fillet Lane (in dock ward).
 
 ### Talk with NPCs
 
 [Description of familiar faces](https://www.dndbeyond.com/sources/wdh/introduction#FamiliarFaces)
+
+### Blood in the streets
+
+> As you turn a corner, you find yourselves on a street that has been cordoned off by the City Watch. Lying on the cobblestones are a half-dozen corpses, seemingly the victims of some terrible skirmish. Watch officers have disarmed and arrested three blood-drenched humans and are in the midst of questioning witnesses. One of the officers sees you. “Get on,” she says. “Nothing to see here.”
+
+- Dozen guards
+- 3 loyal Zhentarim
+- Won't let characters near (but they can try to spy): "You working for the Zhentarim? Xanathar guild? What are you scum fighting about?" 
