@@ -92,7 +92,7 @@ Dock ward isn't safe.
 
 Decide to go into the shop or continue.
 
-#### Shop
+### Shop
 
 > A cloud of lavender-scented purple smoke trails out of the shop’s door as you peer inside. Every wall is painted purple, and every dusty knickknack on the shelves is dyed a deep violet. The hairless old gnome sitting cross-legged on the counter wears plum-colored robes. His cheeks are decorated with nine purple face-painted eyes.
 
@@ -100,7 +100,18 @@ Decide to go into the shop or continue.
 
 - Roll trinkets in Chap. 5, sells for 1d6 gold.
 - DC 13 Intimidation or Persuasion:
-- > He says that Floon and a well-dressed fellow of similar appearance and bearing (Renaer Neverember, though the gnome doesn’t know his name and didn’t recognize him) were jumped outside the shop by rough-looking men in black leather armor. Xoblob thinks there were five attackers, but none of them looked familiar. One of them had a black tattoo of a winged snake on his neck.
+> He says that Floon and a well-dressed fellow of similar appearance and bearing were jumped outside the shop by rough-looking men in black leather armor. Xoblob thinks there were five attackers, but none of them looked familiar. One of them had a black tattoo of a winged snake on his neck.
 
+### The Skewered Dragon
+
+> The Skewered Dragon looks like a ruin. Both of its front-facing windows are smashed, and a ship’s anchor is lodged in the roof. Through the windows, you can see a group of haggard patrons drinking from huge tankards.
+
+- Dockworkers don't want to talk. DC 13 Intim or Persuasion:
+> Several of the regulars remember seeing Volo and Floon drinking together a couple of nights ago. After Volo left, Floon stuck around long enough to meet with another friend: Renaer Neverember, the son of Waterdeep’s previous Open Lord, Dagult Neverember. “Chip off the old block, that one!” sneers one patron. “Just another spoiled, rich noble who likes to rub our noses in it!” says another.
+
+- They played Three-Dragon Ante, Volo left. Volo and 5 men followed them out.
+- The 5 haven't been seen since, but are known to frequent a warehouse down the road on Candle Lane - "Look for the snake symbol on the door."
+
+### Warehouse
 
 
