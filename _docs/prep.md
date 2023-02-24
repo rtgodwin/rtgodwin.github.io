@@ -17,7 +17,7 @@ toc: false
 
 ## Secrets
 - There is a great struggle in the underworld. Zhents appear to be at war with a large thieves guild.
-- - All of the thieves of Waterdeep have begun to band together under a single organization.
+- All of the thieves of Waterdeep have begun to band together under a single organization.
 - Zhentarim and Xanathar's guild are at war, other factions are fighting too
 - Xanathar's guild is new, Xanathar's identity is a mystery
 - Raenar Neverember is Dagault Nevember's son but the two don't get along. Raenar stayed in Waterdeep to try to undo what his father had done.
@@ -42,6 +42,18 @@ Hang back: Yagra beats Krentz unconscious, gets beaten herself. Durnan yells "ou
 > Shouts of alarm suddenly ring out as a hulking creature climbs up out of the shaft in the middle of the taproom — a monster with warty green skin, a tangled nest of wiry black hair, a long, carrot-shaped nose, and bloodshot eyes. It bares its yellow teeth and howls. Everyone in the tavern reacts in fear except for the barkeep, Durnan, who shouts, “Troll!”
 
 - Full health Troll. Attacks whoever gets a big hit.
+- [Durnan] draws his greatsword, springs over the bar. Douses with lamp oil and sets it on fire when it falls.
+- Yagra joins.
+- Patrons will heal.
+- Durnan tells you that you fought well. Reassures patrons, straightens up.
+
+### Volo
+
+> A dapper figure pushes against the tide of patrons - "Very well fought. You be adventurers, am I right. I could use your help. Let's find a table to talk, shall we?
+
+> He strokes his mustache, adjusts his floppy hat, and tightens his scarf. “Volothamp Geddarm, chronicler, wizard, and celebrity, at your service. I trust you’ve noted the violence in our fair city these past tendays. I haven’t seen so much blood since my last visit to Baldur’s Gate! But now I fear I have misplaced a friend amid this odious malevolence.
+
+“My friend’s name is Floon Blagmaar. He’s got more beauty than brains, and I worry he took a bad way home a couple nights ago and was kidnapped — or worse. If you agree to track him down with all due haste, I can offer you ten dragons apiece now, and I can give you each ten times that when you find Floon. May I prevail upon you in my hour of need?”
 
 ### Talk with NPCs
 
