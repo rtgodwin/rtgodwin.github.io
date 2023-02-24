@@ -35,6 +35,7 @@ toc: false
 - You destroyed a magic ring, restored a Wizard to his true self, and are looking for glory, so you visit the most well known tavern for hosting adventurers: the Yawning Portal in Waterdeep.
 - Perhaps all of you are in it for glory? Are all of you willing to take on a thirst for fame and notoriety as a defining character trait?
 - Need a reason for why all of you would be together in this tavern. (Need the story to make sense).
+- Any of you could be from this city or have extensive knowledge of it.
 
 ### Tavern brawl
 
@@ -114,4 +115,14 @@ Decide to go into the shop or continue.
 
 ### Warehouse
 
+> Gloom envelops a narrow alley as dark as a dungeon — and as odorous as one, too. Nearly all the streetlamps have been smashed. The only light that pierces the darkness is a faint flickering from down the lane, like a distant candle.
 
+- It's a streetlamp with continual flame.
+- A warehouse is directly across the street from the lamp, which illuminates a black winged snake. 
+- DC 10 Intelligence check, or possibly Tiddles: the symbol of the Zhentarim, painted above the door’s handle.
+
+The gate on the fence isn’t locked. The building’s three points of entry — a front door, a large warehouse loading door, and a painted-over window — are locked. The front door has a sliding peephole that can be opened from the inside. Either of the doors or the window can be unlocked by a character who makes a successful DC 12 Dexterity check using thieves’ tools, or can be forced open with a successful DC 10 Strength (Athletics) check.
+
+- [Kenkus](https://www.dndbeyond.com/monsters/17165-kenku) may scramble and hide: DC 16 passive perception
+
+#### Z1
