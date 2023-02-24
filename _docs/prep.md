@@ -24,6 +24,12 @@ toc: false
 
 ## Scenes
 
+### Transition
+- Finethir never produced any gold, but allowed you to stay at his place for as long as you wanted.
+- You destroyed a magic ring, restored a Wizard to his true self, and are looking for glory, so you visit the most well known tavern for hosting adventurers: the Yawning Portal in Waterdeep.
+- Perhaps all of you are in it for glory? Are all of you willing to take on a thirst for fame and notoriety as a defining character trait?
+- Need a reason for why all of you would be together in this tavern. (Need the story to make sense).
+
 ### Tavern brawl
 
 > You sit around a sturdy wooden table lit by a brightly burning candle and littered with plates cleared of food and half-drained tankards. The sounds of gamblers yelling and drunken adventurers singing bawdy songs nearly drown out the off-key strumming of a young bard three tables over.
@@ -73,3 +79,15 @@ Hang back: Yagra beats Krentz unconscious, gets beaten herself. Durnan yells "ou
 - Dozen guards
 - 3 loyal Zhentarim
 - Won't let characters near (but they can try to spy): "You working for the Zhentarim? Xanathar guild? What are you scum fighting about?" 
+
+Dock ward isn't safe.
+
+> Tall, densely packed tenements leave most of the neighborhood in shadow at ground level. Most of the streetlamps have had their glass smashed and their candles stolen, and the smells of salt air and excrement linger as you pass by rows of run-down buildings. You get to a street corner (I think Tiddles knows his way around the city already.) One nearby shop stands out from the others. It has a deep purple facade, and in its window hangs a stuffed beholder. Above the door hangs a sign whose elaborate letters spell out “Old Xoblob Shop.”
+
+Decide to go into the shop or continue.
+
+> A cloud of lavender-scented purple smoke trails out of the shop’s door as you peer inside. Every wall is painted purple, and every dusty knickknack on the shelves is dyed a deep violet. The hairless old gnome sitting cross-legged on the counter wears plum-colored robes. His cheeks are decorated with nine purple face-painted eyes.
+
+>The gnome lowers a pipe and exhales a cloud of lavender smoke before raising a hand. “Hail and well met! Come browse the shelves of the most curious curiosity shop in the world!”
+
+
