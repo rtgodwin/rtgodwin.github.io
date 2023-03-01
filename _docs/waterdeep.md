@@ -23,4 +23,7 @@ You will begin in the famous tavern the [Yawning Portal](https://rtgodwin.com/dn
 
 - You should all be level 2.
 - Feel free to make changes to your backgrounds / characters if desired.
-- We will be trying to flesh out your personality traits, ideals, bonds, flaws, as well as picking your alignment.- 
+- We will be trying to flesh out your personality traits, ideals, bonds, flaws, as well as picking your alignment.
+
+## Oleander Resources
+Circle of the Moon - ["Wild Shape" beast list](https://docs.google.com/spreadsheets/d/1dTGapgzFstOdRr5EJEV6sAhtNSYi0QsX-Tgr2GRutWI/edit#gid=2001884058)
