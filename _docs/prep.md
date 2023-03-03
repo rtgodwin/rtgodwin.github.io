@@ -106,13 +106,15 @@ Dock ward isn't safe.
 
 ### The Skewered Dragon
 
-> The Skewered Dragon looks like a ruin. Both of its front-facing windows are smashed, and a ship’s anchor is lodged in the roof. Through the windows, you can see a group of haggard patrons drinking from huge tankards.
+> The Skewered Dragon looks like a ruin. Both of its front-facing windows are smashed, and a ship’s anchor is lodged in the roof. Through the windows, you can see a group of haggard dockworkers drinking from huge tankards. The barkeep looks away as you enter. You now see a few armed thugs dispersed throughout the tavern.
 
-- Dockworkers and thugs.
-- Dockworkers don't want to talk. DC 13 Intim or Persuasion:
+- Dockworkers and Zhent [thugs](https://www.dndbeyond.com/monsters/16798-bandit).
+- Barkeep won't talk.
+- Dockworkers willing to talk. If one of the tavern’s patrons tries to tell the party something, a thug with several silver teeth pats him on the shoulder and says “a stuffed duck doesn’t quack”. If the PCs keep questioning, the thug says: “you look like you’re new in town. Let me give you some advice, it doesn’t pay to ask too many questions in this part of town. We like people who mind their own business.” Players may see dockworkers making garotte sign.
+
 > Several of the regulars remember seeing Volo and Floon drinking together a couple of nights ago. After Volo left, Floon stuck around long enough to meet with another friend: Renaer Neverember, the son of Waterdeep’s previous Open Lord, Dagult Neverember. “Chip off the old block, that one!” sneers one patron. “Just another spoiled, rich noble who likes to rub our noses in it!” says another.
 
-- They played Three-Dragon Ante, Volo left. Volo and 5 men followed them out.
+- They played Three-Dragon Ante. 5 men followed them out.
 - The 5 haven't been seen since, but are known to frequent a warehouse down the road on Candle Lane - "Look for the snake symbol on the door."
 
 ### Warehouse
