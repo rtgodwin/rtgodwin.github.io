@@ -29,6 +29,8 @@ toc: false
 - I messed up last session - no more group rolls. Need a role-playing reason for soing something.
 - Metagaming. Can't discuss tactics, or act on unknown information. Ok to talk about general things, but in the moment, can't discuss.
 - Characters have to act consistently.
+- We have several stealthy characters. If trying to hide as a group, given time - majority needs to beat the perception of the enemies.
+- There's a rule for almost everything.
 
 ### Transition
 - Finethir never produced any gold, but allowed you to stay at his place for as long as you wanted. Kind of a podunk backwater town, you left.
@@ -124,13 +126,24 @@ Dock ward isn't safe.
 - It's a streetlamp with continual flame.
 - A warehouse is directly across the street from the lamp, which illuminates a black winged snake. 
 - DC 10 Intelligence check, or possibly Tiddles: the symbol of the Zhentarim, painted above the door’s handle.
+- Ask for everyone's passive perception
 
 The gate on the fence isn’t locked. The building’s three points of entry — a front door, a large warehouse loading door, and a painted-over window — are locked. The front door has a sliding peephole that can be opened from the inside. Either of the doors or the window can be unlocked by a character who makes a successful DC 12 Dexterity check using thieves’ tools, or can be forced open with a successful DC 10 Strength (Athletics) check.
 
-- [Kenkus](https://www.dndbeyond.com/monsters/17165-kenku) may scramble and hide: DC 16 passive perception
+- [Kenkus](https://www.dndbeyond.com/monsters/17165-kenku) may scramble and hide: DC 16 passive perception for characters to hear
 
 #### Z1
 
+- Are the Kenku aware?
+ > YES: Tables and chairs have been carelessly tossed across the floor. The corpses of a dozen men lie along the walls, their rapiers and daggers lying nearby. On the north side of the area, stairs rise to an open level above.
+ >  NO - ADD: Six short, avian creatures with long beaks and black feathers look over in surprise from where they stand in the middle of the warehouse. Each wears a hooded cloak and wields a shortsword.
+ 
+ - Surprised characters can't act in first round.
+ - Tries to ambush. Gets advantage on surprise round.
+ - Show monster manual pic
+ - Kenku fight until 3 fall. Try to flee.
+
+##### Captured Kenku
 
 
 
