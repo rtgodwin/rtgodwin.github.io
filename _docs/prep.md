@@ -20,18 +20,18 @@ toc: false
 - All of the thieves of Waterdeep have begun to band together under a single organization.
 - Zhentarim and Xanathar's guild are at war, other factions are fighting too
 - Xanathar's guild is new, Xanathar's identity is a mystery
-- Raenar Neverember is Dagault Nevember's son but the two don't get along. Raenar stayed in Waterdeep to try to undo what his father had done.
+- Raenar Neverember is Dagult Neverember's son but the two don't get along. Renaer stayed in Waterdeep to try to undo what his father had done.
 - Dagault Neverember embezzled a large amount of gold.
 
 ## Scenes
 
 ### Rules
-- No more group rolls. Need a role-playing reason for soing something.
-- Metagaming. Can't discuss tactics, or act on unknown information.
+- I messed up last session - no more group rolls. Need a role-playing reason for soing something.
+- Metagaming. Can't discuss tactics, or act on unknown information. Ok to talk about general things, but in the moment, can't discuss.
 - Characters have to act consistently.
 
 ### Transition
-- Finethir never produced any gold, but allowed you to stay at his place for as long as you wanted.
+- Finethir never produced any gold, but allowed you to stay at his place for as long as you wanted. Kind of a podunk backwater town, you left.
 - You destroyed a magic ring, restored a Wizard to his true self, and are looking for glory, so you visit the most well known tavern for hosting adventurers: the Yawning Portal in Waterdeep.
 - Perhaps all of you are in it for glory? Are all of you willing to take on a thirst for fame and notoriety as a defining character trait?
 - Need a reason for why all of you would be together in this tavern. (Need the story to make sense).
@@ -43,9 +43,9 @@ toc: false
 
 > Then all the noise is eclipsed by a shout: “Ya pig! Like killin’ me mates, does ya?” Then a seven-foot-tall half-orc is hit by a wild, swinging punch from a male human whose shaved head is covered with eye-shaped tattoos. Four other humans stand behind him, ready to jump into the fray. The half-orc cracks her knuckles, roars, and leaps at the tattooed figure — but before you can see if blood is drawn, a crowd of spectators clusters around the brawl. What do you do?
 
-[Yagra](https://www.dndbeyond.com/monsters/17035-thug) (Zhent) vs. 5 Xanathar guild [bandits](https://www.dndbeyond.com/monsters/16798-bandit).
-
-Crowd is cheering / booing.
+- Remind them: no weapons drawn.
+- [Yagra](https://www.dndbeyond.com/monsters/17035-thug) (Zhent) vs. 5 Xanathar guild [bandits](https://www.dndbeyond.com/monsters/16798-bandit).
+- Crowd is cheering / booing.
 
 Get involved: roll initiative. to hit: 1d20 + prof. dmg: 1 + STR. Krentz at 3hp.
 Hang back: Yagra beats Krentz unconscious, gets beaten herself. Durnan yells "out!" Gang carries out Krentz.
@@ -58,6 +58,7 @@ Hang back: Yagra beats Krentz unconscious, gets beaten herself. Durnan yells "ou
 - [Durnan](https://www.dndbeyond.com/monsters/149798-durnan) draws his greatsword, springs over the bar. Douses with lamp oil and sets it on fire when it falls.
 - Yagra joins.
 - Patrons will heal.
+- Too much time: a Wizard casts disintegrate from 2nd floor. Durnan yells "thanks Horrick!"
 - Durnan tells you that you fought well. Reassures patrons, straightens up.
 
 ### Volo
@@ -89,9 +90,9 @@ Hang back: Yagra beats Krentz unconscious, gets beaten herself. Durnan yells "ou
 
 Dock ward isn't safe.
 
-> Tall, densely packed tenements leave most of the neighborhood in shadow at ground level. Most of the streetlamps have had their glass smashed and their candles stolen, and the smells of salt air and excrement linger as you pass by rows of run-down buildings. You get to a street corner (I think Tiddles knows his way around the city already.) It overlooks the Skewered Dragon. One nearby shop stands out from the others. It has a deep purple facade, and in its window hangs a stuffed beholder. Above the door hangs a sign whose elaborate letters spell out “Old Xoblob Shop.”
+> Tall, densely packed tenements leave most of the neighborhood in shadow at ground level. Most of the streetlamps have had their glass smashed and their candles stolen, and the smells of salt air and excrement linger as you pass by rows of run-down buildings. You get to a street corner (I think Tiddles knows his way around the city already.) It has a good view of the Skewered Dragon. One nearby shop stands out from the others. It has a deep purple facade, and in its window hangs a stuffed beholder. Above the door hangs a sign whose elaborate letters spell out “Old Xoblob Shop.”
 
-Decide to go into the shop or continue.
+- Show monster manual picture.
 
 ### Shop
 
@@ -107,6 +108,7 @@ Decide to go into the shop or continue.
 
 > The Skewered Dragon looks like a ruin. Both of its front-facing windows are smashed, and a ship’s anchor is lodged in the roof. Through the windows, you can see a group of haggard patrons drinking from huge tankards.
 
+- Dockworkers and thugs.
 - Dockworkers don't want to talk. DC 13 Intim or Persuasion:
 > Several of the regulars remember seeing Volo and Floon drinking together a couple of nights ago. After Volo left, Floon stuck around long enough to meet with another friend: Renaer Neverember, the son of Waterdeep’s previous Open Lord, Dagult Neverember. “Chip off the old block, that one!” sneers one patron. “Just another spoiled, rich noble who likes to rub our noses in it!” says another.
 
@@ -126,3 +128,8 @@ The gate on the fence isn’t locked. The building’s three points of entry —
 - [Kenkus](https://www.dndbeyond.com/monsters/17165-kenku) may scramble and hide: DC 16 passive perception
 
 #### Z1
+
+
+
+
+Kenku: He doesn't even look like the right guy. He's not going to know anything about the stone.
