@@ -87,9 +87,11 @@ head(guns)
 6   Colorado           14.3      37.9       43.3          1      0
 ```
 
-Notice that many of the variables do not contain numbers, but are instead characters (words). For example, the `ethnicity` variable takes on values "hispanic", "cauc", and "other". In order to use variables such as `ethnicity`, `region` and `gender`, we need to create dummy variables from them. From the `ethnicity` variable for example, we would create 2 dummies, even though there are 3 categories (in order to avoid the dummy variable trap).
+- Notice that Alabama has a lot of deaths (21.5) and Republicans (62.1\%).
+- California has few deaths (7.9) and Republicans (31.5\%). 
+- Think about the magnitude of these numbers. With a population of 39.15 million in 2016, 7.9 deaths per 100k means 3,093 deaths.
 
-R will recognize that variables like `ethnicity` contain several categories, and will automatically create the system of dummies for us. To see this, try:
+
 
 ```r
 summary(lm(wage ~ ethnicity, data = cps))
