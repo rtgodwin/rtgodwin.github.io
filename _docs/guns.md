@@ -63,7 +63,7 @@ The data is for US states in 2016, and comes from various sources.
 </font>
 </div>
 
-# Download the data
+## Download the data
 
 Download the data from the website using:
 
@@ -91,7 +91,9 @@ head(guns)
 - California has few deaths (7.9) and Republicans (31.5\%). 
 - Think about the magnitude of these numbers. With a population of 39.15 million in 2016, 7.9 deaths per 100k means 3,093 deaths.
 
+## A link between Republicans and gun deaths?
 
+Plot the data:
 
 ```r
 summary(lm(wage ~ ethnicity, data = cps))
