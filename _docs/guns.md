@@ -87,9 +87,10 @@ head(guns)
 6   Colorado           14.3      37.9       43.3          1      0
 ```
 
-- Notice that Alabama has a lot of deaths (21.5) and Republicans (62.1\%).
-- California has few deaths (7.9) and Republicans (31.5\%). 
+- Notice that Alabama has a lot of deaths (21.5) and Republicans (62.1%).
+- California has few deaths (7.9) and Republicans (31.5%). 
 - Think about the magnitude of these numbers. With a population of 39.15 million in 2016, 7.9 deaths per 100k means 3,093 deaths.
+- Look at how many households have guns!
 
 ## A link between Republicans and gun deaths?
 
@@ -137,7 +138,7 @@ F-statistic:  40.3 on 1 and 48 DF,  p-value: 7.357e-08
 The above estimated effect of `trump.vote` on gun deaths is likely biased. This is a situation of Omitted Variable Bias (OVB). What do you think the most important determinant of gun deaths is?
 {: .notice--danger}
 
-## A model that uses the amount of guns
+## A model that uses the percentage of households that have guns
 
 We'll estimate a model that includes more variables (`gun.owner` and `back.check`). The new population model is:
 
