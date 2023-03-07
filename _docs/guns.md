@@ -43,19 +43,19 @@ The data is for US states in 2016, and comes from various sources.
 <tr class="even">
 <td style="text-align: left;">`gun.owner`</td>
 <td style="text-align: left;">The estimated percentage of households in 2016 that owned guns.</td>
-<td style="text-align: left;">RAND [State-Level Estimates of Household Firearm Ownership](https://www.rand.org/pubs/tools/TL354.html)</td>
+<td style="text-align: left;"><a href="https://www.rand.org/pubs/tools/TL354.html">RAND</a></td>
 </tr>
   
 <tr class="odd">
 <td style="text-align: left;">`trump.vote`</td>
 <td style="text-align: left;">The percentage of votes for Trump in 2016. This variable is meant to measure the percentage of Repbulicans by state.</td>
-<td style="text-align: left;">[New York Times](https://www.nytimes.com/elections/2016/results/president)</td>
+<td style="text-align: left;"><a href="https://www.nytimes.com/elections/2016/results/president">New York Times</a></td>
 </tr> 
 
 <tr class="even">
 <td style="text-align: left;">`back.check`</td>
 <td style="text-align: left;">A dummy variable indicating whether the state has background checks.</td>
-<td style="text-align: left;">RAND [State-Level Estimates of Household Firearm Ownership](https://www.rand.org/pubs/tools/TL354.html)</td>
+<td style="text-align: left;"><a href="https://www.rand.org/pubs/tools/TL354.html">RAND</a></td>
 </tr>
 </tbody>
 </table>  
