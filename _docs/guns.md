@@ -134,7 +134,8 @@ F-statistic:  40.3 on 1 and 48 DF,  p-value: 7.357e-08
 - The p-value on `trump.vote` is small (0.0000000736). We reject the null that percentage of Republicans have no association with gun deaths. According to this model, `trump.vote` is statistically significant.
 - The $R^2$ is 46%.
 
-The above estimated effect of `trump.vote` on gun deaths is likely biased. This is a situation of Omitted Variable Bias (OVB). What do you think the most important determinant of gun deaths is? {: .notice--info}
+The above estimated effect of `trump.vote` on gun deaths is likely biased. This is a situation of Omitted Variable Bias (OVB). What do you think the most important determinant of gun deaths is?
+{: .notice--danger}
 
 ## A model that uses the amount of guns
 
