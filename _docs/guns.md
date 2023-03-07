@@ -1,5 +1,5 @@
 ---
-title: "Do Republicans cause more gun deaths?"
+title: "Do Republicans cause gun deaths?"
 permalink: /3040/guns/
 excerpt: 
 toc: false
@@ -7,19 +7,17 @@ toc: false
 
 ------------------------------------------------------------------------
 
-# Do Republicans cause gun deaths?
-
 Indirectly "yes", but I will ultimately argue "no".
 
 > People don't kill people, guns kill people.
 
-### Introduction
+## Introduction
 
 Lots of people in the US are killed by guns. Guns are a leading cause of death among children. Mass shootings happen nearly daily. Gun laws and controls are a hotly debated and divisive political issue in the US. (Each of these statements should have a citation if this was serious research). In other parts of the world, it is obvious to us that they are crazy with their guns and that they need to stop.
 
 I will use data on gun deaths to illustrate _Omitted Variable Bias_, and to also explore the link between gun ownership and gun deaths.
 
-### Description of the data
+## Description of the data
 
 The data is for US states in 2016, and comes from various sources.
 
@@ -67,35 +65,28 @@ The data is for US states in 2016, and comes from various sources.
 </font>
 </div>
 
-# Download a CPS data set {#cps}
+# Download the data
 
 Download the data from the website using:
 
 ```r
-cps <- read.csv("https://rtgodwin.com/data/cps1985.csv")
+guns <- read.csv("https://rtgodwin.com/data/guns.csv")
 ```
 
-This is a sub-sample from the 1985 wave of the "Current Population Survey" in the US, which contains information on individual wages and demographic characteristics. Take a good look at the data set either by clicking on the spreadsheet icon next to its object name in the top-right window, or by using the command `View(cps)`. I'll just take a look at the first 6 observations for each variable:
+Take a look at the first 6 observations for each variable:
 
 ```r
-head(cps)
+head(guns)
 ```
 
 ```
-##    wage education experience age ethnicity region gender occupation
-## 1  5.10         8         21  35  hispanic  other female     worker
-## 2  4.95         9         42  57      cauc  other female     worker
-## 3  6.67        12          1  19      cauc  other   male     worker
-## 4  4.00        12          4  22      cauc  other   male     worker
-## 5  7.50        12         17  35      cauc  other   male     worker
-## 6 13.07        13          9  28      cauc  other   male     worker
-##          sector union married
-## 1 manufacturing    no     yes
-## 2 manufacturing    no     yes
-## 3 manufacturing    no      no
-## 4         other    no      no
-## 5         other    no     yes
-## 6         other   yes      no
+       state death.per.100k gun.owner trump.vote back.check permit
+1    Alabama           21.5      52.8       62.1          0      0
+2     Alaska           23.3      57.2       51.3          0      0
+3    Arizona           15.2      36.0       48.1          0      0
+4   Arkansas           17.8      51.8       60.6          0      0
+5 California            7.9      16.3       31.5          1      1
+6   Colorado           14.3      37.9       43.3          1      0
 ```
 
 Notice that many of the variables do not contain numbers, but are instead characters (words). For example, the `ethnicity` variable takes on values "hispanic", "cauc", and "other". In order to use variables such as `ethnicity`, `region` and `gender`, we need to create dummy variables from them. From the `ethnicity` variable for example, we would create 2 dummies, even though there are 3 categories (in order to avoid the dummy variable trap).
