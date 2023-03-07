@@ -35,25 +35,25 @@ The data is for US states in 2016, and comes from various sources.
 </thead>
 <tbody>
 <tr class="odd">
-<td style="text-align: left;">`death.per.100k`</td>
+<td style="text-align: left;">death.per.100k</td>
 <td style="text-align: left;">The number of gun deaths per 100,000 people, in 2016.</td>
 <td style="text-align: left;"><a href="https://www.cdc.gov/nchs/pressroom/sosmap/firearm_mortality/firearm.htm">CDC</a></td>
 </tr>
   
 <tr class="even">
-<td style="text-align: left;">`gun.owner`</td>
+<td style="text-align: left;">gun.owner</td>
 <td style="text-align: left;">The estimated percentage of households in 2016 that owned guns.</td>
 <td style="text-align: left;"><a href="https://www.rand.org/pubs/tools/TL354.html">RAND</a></td>
 </tr>
   
 <tr class="odd">
-<td style="text-align: left;">`trump.vote`</td>
+<td style="text-align: left;">trump.vote</td>
 <td style="text-align: left;">The percentage of votes for Trump in 2016. This variable is meant to measure the percentage of Repbulicans by state.</td>
 <td style="text-align: left;"><a href="https://www.nytimes.com/elections/2016/results/president">New York Times</a></td>
 </tr> 
 
 <tr class="even">
-<td style="text-align: left;">`back.check`</td>
+<td style="text-align: left;">back.check</td>
 <td style="text-align: left;">A dummy variable indicating whether the state has background checks.</td>
 <td style="text-align: left;"><a href="https://www.rand.org/pubs/tools/TL354.html">RAND</a></td>
 </tr>
