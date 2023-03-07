@@ -101,6 +101,10 @@ summary(lm(wage ~ ethnicity, data = cps))
 
 ![](https://rtgodwin.com/3040/images/guns.png)
 
+Now estimate the model:
+
+$death.per.100k = \beta_0 + \beta_1trump.votes + \epsilon$
+
 
 
 
