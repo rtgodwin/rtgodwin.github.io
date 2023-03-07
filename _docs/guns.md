@@ -33,7 +33,7 @@ The data is for US states in 2016, and comes from various sources.
 <th style="text-align: center;">Source</th>
 </tr>
 </thead>
-
+<tbody>
 <tr class="odd">
 <td style="text-align: left;">`death.per.100k`</th>
 <td style="text-align: left;">The number of gun deaths per 100,000 people, in 2016.</td>
