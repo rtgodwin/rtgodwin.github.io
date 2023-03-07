@@ -172,4 +172,8 @@ F-statistic: 23.42 on 3 and 46 DF,  p-value: 2.37e-09
 - It is estimated that for every additional 1% of households that own guns, an extra 0.19 people died per 100k.
 - Backgorund checks have a negative, but statistically insignificant impact.
 
+## Summary
+
+After including `gun.ownership`, `trump.vote` is no longer statistically significant. On einterpretation of the above estimated results is that the percentage of Republicans only effects gun deaths _through_ the tendency of Republicans to have more guns. That is, after controlling for the amount of guns, it doesn't matter whether a people are Republican or not. That is, two state with differing percentages of Republicans, but with the same percentage of guns, would have the same amount of gun deaths. 
+
 
