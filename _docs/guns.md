@@ -96,38 +96,45 @@ head(guns)
 Plot the data:
 
 ```r
-summary(lm(wage ~ ethnicity, data = cps))
+plot(guns$trump.vote, guns$death.per.100k,
+     xlab = "Trump vote percentage in 2016",
+     ylab = "Gun deaths per 100k population",
+     main = "Deaths and votes by state",
+     pch = 16, col = "magenta")
 ```
 
 ![](https://rtgodwin.com/3040/images/guns.png)
 
-Now estimate the model:
+Now we'll estimate the model:
 
 $death.per.100k = \beta_0 + \beta_1trump.votes + \epsilon$
 
+In R we can use:
 
-
+```r
+mod1 <- lm(death.per.100k ~ trump.vote, data = guns)
+summary(mod1)
+```
 
 ```
-## Call:
-## lm(formula = wage ~ ethnicity, data = cps)
-## 
-## Residuals:
-##    Min     1Q Median     3Q    Max 
-## -8.278 -3.765 -1.278  2.205 35.222 
-## 
-## Coefficients:
-##                   Estimate Std. Error t value Pr(>|t|)    
-## (Intercept)         9.2779     0.2439  38.032   <2e-16 ***
-## ethnicityhispanic  -1.9946     1.0146  -1.966   0.0498 *  
-## ethnicityother     -1.2196     0.6711  -1.817   0.0697 .  
-## ---
-## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
-## 
-## Residual standard error: 5.117 on 531 degrees of freedom
-## Multiple R-squared:  0.01227,    Adjusted R-squared:  0.008545 
-## F-statistic: 3.297 on 2 and 531 DF,  p-value: 0.03776
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) -2.95296    2.57444  -1.147    0.257    
+trump.vote   0.32572    0.05131   6.348 7.36e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 3.67 on 48 degrees of freedom
+Multiple R-squared:  0.4564,	Adjusted R-squared:  0.4451 
+F-statistic:  40.3 on 1 and 48 DF,  p-value: 7.357e-08
 ```
+
+- The estimated effect of 0.32572 means that an additional 1% vote for Trump is associated with an extra 0.33 gun deaths per 100,000 population.
+- To try to put this in perspective, in California this would be an extra 129 gun deaths in 2016.
+- The p-value on `trump.vote` is small (0.0000000736). We reject the null that percentage of Republicans have no association with gun deaths. According to this model, `trump.vote` is statistically significant.
+
+The above estimated effect of `trump.vote` on gun deaths is likely biased. This is a situation of Omitted Variable Bias (OVB). What do you think the most important determinant of gun deaths is?
+
 How would you interpret the estimated coefficients?
 
 Answer: Hispanics make 1.9946 less on average compared to whites, and other ethnicities make 1.2196 less on average compared to whites, according to this data.
