@@ -37,7 +37,7 @@ The data is for US states in 2016, and comes from various sources.
 <tr class="odd">
 <td style="text-align: left;">`death.per.100k`</td>
 <td style="text-align: left;">The number of gun deaths per 100,000 people, in 2016.</td>
-<td style="text-align: left;">[CDC](https://www.cdc.gov/nchs/pressroom/sosmap/firearm_mortality/firearm.htm)</td>
+<td style="text-align: left;"><a href="https://www.cdc.gov/nchs/pressroom/sosmap/firearm_mortality/firearm.htm">CDC</a></td>
 </tr>
   
 <tr class="even">
