@@ -101,6 +101,9 @@ summary(lm(wage ~ ethnicity, data = cps))
 
 ![](https://rtgodwin.com/3040/images/guns.png)
 
+
+
+
 ```
 ## Call:
 ## lm(formula = wage ~ ethnicity, data = cps)
