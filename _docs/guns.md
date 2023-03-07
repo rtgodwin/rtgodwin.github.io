@@ -7,9 +7,56 @@ toc: false
 
 ------------------------------------------------------------------------
 
-# Do Republicans cause more gun deaths?
+# Do Republicans cause gun deaths?
 
+Indirectly "yes", but I will ultimately argue "no".
 
+> People don't kill people, guns kill people.
+
+### Introduction
+
+Lots of people in the US are killed by guns. Guns are a leading cause of death among children. Mass shootings happen nearly daily. Gun laws and controls are a hotly debated and divisive political issue in the US. (Each of these statements should have a citation if this was serious research). In other parts of the world, it is obvious to us that they are crazy with their guns and that they need to stop.
+
+I will use data on gun deaths to illustrate _Omitted Variable Bias_, and to also explore the link between gun ownership and gun deaths.
+
+### Description of the data
+
+The data is for US states in 2016, and comes from various sources.
+
+<div align="center">
+
+<font size = "4">
+
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: left;">Variable</th>
+<th style="text-align: right;">death.per.100k</th>
+<th style="text-align: right;">gun.owner</th>
+<th style="text-align: right;">trump.vote</th>
+<th style="text-align: right;">back.check</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Description</td>
+<td style="text-align: right;">The number of gun deaths per 100,000 people, in 2016.</td>
+<td style="text-align: right;">The estimated percentage of households in 2016 that owned guns.</td>
+<td style="text-align: right;">The percentage of votes for Trump in 2016. This variable is meant to measure the percentage of Repbulicans by state.</td>
+<td style="text-align: right;">A dummy variable indicating whether the state has background checks.</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Source</td>
+<td style="text-align: right;">[CDC](https://www.cdc.gov/nchs/pressroom/sosmap/firearm_mortality/firearm.htm)</td>
+<td style="text-align: right;">RAND [State-Level Estimates of Household Firearm Ownership](https://www.rand.org/pubs/tools/TL354.html)</td>
+<td style="text-align: right;">[New York Times](https://www.nytimes.com/elections/2016/results/president)</td>
+<td style="text-align: right;">RAND [State-Level Estimates of Household Firearm Ownership](https://www.rand.org/pubs/tools/TL354.html)</td>
+</tr>
+</tbody>
+</table>
+
+</font>
+</div>
 
 # Download a CPS data set {#cps}
 
