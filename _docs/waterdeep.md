@@ -27,3 +27,7 @@ You will begin in the famous tavern the [Yawning Portal](https://rtgodwin.com/dn
 
 ## Oleander Resources
 Circle of the Moon - ["Wild Shape" beast list](https://docs.google.com/spreadsheets/d/1dTGapgzFstOdRr5EJEV6sAhtNSYi0QsX-Tgr2GRutWI/edit#gid=2001884058)
+
+# Session 1
+
+- [Paper bird](https://rtgodwin.com/dnd/paperbird.png)
