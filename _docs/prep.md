@@ -191,10 +191,13 @@ A character who searches the offices finds an unused [paper bird](https://www.dn
 ## Recap
 - Someone recap.
 - Interrogated the Kenku. "Follow the yellow signs in the sewers."
-- Where was everone. Was anyone watching the door?
-- Roll perception for who is surprised.
+- Where was everone. Was anyone watching the door? Who is with the Kenku? Renaer is eating a ration in the middle of eating a ration in the corner. You were passing around loot.
+- Stealth (+1) for Watch, perception for who is surprised.
 
 ## City Watch
 
 ### [Hyustus Staget](https://www.dndbeyond.com/monsters/17045-veteran)
 
+> The watch is upon you suddenly. Guards begin fanning out, you are soon surrounded by six, while another 6 begin securing and searching the warehouse.
+> Multiple guards are yelling at you to "Drop your weapons!"
+> Renaer comes forward, and the Captain seems to recognize him and straighten up a bit. "What in Helm's name is going on here?"
