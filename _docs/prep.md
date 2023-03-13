@@ -185,3 +185,8 @@ Mounted above each office door is a steel alarm bell. The bells are connected by
 
 #### Treasure
 A character who searches the offices finds an unused [paper bird](https://www.dndbeyond.com/magic-items/254337-paper-bird).
+
+# Session 2
+
+- Where was everone. Was anyone watching the door?
+- Roll perception for who is surprised.
