@@ -257,3 +257,46 @@ We take the unrestricted model, and substitute in the values for the $\beta$ tha
 ```r
 model2.restricted <-  
 ```
+
+<div align="center">
+
+<font size = "4">
+
+<table>
+<thead>
+<tr class="header">
+<th style="text-align: center;">q</th>
+<th style="text-align: center;">5% critical value</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: center;">3.84</td>
+</tr>
+
+<tr class="odd">
+<td style="text-align: center;">2</td>
+<td style="text-align: center;">3.00</td>
+</tr>
+  
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: center;">2.60</td>
+</tr>
+  
+<tr class="odd">
+<td style="text-align: center;">4</td>
+<td style="text-align: center;">2.37</td>
+</tr>
+
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: center;">2.21</td>
+</tr>  
+  
+</tbody>
+</table>  
+
+</font>
+</div>
