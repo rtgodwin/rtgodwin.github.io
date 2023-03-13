@@ -254,5 +254,6 @@ This has already been estimated as `model2`.
 
 We take the unrestricted model, and substitute in the values for the $\beta$ that have been specified in $H_0$:
 
-```
+```r
 model2.restricted <-  
+```
