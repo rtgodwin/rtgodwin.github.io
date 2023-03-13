@@ -260,7 +260,9 @@ model2.restricted <- lm(wage ~ ethnicity + region + gender + occupation + sector
                         + union + married, data = cps)
 ```
 
-then we put both models into the `anova()` function:
+## `anova()`
+
+We put both estimated models into the `anova()` function:
 
 ```r
 anova(model2, model2.restricted)
@@ -331,7 +333,7 @@ The results of this test indicate that we should not drop these three variables 
 
 # Another F-test
 
-Test the joint significance of the `ethnicity`, `sector`, and `union` variables (which all appear to be statistically insignificant according to the t-tests):
+Test the joint significance of the `ethnicity`, `sector`, and `married` variables (which all appear to be statistically insignificant according to the t-tests):
 
 ```r
 model3 <- lm(wage ~ education + experience + age + region + gender 
