@@ -201,3 +201,5 @@ A character who searches the offices finds an unused [paper bird](https://www.dn
 > The watch is upon you suddenly. Guards begin fanning out, you are soon surrounded by six, while another 6 begin securing and searching the warehouse.
 > Multiple guards are yelling at you to "Drop your weapons!"
 > Renaer comes forward, and the Captain seems to recognize him and straighten up a bit. "What in Helm's name is going on here?"
+
+If characters don't answer, Renaer steps forward.
