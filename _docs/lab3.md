@@ -193,6 +193,10 @@ Answer: `gender`, `occupation`, and `union` are the only variables that appear t
 
 Note: We can use the code `lm(wage ~ ., data = cps)` to estimate the above model, instead of typing every variable out. The `.` tells R to include every variable in the data set on the right-hand-side of the population model.
 
+# Adjusted R-square
+
+What percentage of the variance in `wage` can be explained using the model? Now that we are working with a multiple regression model, we need to look at the "Adjusted R-squared" instead of the "Multiple R-squared". The answer is 30.56%.
+
 # Review: _single_ hypothesis test (t-test) {#hyp}
 
 Using the above estimated model, test the hypothesis that the returns to education are zero. The null and alternative hypotheses are:
