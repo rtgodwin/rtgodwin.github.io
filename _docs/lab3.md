@@ -193,7 +193,7 @@ Answer: `gender`, `occupation`, and `union` are the only variables that appear t
 
 Note: We can use the code `lm(wage ~ ., data = cps)` to estimate the above model, instead of typing every variable out. The `.` tells R to include every variable in the data set on the right-hand-side of the population model.
 
-# Hypothesis tests {#hyp}
+# Review: _single_ hypothesis test (t-test) {#hyp}
 
 Using the above estimated model, test the hypothesis that the returns to education are zero. The null and alternative hypotheses are:
 
@@ -233,3 +233,26 @@ Now our p-value is found by:
 The `pt()` command gives the probability to the left of t-statistic. Since our t-statistic is greater than zero, we want the area to the right, so we have to use `1 - pt()`, and since our alternative hypothesis is two sided we need to multiply by two: `* 2`. Be sure that you can find this p-value in the `summary(model2)` table.
 
 Notice that all tests of "no effect" have been automatically performed by R, but that any test where the $\beta$ takes a non-zero value under the null hypothesis needs to be calculated manually.
+
+# Multiple hypothesis test (F-test)
+
+Education, experience, and age are variables that are highly multicollinear (see Section 6.4.2 in the textbook on imperfect multicollinearity). They _appear_ to be statistically insignificant (according to their large p-values). If we want to drop them from the model, we need to test to see if they are _jointly_ insignificant:
+
+$H_0: \beta_{education} = 0 \text{and} \beta_{experience} = 0 \text{and} \beta_{age} = 0$
+$H_A: not H_0$
+
+- Since it is a _joint_ hypothesis (the hypothesis includes multiple restrictions on the $\beta$), we need to use an F-test.
+- To calculate the F-statistic, we can estimate two different models, and compare them using the `anova()` function.
+- One model we need to estimate is the _unrestricted_ model (the model under the alternative hypothesis).
+- The other model we need to estimate is the restricted model (under the null hypothesis).
+
+## Unrestricted model
+
+This has already been estimated as `model2`.
+
+## Restricted model
+
+We take the unrestricted model, and substitute in the values for the $\beta$ that have been specified in $H_0$:
+
+```
+model2.restricted <-  
