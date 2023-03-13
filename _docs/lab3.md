@@ -238,7 +238,8 @@ Notice that all tests of "no effect" have been automatically performed by R, but
 
 Education, experience, and age are variables that are highly multicollinear (see Section 6.4.2 in the textbook on imperfect multicollinearity). They _appear_ to be statistically insignificant (according to their large p-values). If we want to drop them from the model, we need to test to see if they are _jointly_ insignificant:
 
-$H_0: \beta_{education} = 0 \text{and} \beta_{experience} = 0 \text{and} \beta_{age} = 0$
+$H_0: \beta_{education} = 0 \text{ and } \beta_{experience} = 0 \text{ and } \beta_{age} = 0$
+
 $H_A: not H_0$
 
 - Since it is a _joint_ hypothesis (the hypothesis includes multiple restrictions on the $\beta$), we need to use an F-test.
