@@ -188,5 +188,13 @@ A character who searches the offices finds an unused [paper bird](https://www.dn
 
 # Session 2
 
+## Recap
+- Someone recap.
+- Interrogated the Kenku. "Follow the yellow signs in the sewers."
 - Where was everone. Was anyone watching the door?
 - Roll perception for who is surprised.
+
+## City Watch
+
+### [Hyustus Staget](https://www.dndbeyond.com/monsters/17045-veteran)
+
