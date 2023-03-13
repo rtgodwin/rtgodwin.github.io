@@ -70,10 +70,10 @@ docs:
         url: https://www.youtube.com/watch?v=CXToeZnajco
       - title: "2. Least Squares"
         url: /3040/lab2/
-      - title: "3. Guns, Republicans, and OVB"
+      - title: "Guns, Republicans, and OVB"
         url: /3040/guns/
-#      - title: "3. Multiple Regression"
-#        url: /3040/lab3/
+      - title: "3. Multiple Regression"
+        url: /3040/lab3/
 #      - title: "4. Polynomials, logs, and interactions"
 #        url: /3040/lab4/
   - title: Assignments
@@ -86,7 +86,7 @@ docs:
         url: https://rtgodwin.com/3040/assignments/assign2.pdf
       - title: "Assign. 2 Answers"
         url: /3040/assign2ans/
-#      - title: "Assignment 3"
+      - title: "Assignment 3"
 #        url: https://rtgodwin.com/3040/assignments/assign3.pdf
 #      - title: "Assign. 3 Answers"
 #        url: /3040/assign3ans/
