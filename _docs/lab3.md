@@ -240,7 +240,7 @@ Education, experience, and age are variables that are highly multicollinear (see
 
 $H_0: \beta_{education} = 0 \text{ and } \beta_{experience} = 0 \text{ and } \beta_{age} = 0$
 
-$H_A: not H_0$
+$H_A: \text{not } H_0$
 
 - Since it is a _joint_ hypothesis (the hypothesis includes multiple restrictions on the $\beta$), we need to use an F-test.
 - To calculate the F-statistic, we can estimate two different models, and compare them using the `anova()` function.
@@ -256,8 +256,35 @@ This has already been estimated as `model2`.
 We take the unrestricted model, and substitute in the values for the $\beta$ that have been specified in $H_0$:
 
 ```r
-model2.restricted <-  
+model2.restricted <- lm(wage ~ ethnicity + region + gender + occupation + sector
+                        + union + married, data = cps)
 ```
+
+then we put both models into the `anova()` function:
+
+```r
+anova(model2, model2.restricted)
+```
+
+```
+Analysis of Variance Table
+
+Model 1: wage ~ education + experience + age + ethnicity + region + gender + 
+    occupation + sector + union + married
+Model 2: wage ~ ethnicity + region + gender + occupation + sector + union + 
+    married
+  Res.Df     RSS Df Sum of Sq      F    Pr(>F)    
+1    517  9480.8                                  
+2    520 10396.0 -3   -915.19 16.636 2.481e-10 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+```
+
+The F-statistic is 16.636. According to the table below, the 5% critical value is 2.60 (we have three restrictions in $H_0$, so $q = 3$). Since the F-stat is greater than 2.60, we reject the null that _education_, _experience_, and _age_, have no effect on wage.
+
+We can also look at the p-value to make our "reject" or "fail to reject" decision. The p-value for this test is `2.481e-10` or 0.0000000002481. We reject the null at any common significance level.
+
+The results of this test indicate that we should not drop these three variables from the model
 
 <div align="center">
 
@@ -301,3 +328,54 @@ model2.restricted <-
 
 </font>
 </div>
+
+# Another F-test
+
+Test the joint significance of the `ethnicity`, `sector`, and `union` variables (which all appear to be statistically insignificant according to the t-tests):
+
+```r
+model3 <- lm(wage ~ education + experience + age + region + gender 
+             + occupation + union, data = cps)
+anova(model2, model3)
+```
+
+```
+Analysis of Variance Table
+
+Model 1: wage ~ education + experience + age + ethnicity + region + gender + 
+    occupation + sector + union + married
+Model 2: wage ~ education + experience + age + region + gender + occupation + 
+    union
+  Res.Df    RSS Df Sum of Sq      F Pr(>F)
+1    517 9480.8                           
+2    522 9599.2 -5   -118.44 1.2918 0.2659
+```
+
+With a p-value of 0.2659, we fail to reject the null that these variables have no effect on wage. This suggests that we might drop the variables from the model. The final estimated model is:
+
+```r
+summary(model3)
+```
+
+```
+Coefficients:
+                    Estimate Std. Error t value Pr(>|t|)    
+(Intercept)           0.7047     6.6569   0.106 0.915739    
+education             0.7682     1.0865   0.707 0.479852    
+experience            0.1896     1.0818   0.175 0.860961    
+age                  -0.0958     1.0808  -0.089 0.929402    
+regionsouth          -0.6878     0.4155  -1.655 0.098503 .  
+gendermale            1.8471     0.4161   4.439 1.11e-05 ***
+occupationoffice     -3.3463     0.7608  -4.398 1.32e-05 ***
+occupationsales      -3.9753     0.9151  -4.344 1.68e-05 ***
+occupationservices   -4.1478     0.8061  -5.145 3.78e-07 ***
+occupationtechnical  -1.2713     0.7287  -1.745 0.081651 .  
+occupationworker     -2.7993     0.7573  -3.697 0.000242 ***
+unionyes              1.5180     0.5089   2.983 0.002988 ** 
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 4.288 on 522 degrees of freedom
+Multiple R-squared:  0.3181,	Adjusted R-squared:  0.3037 
+F-statistic: 22.13 on 11 and 522 DF,  p-value: < 2.2e-16
+```
