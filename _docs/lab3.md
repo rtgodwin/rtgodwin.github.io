@@ -123,7 +123,7 @@ predict(model1, data.frame(education = 12, gender = "female"))
 
 This is the same as $-1.906 + 0.751(12) + 2.124(0) = 7.106$.
 
-We just "plug" the numbers into the estimated equation. Take a moment to let the usefulness of prediction wash over you. You want to know how much a house will sell for? How much product you will sell at a certain price? How much GDP will be lost if the temperature rises by 3$^{\circ}$C?
+We just "plug" the numbers into the estimated equation. Using models to make predictions is very useful. You want to know how much a house will sell for? How much product you will sell at a certain price? How much GDP will be lost if the temperature rises by 3$^{\circ}$C?
 
 # Avoiding OVB - estimate a bigger model {#OVB}
 
