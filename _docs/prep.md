@@ -204,9 +204,19 @@ A character who searches the offices finds an unused [paper bird](https://www.dn
 
 If characters don't answer, Renaer steps forward.
 
-## Trollskull Alley
+## Trollskull Manor
 
 - 45 min walk from Yawing Portal.
 - Deed transferred in courthouse in the Castle Ward, magistrate Kylynne Silmerhelve.
-- As they explore, doors slam open and shut. Plate smashes. "Closing time" and "last call" in the dust. Mug rises from the shelf, and is hurled at you - what do you do?
+- As they explore:
+  - doors slam open and shut
+  - plate smashes
+  - "Closing time" and "last call" in the dust
+  - Mug rises from the shelf, and is hurled at you - what do you do?
+  - A few bones of small animals littered around, cats, a giant rat, and birds it looks like (from mimic)
 - In basement: hear squeek, then SQUEEK. 5 [Giant rats](https://www.dndbeyond.com/monsters/16891-giant-rat) (deadly for 1 person)
+- In an upper room, a pristine looking wardrobe. As soon as PC approached, is grappled by a [Mimic](https://roll20.net/compendium/dnd5e/Mimic#content)
+
+### Lif
+
+Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. He will then warn characters of rats and mimic.
