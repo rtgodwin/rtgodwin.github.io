@@ -203,3 +203,10 @@ A character who searches the offices finds an unused [paper bird](https://www.dn
 > Renaer comes forward, and the Captain seems to recognize him and straighten up a bit. "What in Helm's name is going on here?"
 
 If characters don't answer, Renaer steps forward.
+
+## Trollskull Alley
+
+- 45 min walk from Yawing Portal.
+- Deed transferred in courthouse in the Castle Ward, magistrate Kylynne Silmerhelve.
+- As they explore, doors slam open and shut. Plate smashes. "Closing time" and "last call" in the dust. Mug rises from the shelf, and is hurled at you - what do you do?
+- In basement: hear squeek, then SQUEEK. 5 [Giant rats](https://www.dndbeyond.com/monsters/16891-giant-rat) (deadly for 1 person)
