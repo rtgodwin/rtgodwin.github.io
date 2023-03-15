@@ -1,3 +1,11 @@
+---
+title: "Waterdeep: Dragon Heist Notes"
+permalink: /dndtest/
+excerpt:
+last_modified_at:
+toc: false
+---
+
 # Waterdeep: Dragon Heist
 
 You will begin in the famous tavern the Yawning Portal, in the city of Waterdeep.
