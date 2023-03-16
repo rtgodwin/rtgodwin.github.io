@@ -204,6 +204,13 @@ A character who searches the offices finds an unused [paper bird](https://www.dn
 
 If characters don't answer, Renaer steps forward.
 
+## Reward
+
+- Who is leading the conversation with Volo? Hand them the deed.
+- Volo's guide to spirits has been put aside, no longer need the property. Not very liquid right now. 
+
+> I assure you the property is worth twice what I owe you (mutters: more if it weren't *coughs* HAUNTED)
+
 ## Trollskull Manor
 
 - 45 min walk from Yawing Portal.
