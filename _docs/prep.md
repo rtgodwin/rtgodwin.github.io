@@ -220,3 +220,11 @@ If characters don't answer, Renaer steps forward.
 ### Lif
 
 Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. He will then warn characters of rats and mimic.
+
+## Trollskull Alley
+
+### Rival
+
+Emmek Frewn (NE)
+
+> So Volo outbid me on this property, and now _you_ have it?
