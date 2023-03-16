@@ -190,7 +190,8 @@ A character who searches the offices finds an unused [paper bird](https://www.dn
 
 ## Recap
 - Someone recap.
-- Interrogated the Kenku. "Follow the yellow signs in the sewers."
+- Volo hired you to find Floon. Paid 10gp each, promised another 100gp. (This is good money - a month of staying in a good inn and living and eating well).
+- Interrogated the Kenku. "Follow the yellow signs in the sewers." Found Renaer. Kidnapped by Zhentarim - stone - Xanathar - Floon.
 - Where was everone. Was anyone watching the door? Who is with the Kenku? Renaer is eating a ration in the middle of eating a ration in the corner. You were passing around loot.
 - Stealth (+1) for Watch, perception for who is surprised.
 
@@ -209,7 +210,9 @@ If characters don't answer, Renaer steps forward.
 - Who is leading the conversation with Volo? Hand them the deed.
 - Volo's guide to spirits has been put aside, no longer need the property. Not very liquid right now. 
 
-> I assure you the property is worth twice what I owe you (mutters: more if it weren't *coughs* HAUNTED)
+> I assure you the property is worth twice what I owe you (mutters: more if it weren't *coughs* HAUNTED). Do you accept?
+
+> Please, inspect the property tonight if you wish, and those willing, meet me at
 
 ## Trollskull Manor
 
