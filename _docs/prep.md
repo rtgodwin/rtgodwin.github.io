@@ -218,7 +218,14 @@ If characters don't answer, Renaer steps forward.
 
 - 45 min walk from Yawing Portal.
 - Deed transferred in courthouse in the Castle Ward, magistrate Kylynne Silmerhelve.
-- As they explore:
+
+> The neighbourhood is quite respectable and vibrant.
+
+> Four stories tall and boasting balconies, a turret, and five chimneys, the abandoned building is one of the grandest in Trollskull Alley.
+
+> Tavern’s taproom is filled with broken furniture, tarnished silverware, casks of wine that have turned to vinegar.
+
+- Who is exploring and doing what. Do they split up?:
   - doors slam open and shut
   - plate smashes
   - "Closing time" and "last call" in the dust
