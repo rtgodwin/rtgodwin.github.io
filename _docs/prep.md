@@ -231,7 +231,7 @@ If characters don't answer, Renaer steps forward.
   - "Closing time" and "last call" in the dust
   - Mug rises from the shelf, and is hurled at you - what do you do?
   - A few bones of small animals littered around, cats, a giant rat, and birds it looks like (from mimic)
-- In basement: hear squeek, then SQUEEK. 5 [Giant rats](https://www.dndbeyond.com/monsters/16891-giant-rat) (deadly for 1 person)
+- In basement: hear squeek, then SQUEEK. 5 [Giant rats](https://www.dndbeyond.com/monsters/16891-giant-rat) (deadly for 1 person). Investigation: you decide to look at the exterior of the building and find evidence of tampering.
 - In an upper room, a pristine looking wardrobe. As soon as PC approached, is grappled by a [Mimic](https://roll20.net/compendium/dnd5e/Mimic#content)
 
 ### Lif
@@ -300,16 +300,37 @@ Fala Lefaliir (non-binary, friends with a Zhent).
 
 - Quest: obtain some Hydrathistle.
 
+### Tiger’s Eye
+This private detective’s business is unremarkable on the outside, its only distinguishing mark an orange-and-black sign featuring a cat’s eyes. Inside is a regal apartment dimly lit by flickering oil lamps. The door is locked, and visitors must knock or ring the bell before being let in.
+
+> You are looking for someone, yes? No. You want information.
+
+They are met by Vincent Trench, a human detective and the owner of the Tiger’s Eye. He speaks concisely, dresses in a sharp suit, and smokes a slim pipe. Vincent is in fact a rakshasa named Valantajar that always casts disguise self on itself before seeing visitors. The rakshasa has lived in Waterdeep for years, switching identities as often as needed to keep its true nature hiden. It has grown accustomed to living among mortals and, much to its own astonishment, is rather fond of Waterdeep and its citizens.
+
+#### Services
+Trench can discover any secret in Waterdeep, for a fee. Use your judgment when pricing its services; 50 gp is sufficient for most investigations, but if the characters want to learn secrets relating to the major antagonists of this adventure, the rakshasa might require a service in payment, such as slaying enemies that are hunting it, posting advertisements for its business in their tavern, or keeping tabs on someone Vincent has been hired to spy on.
+
+### Book Wyrm’s Treasure
+The front of this bookstore is adorned with a charming sign of a gold dragon curled around a treasure hoard of books and scrolls. Inside, the shop is decorated with beautiful hardwood, and the earthy scent of old books permeates the air. The library fills two floors of this three-story building, and it somehow seems to contain more shelves than the building should be able to hold.
+
+The shop is managed by a short dragonborn of gold dragon ancestry named Rishaal the Page-Turner, who lives on the third floor. Rishaal, a member of the Watchful Order of Magists and Protectors, is a mage, with these changes:
+
+Rishaal is neutral.
+
+#### Services
+The shop contains books of all sorts. In addition, Rishaal has a small collection of spellbooks and allows wizards to copy spells from them at the cost listed in the Spells for Sale table. He can scribe any of these spells as a spell scroll but charges twice the listed cost for this service.
+
 ### Zephyr Post
 Birds of all colors can be seen delivering letters through the upper windows of this sky-blue townhouse at all hours of the day. The residents of Trollskull Alley and other nearby streets use the Zephyr Post to deliver letters to friends, colleagues, and mercenaries throughout Waterdeep. The inside of the shop is filled with the sweet aroma of Calishite incense.
  
 The Zephyr Post’s hawks can deliver a message to any address in Waterdeep for 2 sp.
 
-
+### Sewer Access
+At the east end of Trollskull Alley is a removable metal grate that covers an opening. Below the grate, a ladder descends 20 feet into the Waterdeep sewer system.
 
 ### Rival
 
 Emmek Frewn (NE)
 
-> So Volo outbid me on this property, and now _you_ have it?
+> So Volo outbid me on this property, and now _you_ have it? Yeah you ding dongs sure look like business geniuses. (Chuckles: ding dongs hah). We're going to run in you into the ground lady.
 
