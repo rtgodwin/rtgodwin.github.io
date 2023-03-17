@@ -10,7 +10,7 @@ toc: false
 - Someone recap.
 - Volo hired you to find Floon. Paid 10gp each, promised another 100gp. (This is good money - a month of staying in a good inn and living and eating well).
 - Interrogated the Kenku. "Follow the yellow signs in the sewers." Found Renaer. Kidnapped by Zhentarim - stone - Xanathar - Floon.
-- Where was everone. Was anyone watching the door? Who is with the Kenku? Renaer is eating a ration in the middle of eating a ration in the corner. You were passing around loot.
+- Where was everone. Was anyone watching the door? Who is with the Kenku? Renaer is composing himself in the corner. You were passing around loot.
 - Stealth (+1) for Watch, perception for who is surprised.
 
 # City Watch
@@ -22,6 +22,8 @@ toc: false
 > Renaer comes forward, and the Captain seems to recognize him and straighten up a bit. "What in Helm's name is going on here?"
 
 If characters don't answer, Renaer steps forward.
+
+Hyustus might ask if the characters found any contraband.
 
 # Sewers
 
