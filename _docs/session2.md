@@ -23,6 +23,20 @@ toc: false
 
 If characters don't answer, Renaer steps forward.
 
+# Sewers
+
+There is a sewer access close to the warehouse. No light.
+
+> A putrid stream flows along this sewer tunnel, which leads in two directions. In one direction, you see a tiny symbol drawn on the wall in yellow chalk: a palm-sized circle with ten equidistant spokes radiating out from its circumference.
+
+## TWO Gazers
+
+Go to [dnd beyond](https://www.dndbeyond.com/sources/wdh/a-friend-in-need#GazerGuard).
+
+> Final sign leads to a ladder.
+
+# Hideout
+
 # Reward
 
 - Who is leading the conversation with Volo? Hand them the deed.
@@ -151,3 +165,5 @@ At the east end of Trollskull Alley is a removable metal grate that covers an op
 Emmek Frewn (NE)
 
 > So Volo outbid me on this property, and now _you_ have it? Yeah you ding dongs sure look like business geniuses. (Chuckles: ding dongs hah). We're going to run in you into the ground lady.
+
+Gives a "free" beer.
