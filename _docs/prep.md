@@ -212,14 +212,14 @@ If characters don't answer, Renaer steps forward.
 
 > I assure you the property is worth twice what I owe you (mutters: more if it weren't *coughs* HAUNTED). Do you accept?
 
-> Please, inspect the property tonight if you wish, and those willing, meet me at
+> Please, inspect the property tonight if you wish, and those willing, meet me at 
 
 ## Trollskull Manor
 
 - 45 min walk from Yawing Portal.
 - Deed transferred in courthouse in the Castle Ward, magistrate Kylynne Silmerhelve.
 
-> The neighbourhood is quite respectable and vibrant.
+> The neighbourhood is quite respectable and vibrant. There are several other businesses and establishments in the Alley.
 
 > Four stories tall and boasting balconies, a turret, and five chimneys, the abandoned building is one of the grandest in Trollskull Alley.
 
@@ -239,6 +239,25 @@ If characters don't answer, Renaer steps forward.
 Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. He will then warn characters of rats and mimic.
 
 ## Trollskull Alley
+
+### The Bent Nail
+A small wooden sign above this shop’s main door is bare except for a large, bent nail sticking out of it. The front room contains displays of ornate wooden furniture, as well as a selection of bows and crossbows. The wall behind the counter is lined with rows of finely carved wooden canes, quarterstaffs, and shields.
+
+Talisolvanar “Tally” Fellbranch (CG), the owner and chief artisan of the Bent Nail, is a male half-elf carpenter and woodcarver. He is a commoner, with these changes:
+
+Tally sells wooden weapons and shields at normal cost. He also crafts and sells furniture and wood sculptures.
+
+### Steam and Steel
+During daylight hours, smoke and steam billow from the many windows around this indoor forge where metal weapons, armor, and tools are made. The forge is owned and operated by a married couple: a fire genasi named Embric and a water genasi named Avi. Both are members of the Most Careful Order of Skilled Smiths and Metalforgers. As an armorer, Avi also belongs to the Splendid Order of Armorers, Locksmiths, and Finesmiths.
+
+> You see a fire Genasi (efreet) blasting some metal with produce flame and pounding on it with big sweaty muscles, and then a water Genasi (djinn) shaping water from a bucket and cooling the metal.
+
+Embric (NG) tends the forge and is an expert weaponsmith. He claims descent from the efreet of Calimshan and is prone to extreme mood swings.
+
+Avi (NG) worships Eldath, god of peace, and uses his magic to quench hot steel. He is an expert armorsmith. Avi is laid back and speaks plainly.
+
+#### Services
+The genasi couple sells all metal weapons, armor, and shields listed in chapter 5 of the Player’s Handbook at normal cost.
 
 ### Corellon's Crown
 
@@ -280,6 +299,13 @@ Fala Lefaliir (non-binary, friends with a Zhent).
 </table>
 
 - Quest: obtain some Hydrathistle.
+
+### Zephyr Post
+Birds of all colors can be seen delivering letters through the upper windows of this sky-blue townhouse at all hours of the day. The residents of Trollskull Alley and other nearby streets use the Zephyr Post to deliver letters to friends, colleagues, and mercenaries throughout Waterdeep. The inside of the shop is filled with the sweet aroma of Calishite incense.
+ 
+The Zephyr Post’s hawks can deliver a message to any address in Waterdeep for 2 sp.
+
+
 
 ### Rival
 
