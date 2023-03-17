@@ -33,18 +33,18 @@ There is a sewer access close to the warehouse. No light.
 
 Go to [dnd beyond](https://www.dndbeyond.com/sources/wdh/a-friend-in-need#GazerGuard).
 
-> Final sign leads to a ladder.
-
-# Hideout
+Final sign leads to map.
 
 # Reward
 
 - Who is leading the conversation with Volo? Hand them the deed.
 - Volo's guide to spirits has been put aside, no longer need the property. Not very liquid right now. 
 
+> I confess that I have but few coins to spare. But never let it be said that Volo reneges on a promise. Allow me to present something much more valuable.” He holds out a scroll tube. “The deed to a remarkable property here in Waterdeep! We’ll need a magistrate to witness the transfer of ownership.
+
 > I assure you the property is worth twice what I owe you (mutters: more if it weren't *coughs* HAUNTED). Do you accept?
 
-> Please, inspect the property tonight if you wish, and those willing, meet me at 
+> Please, inspect the property tonight if you wish, and those willing to accept this property as your reward, and who want your name on the deed, meet me at the courthouse in the Castle Ward at highsun. (mutters: you'll need 25GP for the transfer tax, which I regrettably don't have at the moment).
 
 # Trollskull Manor
 
@@ -64,11 +64,25 @@ Go to [dnd beyond](https://www.dndbeyond.com/sources/wdh/a-friend-in-need#GazerG
   - Mug rises from the shelf, and is hurled at you - what do you do?
   - A few bones of small animals littered around, cats, a giant rat, and birds it looks like (from mimic)
 - In basement: hear squeek, then SQUEEK. 5 [Giant rats](https://www.dndbeyond.com/monsters/16891-giant-rat) (deadly for 1 person). Investigation: you decide to look at the exterior of the building and find evidence of tampering.
-- In an upper room, a pristine looking wardrobe. As soon as PC approached, is grappled by a [Mimic](https://roll20.net/compendium/dnd5e/Mimic#content)
+- In an upper room, a chest in pretty good condition. As soon as PC approached, is grappled by a [Mimic](https://roll20.net/compendium/dnd5e/Mimic#content)
 
 ## Lif
 
 Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. He will then warn characters of rats and mimic.
+
+## Tavernkeepers' Guild
+
+> One morning, PCs approached by a halfling named Yenkin Cherrybarrel who informs you that if you are intending on running a Tavern you must register with the Tavernkeepers' guild (100 GP).
+
+## Fixing it up
+
+1000 GP total.
+
+- Furniture from bent nail.
+- walls and roof: Carpenters’, Roofers’, and Plaisterers’ Guild
+- basement and plumbing: Cellarers’ and Plumbers’ Guild
+- clean bedsheets: Launderers’ Guild
+- meat: Guild of Butchers; ale and wine: Vintners’, Distillers’, and Brewers’ Guild; bread and pastries: Bakers’ Guild
 
 # Trollskull Alley
 
