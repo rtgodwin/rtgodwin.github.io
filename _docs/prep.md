@@ -240,8 +240,50 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 
 ## Trollskull Alley
 
+### Corellon's Crown
+
+Fala Lefaliir (non-binary, friends with a Zhent).
+
+> Herbalism and apothecary shop. There is a sign associating it with the Guild of Apothecaries and Physicians. Three-story town house, the third floor of which has been converted into a greenhouse. Its translucent glass walls allow anyone on the street to see the rainbow of flowers blossoming within.
+
+> You are greeted by a Wood Elf. "You bought the Manor, yes? You planning on fixing that place up? Pretty sure it's haunted, you must be very brave. If you're looking for potions, we have:"
+
+<table data-content-chunk-id="5b1a4f21-3052-46c2-b679-4b71dbe71a10">
+<thead>
+<tr>
+<th style="text-align: left;">Potion</th>
+<th style="text-align: left;">Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><span class="Sans-Serif-Character-Styles_Italic-Sans-Serif"><a class="tooltip-hover magic-item-tooltip" href="/magic-items/4700-potion-of-animal-friendship" data-tooltip-href="/magic-items/4700-tooltip">Potion of animal friendship</a></span></td>
+<td style="text-align: left;">125 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span class="Sans-Serif-Character-Styles_Italic-Sans-Serif"><a class="tooltip-hover magic-item-tooltip" href="/magic-items/4702-potion-of-climbing" data-tooltip-href="/magic-items/4702-tooltip">Potion of climbing</a></span></td>
+<td style="text-align: left;">50 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span class="Sans-Serif-Character-Styles_Italic-Sans-Serif"><a class="tooltip-hover magic-item-tooltip" href="/magic-items/5133-potion-of-healing-greater" data-tooltip-href="/magic-items/5133-tooltip">Potion of healing, greater</a></span></td>
+<td style="text-align: left;">250 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span class="Sans-Serif-Character-Styles_Italic-Sans-Serif"><a class="tooltip-hover magic-item-tooltip" href="/magic-items/4708-potion-of-healing" data-tooltip-href="/magic-items/4708-tooltip">Potion of healing</a></span></td>
+<td style="text-align: left;">50 gp</td>
+</tr>
+<tr>
+<td style="text-align: left;"><span class="Sans-Serif-Character-Styles_Italic-Sans-Serif"><a class="tooltip-hover magic-item-tooltip" href="/magic-items/4715-potion-of-water-breathing" data-tooltip-href="/magic-items/4715-tooltip">Potion of water breathing</a></span></td>
+<td style="text-align: left;">250 gp</td>
+</tr>
+</tbody>
+</table>
+
+- Quest: obtain some Hydrathistle.
+
 ### Rival
 
 Emmek Frewn (NE)
 
 > So Volo outbid me on this property, and now _you_ have it?
+
