@@ -48,25 +48,43 @@ Final sign leads to map.
 
 > Please, inspect the property tonight if you wish, and those willing to accept this property as your reward, and who want your name on the deed, meet me at the courthouse in the Castle Ward at highsun. (mutters: you'll need 25GP for the transfer tax, which I regrettably don't have at the moment).
 
+# Recap
+
+It has been a long night. 2 AM.
+
 # Trollskull Manor
+
+> Volo: About a month ago, the owners of the Trollskull Manor taproom _disappeared_. Neighbours have complained to the city watch of haunting (who have draggged their heels). I bought the property at a steal, for research for my book Volo's guide to spirits. 
 
 - 45 min walk from Yawing Portal.
 - Deed transferred in courthouse in the Castle Ward, magistrate Kylynne Silmerhelve.
 
 > The neighbourhood is quite respectable and vibrant. There are several other businesses and establishments in the Alley.
-
 > Four stories tall and boasting balconies, a turret, and five chimneys, the abandoned building is one of the grandest in Trollskull Alley.
-
 > Tavern’s taproom is filled with broken furniture, tarnished silverware, casks of wine that have turned to vinegar.
 
-- Who is exploring and doing what. Do they split up?:
+## Secrets
+- The house is haunted by two beings: Lif who is a harmless spectre, and his wife Falenas who is a deadly Banshee.
+- Falenas killed Lif.
+
+## Exploring the manor
+- Who is exploring and doing what. Do they split up?
   - doors slam open and shut
   - plate smashes
   - "Closing time" and "last call" in the dust
   - Mug rises from the shelf, and is hurled at you - what do you do?
+  - Hear a bone shattering wail once per day.
   - A few bones of small animals littered around, cats, a giant rat, and birds it looks like (from mimic)
-- In basement: hear squeek, then SQUEEK. 5 [Giant rats](https://www.dndbeyond.com/monsters/16891-giant-rat) (deadly for 1 person). Investigation: you decide to look at the exterior of the building and find evidence of tampering.
+
+## Mimic
 - In an upper room, a chest in pretty good condition. As soon as PC approached, is grappled by a [Mimic](https://roll20.net/compendium/dnd5e/Mimic#content)
+
+## Basement
+- Zombie here. Two graves, Lif and Falenas.
+
+## Banshee
+- Attic room contains Banshee. She hired an assassin to kill Lif, who also killed her and robbed the place.
+- Warning message on door. Elven: Don't open. Banshee! (Lif wrote it).
 
 ## Lif
 
