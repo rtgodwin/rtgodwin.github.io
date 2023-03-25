@@ -75,23 +75,11 @@ The model has become more accurate in terms of describing the wage data (the $R^
 
 ### Question 4
 
-We can use the `predict()` function:
-
-```r
-predict(mod1, data.frame(ed=12, exp=5, iqscore=100, black="no", sinmom14="no",
-                         momed=12, daded=12))
-```
-```
-449.0337
-```
-
-In the code above, we have chosen a "representative" worker, and predicted their wage based on their characteristics. The model predicts that a worker with 12 years of education, 5 years work experience, an IQ of 100, who isn't black and whose mom wasn't single, and whose mom and dad each had 12 years of education, would make an hourly wage of 4.49 dollars per hour.
-
-You don't have to use the `predict()` function for this question, you could also calculate a predicted value "by hand".
+We need to look at the _Adjusted R-squared_ $\bar{R}^2$, not the _Multiple R-squared_ $R^2$. The answer is 18.69%.
 
 ### Question 5
 
-The three variables: `sinmom14yes`, `momed`, and `daded` all have small t-statistics which indicate they are all _individually_ insignificant. However, we know that dropping them all from the model, all at once, requires that all 3 variables be _jointly_ insignificant. To justify dropping these 3 variables from the model, we need to test the null hypothesis:
+The three variables: `sinmom14yes`, `momed`, and `daded` all have small t-statistics which indicate they are all _individually_ insignificant. However, we know that dropping them all from the model, all at once, requires that all 3 variables be _jointly_ insignificant. To justify dropping these 3 variables from the model, we need to use an F-test and test the null hypothesis:
 
 $H_0: \beta_{sinmom14} = 0 \text{ and } \beta_{momed} = 0 \text{ and } \beta_{daded} = 0$
 
@@ -114,8 +102,19 @@ Model 2: wage ~ ed + exp + iqscore + black
 ```
 With an F-stat of 1.433 and a p-value of 0.2313, we **fail to reject** the null hypothesis that all 3 variables are jointly insignificant. We can drop them from the model.
 
-You don't have to use the `anova()` function for this question, you could also calculate the F-stat "by hand".
+You don't have to use the `anova()` function for this question, you could also calculate the F-stat "by hand" and compare it to the critical value of 2.60.
 
 ### Question 6
 
-We have now estimated three different models, each providing a different estimate for the returns to education. The model from Question 1 likely suffers from omitted variable bias, so we shouldn't use this model. Using either the model from question 3 or from question 6, we could report the estimated returns to education as either 48 cents, or 49 cents. 
+We can use the `predict()` function:
+
+```r
+predict(mod2, data.frame(ed=12, exp=5, iqscore=100, black="no"))
+```
+```
+440.1436
+```
+
+In the code above, we have chosen a "representative" worker, and predicted their wage based on their characteristics. The model predicts that a worker with 12 years of education, 5 years work experience, an IQ of 100, and who isn't black, would make an hourly wage of 4.40 dollars per hour.
+
+You don't have to use the `predict()` function for this question, you could also calculate a predicted value "by hand".
