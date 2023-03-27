@@ -1,21 +1,32 @@
+---
+title: "Waterdeep: Dragon Heist Notes"
+permalink: /session3/
+excerpt:
+last_modified_at:
+toc: false
+---
+
 # Recap
 
-It has been a long night. 2 AM.
+It has been a long night. 2 AM. You returned Floon. Volo has offered you the deed to Trollskull Manor. He explains that it is a good property with much potential. He intended on using it as research for a book, but alas he finds himself illiquid and must offer you this property in lieu.
 
-# Trollskull Manor
+Haunting: About a month ago, the owners of the Trollskull Manor taproom _disappeared_. Neighbours have complained to the city watch of haunting (who have draggged their heels, given the increasing gang violence). Volo has yet to make it past the entrance.
 
-> Volo: About a month ago, the owners of the Trollskull Manor taproom _disappeared_. Neighbours have complained to the city watch of haunting (who have draggged their heels). I bought the property at a steal, for research for my book Volo's guide to spirits. 
+Purchase: Those who wish to be on the deed must accompany me to the Castle Ward, for the signing to be witnessed by a Magistrate. Magistrate Kylynne Silmerhelve.
+
+# Trollskull Manor outisde
 
 - 45 min walk from Yawing Portal.
-- Deed transferred in courthouse in the Castle Ward, magistrate Kylynne Silmerhelve.
-
-> The neighbourhood is quite respectable and vibrant. There are several other businesses and establishments in the Alley.
-> Four stories tall and boasting balconies, a turret, and five chimneys, the abandoned building is one of the grandest in Trollskull Alley.
-> Tavern’s taproom is filled with broken furniture, tarnished silverware, casks of wine that have turned to vinegar.
+- The neighbourhood is quiet respectable and vibrant. There are several other businesses and establishments in the Alley.
+- Four stories tall and boasting balconies, a turret, and five chimneys, the abandoned building is one of the grandest in Trollskull Alley.
 
 ## Secrets
 - The house is haunted by two beings: Lif who is a harmless spectre, and his wife Falenas who is a deadly Banshee.
 - Falenas killed Lif.
+
+# Trollskull Manor inside
+
+- Tavern’s taproom is filled with broken furniture, tarnished silverware, casks of wine that have turned to vinegar.
 
 ## Exploring the manor
 - Who is exploring and doing what. Do they split up?
@@ -30,7 +41,7 @@ It has been a long night. 2 AM.
 - In an upper room, a chest in pretty good condition. As soon as PC approached, is grappled by a [Mimic](https://roll20.net/compendium/dnd5e/Mimic#content)
 
 ## Basement
-- Zombie here. Two graves, Lif and Falenas.
+- Zombie. Two graves, Lif and Falenas.
 
 ## Banshee
 - Attic room contains Banshee. She hired an assassin to kill Lif, who also killed her and robbed the place.
@@ -151,3 +162,13 @@ Emmek Frewn (NE)
 > So Volo outbid me on this property, and now _you_ have it? Yeah you ding dongs sure look like business geniuses. (Chuckles: ding dongs hah). We're going to run in you into the ground lady.
 
 Gives a "free" beer.
+
+# Quests
+
+## Hydrathistle
+
+There has been a shortage and the last time Fala tried to collect they were almost killed. Need you to escort them. 12 Stirges in a swamp outside town.
+
+
+
+
