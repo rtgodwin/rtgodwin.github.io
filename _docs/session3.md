@@ -10,19 +10,19 @@ toc: false
 
 It has been a long night. 2 AM. You returned Floon. Volo has offered you the deed to Trollskull Manor. He explains that it is a good property with much potential. He intended on using it as research for a book, but alas he finds himself illiquid and must offer you this property in lieu.
 
-Haunting: About a month ago, the owners of the Trollskull Manor taproom _disappeared_. Neighbours have complained to the city watch of haunting (who have draggged their heels, given the increasing gang violence). Volo has yet to make it past the entrance.
+Haunting: Awhile ago, the owners of the Trollskull Manor taproom _disappeared_. More recently, neighbours have complained to the city watch of haunting (who have draggged their heels, given the increasing gang violence). Volo has yet to make it past the entrance.
 
-Purchase: Those who wish to be on the deed must accompany me to the Castle Ward, for the signing to be witnessed by a Magistrate. Magistrate Kylynne Silmerhelve.
+Purchase: Those who wish to be on the deed must accompany me to the Castle Ward, for the signing to be witnessed by a Magistrate. Magistrate Kylynne Silmerhelve. Sign the deed with the pen and inkwell.
 
 # Trollskull Manor outisde
 
 - 45 min walk from Yawing Portal.
-- The neighbourhood is quiet respectable and vibrant. There are several other businesses and establishments in the Alley.
+- The neighbourhood is quiet, respectable, and even vibrant. There are several other businesses and establishments in the Alley.
 - Four stories tall and boasting balconies, a turret, and five chimneys, the abandoned building is one of the grandest in Trollskull Alley.
 
 ## Secrets
 - The house is haunted by two beings: Lif who is a harmless spectre, and his wife Falenas who is a deadly Banshee.
-- Falenas killed Lif.
+- Falenas and Lif were killed by the assassin that Falenas hired.
 
 # Trollskull Manor inside
 
@@ -34,11 +34,11 @@ Purchase: Those who wish to be on the deed must accompany me to the Castle Ward,
   - plate smashes
   - "Closing time" and "last call" in the dust
   - Mug rises from the shelf, and is hurled at you - what do you do?
-  - Hear a bone shattering wail once per day.
+  - Hear a bone shattering wail once per day. (Every 5 mins roll a d20 - on a 19/20 hear it).
   - A few bones of small animals littered around, cats, a giant rat, and birds it looks like (from mimic)
 
 ## Mimic
-- In an upper room, a chest in pretty good condition. As soon as PC approached, is grappled by a [Mimic](https://roll20.net/compendium/dnd5e/Mimic#content)
+- In an upper room, a closet in pretty good condition. As soon as PC approached, is grappled by a [Mimic](https://roll20.net/compendium/dnd5e/Mimic#content)
 
 ## Basement
 - Zombie. Two graves, Lif and Falenas.
