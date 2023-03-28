@@ -21,7 +21,7 @@ Purchase: Those who wish to be on the deed must accompany me to the Castle Ward,
 - Four stories tall and boasting balconies, a turret, and five chimneys, the abandoned building is one of the grandest in Trollskull Alley.
 
 ## Secrets
-- The house is haunted by two beings: Lif who is a harmless spectre, and his wife Falenas who is a deadly Banshee.
+- The house is haunted by two beings: Lif who is a harmless spectre, and his wife Falenas who is a deadly [Banshee](https://www.dndbeyond.com/monsters/17089-banshee).
 - Falenas and Lif were killed by the assassin that Falenas hired.
 
 # Trollskull Manor inside
@@ -34,6 +34,7 @@ Purchase: Those who wish to be on the deed must accompany me to the Castle Ward,
   - plate smashes
   - "Closing time" and "last call" in the dust
   - Mug rises from the shelf, and is hurled at you - what do you do?
+  - Hand reaches out from a painting and tries to grab you.
   - Hear a bone shattering wail once per day. (Every 5 mins roll a d20 - on a 19/20 hear it).
   - A few bones of small animals littered around, cats, a giant rat, and birds it looks like (from mimic)
 
@@ -41,11 +42,13 @@ Purchase: Those who wish to be on the deed must accompany me to the Castle Ward,
 - In an upper room, a closet in pretty good condition. As soon as PC approached, is grappled by a [Mimic](https://roll20.net/compendium/dnd5e/Mimic#content)
 
 ## Basement
-- Zombie. Two graves, Lif and Falenas.
+- Two graves, Lif and Falenas. Dead for 6 months.
 
 ## Banshee
 - Attic room contains Banshee. She hired an assassin to kill Lif, who also killed her and robbed the place.
 - Warning message on door. Elven: Don't open. Banshee! (Lif wrote it).
+- Room is magically sealed.
+- There are two attic windows sealed up with boards (AC 10 - 6 HP each) that can flood the attic with sunlight - prevents Wail and takes Banshee to 29 HP.
 
 ## Lif
 
@@ -53,7 +56,7 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 
 ## Tavernkeepers' Guild
 
-> One morning, PCs approached by a halfling named Yenkin Cherrybarrel who informs you that if you are intending on running a Tavern you must register with the Tavernkeepers' guild (100 GP).
+> One morning, PCs approached by a halfling named Broxley Fairkettle who informs you that if you are intending on running a Tavern you must register with the Tavernkeepers' guild (100 GP).
 
 ## Fixing it up
 
@@ -168,6 +171,12 @@ Gives a "free" beer.
 ## Hydrathistle
 
 There has been a shortage and the last time Fala tried to collect they were almost killed. Need you to escort them. 12 Stirges in a swamp outside town.
+
+## Fence their paintings / bars
+
+## Buy some poison
+
+## Cat quest for Oleander / Mirage
 
 
 
