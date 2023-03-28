@@ -179,6 +179,8 @@ There has been a shortage and the last time Fala tried to collect they were almo
 
 ## Buy some poison
 
+Poison is expensive because it is highly illegal, although it is a relatively simple formula. Lesser Poison, Vial (25 GP). One use, DC 12 Constitution, for 1d4 damage. Can ask Fala how to make it for a cheaper source.
+
 ## Cat quest for Oleander / Mirage
 
 
