@@ -60,6 +60,9 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 
 ## Fixing it up
 
+- Hammond Kraddoc: Vintners’, Distillers’, and Brewers’ Guild
+- Justyn Rassk: Guild of Butchers 
+
 1000 GP total.
 
 - Furniture from bent nail.
