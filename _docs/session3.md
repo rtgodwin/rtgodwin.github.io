@@ -171,18 +171,42 @@ Gives a "free" beer.
 
 # Quests
 
+Looking for money? Many factions in Waterdeep.
+
+- Emerald Enclave: an interest in protecting nature or the natural order to join the Emerald Enclave. Druids and rangers are especially welcome.
+- Harpers: Any smart, non-evil character can join the Harpers of Waterdeep. Bards and wizards are especially welcome.
+- Lord's Alliance: To become a member of the Lords’ Alliance faction in Waterdeep, a character must be a Waterdavian citizen. Those with criminal records can also join, provided they demonstrate their allegiance to the city.
+- Xanathar Guild: Anyone can join the Xanathar Guild, which, despite its name, doesn’t have official guild status in Waterdeep. Before membership is granted, however, an applicant must pass a test that always involves the perpetration of a serious crime. Possibilities include murdering a guild member who has failed Xanathar in some fashion, kidnapping a Waterdavian citizen, collecting a ransom, robbing a hire-coach, or looting a warehouse.
+- Zhentarim: The Black Network has an open recruitment policy. Anyone can join. Tenacity and loyalty are highly valued (but not essential) traits in new members. The Zhentarim is a shadow organization that trades mercenaries and goods (including weapons) for profit.
+
 ## Hydrathistle
 
 There has been a shortage and the last time Fala tried to collect they were almost killed. Need you to escort them. 12 Stirges in a swamp outside town.
 
 ## Fence their paintings / bars
 
+Start asking around for a fence - Zhentarim or Xanathar guild. Need to be a member.
+
 ## Buy some poison
 
 Poison is expensive because it is highly illegal, although it is a relatively simple formula. Lesser Poison, Vial (25 GP). One use, DC 12 Constitution, for 1d4 damage. Can ask Fala how to make it for a cheaper source.
 
+DC15 Investigation: find it. Otherwise, must join Xanathar or Zhents to obtain it.
+
+## Quests to join Zhent
+
+#### Handkerchief
+
+> “I’d like you to steal a silk handkerchief from a Waterdavian noble and give it to a tiefling girl who lives in a crate at the corner of Net Street and Dock Street, by the wharf.”
+
+Finding a noble isn’t hard, but snatching one’s handkerchief without being detected requires a successful DC 12 Dexterity (Sleight of Hand) check. One can also convince a noble to surrender it with a successful DC 12 Charisma (Deception, Intimidation, or Persuasion) check. The tiefling girl in the crate thanks the characters for the hanky.
+
 ## Cat quest for Oleander / Mirage
 
+Visited by a white cat that speaks the following message in a melodious male voice:
+
+“Interested in joining the Emerald Enclave? Come meet us at Phaulkonmere in the Southern Ward.”
+The cat is an ordinary animal upon which an animal messenger spell was cast. It dashes away after delivering its invitation.
 
 
 
