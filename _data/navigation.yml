@@ -74,8 +74,8 @@ docs:
         url: /3040/guns/
       - title: "3. Multiple Regression"
         url: /3040/lab3/
-#      - title: "4. Polynomials, logs, and interactions"
-#        url: /3040/lab4/
+      - title: "4. Polynomials, logs, and interactions"
+        url: /3040/lab4/
   - title: Assignments
     children:
       - title: "Assignment 1"
