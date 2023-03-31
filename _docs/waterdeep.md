@@ -17,13 +17,11 @@ You will begin in the famous tavern the [Yawning Portal](https://rtgodwin.com/dn
 
 - Due to negligence and (rumoured) corruption, Dagult *Neverember* was voted out of his seat as *Open Lord of Waterdeep*. In the city of Neverwinter at the time of his ousting, he has not returned to Waterdeep. Laeral Silverhand has taken his place.
 - Crime is on the rise. Numerous criminial factions in Waterdeep appear more active, going so far as to fight and murder one another in the streets.
-- Factions are prominent in Waterdeep: Zhentarim, Xanathar Guild, Force Grey, Harpers, and others.
+- Factions are prominent in Waterdeep: Zhentarim, Xanathar Guild, Harpers, Lord's Alliance, Emerald Enclave.
 
 ## Your characters
 
-- You should all be level 2.
-- Feel free to make changes to your backgrounds / characters if desired.
-- We will be trying to flesh out your personality traits, ideals, bonds, flaws, as well as picking your alignment.
+- Try to flesh out your personality traits, ideals, bonds, and flaws.
 
 ## Oleander Resources
 Circle of the Moon - ["Wild Shape" beast list](https://docs.google.com/spreadsheets/d/1dTGapgzFstOdRr5EJEV6sAhtNSYi0QsX-Tgr2GRutWI/edit#gid=2001884058)
@@ -31,3 +29,23 @@ Circle of the Moon - ["Wild Shape" beast list](https://docs.google.com/spreadshe
 # Session 1
 
 - [Paper bird](https://rtgodwin.com/dnd/paperbird.png)
+
+# Experience
+
+Started at 300 XP (Level 2) from the one-shot.
+
+Divide everything by 5:
+
+- Bar fight 25
+- Troll 450
+- Skewered dragon 50
+- 6 Kenku: 300
+- Gazer 100
+- 4 Goblins: 200
+- Duergar 200
+- Krentz 25
+- Gray Ooze 100
+- Intellect devourer 450
+- Grum'shar 100
+
+Per character total so far: 300 + 400 = 700. 900 XP needed for level 3.
