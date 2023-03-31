@@ -185,21 +185,36 @@ There has been a shortage and the last time Fala tried to collect they were almo
 
 ## Fence their paintings / bars
 
+- 15 - 10lb. silver bars (50 gp ea., 750 gp total). DC 12 Investigation.
+- DC17 Investigation for 4 paintings (300 gp ea.)
+
 Start asking around for a fence - Zhentarim or Xanathar guild. Need to be a member.
 
 ## Buy some poison
 
 Poison is expensive because it is highly illegal, although it is a relatively simple formula. Lesser Poison, Vial (25 GP). One use, DC 12 Constitution, for 1d4 damage. Can ask Fala how to make it for a cheaper source.
 
-DC15 Investigation: find it. Otherwise, must join Xanathar or Zhents to obtain it.
+DC17 Investigation: find it. Otherwise, must join Zhentarim guild to obtain it (although they don't sell it openly).
 
-## Quests to join Zhent
+## Quest to join Zhentarim
 
-#### Handkerchief
+A flying snake with a parchment tied about its body visits one character in the dead of night. The message reads:
 
-> “I’d like you to steal a silk handkerchief from a Waterdavian noble and give it to a tiefling girl who lives in a crate at the corner of Net Street and Dock Street, by the wharf.”
+> “Want to be part of something big? Speak to Davil Starsong at the Yawning Portal.”
 
-Finding a noble isn’t hard, but snatching one’s handkerchief without being detected requires a successful DC 12 Dexterity (Sleight of Hand) check. One can also convince a noble to surrender it with a successful DC 12 Charisma (Deception, Intimidation, or Persuasion) check. The tiefling girl in the crate thanks the characters for the hanky.
+Yagra Stonefist greets them and leads interested parties to a table in the center of the Yawning Portal’s taproom, where her boss waits with drink in hand.
+
+### Davil Starsong
+[Davil Starsong](https://www.dndbeyond.com/monsters/149845-davil-starsong) is the characters’ primary contact in the Black Network, at least initially. Over drinks, he shares the following information:
+
+- Davil is a retired adventurer. He and his adventuring companions joined the Zhentarim a few years back. They help people in need. (More specifically, they provide loans, mercenaries, and other services.)
+- Another Black Network gang has recently infiltrated the city and tried to take over the Xanathar Guild. They failed, setting off a war in the streets. Davil and his colleagues want to end the violence and restore the peace.
+- Davil offers membership in the faction to interested characters, then assigns them their first mission.
+
+> “Someone is killing elf and half-elf sailors in the Dock Ward — three dead so far, each one decapitated by a blade in the dead of night. Look into it, will you? Methinks the City Watch could use a little help.”
+
+Characters who spend three consecutive nights loitering around the docks spot Heldar, a drunk half-elf sailor (bandit), leaving the Muleskull Tavern (on Ship Street in the Dock Ward). Characters who follow Heldar can save him from Soluun Xibrindas, a renegade drow gunslinger (see appendix B). Soluun hides in the shadows, blade drawn, waiting for the half-elf to stumble by. Spotting him before he strikes requires a successful DC 18 Wisdom (Perception) check. Soluun flees if reduced to half his hit points or fewer.
+
 
 ## Cat quest for Oleander / Mirage
 
