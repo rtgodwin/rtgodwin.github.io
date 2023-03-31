@@ -31,6 +31,7 @@ Purchase: Those who wish to be on the deed must accompany me to the Castle Ward,
 # Trollskull Manor inside
 
 - Tavern’s taproom is filled with broken furniture, tarnished silverware, casks of wine that have turned to vinegar.
+- With some broken windows the manor has been somewhat exposed to the elements, and is in quite a state of disrepair.
 
 ## Exploring the manor
 - Who is exploring and doing what. Do they split up?
