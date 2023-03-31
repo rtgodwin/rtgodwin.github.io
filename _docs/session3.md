@@ -239,3 +239,7 @@ Enclosed are tickets for the entire party to The Fall of Tiamat, an opera sung i
 Jalester:
 
 > “A gang war is causing unrest throughout the city. We have offered protection to members of the Dungsweepers’ Guild, and you have been assigned to protect a group of them. Meet them at the Muleskull Tavern, on Ship Street in the Dock Ward, at six bells and guard them while they work. Do this every day for a tenday.”
+
+Actually an Order of the Gauntlet mission:
+
+> “We hear that the Zhents are paying gangs in the Field Ward to attack suspected Xanathar Guild members. Fights are breaking out in the ward daily. Stop a fight before it happens. We need to send a message to these thugs that further altercations won’t be tolerated.”
