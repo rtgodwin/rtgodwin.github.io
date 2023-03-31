@@ -43,7 +43,7 @@ Purchase: Those who wish to be on the deed must accompany me to the Castle Ward,
   - A few bones of small animals littered around, cats, a giant rat, and birds it looks like (from mimic)
 
 ## Mimic
-- In an upper room, a closet in pretty good condition. As soon as PC approached, is grappled by a [Mimic](https://roll20.net/compendium/dnd5e/Mimic#content)
+- In an upper room, a closet in pretty good condition. As soon as PC approaches, is grappled by a [Mimic](https://roll20.net/compendium/dnd5e/Mimic#content)
 
 ## Basement
 - Two graves, Lif and Falenas. Dead for 6 months.
@@ -74,6 +74,7 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 - basement and plumbing: Cellarers’ and Plumbers’ Guild
 - clean bedsheets: Launderers’ Guild
 - meat: Guild of Butchers; ale and wine: Vintners’, Distillers’, and Brewers’ Guild; bread and pastries: Bakers’ Guild
+- Dungsweepers’ Guild and the Loyal Order of Street Laborers
 
 # Trollskull Alley
 
