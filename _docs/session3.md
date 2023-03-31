@@ -14,6 +14,10 @@ Haunting: Awhile ago, the owners of the Trollskull Manor taproom _disappeared_. 
 
 Purchase: Those who wish to be on the deed must accompany me to the Castle Ward, for the signing to be witnessed by a Magistrate. Magistrate Kylynne Silmerhelve. Sign the deed with the pen and inkwell.
 
+# Jalester Silvermane
+
+> You lot seem to have a healthy respect for law and order, and gods know the City Watch could use help right now. If you are interested in joining the Lord's Alliance, come find me here in a few days.
+
 # Trollskull Manor outisde
 
 - 45 min walk from Yawing Portal.
@@ -215,13 +219,23 @@ Yagra Stonefist greets them and leads interested parties to a table in the cente
 
 Characters who spend three consecutive nights loitering around the docks spot Heldar, a drunk half-elf sailor (bandit), leaving the Muleskull Tavern (on Ship Street in the Dock Ward). Characters who follow Heldar can save him from Soluun Xibrindas, a renegade drow gunslinger (see appendix B). Soluun hides in the shadows, blade drawn, waiting for the half-elf to stumble by. Spotting him before he strikes requires a successful DC 18 Wisdom (Perception) check. Soluun flees if reduced to half his hit points or fewer.
 
-
-## Cat quest for Oleander / Mirage
+## Emerald Enclave - Cat quest for Oleander / Mirage
 
 Visited by a white cat that speaks the following message in a melodious male voice:
 
 “Interested in joining the Emerald Enclave? Come meet us at Phaulkonmere in the Southern Ward.”
 The cat is an ordinary animal upon which an animal messenger spell was cast. It dashes away after delivering its invitation.
 
+## Harpers - Who is the "most good" character? Who showed the most compassion toward Renaer?
 
+Written on a paper bird:
 
+> “Renaer tells us you are a good bet. He bought you tickets to the opera tonight at the Lightsinger Theater in the Sea Ward. If you are interested, meet Mirt at intermission. Private Box C. Formal attire is required for admittance.”
+
+Enclosed are tickets for the entire party to The Fall of Tiamat, an opera sung in Giant describing the evil dragon queen’s defeat at the Well of Dragons.
+
+## Lord's Alliance
+
+Jalester:
+
+> “A gang war is causing unrest throughout the city. We have offered protection to members of the Dungsweepers’ Guild, and you have been assigned to protect a group of them. Meet them at the Muleskull Tavern, on Ship Street in the Dock Ward, at six bells and guard them while they work. Do this every day for a tenday.”
