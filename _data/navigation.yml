@@ -58,6 +58,8 @@ docs:
         url: /3040/ch8-3.pdf
       - title: 8.4 - Interaction terms
         url: /3040/ch8-4.pdf
+      - title: Dummy-dummy interact - extra
+        url: /3040/dummydummy.pdf
       - title: 9 - Heteroskedasticity
         url: /3040/ch9.pdf
       - title: 10 - Instrumental variables
