@@ -131,7 +131,7 @@ predict(mod2, data.frame(carat = 0.2, colour = "E", clarity = "VS1")) - predict(
 
 The predicted effect of an increase of 0.1 carats, for when `carat = 0.1`, has not changed compared to above. In fact, since the effects of the other variables (and the intercept) cancel out since they are on both sides of the $-$ sign, we do not need to consider them in our calculation:
 
-$\hat{price}|_{carat = 0.2} - \hat{price}|_{carat=0.1} = 4351.3(0.2) + 6455.1(0.2^2) - 4351.3(0.1) - 6455.1(0.1^2) = 628.78$
+$$\hat{price}|_{carat = 0.2} - \hat{price}|_{carat=0.1} = 4351.3(0.2) + 6455.1(0.2^2) - 4351.3(0.1) - 6455.1(0.1^2) = 628.78$$
 
 ### Question 2
 
