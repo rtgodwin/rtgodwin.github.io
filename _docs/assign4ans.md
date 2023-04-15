@@ -52,7 +52,7 @@ F-statistic: 865.9 on 12 and 295 DF,  p-value: < 2.2e-16
 
 The model estimated above has a polynomial with a cubed term in it, so that the degree is 3 ($r = 3$). From the summary output above, we see that the variable $carat^3$ is _insignificant_ (the p-value is 0.228502). That is, we fail to reject to the null hypothesis that the effect of $carat^3$ is zero - we can drop this variable from the model. We now estimate a model with $r=2$:
 
-$price = \beta_0 + \beta_1carat + \beta_2carat^2 + ...$
+$$price = \beta_0 + \beta_1carat + \beta_2carat^2 + ...$$
 
 To estimate this model in R, we can use:
 
@@ -133,7 +133,42 @@ The predicted effect of an increase of 0.1 carats, for when `carat = 0.1`, has n
 
 $$\hat{price}|_{carat = 0.2} - \hat{price}|_{carat=0.1} = 4351.3(0.2) + 6455.1(0.2^2) - 4351.3(0.1) - 6455.1(0.1^2) = 628.78$$
 
-### Question 2
+## Question 2
+
+Load the data:
+
+```r
+cps <- read.csv("http://rtgodwin.com/data/cps1985.csv")
+```
+
+### (a)
+
+```r
+cps.mod <- lm(log(wage) ~ education + gender + age + experience + gender *
+                education, data = cps)
+summary(cps.mod)
+```
+
+```
+Coefficients:
+                     Estimate Std. Error t value Pr(>|t|)    
+(Intercept)           0.53764    0.70887   0.758 0.448521    
+education             0.18311    0.11333   1.616 0.106753    
+gendermale            0.69499    0.20315   3.421 0.000672 ***
+age                  -0.06472    0.11345  -0.570 0.568616    
+experience            0.07754    0.11355   0.683 0.494959    
+education:gendermale -0.03362    0.01531  -2.196 0.028545 *  
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.4509 on 528 degrees of freedom
+Multiple R-squared:  0.2769,	Adjusted R-squared:  0.2701 
+F-statistic: 40.44 on 5 and 528 DF,  p-value: < 2.2e-16
+```
+
+### (b)
+
+Since it is a log-linear model, changes in the "$X$" variables have _approximate_ $100\times\beta$ percentage change effects on `wage`. From the output above, women with an education make 18.3% more compared to women without an education. The effect for men is different, due to the _interaction_ term in the model. Men with an education make $0.18311 - 0.03362 = 15.0%$ more than men without an education. The interaction term, `education:gendermale` allows for an "adjustment" to be made to the effect for when the dummy variables `education` and `gendermale` both equal 1.
 
 We can include the interaction terms by including `female*age`, for example, in the `lm()` function:
 
