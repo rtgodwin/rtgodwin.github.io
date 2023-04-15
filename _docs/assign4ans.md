@@ -52,7 +52,7 @@ F-statistic: 865.9 on 12 and 295 DF,  p-value: < 2.2e-16
 
 The model estimated above has a polynomial with a cubed term in it, so that the degree is 3 ($r = 3$). From the summary output above, we see that the variable $carat^3$ is _insignificant_ (the p-value is 0.228502). That is, we fail to reject to the null hypothesis that the effect of $carat^3$ is zero - we can drop this variable from the model. We now estimate a model with $r=2$:
 
-$price = \beta_0 + \beta_1carat + \beta_2carat^2 + ...
+$price = \beta_0 + \beta_1carat + \beta_2carat^2 + ...$
 
 To estimate this model in R, we can use:
 
