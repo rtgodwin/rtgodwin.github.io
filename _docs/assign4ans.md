@@ -143,6 +143,8 @@ cps <- read.csv("http://rtgodwin.com/data/cps1985.csv")
 
 ### (a)
 
+We can include the interaction term by including `gender * education` in the `lm()` function:
+
 ```r
 cps.mod <- lm(log(wage) ~ education + gender + age + experience + gender *
                 education, data = cps)
