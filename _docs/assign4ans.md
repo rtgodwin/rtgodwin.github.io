@@ -22,7 +22,7 @@ mod1 <- lm(price ~ carat + I(carat^2) + I(carat^3) + colour + clarity, data = di
 summary(mod1)
 ```
 
-```{r class.source="bg-danger"}
+```{r class="bg-danger"}
 Coefficients:
             Estimate Std. Error t value Pr(>|t|)    
 (Intercept)   1553.8      452.8   3.431 0.000686 ***
