@@ -103,6 +103,36 @@ This has taken the difference in the predicted price of a diamond of size `carat
 
 When using the `predict` function, we must choose values for all of the "$X$" variables. I arbitrarily chose `colour = "D"` and `clarity = "VS2"`. As we will see in the next part, these choices do not matter for the predicted effect.
 
+The whole point of the non-linear model is that the effect of `carat` on `price` is non-constant. To illustrate that you understand this, you need to get the predicted effect of an increase of carats of 0.1, _for a different starting value_. For example, I will compare the effect of a 0.1 increase for when `carat = 0.5`:
+
+```r
+predict(mod2, data.frame(carat = 0.6, colour = "D", clarity = "VS2")) - predict(
+  mod2, data.frame(carat = 0.5, colour = "D", clarity = "VS2"))
+```
+
+```
+1145.196
+```
+
+The same increase in size of 0.1 has almost double the effect when the diamond is 0.5 carats vs. 0.1 carats.
+
+### (d)
+
+Because we are taking the _difference_ between two predicted values, it does not matter what values we choose for the other $X$ variables that are not changing (their effects cancel out). To illustrate this, I will choose different values for `colour` and `clarity`, but the same increase from `carat = 0.1` to `carat = 0.2`:
+
+```r
+predict(mod2, data.frame(carat = 0.2, colour = "E", clarity = "VS1")) - predict(
+  mod2, data.frame(carat = 0.1, colour = "E", clarity = "VS1"))
+```
+
+```
+628.7867
+```
+
+The predicted effect of an increase of 0.1 carats, for when `carat = 0.1`, has not changed compared to above. In fact, since the effects of the other variables (and the intercept) cancel out since they are on both sides of the $-$ sign, we do not need to consider them in our calculation:
+
+$\hat{price}|_{carat = 0.2} - \hat{price}|_{carat=0.1} = 4351.3(0.2) + 6455.1(0.2^2) - 4351.3(0.1) - 6455.1(0.1^2) = 628.78$
+
 ### Question 2
 
 We can include the interaction terms by including `female*age`, for example, in the `lm()` function:
