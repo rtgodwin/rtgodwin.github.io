@@ -50,7 +50,7 @@ F-statistic: 865.9 on 12 and 295 DF,  p-value: < 2.2e-16
 
 ### (b)
 
-The model estimated above has a polynomial with a cubed term in it, so that the degree is 3 ($r = 3$). From the summary output above, we see that the variable $carat^3$ is _insignificant_ (the p-value is 0.228502). That is we fail to reject to the null hypothesis that the effect of $carat^3$ is zero - we can drop this variable from the model. We now estimate a model with $r=2$:
+The model estimated above has a polynomial with a cubed term in it, so that the degree is 3 ($r = 3$). From the summary output above, we see that the variable $carat^3$ is _insignificant_ (the p-value is 0.228502). That is, we fail to reject to the null hypothesis that the effect of $carat^3$ is zero - we can drop this variable from the model. We now estimate a model with $r=2$:
 
 $price = \beta_0 + \beta_1carat + \beta_2carat^2 + ...
 
@@ -86,6 +86,22 @@ F-statistic:   943 on 11 and 296 DF,  p-value: < 2.2e-16
 
 We now see that the the highest order term in the polynomial ($carat^2$) is now significant (p-value is approximately 0). We stop estimating models and testing: the degree of the polynomial is 2 ($r=2$).
 
+### (c)
+
+The effect of a 0.1 increase in `carat` will have a **non-constant** effect on `price` (that is the appeal of the polynomial model). In a polynomial model, we can interpret the estimated results by considering specific scenarios. For example, let's get the predicted increase in `price` due to an increase in `carat` of 0.1, when the diamond has a size of 0.1:
+
+```r
+predict(mod2, data.frame(carat = 0.2, colour = "D", clarity = "VS2")) - predict(
+  mod2, data.frame(carat = 0.1, colour = "D", clarity = "VS2"))
+```
+
+```
+628.7867
+```
+
+This has taken the difference in the predicted price of a diamond of size `carat = 0.2` and `carat = 0.1`. The predicted effect is \$628.79.
+
+When using the `predict` function, we must choose values for all of the "$X$" variables. I arbitrarily chose `colour = "D"` and `clarity = "VS2"`. As we will see in the next part, these choices do not matter for the predicted effect.
 
 ### Question 2
 
