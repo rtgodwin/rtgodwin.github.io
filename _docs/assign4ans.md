@@ -101,7 +101,7 @@ predict(mod2, data.frame(carat = 0.2, colour = "D", clarity = "VS2")) - predict(
 
 This has taken the difference in the predicted price of a diamond of size `carat = 0.2` and `carat = 0.1`. The predicted effect is \$628.79.
 
-When using the `predict` function, we must choose values for all of the "$X$" variables. I arbitrarily chose `colour = "D"` and `clarity = "VS2"`. As we will see in the next part, these choices do not matter for the predicted effect.
+When using the `predict` function, we must choose values for all of the $X$ variables. I arbitrarily chose `colour = "D"` and `clarity = "VS2"`. As we will see in the next part, these choices do not matter for the predicted effect.
 
 The whole point of the non-linear model is that the effect of `carat` on `price` is non-constant. To illustrate that you understand this, you need to get the predicted effect of an increase of carats of 0.1, _for a different starting value_. For example, I will compare the effect of a 0.1 increase for when `carat = 0.5`:
 
@@ -170,7 +170,11 @@ F-statistic: 40.44 on 5 and 528 DF,  p-value: < 2.2e-16
 
 ### (b)
 
-Since it is a log-linear model, changes in the "$X$" variables have _approximate_ $100\times\beta$ percentage change effects on `wage`. From the output above, women with an education make 18.3% more compared to women without an education. The effect for men is different, due to the _interaction_ term in the model. Men with an education make $0.18311 - 0.03362 = 15.0%$ more than men without an education. The interaction term, `education:gendermale` allows for an "adjustment" to be made to the effect for when the dummy variables `education` and `gendermale` both equal 1.
+Since it is a log-linear model, changes in the $X$ variables have _approximate_ $100\times\beta$ percentage change effects on `wage`. From the output above, women with an education make 18.3% more compared to women without an education. The effect for men is different, due to the _interaction_ term in the model. Men with an education make $0.18311 - 0.03362 = 15.0%$ more than men without an education. The interaction term, `education:gendermale` allows for an "adjustment" to be made to the effect for when the dummy variables `education` and `gendermale` both equal 1.
+
+### (c)
+
+Since the interaction term is significant at the 5% level, we reject the null that there is no difference between the return to education for men and women.
 
 We can include the interaction terms by including `female*age`, for example, in the `lm()` function:
 
