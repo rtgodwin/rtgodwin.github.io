@@ -176,133 +176,11 @@ Since it is a log-linear model, changes in the $X$ variables have _approximate_ 
 
 Since the interaction term is significant at the 5% level, we reject the null that there is no difference between the return to education for men and women.
 
-We can include the interaction terms by including `female*age`, for example, in the `lm()` function:
+### (d)
 
-```r
-mod2 <- lm(ahe ~ female + age + age2 + age3 + yrseduc + yrseduc2 + yrseduc3 
-           + female*age + female*age2 + female*age3 
-           + female*yrseduc + female*yrseduc2 + female*yrseduc3 
-           + location, data=cps)
-summary(mod2)
-```
+If there is heteroskedasticity (instead of homoskedasticity), then the standard errors, t-statistics, and p-values, are all wrong.
 
-```
-Coefficients:
-                    Estimate Std. Error t value Pr(>|t|)    
-(Intercept)       -9.476e+00  3.258e+00  -2.908  0.00363 ** 
-female             5.327e+00  5.234e+00   1.018  0.30876    
-age                2.077e+00  1.794e-01  11.579  < 2e-16 ***
-age2              -3.468e-02  4.434e-03  -7.821 5.32e-15 ***
-age3               1.822e-04  3.520e-05   5.176 2.27e-07 ***
-yrseduc           -5.792e+00  5.474e-01 -10.582  < 2e-16 ***
-yrseduc2           5.616e-01  4.368e-02  12.855  < 2e-16 ***
-yrseduc3          -1.350e-02  1.122e-03 -12.032  < 2e-16 ***
-locationnortheast  1.218e+00  1.049e-01  11.615  < 2e-16 ***
-locationsouth      1.197e-02  9.442e-02   0.127  0.89912    
-locationwest       7.416e-01  9.995e-02   7.419 1.19e-13 ***
-female:age        -7.454e-01  2.719e-01  -2.741  0.00613 ** 
-female:age2        1.216e-02  6.717e-03   1.811  0.07017 .  
-female:age3       -6.091e-05  5.329e-05  -1.143  0.25299    
-female:yrseduc     1.672e+00  9.192e-01   1.820  0.06884 .  
-female:yrseduc2   -1.713e-01  7.241e-02  -2.365  0.01802 *  
-female:yrseduc3    5.160e-03  1.847e-03   2.793  0.00522 ** 
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 8.644 on 61378 degrees of freedom
-Multiple R-squared:  0.2717,	Adjusted R-squared:  0.2715 
-F-statistic:  1431 on 16 and 61378 DF,  p-value: < 2.2e-16
-```
-
-### Question 3
-
-We need to take the difference between the predicted `wage` for when education equals 13 years, and for when education equals 12 years:
-
-```r
-w13 <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3, 
-                                yrseduc = 13, yrseduc2 = 13^2, yrseduc3 = 13^3,
-                                location = "south"))
-w12 <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3,
-                                yrseduc = 12, yrseduc2 = 12^2, yrseduc3 = 12^3, 
-                                     location = "south"))
-w13 - w12
-```
-
-```
-1.913595
-```
-
-This says that wage is predicted to increase by 1.91 dollars per hour, for an additional year of education, when the worker already has 12 years of education.
-
-We had to provide values for all of the variables, because we are calculating an LS predicted value. The values for `female`, `age`, and `location` do not affect the predicted difference of `1.913595`, because the values of those variables are the same for both predicted values, so when we subtract them, they cancel out.
-
-We also need to calculate the predicted effect for _women_ (so this time we are going to set `female = 1`):
-
-```r
-w13f <- predict(mod2, data.frame(female = 1,age = 40, age2 = 40^2, age3 = 40^3, 
-                                yrseduc = 13, yrseduc2 = 13^2, yrseduc3 = 13^3,
-                                location = "south"))
-w12f <- predict(mod2, data.frame(female = 1,age = 40, age2 = 40^2, age3 = 40^3,
-                                yrseduc = 12, yrseduc2 = 12^2, yrseduc3 = 12^3, 
-                                location = "south"))
-w13f - w12f
-```
-
-```
-1.724366
-```
-
-The predicted effect of wage on education for men of `1.913595` depends on the value of education that we started at (12). To see this, we can try the same process above, but starting at 16 years of education:
-
-```r
-w17 <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3, 
-                                yrseduc = 17, yrseduc2 = 17^2, yrseduc3 = 17^3,
-                                location = "south"))
-w16 <- predict(mod2, data.frame(female = 0,age = 40, age2 = 40^2, age3 = 40^3,
-                                yrseduc = 16, yrseduc2 = 16^2, yrseduc3 = 16^3, 
-                                location = "south"))
-w17 - w16
-```
-
-```
-1.707046
-```
-The effect of education on wage is _diminishing_.
-
-### Question 4
-
-Download the data:
-
-```r
-cps <- read.csv("http://rtgodwin.com/data/cps1985.csv")
-```
-
-Estimate the model assuming homoskedasticity:
-
-```r
-cps.mod <- lm(log(wage) ~ education + gender + age + experience + gender *
-                education, data = cps)
-summary(cps.mod)
-```
-
-```
-Coefficients:
-                     Estimate Std. Error t value Pr(>|t|)    
-(Intercept)           0.53764    0.70887   0.758 0.448521    
-education             0.18311    0.11333   1.616 0.106753    
-gendermale            0.69499    0.20315   3.421 0.000672 ***
-age                  -0.06472    0.11345  -0.570 0.568616    
-experience            0.07754    0.11355   0.683 0.494959    
-education:gendermale -0.03362    0.01531  -2.196 0.028545 *  
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 0.4509 on 528 degrees of freedom
-Multiple R-squared:  0.2769,	Adjusted R-squared:  0.2701 
-F-statistic: 40.44 on 5 and 528 DF,  p-value: < 2.2e-16
-```
-
-If there is heteroskedasticity (instead of homoskedasticity), then the standard errors, t-values, and p-values, are all wrong. We can test for heteroskedasticity using:
+We can test for heteroskedasticity using White's test. The null hypothesis is that we have _homoskedasticity_, that is, $H_0:\operatorname{var}(\epsilon_i) = \sigma^2 \quad ; \quad \forall i$. The alternative hypothesis is heteroskedasticity. White's test requires we install a package, before performing the test:
 
 ```r
 install.packages("skedastic")
@@ -311,20 +189,24 @@ white(cps.mod)
 ```
 
 ```
-statistic p.value parameter method       alternative
+# A tibble: 1 × 5
+  statistic p.value parameter method       alternative
       <dbl>   <dbl>     <dbl> <chr>        <chr>      
 1      7.37   0.690        10 White's Test greater    
 ```
+The output we are interested in is the p-value of 0.690. We fail to reject the null, and conclude that the error term is homoskedastic.
 
-The null hypothesis is that we have _homoskedasticity_, that is, $H_0:\operatorname{var}(\epsilon_i) = \sigma^2 \quad ; \quad \forall i$. With a p-value of 0.69, we fail to reject the null, and conclude that there is no heteroskedasticity.
+### (e)
 
-Becuase the consequences of heteroskedasticity are severe (hypothesis tests are wrong), sometimes we ignore the results of the hypothesis test above. Hypothesis tests can be wrong! (Remember type II error.) We estimate the _heteroskedastic robust standard errors_ anyway:
+Becuase the consequences of heteroskedasticity are severe (hypothesis tests are wrong), sometimes we ignore the results of the hypothesis test above. Hypothesis tests can be wrong! (Remember type II error.) We estimate the _heteroskedastic robust standard errors_ anyway.
+
+We need to install two packages before we can estimate the "robust" standard errors (and associated t-statistics and p-values):
 
 ```r
-install.packages("sandwich")
-library(sandwich)
 install.packages("lmtest")
 library(lmtest)
+install.packages("sandwich")
+library(sandwich)
 coeftest(cps.mod, vcov = vcovHC(cps.mod, "HC1"))
 ```
 
@@ -342,4 +224,4 @@ education:gendermale -0.033616   0.014731 -2.2819 0.0228902 *
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 ```
 
-There are some very big and important differences. Under heteroskedasticity, all of the variables are now statistically significant!
+There are some very important differences from the output in part (a). Under heteroskedasticity, all of the variables are now statistically significant!
