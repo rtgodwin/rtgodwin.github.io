@@ -4,20 +4,22 @@ permalink: /session4/
 excerpt:
 last_modified_at:
 toc: true
-geometry: "left = 5cm, right = 5cm, top = 2cm, bottom = 2cm"
+geometry: margin=30mm
 ---
 
 # Recap
 
-It has been a long night. 2 AM. You returned Floon. Volo has offered you the deed to Trollskull Manor. He explains that it is a good property with much potential. He intended on using it as research for a book, but alas he finds himself illiquid and must offer you this property in lieu.
+- You have signed the deed to Trollskull Manor. You may now do with it as you wish.
+- Jalester told them to come find him in a few days.
+- Hydrathistle.
+- Fence goods at 11 pm.
 
-Haunting: Awhile ago, the owners of the Trollskull Manor taproom _disappeared_. More recently, neighbours have complained to the city watch of haunting (who have draggged their heels, given the increasing gang violence). Volo has yet to make it past the entrance.
+# Fencing goods
+- Player notices someone watching / following them. Recedes into shadows.
 
-Purchase: Those who wish to be on the deed must accompany me to the Castle Ward, for the signing to be witnessed by a Magistrate. Magistrate Kylynne Silmerhelve. Sign the deed with the pen and inkwell.
 
 # Jalester Silvermane
 
-> You lot seem to have a healthy respect for law and order, and gods know the City Watch could use help right now. If you are interested in joining the Lord's Alliance, come find me here in a few days.
 
 # Trollskull Manor outisde
 
