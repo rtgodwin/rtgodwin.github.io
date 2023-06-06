@@ -5,7 +5,18 @@ excerpt:
 last_modified_at:
 toc: false
 ---
-<link rel="stylesheet" type="text/css" href="custom.css">
+<style>
+    .content {
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+</style>
+
+<div class="content">
+
+Your content goes here.
+
+
 
 # Recap
 
@@ -252,3 +263,5 @@ Jalester:
 Actually an Order of the Gauntlet mission:
 
 > “We hear that the Zhents are paying gangs in the Field Ward to attack suspected Xanathar Guild members. Fights are breaking out in the ward daily. Stop a fight before it happens. We need to send a message to these thugs that further altercations won’t be tolerated.”
+  
+</div>
