@@ -4,11 +4,8 @@ permalink: /session4/
 excerpt:
 last_modified_at:
 toc: true
-geometry: margin=30mm
 ---
 <link rel="stylesheet" type="text/css" href="style.css">
-
-
 
 # Recap
 
