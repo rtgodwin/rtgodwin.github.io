@@ -16,6 +16,10 @@ geometry: margin=30mm
 
 # Fencing goods
 - Player notices someone watching / following them. Recedes into shadows.
+- *Contact* nods at a guard.
+- Board the ship. Sailors glance at you with ambivalence, ignoring you mostly.
+- Small ship, a little bigger than the Nonsuch.
+- Descend into the lower cabin. It is very tight
 
 
 # Jalester Silvermane
