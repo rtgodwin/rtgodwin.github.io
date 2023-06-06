@@ -5,8 +5,7 @@ excerpt:
 last_modified_at:
 toc: true
 ---
-<div style="text-align: justify; margin-left: 20px; margin-right: 20px;">
-</div>
+<link rel="stylesheet" type="text/css" href="custom.css">
 
 # Recap
 
