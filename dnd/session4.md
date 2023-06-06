@@ -4,13 +4,14 @@ permalink: /session4/
 excerpt:
 last_modified_at:
 toc: false
----
 <style>
     .content {
         margin-left: 20px;
         margin-right: 20px;
       }
 </style>
+---
+
 # Recap
 
 - You have signed the deed to Trollskull Manor. You may now do with it as you wish.
