@@ -2,3 +2,8 @@
   margin-left: 20px; /* Adjust the value as needed */
   margin-right: 20px; /* Adjust the value as needed */
 }
+
+.site-header {
+  display: none;
+}
+
