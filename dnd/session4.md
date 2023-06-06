@@ -6,6 +6,10 @@ last_modified_at:
 toc: true
 geometry: margin=30mm
 ---
+body {
+    margin-left: 20px;
+}
+
 
 # Recap
 
