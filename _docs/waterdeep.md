@@ -47,5 +47,7 @@ Divide everything by 5:
 - Gray Ooze 100
 - Intellect devourer 450
 - Grum'shar 100
+- Mimic 450
+- Banshee 550
 
-Per character total so far: 300 + 400 = 700. 900 XP needed for level 3.
+Per character total : 900 XP.
