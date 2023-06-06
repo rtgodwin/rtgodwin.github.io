@@ -3,7 +3,7 @@ title: "Waterdeep: Dragon Heist Notes"
 permalink: /session4/
 excerpt:
 last_modified_at:
-toc: true
+toc: false
 ---
 <link rel="stylesheet" type="text/css" href="custom.css">
 
