@@ -4,6 +4,7 @@ permalink: /session4/
 excerpt:
 last_modified_at:
 toc: true
+geometry: "left = 5cm, right = 5cm, top = 2cm, bottom = 2cm"
 ---
 
 # Recap
