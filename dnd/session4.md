@@ -17,7 +17,9 @@ toc: false
 
 Word begins to spread throughout Waterdeep that a group of adventurers helped Volothamp Geddarm and rescued Renaer Neverember. Within days, faction representatives begin to approach the characters and try to recruit them.
 
-# Evening: (Jalester Silvermane)[https://www.dndbeyond.com/sources/wdh/trollskull-alley#LordsAlliance]
+## Morning: 
+
+## Evening: (Jalester Silvermane)[https://www.dndbeyond.com/sources/wdh/trollskull-alley#LordsAlliance]
 
 # Fencing goods
 - Player notices someone watching / following them. Recedes into shadows.
@@ -26,45 +28,10 @@ Word begins to spread throughout Waterdeep that a group of adventurers helped Vo
 - Small ship, a little bigger than the Nonsuch.
 - Descend into the lower cabin. It is very tight
 
-
-
-
-# Trollskull Manor outisde
-
-- 45 min walk from Yawing Portal.
-- The neighbourhood is quiet, respectable, and even vibrant. There are several other businesses and establishments in the Alley.
-- Four stories tall and boasting balconies, a turret, and five chimneys, the abandoned building is one of the grandest in Trollskull Alley.
-
-## Secrets
-- The house is haunted by two beings: Lif who is a harmless spectre, and his wife Falenas who is a deadly [Banshee](https://www.dndbeyond.com/monsters/17089-banshee).
-- Falenas and Lif were killed by the assassin that Falenas hired.
-
-# Trollskull Manor inside
+# Trollskull Manor
 
 - Tavern’s taproom is filled with broken furniture, tarnished silverware, casks of wine that have turned to vinegar.
 - With some broken windows the manor has been somewhat exposed to the elements, and is in quite a state of disrepair.
-
-## Exploring the manor
-- Who is exploring and doing what. Do they split up?
-  - doors slam open and shut
-  - plate smashes
-  - "Closing time" and "last call" in the dust
-  - Mug rises from the shelf, and is hurled at you - what do you do?
-  - Hand reaches out from a painting and tries to grab you.
-  - Hear a bone shattering wail once per day. (Every 5 mins roll a d20 - on a 19/20 hear it).
-  - A few bones of small animals littered around, cats, a giant rat, and birds it looks like (from mimic)
-
-## Mimic
-- In an upper room, a closet in pretty good condition. As soon as PC approaches, is grappled by a [Mimic](https://roll20.net/compendium/dnd5e/Mimic#content)
-
-## Basement
-- Two graves, Lif and Falenas. Dead for 6 months.
-
-## Banshee
-- Attic room contains Banshee. She hired an assassin to kill Lif, who also killed her and robbed the place.
-- Warning message on door. Elven: Don't open. Banshee! (Lif wrote it).
-- Room is magically sealed.
-- There are two attic windows sealed up with boards (AC 10 - 6 HP each) that can flood the attic with sunlight - prevents Wail and takes Banshee to 29 HP.
 
 ## Lif
 
