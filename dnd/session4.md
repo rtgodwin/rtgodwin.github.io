@@ -13,13 +13,19 @@ toc: false
 - Hydrathistle.
 - Fence goods at 11 pm.
 
+# Day 1
+Spend the evening leveling up.
+- For some inexplicable reason, Doomhilda finds herself drawn to a nearby swamp just outside the city.
+
 # Day 2
 
 Word begins to spread throughout Waterdeep that a group of adventurers helped Volothamp Geddarm and rescued Renaer Neverember. Within days, faction representatives begin to approach the characters and try to recruit them.
 
-## Morning: 
+## Morning:
+> PCs approached by a halfling named Broxley Fairkettle who informs you that if you are intending on running a Tavern you must register with the Tavernkeepers' guild (100 GP).
 
-## Evening: (Jalester Silvermane)[https://www.dndbeyond.com/sources/wdh/trollskull-alley#LordsAlliance]
+## Evening
+- (Jalester Silvermane)[https://www.dndbeyond.com/sources/wdh/trollskull-alley#LordsAlliance]
 
 # Fencing goods
 - Player notices someone watching / following them. Recedes into shadows.
