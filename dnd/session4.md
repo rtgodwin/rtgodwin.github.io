@@ -85,6 +85,18 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 - meat: Guild of Butchers; ale and wine: Vintners’, Distillers’, and Brewers’ Guild; bread and pastries: Bakers’ Guild
 - Dungsweepers’ Guild and the Loyal Order of Street Laborers
 
+| Item                   | Cost   | Guild                                                   |
+|------------------------|--------|---------------------------------------------------------|
+| Hole in Roof           | 200 gp | Carpenters’, Roofers’, and Plaisterers’ Guild           |
+| Brick Repair           | 120 gp | Guild of Stonecutters, Masons, Potters, and Tile-makers |
+| Water Damage           | 250 gp | Carpenters', Roofers', and Plaisterers' Guild           |
+| Broken Windows         | 50 gp  | Guild of Glassblowers, Glaziers, and Spectacle-makers   |
+| Replace Furniture      | 50 gp  |                                                         |
+| Replace Kitchen Hearth | 190 gp | Carpenters', Roofers', and Plaisterers' Guild           |
+| Fix Lighting           | 25 gp  | Guild of Chandlers and Lamplighters                     |
+| Fix Plumbing           | 100 gp | Cellarers' and Plumbers' Guild                          |
+| Replace Sign           | 15 gp  | Carpenters', Roofers', and Plaisterers' Guild           |
+
 # Trollskull Alley
 
 ## The Bent Nail
