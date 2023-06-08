@@ -15,9 +15,11 @@ toc: false
 
 # Travelling
 
-- Everytime you travel through the city during the day, roll 1d6 for each ward you pass through (max 1 event). On a 6, a random encounter occurs.
+- Every time you travel through the city during the day, roll 1d6 for each ward you pass through (max 1 event). On a 6, a random encounter occurs.
 
 [Ward descriptions](https://rtgodwin.com/wards/)
+
+[Random events](https://anyflip.com/fgoih/bseb/basic)
 
 # Day 1
 Spend the evening leveling up.
