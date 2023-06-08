@@ -25,7 +25,7 @@ Word begins to spread throughout Waterdeep that a group of adventurers helped Vo
 > PCs approached by a halfling named Broxley Fairkettle who informs you that if you are intending on running a Tavern you must register with the Tavernkeepers' guild (100 GP).
 
 ## Evening
-- (Jalester Silvermane)[https://www.dndbeyond.com/sources/wdh/trollskull-alley#LordsAlliance]
+- [Jalester Silvermane](https://www.dndbeyond.com/sources/wdh/trollskull-alley#LordsAlliance)
 
 # Fencing goods
 - Player notices someone watching / following them. Recedes into shadows.
