@@ -1,3 +1,11 @@
+---
+title: "Ward descriptions"
+permalink: /wards/
+excerpt:
+last_modified_at:
+toc: false
+---
+
 # The Dock Ward
 
 The Docks Ward is widely reputed as one of the most unsavory and dangerous locations in all of Waterdeep. It’s Home to bawdy taverns, shady shops and dark, winding alleyways in which all manner of ruffians and Ne’er-do-wells lurk, waiting to relieve unsuspecting passersby of their valuables. The poorest residents of Waterdeep live here, though, say what you will, the people work harder under harsher conditions than anywhere else in the city. Warehouses, poorhouses and tenements dominate the district, with a majority of the residents living in Mistshore, a collective of lean-to’s, piers and derelict ship hulls lashed together to form a ramshackle neighborhood. As you walk south from the Yawning Portal down Snail Street, a stiff, unseasonably cold ocean breeze rolls over you off the surf from Waterdeep Harbor, a breeze tinged with hints of salt, desperation and excrement. The streets are steep and narrow, signs and guideposts are few and far between and, with the sun having set by now, illumination is scant, most of the streetlamps appearing to have been long shattered and their components pilfered.
