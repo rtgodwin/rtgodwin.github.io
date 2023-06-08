@@ -13,9 +13,15 @@ toc: false
 - Hydrathistle.
 - Fence goods at 11 pm.
 
+# Travelling
+
+- Everytime you travel through the city during the day, roll 1d6 for each ward you pass through (max 1 event). On a 6, a random encounter occurs.
+
 # Day 1
 Spend the evening leveling up.
-- For some inexplicable reason, Doomhilda finds herself drawn to a nearby swamp just outside the city.
+- Doomhilda finds herself inexplicably drawn to a nearby swamp just outside the city.
+- Where do you want to sleep?
+- Any small jobs you want to do?
 
 # Day 2
 
@@ -42,10 +48,6 @@ Word begins to spread throughout Waterdeep that a group of adventurers helped Vo
 ## Lif
 
 Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. He will then warn characters of rats and mimic.
-
-## Tavernkeepers' Guild
-
-> One morning, PCs approached by a halfling named Broxley Fairkettle who informs you that if you are intending on running a Tavern you must register with the Tavernkeepers' guild (100 GP).
 
 ## Fixing it up
 
