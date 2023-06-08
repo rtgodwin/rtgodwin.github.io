@@ -13,6 +13,12 @@ toc: false
 - Hydrathistle.
 - Fence goods at 11 pm.
 
+# Day 2
+
+Word begins to spread throughout Waterdeep that a group of adventurers helped Volothamp Geddarm and rescued Renaer Neverember. Within days, faction representatives begin to approach the characters and try to recruit them.
+
+# Evening: (Jalester Silvermane)[https://www.dndbeyond.com/sources/wdh/trollskull-alley#LordsAlliance]
+
 # Fencing goods
 - Player notices someone watching / following them. Recedes into shadows.
 - *Contact* nods at a guard.
@@ -21,7 +27,6 @@ toc: false
 - Descend into the lower cabin. It is very tight
 
 
-# Jalester Silvermane
 
 
 # Trollskull Manor outisde
