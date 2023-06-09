@@ -21,11 +21,36 @@ toc: false
 
 [Random events](https://anyflip.com/fgoih/bseb/basic)
 
+[Calculating times](https://www.aidedd.org/atlas/index.php?map=W&l=1)
+
 # Day 1
-Spend the evening leveling up.
+Spend the afternoon leveling up.
 - Doomhilda finds herself inexplicably drawn to a nearby swamp just outside the city.
-- Where do you want to sleep?
 - Any small jobs you want to do?
+
+# Fencing goods aboard the Black Swan
+
+## Heading to Alline’s Way
+- On foot (normal): 47 minutes
+- On foot (fast): 35 minutes
+- On foot (slow): 70 minutes
+
+> Supposed to meet at 11pm. When do you leave?
+> At night, there are mostly only city watch and lamplighters out.
+
+## Guards
+
+Either group stealth against patrol of guards or “take the lead”, DC 12.
+> FAIL: You come face to face with a patrol of guards as you round a corner. “Where are you headed?” -> Performance/deception DC 12 for weak roleplayers.
+> FAIL: "Do we need robes here?" A Magister confiscates their contraband and charges them a fine of 500 gp.
+
+## Being followed
+
+- Player notices someone watching / following them. Recedes into shadows.
+- *Contact* nods at a guard.
+- Board the ship. Sailors glance at you with ambivalence, ignoring you mostly.
+- Small ship, a little bigger than the Nonsuch.
+- Descend into the lower cabin. It is very tight
 
 # Day 2
 
@@ -43,13 +68,6 @@ PCs approached by a halfling named Broxley Fairkettle who informs you that if yo
 
 ## Evening
 - [Jalester Silvermane](https://www.dndbeyond.com/sources/wdh/trollskull-alley#LordsAlliance)
-
-# Fencing goods
-- Player notices someone watching / following them. Recedes into shadows.
-- *Contact* nods at a guard.
-- Board the ship. Sailors glance at you with ambivalence, ignoring you mostly.
-- Small ship, a little bigger than the Nonsuch.
-- Descend into the lower cabin. It is very tight
 
 # Trollskull Manor
 
