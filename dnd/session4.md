@@ -160,10 +160,23 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 | Bread and Pastries     |        | Bakers’ Guild                                           |
 | Clean Bedsheets        |        | Guild of Launderers                                     |
 
-# Day 2 Evening
-- [Jalester Silvermane](https://www.dndbeyond.com/sources/wdh/trollskull-alley#LordsAlliance)
-
 # Quests
+
+Looking for money? Many factions in Waterdeep.
+
+- Emerald Enclave: an interest in protecting nature or the natural order to join the Emerald Enclave. Druids and rangers are especially welcome.
+- Harpers: Any smart, non-evil character can join the Harpers of Waterdeep. Bards and wizards are especially welcome.
+- Lord's Alliance: To become a member of the Lords’ Alliance faction in Waterdeep, a character must be a Waterdavian citizen. Those with criminal records can also join, provided they demonstrate their allegiance to the city.
+- Xanathar Guild: Anyone can join the Xanathar Guild, which, despite its name, doesn’t have official guild status in Waterdeep. Before membership is granted, however, an applicant must pass a test that always involves the perpetration of a serious crime. Possibilities include murdering a guild member who has failed Xanathar in some fashion, kidnapping a Waterdavian citizen, collecting a ransom, robbing a hire-coach, or looting a warehouse.
+- Zhentarim: The Black Network has an open recruitment policy. Anyone can join. Tenacity and loyalty are highly valued (but not essential) traits in new members. The Zhentarim is a shadow organization that trades mercenaries and goods (including weapons) for profit.
+
+## Lord's Alliance
+
+[Jalester Silvermane](https://www.dndbeyond.com/sources/wdh/trollskull-alley#LordsAlliance)
+
+- 2 Carrion Crawlers
+- Happens on 9th day
+- Jalester pays 300 gp
 
 Looking for money? Many factions in Waterdeep.
 
@@ -176,16 +189,6 @@ Looking for money? Many factions in Waterdeep.
 ## Hydrathistle
 
 There has been a shortage and the last time Fala tried to collect they were almost killed. Need you to escort them. 12 Stirges in a swamp outside town.
-
-
-
-Start asking around for a fence - Zhentarim or Xanathar guild. Need to be a member.
-
-## Buy some poison
-
-Poison is expensive because it is highly illegal, although it is a relatively simple formula. Lesser Poison, Vial (25 GP). One use, DC 12 Constitution, for 1d4 damage. Can ask Fala how to make it for a cheaper source.
-
-DC17 Investigation: find it. Otherwise, must join Zhentarim guild to obtain it (although they don't sell it openly).
 
 ## Quest to join Zhentarim
 
@@ -220,14 +223,3 @@ Written on a paper bird:
 > “Renaer tells us you are a good bet. He bought you tickets to the opera tonight at the Lightsinger Theater in the Sea Ward. If you are interested, meet Mirt at intermission. Private Box C. Formal attire is required for admittance.”
 
 Enclosed are tickets for the entire party to The Fall of Tiamat, an opera sung in Giant describing the evil dragon queen’s defeat at the Well of Dragons.
-
-## Lord's Alliance
-
-Jalester:
-
-> “A gang war is causing unrest throughout the city. We have offered protection to members of the Dungsweepers’ Guild, and you have been assigned to protect a group of them. Meet them at the Muleskull Tavern, on Ship Street in the Dock Ward, at six bells and guard them while they work. Do this every day for a tenday.”
-
-Actually an Order of the Gauntlet mission:
-
-> “We hear that the Zhents are paying gangs in the Field Ward to attack suspected Xanathar Guild members. Fights are breaking out in the ward daily. Stop a fight before it happens. We need to send a message to these thugs that further altercations won’t be tolerated.”
-
