@@ -160,6 +160,8 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 | Bread and Pastries     |        | Bakers’ Guild                                           |
 | Clean Bedsheets        |        | Guild of Launderers                                     |
 
+[Optional tavern upgrades](https://www.gmbinder.com/share/-M7rUWFvpMBZVpld6M0e)
+
 # Quests
 
 Looking for money? Many factions in Waterdeep.
