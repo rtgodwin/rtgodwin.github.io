@@ -109,11 +109,9 @@ PCs approached by a halfling named Broxley Fairkettle who informs you that if yo
 
 > “Have you had a chance to call your local Guild reps to have them look at costs for repairs? Also if you are to run a Tavern you'll need to be a member of the Fellowship of Innkeepers, of course. I'd be happy to offer my assistance with contacting Reps to come out and bid for repairs, after your membership is paid for, obviously.”
 
-> "10gp a tenday for membership. Also if you are brewing your own alcohol then I'd suggest you join the "Vintners', Distillers', and Brewers' Guild" Your alcohol will gain traction a lot quicker in the city, better distribution, and the members are more than happy to share secrets of the trade to make it better. If you are going to be cooking food I'd suggest you go through the Guild of Bakers to buy your bread and other cooking product, produce you can get from the open market."
+> "Only 1 gp a tenday for membership. Also if you are brewing your own alcohol then I'd suggest you join the "Vintners', Distillers', and Brewers' Guild" Your alcohol will gain traction a lot quicker in the city, better distribution, and the members are more than happy to share secrets of the trade to make it better. If you are going to be cooking food I'd suggest you go through the Guild of Bakers to buy your bread and other cooking product, produce you can get from the open market."
 
 # Trollskull Manor
-
-Have someone who knows about construction make a check.
 
 ## Lif
 
@@ -121,11 +119,8 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 
 ## Guilds
 
-- Carpenters', Roofers', and Plaisterers' Guild - Fix the roof leak
-- Cellarers' and Plumbers' Guild - Fix the plumbing issues
 - Dungsweepers' Guild - Clean up any trash from inside the Manor if it's brought outside, clean up the street around it
 - Guild of Butchers - Offers fresh meet for cooking
-- Guild of Chandlers and Lamplighters - Replace the lighting
 - Guild of Fine Carvers - Offers to build you a beautiful sign, sure to attract attention from everywhere, also wants to do detail work on the bar and around the hearth. Offers to build custom railings for the balconies.
 - Guild of Glassblowers, Glaziers, and Spectacle-makers - Window replacement
 - Guild of Stonecutters, Masons, Potters, and Tile-makers - Fix the brick work
@@ -135,8 +130,6 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 - Watchful Order of Magists and Protectors - Offers to stop in on occasion, if free food is offered to the City Guards, it helps keeps things from getting out of hand.
 
 1000 GP total.
-
-- Furniture from bent nail.
 
 - meat: Guild of Butchers; ale and wine: Vintners’, Distillers’, and Brewers’ Guild; bread and pastries: Bakers’ Guild
 - Dungsweepers’ Guild and the Loyal Order of Street Laborers
@@ -152,22 +145,18 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 | Fix Lighting           | 25 gp  | Guild of Chandlers and Lamplighters                     |
 | Fix Plumbing           | 100 gp | Cellarers' and Plumbers' Guild                          |
 | Replace Sign           | 15 gp  | Carpenters', Roofers', and Plaisterers' Guild           |
-| Licenses and Contracts | 250 gp |                                                         |
+| Licenses and Contracts | 150 gp |                                                         |
 
-> You can try to run a business without doing any of these things of course. Would need hirelings to run the place, PHB?, (20 gp for skilled, 20 sp for unskilled).
+> You can try to run a business without doing any of these things of course. Would need hirelings to run the place, PHB?, (20 gp for skilled, 20 sp for unskilled). Dungsweepers and plumbing. Charged per tenday.
 
-| Ptional Items          | Cost   | Guild                                                   |
+> What do you want to sell / do?
+
+| Optional Items         | Cost   | Guild                                                   |
 |------------------------|--------|---------------------------------------------------------|
-| Clean bedsheets        | 200 gp | Launderer's Guild                                       |
-| Brick Repair           | 120 gp | Guild of Stonecutters, Masons, Potters, and Tile-makers |
-| Water Damage           | 250 gp | Carpenters', Roofers', and Plaisterers' Guild           |
-| Broken Windows         | 50 gp  | Guild of Glassblowers, Glaziers, and Spectacle-makers   |
-| Replace Furniture      | 50 gp  |                                                         |
-| Replace Kitchen Hearth | 190 gp | Carpenters', Roofers', and Plaisterers' Guild           |
-| Fix Lighting           | 25 gp  | Guild of Chandlers and Lamplighters                     |
-| Fix Plumbing           | 100 gp | Cellarers' and Plumbers' Guild                          |
-| Replace Sign           | 15 gp  | Carpenters', Roofers', and Plaisterers' Guild           |
-| Licenses and Contracts | 250 gp |                                                         |
+| Meat                   |        | Guild of Butchers                                       |
+| Ale and Wine           |        | Vintners’, Distillers’, and Brewers’ Guild              |
+| Bread and Pastries     |        | Bakers’ Guild                                           |
+| Clean Bedsheets        |        | Guild of Launderers                                     |
 
 # Day 2 Evening
 - [Jalester Silvermane](https://www.dndbeyond.com/sources/wdh/trollskull-alley#LordsAlliance)
