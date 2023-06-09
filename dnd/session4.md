@@ -9,9 +9,10 @@ toc: false
 # Recap
 
 - You have signed the deed to Trollskull Manor. You may now do with it as you wish.
-- Jalester told them to come find him in a few days.
-- Hydrathistle.
 - Fence goods at 11 pm.
+- Time is going to move quickly.
+- Every time you travel through the city during the day, roll 1d6 for each ward you pass through (max 1 event). On a 6, a random encounter occurs.
+- Spend the afternoon/evening long resting and leveling up.
 
 ### Painting value
 
@@ -41,7 +42,7 @@ Bars:
 # Day 1
 Spend the afternoon leveling up.
 - Doomhilda finds herself inexplicably drawn to a nearby swamp just outside the city.
-- Any small jobs you want to do?
+- Any small errands you want to run?
 
 # Fencing goods aboard the Black Swan
 
