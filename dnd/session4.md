@@ -181,16 +181,16 @@ Looking for money? Many factions in Waterdeep.
 
 Each morning, the characters meet with a team of four dungsweepers (commoners) and head to the Trades Ward, where the sweepers spend the day cleaning up waste in the streets. It’s boring work. On the ninth day, around highsun, two carrion crawler emerges from a nearby alley, pursued by two City Watch guards. The characters can help slay the carrion crawler, which came up from the sewers.
 
-- 2 Carrion Crawlers
+- 2 Carrion Crawlers (p. 37)
 - Happens on 9th day
 - Jalester pays 300 gp
 
 ## Hydrathistle
 
-There has been a shortage and the last time Fala tried to collect they were almost killed. Need you to escort them. 12 Stirges in a swamp outside town.
+There has been a shortage and the last time Fala tried to collect they were almost killed. Need you to escort them. 12 Stirges (p. 284) in a swamp outside town.
 - Rewards with 400 gp worth of potions, or 200 gp cash
 
-## Quest to join Zhentarim
+## [Quest to join Zhentarim](https://www.dndbeyond.com/sources/wdh/trollskull-alley#Zhentarim) (Tiddles, Doomhilda)
 
 A flying snake with a parchment tied about its body visits one character in the dead of night. The message reads:
 
@@ -207,9 +207,11 @@ Yagra Stonefist greets them and leads interested parties to a table in the cente
 
 > “Someone is killing elf and half-elf sailors in the Dock Ward — three dead so far, each one decapitated by a blade in the dead of night. Look into it, will you? Methinks the City Watch could use a little help.”
 
-Characters who spend three consecutive nights loitering around the docks spot Heldar, a drunk half-elf sailor (bandit), leaving the Muleskull Tavern (on Ship Street in the Dock Ward). Characters who follow Heldar can save him from Soluun Xibrindas, a renegade drow gunslinger (see appendix B). Soluun hides in the shadows, blade drawn, waiting for the half-elf to stumble by. Spotting him before he strikes requires a successful DC 18 Wisdom (Perception) check. Soluun flees if reduced to half his hit points or fewer.
+Characters who spend three consecutive nights loitering around the docks spot Heldar, a drunk half-elf sailor (bandit), leaving the Muleskull Tavern (on Ship Street in the Dock Ward). Characters who follow Heldar can save him from Soluun Xibrindas, a renegade [drow gunslinger](https://www.dndbeyond.com/monsters/149812-drow-gunslinger). Soluun hides in the shadows, blade drawn, waiting for the half-elf to stumble by. Spotting him before he strikes requires a successful DC 18 Wisdom (Perception) check. Soluun flees if reduced to half his hit points or fewer.
 
-## Emerald Enclave - Cat quest for Oleander / Mirage
+Davil pays 300 gp, and gives a mystery key.
+
+## [Emerald Enclave](https://www.dndbeyond.com/sources/wdh/trollskull-alley#EmeraldEnclave) - Cat quest for Oleander / Mirage
 
 Visited by a white cat that speaks the following message in a melodious male voice:
 
