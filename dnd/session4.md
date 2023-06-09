@@ -160,6 +160,10 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 
 [Optional tavern upgrades](https://www.gmbinder.com/share/-M7rUWFvpMBZVpld6M0e)
 
+## Running the tavern
+
+Every tenday, roll d100 + (modifier) and consult a table to see profit/loss. Modifier depends on the state of your tavern, player efforts, etc.
+
 # Quests
 
 Looking for money? Many factions in Waterdeep.
