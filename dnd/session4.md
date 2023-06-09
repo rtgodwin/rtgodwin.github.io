@@ -36,7 +36,9 @@ Word begins to spread throughout Waterdeep that a group of adventurers helped Vo
 PCs approached by a halfling named Broxley Fairkettle who informs you that if you are intending on running a Tavern you must register with the Tavernkeepers' guild.
 
 > Welcome to the Neighborhood! I just wanted to stop by and introduce myself, I'm Broxley Fairkettle, from the Fellowship of Innkeepers, it looks as if Volo has given up on his little tavern project, are you the new owners?"
+
 > “Have you had a chance to call your local Guild reps to have them look at costs for repairs? Also if you are to run a Tavern you'll need to be a member of the Fellowship of Innkeepers, of course. I'd be happy to offer my assistance with contacting Reps to come out and bid for repairs, after your membership is paid for, obviously.”
+
 > "1GP a tenday or 10gp a year for membership. Also if you are brewing your own alcohol then I'd suggest you join the "Vintners', Distillers', and Brewers' Guild" Your alcohol will gain traction a lot quicker in the city, better distribution, and the members are more than happy to share secrets of the trade to make it better. If you are going to be cooking food I'd suggest you go through the Guild of Bakers to buy your bread and other cooking product, produce you can get from the open market."
 
 ## Evening
