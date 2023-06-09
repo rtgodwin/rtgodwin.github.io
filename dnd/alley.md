@@ -1,3 +1,11 @@
+---
+title: "Waterdeep: Trollskull Alley"
+permalink: /alley/
+excerpt:
+last_modified_at:
+toc: false
+---
+
 # Trollskull Alley
 
 ## The Bent Nail
