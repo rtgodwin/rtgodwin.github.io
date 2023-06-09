@@ -86,10 +86,16 @@ _A dwarf named Haldor Iron-Eye waddles over and examines the contraband. Minutes
 
 > "There is of course the matter of the finders fee. Baziff, how much are you owed?" She tosses Baziff 10%.
 
+> Who is carrying the gold?
+
 ### Contraband
 - 15 - 10lb. silver bars (50 gp ea., 750 gp total)
 - 4 paintings (300 gp ea.). The paintings were created by the renowned Elven artist, Elandrial Silverbrush.
 - 1950 gp total.
+
+## Exit
+
+Ambushed by Shadowspine Thugs. Same figure that was tailing you (Jareth). Follow printout.
 
 # Day 2
 
@@ -103,15 +109,11 @@ PCs approached by a halfling named Broxley Fairkettle who informs you that if yo
 
 > “Have you had a chance to call your local Guild reps to have them look at costs for repairs? Also if you are to run a Tavern you'll need to be a member of the Fellowship of Innkeepers, of course. I'd be happy to offer my assistance with contacting Reps to come out and bid for repairs, after your membership is paid for, obviously.”
 
-> "1GP a tenday or 10gp a year for membership. Also if you are brewing your own alcohol then I'd suggest you join the "Vintners', Distillers', and Brewers' Guild" Your alcohol will gain traction a lot quicker in the city, better distribution, and the members are more than happy to share secrets of the trade to make it better. If you are going to be cooking food I'd suggest you go through the Guild of Bakers to buy your bread and other cooking product, produce you can get from the open market."
-
-## Evening
-- [Jalester Silvermane](https://www.dndbeyond.com/sources/wdh/trollskull-alley#LordsAlliance)
+> "10gp a tenday for membership. Also if you are brewing your own alcohol then I'd suggest you join the "Vintners', Distillers', and Brewers' Guild" Your alcohol will gain traction a lot quicker in the city, better distribution, and the members are more than happy to share secrets of the trade to make it better. If you are going to be cooking food I'd suggest you go through the Guild of Bakers to buy your bread and other cooking product, produce you can get from the open market."
 
 # Trollskull Manor
 
-- Tavern’s taproom is filled with broken furniture, tarnished silverware, casks of wine that have turned to vinegar.
-- With some broken windows the manor has been somewhat exposed to the elements, and is in quite a state of disrepair.
+Have someone who knows about construction make a check.
 
 ## Lif
 
@@ -132,17 +134,10 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 - Vintners', Distillers', and Brewers' Guild - Offers to sell certain beers
 - Watchful Order of Magists and Protectors - Offers to stop in on occasion, if free food is offered to the City Guards, it helps keeps things from getting out of hand.
 
-## Fixing it up
-
-- Hammond Kraddoc: Vintners’, Distillers’, and Brewers’ Guild
-- Justyn Rassk: Guild of Butchers 
-
 1000 GP total.
 
 - Furniture from bent nail.
-- walls and roof: Carpenters’, Roofers’, and Plaisterers’ Guild
-- basement and plumbing: Cellarers’ and Plumbers’ Guild
-- clean bedsheets: Launderers’ Guild
+
 - meat: Guild of Butchers; ale and wine: Vintners’, Distillers’, and Brewers’ Guild; bread and pastries: Bakers’ Guild
 - Dungsweepers’ Guild and the Loyal Order of Street Laborers
 
@@ -152,11 +147,30 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 | Brick Repair           | 120 gp | Guild of Stonecutters, Masons, Potters, and Tile-makers |
 | Water Damage           | 250 gp | Carpenters', Roofers', and Plaisterers' Guild           |
 | Broken Windows         | 50 gp  | Guild of Glassblowers, Glaziers, and Spectacle-makers   |
+| Replace Furniture      | 50 gp  | Furniture shop                                          |
+| Replace Kitchen Hearth | 190 gp | Carpenters', Roofers', and Plaisterers' Guild           |
+| Fix Lighting           | 25 gp  | Guild of Chandlers and Lamplighters                     |
+| Fix Plumbing           | 100 gp | Cellarers' and Plumbers' Guild                          |
+| Replace Sign           | 15 gp  | Carpenters', Roofers', and Plaisterers' Guild           |
+| Licenses and Contracts | 250 gp |                                                         |
+
+> You can try to run a business without doing any of these things of course. Would need hirelings to run the place, PHB?, (20 gp for skilled, 20 sp for unskilled).
+
+| Ptional Items          | Cost   | Guild                                                   |
+|------------------------|--------|---------------------------------------------------------|
+| Clean bedsheets        | 200 gp | Launderer's Guild                                       |
+| Brick Repair           | 120 gp | Guild of Stonecutters, Masons, Potters, and Tile-makers |
+| Water Damage           | 250 gp | Carpenters', Roofers', and Plaisterers' Guild           |
+| Broken Windows         | 50 gp  | Guild of Glassblowers, Glaziers, and Spectacle-makers   |
 | Replace Furniture      | 50 gp  |                                                         |
 | Replace Kitchen Hearth | 190 gp | Carpenters', Roofers', and Plaisterers' Guild           |
 | Fix Lighting           | 25 gp  | Guild of Chandlers and Lamplighters                     |
 | Fix Plumbing           | 100 gp | Cellarers' and Plumbers' Guild                          |
 | Replace Sign           | 15 gp  | Carpenters', Roofers', and Plaisterers' Guild           |
+| Licenses and Contracts | 250 gp |                                                         |
+
+# Day 2 Evening
+- [Jalester Silvermane](https://www.dndbeyond.com/sources/wdh/trollskull-alley#LordsAlliance)
 
 # Trollskull Alley
 
