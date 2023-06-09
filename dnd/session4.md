@@ -36,6 +36,8 @@ Bars:
 
 [Calculating times](https://www.aidedd.org/atlas/index.php?map=W&l=1)
 
+[Alley shops](https://rtgodwin.com/alley/)
+
 # Day 1
 Spend the afternoon leveling up.
 - Doomhilda finds herself inexplicably drawn to a nearby swamp just outside the city.
