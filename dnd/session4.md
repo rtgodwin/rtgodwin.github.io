@@ -13,6 +13,19 @@ toc: false
 - Hydrathistle.
 - Fence goods at 11 pm.
 
+### Painting value
+
+4 paintings (300 gp ea.). The paintings were created by the renowned Elven artist, Elandrial Silverbrush.
+
+Your characters actually have no idea how much the paintings are worth. And the silver bars are stamped Neverwinter.
+
+Paintings:
+- DC 18 history check
+- DC 15 investigation check
+
+Bars: 
+- DC 13 history
+
 # Travelling
 
 - Every time you travel through the city during the day, roll 1d6 for each ward you pass through (max 1 event). On a 6, a random encounter occurs.
@@ -46,15 +59,41 @@ Either group stealth against patrol of guards or “take the lead”, DC 12.
 
 ## Being followed
 
-- Player notices someone watching / following them. Recedes into shadows.
-- *Contact* nods at a guard.
-- Board the ship. Sailors glance at you with ambivalence, ignoring you mostly.
-- Small ship, a little bigger than the Nonsuch.
-- Descend into the lower cabin. It is very tight
+Group make a perception check. DC 16: Further along as the alleys grow darker you notice someone following you. (Jareth).
+
+## To the Black Swan
+
+You meet Baziff Elest at Alline’s Way near Dock Street.
+
+> “You’re just on-time/late. Come this way. Quickly! Captain Blackthorn is not one to be kept waiting!”
+
+> As you walk he reminds you that his finders fee is 10% and that he won't argue this in front of Captain Blackthorn. 
+
+> The Black Swan is a sleek, two-masted ship with a dark, weathered hull and black sails adorned with a faintly visible silver swan emblem. The ship's deck is well-maintained, with neatly coiled ropes and organized cargo. Sailors glance at you with ambivalence, ignoring you mostly. Baziff nods at a crew member standing guard. You descend into the lower cabin.
+
+## Captain Blackthorn
+Captain Morlina Blackthorn sits behind a desk, raven-black hair tied back in a neat braid. A jagged scar cuts across her weather-beaten face, hinting at past battles and close encounters with death. Clad in worn leather armor adorned with trinkets from her travels, she carries a cutlass on her hip, its hilt encrusted with jewels.
+
+_Persuasion checks at disadvantage._
+
+> “(You're late!) (You're on time) and my time is valuable. Let's make this quick. What is it you wish to sell?”
+
+_A dwarf named Haldor Iron-Eye waddles over and examines the contraband. Minutes pass, Haldor whispers to Captain Blathorn._
+
+> These bars are of course stamped Neverwinter and can only be sold in Neverwinter. Luckily for you I have a ship and I can sail these stolen items there myself, but I must be paid for my time and for the risk I must take. I can offer you 500 gp. The paintings, alas, are fake, but nonetheless I can offer you 200 gp for the lot.
+
+> Who is paying attention? Make an insight check against Morlina's Deception +8. Call her out/ persuade -> 800 gp each.
+
+> "There is of course the matter of the finders fee. Baziff, how much are you owed?" She tosses Baziff 10%.
+
+### Contraband
+- 15 - 10lb. silver bars (50 gp ea., 750 gp total)
+- 4 paintings (300 gp ea.). The paintings were created by the renowned Elven artist, Elandrial Silverbrush.
+- 1950 gp total.
 
 # Day 2
 
-Word begins to spread throughout Waterdeep that a group of adventurers helped Volothamp Geddarm and rescued Renaer Neverember. Within days, faction representatives begin to approach the characters and try to recruit them.
+> Word begins to spread throughout Waterdeep that a group of adventurers helped Volothamp Geddarm and rescued Renaer Neverember. Within days, faction representatives are going to begin to approach you to try to recruit you.
 
 ## Morning:
 
@@ -231,10 +270,7 @@ Looking for money? Many factions in Waterdeep.
 
 There has been a shortage and the last time Fala tried to collect they were almost killed. Need you to escort them. 12 Stirges in a swamp outside town.
 
-## Fence their paintings / bars
 
-- 15 - 10lb. silver bars (50 gp ea., 750 gp total). DC 12 Investigation.
-- DC17 Investigation for 4 paintings (300 gp ea.)
 
 Start asking around for a fence - Zhentarim or Xanathar guild. Need to be a member.
 
