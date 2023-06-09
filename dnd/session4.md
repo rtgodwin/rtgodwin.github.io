@@ -134,9 +134,6 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 
 1000 GP total.
 
-- meat: Guild of Butchers; ale and wine: Vintners’, Distillers’, and Brewers’ Guild; bread and pastries: Bakers’ Guild
-- Dungsweepers’ Guild and the Loyal Order of Street Laborers
-
 | Item                   | Cost   | Guild                                                   |
 |------------------------|--------|---------------------------------------------------------|
 | Hole in Roof           | 200 gp | Carpenters’, Roofers’, and Plaisterers’ Guild           |
