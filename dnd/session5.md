@@ -8,24 +8,10 @@ toc: false
 
 # Recap
 
-- You have signed the deed to Trollskull Manor. You may now do with it as you wish.
-- Fence goods at 11 pm.
-- Time is going to move quickly.
-- Every time you travel through the city during the day, roll 1d6 for each ward you pass through (max 1 event). On a 6, a random encounter occurs.
-- Spend the afternoon/evening long resting and leveling up.
-
-### Painting value
-
-4 paintings (300 gp ea.). The paintings were created by the renowned Elven artist, Elandrial Silverbrush.
-
-Your characters actually have no idea how much the paintings are worth. And the silver bars are stamped Neverwinter.
-
-Paintings:
-- DC 18 history check
-- DC 15 investigation check
-
-Bars: 
-- DC 13 history
+- You have Trollskull Manor, you may now do with it as you wish.
+- You fenced goods.
+- Tiddles can try to find a poison kit / buy poison.
+- Shopping.
 
 # Travelling
 
