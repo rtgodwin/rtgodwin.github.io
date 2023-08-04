@@ -28,6 +28,12 @@ toc: false
 
 [Alley shops](https://rtgodwin.com/alley/)
 
+# Every couple of days in the Manor
+
+Roll a d100, and a d6(reroll 6) and d4 to determine participants.
+
+[Random conversations](https://www.dndspeak.com/2021/05/13/100-prompts-for-idle-chit-chat-between-characters/)
+
 # Poisoners Kit
 
 How is Tiddles going to try to find someone to sell him a posioner's kit? Each day, can make a DC 12 investigation check to find a poisoner's kit (50 gp). Use the "Sensible Cost" for materials.
