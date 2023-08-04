@@ -10,7 +10,7 @@ toc: false
 
 - You have Trollskull Manor, you may now do with it as you wish.
 - You fenced goods.
-- A tenday will pass before you set off for the hydrathistle.
+- A tenday will pass before you set off for the hydrathistle. (Their shop is closed).
 - Tiddles can try to find a poison kit / buy poison.
 - Shopping.
 - Run the tavern.
@@ -30,12 +30,6 @@ toc: false
 # Poisoners Kit
 
 How is Tiddles going to try to find someone to sell him a posioner's kit? Each day, can make a DC 12 investigation check to find a poisoner's kit (50 gp). Use the "Sensible Cost" for materials.
-
-## Morning:
-
-PCs approached by a halfling named Broxley Fairkettle who informs you that if you are intending on running a Tavern you must register with the Tavernkeepers' guild.
-
-> "Only 1 gp a tenday for membership. Also if you are brewing your own alcohol then I'd suggest you join the "Vintners', Distillers', and Brewers' Guild" Your alcohol will gain traction a lot quicker in the city, better distribution, and the members are more than happy to share secrets of the trade to make it better. If you are going to be cooking food I'd suggest you go through the Guild of Bakers to buy your bread and other cooking product, produce you can get from the open market."
 
 # Trollskull Manor
 
@@ -83,14 +77,14 @@ You have paid 1 gp for a tenday membership to the Fellowship of Innkeepers.
 
 > What standard do you want?
 
-- Dodgy: 25gp per tenday (Bar I / Carlos and Murphys)
-- Average: 50gp per tenday (The Grove)
-- Upper Class: 100gp per tenday (Segovia / Deer and Almond)
-- Exclusive: 300gp per tenday (277 Wellington)
+- Dodgy (150gp licenses + 300gp) : 25gp per tenday (Bar I / Carlos and Murphys)
+- Average: 50gp per tenday (400gp) (The Grove)
+- Upper Class: 100gp per tenday (300 gp) (Segovia / Deer and Almond)
+- Exclusive: 200gp per tenday (277 Wellington)
 
 ## Running the tavern
 
-Every tenday, roll d100 + (modifier) and consult a table to see profit/loss. Modifier depends on the state of your tavern, player efforts, etc.
+Every tenday, get $$expenses \times (1d20 \times 0.2)$$.
 
 # Quests
 
