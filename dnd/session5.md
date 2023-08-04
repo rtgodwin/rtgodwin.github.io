@@ -8,9 +8,10 @@ toc: false
 
 # Recap
 
-- You have Trollskull Manor, you may now do with it as you wish.
-- You fenced goods.
-- A tenday will pass before you set off for the hydrathistle. (Their shop is closed).
+- You have Trollskull Manor.
+- You fenced goods, have money.
+- A tenday will pass before you set off for the hydrathistle. (Fala's shop is closed).
+- You will receive 3 or 4 quest invitations from different factions. You will choose one faction for next session (20 - 30 days will pass). At the end of that session, Chapter 3 will begin.
 - Tiddles can try to find a poison kit / buy poison.
 - Shopping.
 - Run the tavern.
@@ -84,29 +85,22 @@ You have paid 1 gp for a tenday membership to the Fellowship of Innkeepers.
 
 ## Running the tavern
 
-Every tenday, get $$expenses \times (1d20 \times 0.2)$$.
+Every tenday, get $expenses \times (1d20 \times 0.2)$.
 
-# Quests
-
-Looking for money? Many factions in Waterdeep.
+# Factions
 
 - Emerald Enclave: an interest in protecting nature or the natural order to join the Emerald Enclave. Druids and rangers are especially welcome.
 - Harpers: Any smart, non-evil character can join the Harpers of Waterdeep. Bards and wizards are especially welcome.
 - Lord's Alliance: To become a member of the Lords’ Alliance faction in Waterdeep, a character must be a Waterdavian citizen. Those with criminal records can also join, provided they demonstrate their allegiance to the city.
-- Xanathar Guild: Anyone can join the Xanathar Guild, which, despite its name, doesn’t have official guild status in Waterdeep. Before membership is granted, however, an applicant must pass a test that always involves the perpetration of a serious crime. Possibilities include murdering a guild member who has failed Xanathar in some fashion, kidnapping a Waterdavian citizen, collecting a ransom, robbing a hire-coach, or looting a warehouse.
 - Zhentarim: The Black Network has an open recruitment policy. Anyone can join. Tenacity and loyalty are highly valued (but not essential) traits in new members. The Zhentarim is a shadow organization that trades mercenaries and goods (including weapons) for profit.
+
+Every 2 or 3 days, player's receive an invitation to one faction.
 
 ## Lord's Alliance
 
 [Jalester Silvermane](https://www.dndbeyond.com/sources/wdh/trollskull-alley#LordsAlliance)
 
 > “A gang war is causing unrest throughout the city. We have offered protection to members of the Dungsweepers’ Guild, and you have been assigned to protect a group of them. Meet them at the Muleskull Tavern, on Ship Street in the Dock Ward, at six bells and guard them while they work. Do this every day for a tenday.”
-
-Each morning, the characters meet with a team of four dungsweepers (commoners) and head to the Trades Ward, where the sweepers spend the day cleaning up waste in the streets. It’s boring work. On the ninth day, around highsun, two carrion crawler emerges from a nearby alley, pursued by two City Watch guards. The characters can help slay the carrion crawler, which came up from the sewers.
-
-- 2 Carrion Crawlers (p. 37)
-- Happens on 9th day
-- Jalester pays 300 gp
 
 ## Hydrathistle
 
