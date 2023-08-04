@@ -29,7 +29,7 @@ toc: false
 
 # Poisoners Kit
 
-How is Tiddles going to try to find someone to sell him a posioner's kit? Each day, can make a DC 12 investigation check to find a poisoner's kit. Use the "Sensible Cost".
+How is Tiddles going to try to find someone to sell him a posioner's kit? Each day, can make a DC 12 investigation check to find a poisoner's kit (50 gp). Use the "Sensible Cost" for materials.
 
 ## Morning:
 
