@@ -10,8 +10,10 @@ toc: false
 
 - You have Trollskull Manor, you may now do with it as you wish.
 - You fenced goods.
+- A tenday will pass before you set off for the hydrathistle.
 - Tiddles can try to find a poison kit / buy poison.
 - Shopping.
+- Run the tavern.
 
 # Travelling
 
@@ -25,86 +27,21 @@ toc: false
 
 [Alley shops](https://rtgodwin.com/alley/)
 
-# Day 1
-Spend the afternoon leveling up.
-- Doomhilda finds herself inexplicably drawn to a nearby swamp just outside the city.
-- Any small errands you want to run?
+# Poisoners Kit
 
-# Fencing goods aboard the Black Swan
-
-## Heading to Alline’s Way
-- On foot (normal): 47 minutes
-- On foot (fast): 35 minutes
-- On foot (slow): 70 minutes
-
-> Supposed to meet at 11pm. When do you leave?
-> At night, there are mostly only city watch and lamplighters out.
-
-## Guards
-
-Either group stealth against patrol of guards or “take the lead”, DC 12.
-> FAIL: You come face to face with a patrol of guards as you round a corner. “Where are you headed?” -> Performance/deception DC 12 for weak roleplayers.
-> FAIL: "Do we need robes here?" A Magister confiscates their contraband and charges them a fine of 500 gp.
-
-## Being followed
-
-Group make a perception check. DC 16: Further along as the alleys grow darker you notice someone following you. (Jareth).
-
-## To the Black Swan
-
-You meet Baziff Elest at Alline’s Way near Dock Street.
-
-> “You’re just on-time/late. Come this way. Quickly! Captain Blackthorn is not one to be kept waiting!”
-
-> As you walk he reminds you that his finders fee is 10% and that he won't argue this in front of Captain Blackthorn. 
-
-> The Black Swan is a sleek, two-masted ship with a dark, weathered hull and black sails adorned with a faintly visible silver swan emblem. The ship's deck is well-maintained, with neatly coiled ropes and organized cargo. Sailors glance at you with ambivalence, ignoring you mostly. Baziff nods at a crew member standing guard. You descend into the lower cabin.
-
-## Captain Blackthorn
-Captain Morlina Blackthorn sits behind a desk, raven-black hair tied back in a neat braid. A jagged scar cuts across her weather-beaten face, hinting at past battles and close encounters with death. Clad in worn leather armor adorned with trinkets from her travels, she carries a cutlass on her hip, its hilt encrusted with jewels.
-
-_Persuasion checks at disadvantage._
-
-> “(You're late!) (You're on time) and my time is valuable. Let's make this quick. What is it you wish to sell?”
-
-_A dwarf named Haldor Iron-Eye waddles over and examines the contraband. Minutes pass, Haldor whispers to Captain Blathorn._
-
-> These bars are of course stamped Neverwinter and can only be sold in Neverwinter. Luckily for you I have a ship and I can sail these stolen items there myself, but I must be paid for my time and for the risk I must take. I can offer you 500 gp. The paintings, alas, are fake, but nonetheless I can offer you 200 gp for the lot.
-
-> Who is paying attention? Make an insight check against Morlina's Deception +8. Call her out/ persuade -> 800 gp each.
-
-> "There is of course the matter of the finders fee. Baziff, how much are you owed?" She tosses Baziff 10%.
-
-> Who is carrying the gold?
-
-### Contraband
-- 15 - 10lb. silver bars (50 gp ea., 750 gp total)
-- 4 paintings (300 gp ea.). The paintings were created by the renowned Elven artist, Elandrial Silverbrush.
-- 1950 gp total.
-
-## Exit
-
-Ambushed by Shadowspine Thugs. Same figure that was tailing you (Jareth). Follow printout.
-
-# Day 2
-
-> Word begins to spread throughout Waterdeep that a group of adventurers helped Volothamp Geddarm and rescued Renaer Neverember. Within days, faction representatives are going to begin to approach you to try to recruit you.
+How is Tiddles going to try to find someone to sell him a posioner's kit? Each day, can make a DC 12 investigation check to find a poisoner's kit. Use the "Sensible Cost".
 
 ## Morning:
 
 PCs approached by a halfling named Broxley Fairkettle who informs you that if you are intending on running a Tavern you must register with the Tavernkeepers' guild.
 
-> Welcome to the Neighborhood! I just wanted to stop by and introduce myself, I'm Broxley Fairkettle, from the Fellowship of Innkeepers, it looks as if Volo has given up on his little tavern project, are you the new owners?"
-
-> “Have you had a chance to call your local Guild reps to have them look at costs for repairs? Also if you are to run a Tavern you'll need to be a member of the Fellowship of Innkeepers, of course. I'd be happy to offer my assistance with contacting Reps to come out and bid for repairs, after your membership is paid for, obviously.”
-
 > "Only 1 gp a tenday for membership. Also if you are brewing your own alcohol then I'd suggest you join the "Vintners', Distillers', and Brewers' Guild" Your alcohol will gain traction a lot quicker in the city, better distribution, and the members are more than happy to share secrets of the trade to make it better. If you are going to be cooking food I'd suggest you go through the Guild of Bakers to buy your bread and other cooking product, produce you can get from the open market."
 
 # Trollskull Manor
 
-## Lif
+## Broxley Fairkettle
 
-Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. He will then warn characters of rats and mimic.
+You have paid 1 gp for a tenday membership to the Fellowship of Innkeepers.
 
 ## Guilds
 
@@ -118,7 +55,7 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 - Vintners', Distillers', and Brewers' Guild - Offers to sell certain beers
 - Watchful Order of Magists and Protectors - Offers to stop in on occasion, if free food is offered to the City Guards, it helps keeps things from getting out of hand.
 
-1000 GP total.
+1150 GP total.
 
 | Item                   | Cost   | Guild                                                   |
 |------------------------|--------|---------------------------------------------------------|
@@ -133,8 +70,6 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 | Replace Sign           | 15 gp  | Carpenters', Roofers', and Plaisterers' Guild           |
 | Licenses and Contracts | 150 gp |                                                         |
 
-> You can try to run a business without doing any of these things of course. Would need hirelings to run the place, PHB?, (20 gp for skilled, 20 sp for unskilled). Dungsweepers and plumbing. Charged per tenday.
-
 > What do you want to sell / do?
 
 | Optional Items         | Cost   | Guild                                                   |
@@ -145,6 +80,13 @@ Lif is a poltergeist. He will like and aid PCs that begin to fix the place up. H
 | Clean Bedsheets        |        | Guild of Launderers                                     |
 
 [Optional tavern upgrades](https://www.gmbinder.com/share/-M7rUWFvpMBZVpld6M0e)
+
+> What standard do you want?
+
+- Dodgy: 25gp per tenday (Bar I / Carlos and Murphys)
+- Average: 50gp per tenday (The Grove)
+- Upper Class: 100gp per tenday (Segovia / Deer and Almond)
+- Exclusive: 300gp per tenday (277 Wellington)
 
 ## Running the tavern
 
