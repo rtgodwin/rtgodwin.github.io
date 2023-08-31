@@ -76,6 +76,26 @@ I own the copyright to all course content. Sharing my content (e.g. on Course He
 All course material is copyrighted by Ryan Godwin, 2022. No audio or video recording of this material, lectures, or presentations is allowed in any format, openly or surreptitiously, in whole or in part without permission of Ryan Godwin. Course materials are for the participant’s private study and research, and must not be shared. Violation of these and other Academic Integrity principles, will lead to serious disciplinary action.
 {: .notice--warning}
 
+## Statement of Academic Integrity / Misconduct from the U of M
+Academic integrity is the commitment to upholding the values of honesty, trust, fairness, respect, responsibility and courage in all scholarly activities (International Center for Academic Integrity (ICAI), 2013). Academic misconduct is any violation of the principles of academic integrity.
+
+Students should acquaint themselves with the University’s Student Discipline Bylaw and related Procedures on academic misconduct (see Section 2.2.1) found in the Academic Calendar. Ignorance of the regulations and policies relating to academic misconduct is not a valid excuse for violating them.
+
+The Faculty of Arts and The University of Manitoba regard acts of academic misconduct in course work and final exams as serious offences and may assess a variety of penalties depending on the nature of the infraction.
+
+Acts of academic misconduct include, but are not limited to:
+
+ - Plagiarism
+ - Duplicate submission
+ - Cheating on quizzes, tests, and exams , including possession of unauthorized materials such as cell phones, smart watches, PDAs, MP3 units, or electronic translators
+ - Inappropriate Collaboration
+ - Academic Fraud
+ - Personation
+
+## Generative AI (ChatGPT)
+
+Students are encouraged to make use of technology, including generative artificial intelligence (ChatGPT) tools to contribute to their understanding of course materials. However, students are ultimately accountable for the work they submit to be assessed and assigned grades.
+
 ## Tentative Course Topics
 
 *	Basic Multiple Regression
