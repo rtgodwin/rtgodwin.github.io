@@ -72,7 +72,7 @@ docs:
         url: https://www.youtube.com/watch?v=CXToeZnajco
       - title: "2. Least Squares"
         url: /3040/lab2/
-      - title: "Guns, Republicans, and OVB"
+      - title: "Gun deaths and OVB"
         url: /3040/guns/
       - title: "3. Multiple Regression"
         url: /3040/lab3/
@@ -82,6 +82,7 @@ docs:
     children:
       - title: "Assignment 1"
         url: https://rtgodwin.com/3040/assignments/assign1.pdf
+<!---
       - title: "Assign. 1 Answers"       
         url: /3040/assign1ans/
       - title: "Assignment 2"
@@ -100,6 +101,7 @@ docs:
         url: https://rtgodwin.com/3040/assignments/assign5.pdf
       - title: "Assign. 5 Answers"
         url: /3040/assign5ans/
+--->
 
 pages:
   - title: 7010 Home
