@@ -12,7 +12,7 @@ sidebar:
 
 | Instructor | Time              | Days          | Location                  | CRN   | Office Hour |
 | :------: | :---------------: | :-----------: | :--------------------: | :---: | :----: |
-| Ryan Godwin | 4:00 pm - 5:15 pm | TR            | ISBISTER 107 | 22341 | Thursday, 2:40 - 3:40 |
+| Ryan Godwin | 4:00 pm - 5:15 pm | TR            | UNIVERSITY COLLEGE 241 | 22341 | Friday, 12:00 - 1:00 |
 
 email: ryan.godwin@umanitoba.ca
 
@@ -23,13 +23,10 @@ The principal objective of this course is to provide a basic introduction to eco
 ## Recommended Textbooks
 [The course notes that I have written are available here.](https://rtgodwin.com/econometrics1.pdf)
 
-I will be adding some chapters to the notes this semester.
-{: .notice--danger}
-
 ### Recommended Textbooks
 * Davidson & MacKinnon, *Econometric Theory & Methods*
-* Stock, J. H. & Watson M. W., *Introduction to Econometrics 3rd Edition*
 * Greene, *Econometric Analysis*
+* Stock, J. H. & Watson M. W., *Introduction to Econometrics 3rd Edition*
 * Godwin, [*Introduction to Econometrics*](https://rtgodwin.com/introeconometrics.pdf) (introductory – undergraduate level)
 
 ## Course Website
@@ -40,7 +37,7 @@ rtgodwin.com/7010
 | Assessment                   	| Weight 	|
 |------------------------------	|--------	|
 | Assignments                  	| 15%    	|
-| Midterm Exam<br>(October 20) 	| 30%    	|
+| Midterm Exam<br>(October 19) 	| 30%    	|
 | Final Exam                   	| 55%    	|
 
 ### Assignments
@@ -63,7 +60,7 @@ Students appealing any term work (including, assignments, midterm, final exam) w
 
 A missed assessment will result in make-up work, or reweighting of your grade.
 
-Nov. 22, 2022, is the last day for voluntary withdrawal from the course.
+Nov. 21, 2022, is the last day for voluntary withdrawal from the course.
 
 ## Academic Integrity
 
@@ -92,6 +89,7 @@ All course material is copyrighted by Ryan Godwin, 2022. No audio or video recor
 *	Heteroskedasticity
 *	Autocorrelation and time series
 *	Maximum likelihood
+*	Bootstrap
 
 ## Student Accessibility Services
 Students with disabilities should contact Student Accessibility Services to facilitate the implementation of accommodations, and meet with me to discuss the accommodations recommended by Student Accessibility Services.
