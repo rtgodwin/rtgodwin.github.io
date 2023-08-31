@@ -15,8 +15,7 @@ email: ryan.godwin@umanitoba.ca
 
 | Section | Time              | Days          | Location               | CRN   |
 | :-----: | :---------------: | :-----------: | :--------------------: | :---: | 
-| A01     | 1:00 pm - 2:15 pm | TR            | ST. PAUL'S COLLEGE 258 | 53007 | 
-| A02     | 4:00 pm - 5:15 pm | TR            | ST. PAUL'S COLLEGE 258 | 58511 | 
+| A01     | 1:00 pm - 2:15 pm | TR            | DRAKE CENTRE 108       | 12952 | 
 
 Attendance is mandatory.
 {: .notice--danger}
@@ -28,7 +27,7 @@ The principal objective of this course is to provide a basic introduction to eco
 ## Required Textbook
 [I wrote the textbook we'll use and it's available here.](https://rtgodwin.com/introeconometrics.pdf)
 
-I will be making frequent edits and revisions to the textbook this semester.
+I will be making some edits and revisions to the textbook this semester.
 {: .notice--danger}
 
 ### Recommended Textbook
@@ -42,7 +41,7 @@ rtgodwin.com/3040
 | Assessment                   	| Weight 	|
 |------------------------------	|--------	|
 | Assignments                  	| 15%    	|
-| Midterm Exam<br>(February 28)	| 35%    	|
+| Midterm Exam<br>(October 24)	| 35%    	|
 | Final Exam                   	| 50%    	|
 
 ### Assignments
@@ -65,7 +64,7 @@ Students appealing any term work (including, assignments, midterm, final exam) w
 
 A missed assessment will result in make-up work, or reweighting of your grade.
 
-Mar. 22, 2023, is the last day for voluntary withdrawal from the course.
+Nov. 21, 2023, is the last day for voluntary withdrawal from the course.
 
 ## Academic Integrity
 
