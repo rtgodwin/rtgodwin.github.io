@@ -9,7 +9,7 @@ toc: false
 ## Course Info
 
 Instructor: Ryan Godwin  
-Office Hour: Tuesdays, 2:40 - 3:40  
+Office Hour: Friday, 1:15 - 2:15  
 Office Location: 646 Fletcher Argue  
 email: ryan.godwin@umanitoba.ca  
 
