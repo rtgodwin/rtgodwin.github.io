@@ -89,4 +89,8 @@ No problem if they're wearing fine clothes.
 - Highest perception check: some shady figures, overhear "new Harper agents". They briefly turn their gaze towards your party. What do you do?
 - Zhents do not know which box to look for.
 
+## Private Box C
+
+An usher: ``tickets please''.
+
 
