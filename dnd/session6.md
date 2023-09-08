@@ -118,3 +118,10 @@ Characters can find Maxeene, a draft horse with an Intelligence score of 10, wit
 
 - Mirt: excellent work, this is very interesting indeed...
 - I will contact you via paper bird for your next mission.
+
+## [Scarecrows](https://www.dndbeyond.com/monsters/172842-improved-scarecrow)
+
+- Just north of Waterdeep. Farms are scattered around the fields are in the process of being planted, but work has mostly been abandoned.
+- Farmers describe 1 of 3 scarecrows: One wears a sackcloth hood, another has a rotting pumpkin head, and the third is covered with a threadbare blanket.
+- 10% chance to find a scarecrow each day camped.
+- DC 18 Survival / DC 18 Arcana / DC 18 Investigation to track.
