@@ -24,8 +24,19 @@ Roll a d100, and a d6(reroll 6) and d4 to determine participants.
 
 [Random conversations](https://www.dndspeak.com/2021/05/13/100-prompts-for-idle-chit-chat-between-characters/)
 
-# Recap
+# Backwash BnB
 
+- Dodgy (150gp licenses + 300gp) : 25gp per tenday (Bar I / Carlos and Murphys)
+- Average: 50gp per tenday (400gp) (The Grove)
+- Upper Class: 100gp per tenday (300 gp) (Segovia / Deer and Almond)
+- Exclusive: 200gp per tenday (277 Wellington)
+
+## Running the tavern
+
+Every tenday, get $expenses \times (1d20 \times 0.2)$.
+
+# Recap
+- Ashley
 - Have X hydrathistle?
 - Opera is in 2 days.
 - Phaulknomere is anytime.
