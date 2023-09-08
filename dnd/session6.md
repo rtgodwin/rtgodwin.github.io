@@ -134,3 +134,5 @@ In her disembodied state, Jeryth can’t be harmed. If the need arises, Jeryth c
 - DC 18 Survival / DC 18 Arcana / DC 18 Investigation to track.
 - 2-3 show up at 2nd encounter.
 - If player's leave after 1st, reports of attacks continue.
+
+# Order of the Gauntlet - Scarecrows
