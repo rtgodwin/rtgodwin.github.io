@@ -54,7 +54,7 @@ Every tenday, get $expenses \times (1d20 \times 0.2)$.
 - Ashley
 - Have X hydrathistle?
 - Opera is in 2 days.
-- Phaulknomere is anytime.
+- Phaulknonmere is anytime.
 - Player's have just stepped through the door of Trollskull manor.
 
 # Trollskull
@@ -71,7 +71,7 @@ Reward: 100gp for each herb (or 150gp worth of potions).
 
 [Alley shops](https://rtgodwin.com/alley/)
 
-# Opera
+# Opera - Harper's quest
 
 - Warn players of dress code. 
 - Players need fine clothes to gain admittance (15 gp in player's handbook).
@@ -91,6 +91,30 @@ No problem if they're wearing fine clothes.
 
 ## Private Box C
 
-An usher: ``tickets please''.
+- An usher: ``tickets please''.
+- The box is empty. A note is under one of the seats: "Find me at the after party in the grand ballroom. -M"
 
+## After party
 
+Another usher checks your tickets. You enter into a grand courtyard. Music is playing, and people are dancing. Partners are continually changing. Some people are standing around watching, talking, snacking.
+
+- Dance of Many masks. There are just a few measures of music between each partner swap (about 30 seconds).
+- After 1d10 partner changes, meet Mirt.
+- Every 2 partner changes make a DC15 Performance check. After 3 consecutive fails, escorted off of the dance floor.
+
+> Mirt slips 5 Harper pins and a note into their pocket. "You appear to have a knack for this type of thing, welcome to the Harpers! Report to me in my manor in the Sea Ward when you are done your mission. Be discrete about your visit."
+
+With the pins in hand, all players are have 1 renown, and are Rank 1 Watchers.
+
+> The note reads: “One of the drays working in the city is pulled by a talking mare named Maxeene. Locate her, find out if she’s learned the identity of any Zhent operatives, and if so, determine their whereabouts.”
+
+## Maxeene
+
+[Quest](https://www.dndbeyond.com/sources/wdh/trollskull-alley#Harpers)
+
+Characters can find Maxeene, a draft horse with an Intelligence score of 10, with a successful DC 13 Intelligence (Investigation) check. Maxeene speaks Common, and characters must try to convince her that they’re Harpers by making a DC 13 Charisma (Persuasion) check. If the check succeeds, the horse recalls giving a ride to a sun elf and his half-orc bodyguard two days ago; she picked them up at an intersection (she doesn’t recall which one) and dropped them off at the Yawning Portal. They talked about hiring spies to root out Xanathar Guild hideouts in the city. Maxeene’s descriptions of the passengers match the appearances of Davil Starsong and Yagra Stonefist. Reward: Each Harper character gains 1 renown.
+
+[Davil](https://www.dndbeyond.com/monsters/149845-davil-starsong)
+
+- Mirt: excellent work, this is very interesting indeed...
+- I will contact you via paper bird for your next mission.
