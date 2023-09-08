@@ -13,7 +13,7 @@ Visited by a white cat that speaks the following message in a melodious male voi
 “Interested in joining the Emerald Enclave? Come meet us at Phaulkonmere in the Southern Ward.”
 The cat is an ordinary animal upon which an animal messenger spell was cast. It dashes away after delivering its invitation.
 
-## Harpers - Who is the "most good" character? Who showed the most compassion toward Renaer?
+## Harpers
 
 Written on a paper bird:
 
@@ -76,5 +76,17 @@ Reward: 100gp for each herb (or 150gp worth of potions).
 - Warn players of dress code. 
 - Players need fine clothes to gain admittance (15 gp in player's handbook).
 
+## Clothes
+
+You don't know anywhere that sells fine clothes. DC 15 check: Piatran's Clothiers is in the South Ward, Rebeleigh's Elegant Headwear is in the Castle Ward, and Meiroth's Fine Silks is in the Trades Ward.
+
+## Bouncer
+
+No problem if they're wearing fine clothes.
+
+## To Private Box C
+
+- Highest perception check: some shady figures, overhear "new Harper agents". They briefly turn their gaze towards your party. What do you do?
+- Zhents do not know which box to look for.
 
 
