@@ -1,20 +1,10 @@
 ---
 title: "Waterdeep: Dragon Heist Notes"
-permalink: /session5/
+permalink: /session6/
 excerpt:
 last_modified_at:
 toc: false
 ---
-
-# Recap
-
-- You have Trollskull Manor.
-- You fenced goods, have money.
-- A tenday will pass before you set off for the hydrathistle. (Fala's shop is closed).
-- You will receive 3 or 4 quest invitations from different factions. You will choose one faction for next session (20 - 30 days will pass). At the end of that session, Chapter 3 will begin.
-- Tiddles can try to find a poison kit / buy poison.
-- Shopping.
-- Run the tavern.
 
 # Travelling
 
@@ -28,11 +18,34 @@ toc: false
 
 [Alley shops](https://rtgodwin.com/alley/)
 
-# Every couple of days in the Manor
+# Every day in the Manor
 
 Roll a d100, and a d6(reroll 6) and d4 to determine participants.
 
 [Random conversations](https://www.dndspeak.com/2021/05/13/100-prompts-for-idle-chit-chat-between-characters/)
+
+# Recap
+
+- Have X hydrathistle?
+- Opera is in 2 days.
+- Phaulknomere is anytime.
+- Player's have just stepped through the door of Trollskull manor.
+
+# Trollskull
+
+There are 1d4 patrons. All are glumly drinking ale, and half are forcing down some chowder at (name). You head upstairs to rest for a moment (or whatever). Sitting in the common room, what do you discuss?
+
+# Return to Fala
+
+Fala doesn't remember them. Tries to sell potions.
+
+> Welcome to the Corellon's Crown. We have potions of animal friendship, climbing, healing, greater healing. We are currently out of potions of water breathing due to the cripling hydrathistle shortage. Oh, it's you! I thought you would have surely perished, but I was willing to take that risk.
+
+Reward: 100gp for each herb (or 150gp worth of potions).
+
+[Alley shops](https://rtgodwin.com/alley/)
+
+
 
 # Poisoners Kit
 
