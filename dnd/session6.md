@@ -119,9 +119,18 @@ Characters can find Maxeene, a draft horse with an Intelligence score of 10, wit
 - Mirt: excellent work, this is very interesting indeed...
 - I will contact you via paper bird for your next mission.
 
+# Order of the Gauntlet
+
+## Phaulkonmere - Jeryth Phaulkon
+When the characters arrive at Phaulkonmere for the first time, Melannor introduces them to the lady of the estate: a noblewoman-turned-demigod and Chosen of Mielikki named Jeryth Phaulkon. Jeryth, the only member of her family who currently resides at Phaulkonmere, manifests as a disembodied female voice that can be heard by anyone in the villa gardens. She offers membership in the enclave and bestows on each new member a charm of restoration (see “Supernatural Gifts” in chapter 7 of the Dungeon Master’s Guide). Jeryth also offers Phaulkonmere as a safe haven for enclave members and their friends.
+
+In her disembodied state, Jeryth can’t be harmed. If the need arises, Jeryth can cast any spell on the druid spell list. She uses her spells in defense of her estate and its beautiful gardens. A member of the Emerald Enclave can petition Jeryth to cast a spell, which she is happy to do if that character’s renown in the enclave equals or exceeds the spell’s level.
+
 ## [Scarecrows](https://www.dndbeyond.com/monsters/172842-improved-scarecrow)
 
 - Just north of Waterdeep. Farms are scattered around the fields are in the process of being planted, but work has mostly been abandoned.
 - Farmers describe 1 of 3 scarecrows: One wears a sackcloth hood, another has a rotting pumpkin head, and the third is covered with a threadbare blanket.
 - 10% chance to find a scarecrow each day camped.
 - DC 18 Survival / DC 18 Arcana / DC 18 Investigation to track.
+- 2-3 show up at 2nd encounter.
+- If player's leave after 1st, reports of attacks continue.
