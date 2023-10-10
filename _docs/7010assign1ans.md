@@ -48,6 +48,8 @@ sidebar:
     >>               [,1]
     >> [1,] -1.498801e-15
     ```
+    You can also calculate $X^{\prime} e$ by taking the "inner product": `sum(residuals * mydata$price)`.
+    
     Many students attempted to show orthogonality in different ways, which would be fine, as long as the "others ways" are shown to be equivalent to orthogonality. For example, you can check the correlation between the $X$ variables and the residuals and show that it is "close" to zero, as long as you
 
     ---
