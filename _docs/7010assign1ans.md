@@ -36,15 +36,24 @@ sidebar:
     ```r
     residuals <- mod$residuals
     ```
-    The question asks to show that $X\prime e = 0$. To transpose a vector in R, we can use `t()`, and `%*%` multiplies matrices (or vectors):
+    The question asks to show that $X^{\prime} e = 0$. To transpose a vector in R, we can use `t()`, and `%*%` multiplies matrices (or vectors):
     ```r
     t(residuals) %*% mydata$price
     >>               [,1]
     >> [1,] -4.085621e-14
     ```
+    `-4.085621e-14` is 0.000000000000004085621. This is not quite zero due to rounding. We can also verify that the other variable is orthogonal as well:
+    ```r
+    
+
+    ```
+
     ---
 5.  Verify that the LS residuals from your estimated model sum to zero.
 
+    ---
+
+    
 6.  Verify that the regression line (it is actually a 2-dimensional
     "plane") passes through the sample mean of the data.
 
