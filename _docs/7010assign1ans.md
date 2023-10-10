@@ -66,10 +66,25 @@ sidebar:
 7.  Verify that the regression line (it is actually a 2-dimensional
     "plane") passes through the sample mean of the data.
 
-8.  Verify that the fitted values and residuals are invariant to a
+    ---
+    We need to evaluate the fitted model at the sample means of the data. That is, we get a LS prediction by "plugging" in the means for the $X$ variables into the estimated equation. That predicted value is equal to the mean of the $y$ variable:
+    $$\bar{quantity} = b_0 + b_1 \times \bar{price} + b_2 \times \bar{bad.weather}$$
+
+    There are a few ways to accomplish this in R, but here is one:
+    ```r
+    mod$coefficients %*% c(1, mean(mydata$price, mean(mydata$bad.weather))
+    mean(mydata$quantity)
+    ```
+
+9.  Verify that the fitted values and residuals are invariant to a
     non-singular linear transformation.
 
-9.  Use the Frisch-Waugh-Lovell theorem and partial regression to get
+    ---
+    Multiply any variable by a constant, or add any constant to a variable, and check to see that the residuals and predictions remain the same:
+    ```r
+    
+
+11.  Use the Frisch-Waugh-Lovell theorem and partial regression to get
     the LS estimate for just one of the $\beta$.
 
     Recall that the FWL theorem suggests that, for the model:
