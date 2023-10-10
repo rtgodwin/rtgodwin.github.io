@@ -44,23 +44,30 @@ sidebar:
     ```
     `-4.085621e-14` is 0.000000000000004085621. This is not quite zero due to rounding. We can also verify that the other variable is orthogonal as well:
     ```r
-    
-
+    t(residuals) %*% mydata$bad.weather
+    >>               [,1]
+    >> [1,] -1.498801e-15
     ```
+    Many students attempted to show orthogonality in different ways, which would be fine, as long as the "others ways" are shown to be equivalent to orthogonality. For example, you can check the correlation between the $X$ variables and the residuals and show that it is "close" to zero, as long as you
 
     ---
 5.  Verify that the LS residuals from your estimated model sum to zero.
 
     ---
-
-    
-6.  Verify that the regression line (it is actually a 2-dimensional
+    Sum the residuals and see if they are "close" to zero ("close" due to rounding):
+    ```r
+    sum(residuals)
+    >> [1] -1.991463e-15
+    ```
+    ---
+        
+7.  Verify that the regression line (it is actually a 2-dimensional
     "plane") passes through the sample mean of the data.
 
-7.  Verify that the fitted values and residuals are invariant to a
+8.  Verify that the fitted values and residuals are invariant to a
     non-singular linear transformation.
 
-8.  Use the Frisch-Waugh-Lovell theorem and partial regression to get
+9.  Use the Frisch-Waugh-Lovell theorem and partial regression to get
     the LS estimate for just one of the $\beta$.
 
     Recall that the FWL theorem suggests that, for the model:
