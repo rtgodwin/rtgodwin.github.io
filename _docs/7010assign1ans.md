@@ -50,7 +50,7 @@ sidebar:
     ```
     You can also calculate $X^{\prime} e$ by taking the "inner product": `sum(residuals * mydata$price)`.
     
-    Many students attempted to show orthogonality in different ways, which would be fine, as long as the "others ways" are shown to be equivalent to orthogonality. For example, you can check the correlation between the $X$ variables and the residuals and show that it is "close" to zero, as long as you
+    Many students attempted to show orthogonality in different ways, which is fine, as long as the "others ways" are equivalent to orthogonality. For example, you can check the correlation between the $X$ variables and the residuals and show that it is "close" to zero, because when one of the variables has mean zero (in this case the residuals), then correlation and orthogonality are equivalent. So, using `cor(residuals, mydata$price)` works as well.
 
     ---
 5.  Verify that the LS residuals from your estimated model sum to zero.
