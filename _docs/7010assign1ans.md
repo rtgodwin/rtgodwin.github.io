@@ -11,6 +11,17 @@ sidebar:
 
 I use a fake dataset that I created:
 
+```r
+mydata <- read.csv("https://rtgodwin.com/data/monopolist.csv")
+```
+
+2.  In R, use LS to estimate a population model of the form:
+    $$\boldsymbol{y} = X\boldsymbol{\beta} + \boldsymbol{\epsilon}
+    \nonumber$$
+
+    On the right hand side of your model, only include 2 regressors and
+    the intercept (like in the Cobb-Douglas example).
+
 3.  In R, use LS to estimate a population model of the form:
     $$\boldsymbol{y} = X\boldsymbol{\beta} + \boldsymbol{\epsilon}
     \nonumber$$
