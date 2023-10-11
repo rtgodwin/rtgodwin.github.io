@@ -13,8 +13,7 @@ sidebar:
     I use a fake dataset that I created:
     ```r
     mydata <- read.csv("https://rtgodwin.com/data/monopolist.csv")
-    ```
-    ---
+    ```    
 2.  In R, use LS to estimate a population model of the form:
     $$\boldsymbol{y} = X\boldsymbol{\beta} + \boldsymbol{\epsilon}
     \nonumber$$
@@ -27,8 +26,7 @@ sidebar:
     ```r
     mod <- lm(quantity ~ price + bad.weather, data = mydata)
     ```
-    ---
-
+    
 3.  Verify that the $x$ variables are orthogonal to the LS residuals.
 
     ---
@@ -39,14 +37,18 @@ sidebar:
     The question asks to show that $X^{\prime} e = 0$. To transpose a vector in R, we can use `t()`, and `%*%` multiplies matrices (or vectors):
     ```r
     t(residuals) %*% mydata$price
+    ```
+    ```
     >>               [,1]
     >> [1,] -4.085621e-14
     ```
     `-4.085621e-14` is 0.000000000000004085621. This is not quite zero due to rounding. We can also verify that the other variable is orthogonal as well:
     ```r
     t(residuals) %*% mydata$bad.weather
-    >>               [,1]
-    >> [1,] -1.498801e-15
+    ```
+    ```
+    >               [,1]
+    > [1,] -1.498801e-15
     ```
     You can also calculate $X^{\prime} e$ by taking the "inner product": `sum(residuals * mydata$price)`.
     
@@ -59,7 +61,9 @@ sidebar:
     Sum the residuals and see if they are "close" to zero ("close" due to rounding):
     ```r
     sum(residuals)
-    >> [1] -1.991463e-15
+    ```
+    ```
+    > [1] -1.991463e-15
     ```
     ---
         
