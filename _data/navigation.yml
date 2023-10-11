@@ -142,6 +142,8 @@ pages:
     children:
       - title: "Assignment 1"
         url: /7010/assign1/
+      - title: "Assignment 1 Answers"
+        url: /7010/assign1ans/
       - title: "Assignment 2"
         url: /7010/assign2/
       - title: "Assignment 3"
