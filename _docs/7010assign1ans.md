@@ -76,19 +76,40 @@ sidebar:
 
     There are a few ways to accomplish this in R, but here is one:
     ```r
-    mod$coefficients %*% c(1, mean(mydata$price, mean(mydata$bad.weather))
+    mod$coefficients %*% c(1, mean(mydata$price), mean(mydata$bad.weather))
+    ```
+    ```
+            [,1]
+    [1,] 14.0794
+    ```
+    ```r
     mean(mydata$quantity)
     ```
+    ```
+    [1] 14.0794
+    ```
 
-9.  Verify that the fitted values and residuals are invariant to a
-    non-singular linear transformation.
+6.  Verify that the fitted values and residuals are invariant to a non-singular linear transformation.
 
     ---
     Multiply any variable by a constant, or add any constant to a variable, and check to see that the residuals and predictions remain the same:
     ```r
+    mydata$price.cents <- 100 * mydata$price
+    mod2 <- lm(quantity ~ price.cents + bad.weather, data = mydata)
+    sum(mod2$residuals - mod$residuals)
+    ```
+    ```
+    [1] -4.527628e-15
+    ```
+    ```r
+    sum(mod2$fitted.values - mod$fitted.values)
+    ```
+    ```
+    [1] 1.776357e-15
+    ```
     
 
-11.  Use the Frisch-Waugh-Lovell theorem and partial regression to get
+7.  Use the Frisch-Waugh-Lovell theorem and partial regression to get
     the LS estimate for just one of the $\beta$.
 
     Recall that the FWL theorem suggests that, for the model:
