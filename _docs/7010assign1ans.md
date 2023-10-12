@@ -55,7 +55,7 @@ sidebar:
     Many students attempted to show orthogonality in different ways, which is fine, as long as the "others ways" are equivalent to orthogonality. For example, you can check the correlation between the $X$ variables and the residuals and show that it is "close" to zero, because when one of the variables has mean zero (in this case the residuals), then correlation and orthogonality are equivalent. So, using `cor(residuals, mydata$price)` works as well.
 
     ---
-5.  Verify that the LS residuals from your estimated model sum to zero.
+4.  Verify that the LS residuals from your estimated model sum to zero.
 
     ---
     Sum the residuals and see if they are "close" to zero ("close" due to rounding):
@@ -65,14 +65,14 @@ sidebar:
     ```
     > [1] -1.991463e-15
     ```
-    ---
-        
-7.  Verify that the regression line (it is actually a 2-dimensional
+            
+5.  Verify that the regression line (it is actually a 2-dimensional
     "plane") passes through the sample mean of the data.
 
     ---
     We need to evaluate the fitted model at the sample means of the data. That is, we get a LS prediction by "plugging" in the means for the $X$ variables into the estimated equation. That predicted value is equal to the mean of the $y$ variable:
-    $$\bar{quantity} = b_0 + b_1 \times \bar{price} + b_2 \times \bar{bad.weather}$$
+    
+    $$\hat{quantity} = b_0 + b_1 \times \bar{price} + b_2 \times \bar{bad.weather} = \bar{quantity}$$
 
     There are a few ways to accomplish this in R, but here is one:
     ```r
