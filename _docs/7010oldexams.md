@@ -11,6 +11,7 @@ toc: false
 | Year                                                  | Answer Key
 | :---------------------------------------------------: | :--------------------------------------------------------: |
 | [2022](https://rtgodwin.com/7010/exams/2022midans.pdf)   |   |
+| [2020](https://rtgodwin.com/7010/exams/2020mid.pdf)   |   |
 | [2019 Mid 2](https://rtgodwin.com/7010/exams/2019mid2.pdf)   |                                                            |
 | [2019 Mid 1](https://rtgodwin.com/7010/exams/2019mid1.pdf)   | [Answers](https://rtgodwin.com/7010/exams/2019mid1ans.pdf)  |
 | [2016 Mid 2](https://rtgodwin.com/7010/exams/2016mid2.pdf) | [Answers](https://rtgodwin.com/7010/exams/2016mid2ans.pdf) |
