@@ -147,7 +147,7 @@ With a p-value of 0.67 we fail to reject the null at the 10% significance level 
 
 ### Question 5
 
-Perhaps people consume more ice cream on the weekends. We can estimate the effect of `weekend` on `revenue` using the model:\
+Perhaps people consume more ice cream on the weekends. We can estimate the effect of `weekend` on `revenue` using the model:
 
 $revenue = \beta_0 + \beta_1weekend + \epsilon$
 
