@@ -141,7 +141,7 @@ To get the p-value, we can use:
 ## [1] 0.6700598
 ```
 
-Note that we want the area in the "tail" of the distribution, so in this case we had to use `lower.tail = TRUE`. We multiplied by 2 because $H_A$ is two sided.
+Note that we want the area in the left "tail" of the distribution, so in this case we had to use `lower.tail = TRUE`. We multiplied by 2 because $H_A$ is two sided.
 
 With a p-value of 0.67 we fail to reject the null at the 10% significance level (or any common significance level).
 
