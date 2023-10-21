@@ -7,7 +7,7 @@ toc: false
 
 ------------------------------------------------------------------------
 
-Each question is worth 0.5 marks, for a total of 3 marks. Part marks are ggiven where possible.
+Each question is worth 0.5 marks, for a total of 3 marks. Part marks are given where possible.
 
 ### Question 1
 
@@ -115,4 +115,4 @@ col=c("red", "blue"), pch=16)
 
 ### Question 6
 
-There are many ways to answer this question. I am looking for any attempt to quantify the relationship between games the receive a higher critic score, and the revenue made for the game.
+There are many ways to answer this question. I am looking for any attempt to quantify the relationship between games that receive a higher critic score, and the revenue made for the game.
