@@ -75,7 +75,7 @@ The above output from the `summary()` function is ugly, and the person you are r
 </font>
 </div>
 
-The estimated slope of 3.848 can be interpreted as follows: For every increase in temperature of $1^{\circ}C$, revenue increases by $3.85.
+The estimated slope of 3.848 can be interpreted as follows: For every increase in temperature of $1^{\circ}C$, revenue increases by $3.85 on average.
 
 ### Question 2
 
