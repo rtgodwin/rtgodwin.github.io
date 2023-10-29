@@ -7,7 +7,7 @@ sidebar:
   nav: "pages"
 ---
 
-**Due: TBD**. Worth 3% of your mark. Upload your answers
+**Due: Nov. 5th**. Worth 3% of your mark. Upload your answers
 to the assignment 2 dropbox on UM Learn.
 
 ------------------------------------------------------------------------
