@@ -51,4 +51,23 @@ Per character total : 900 XP.
 ## Post Banshee Session 4 - 7: XP **per player**
 
 ### Session 4
-- Signed deed to Trollskull 100
+
+\begin{table}[]
+\begin{tabular}{ll}
+Accomplishment                      & XP \\
+Signed the deed to Trollskull Manor & 20 \\
+Fenced goods                        & 25 \\
+3 Bandits                           & 15 \\
+Spy                                 & 40 \\
+Bandit Captain                      & 90 \\
+Opened a dodgy tavern               & 40 \\
+                                    &    \\
+                                    &    \\
+                                    &    \\
+                                    &    \\
+                                    &    \\
+                                    &    \\
+                                    &    \\
+                                    &   
+\end{tabular}
+\end{table}
