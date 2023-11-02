@@ -48,6 +48,7 @@ Divide everything by 5:
 
 Per character total : 900 XP.
 
-## Post Banshee
+## Post Banshee Session 4 - 7: XP **per player**
 
--
+### Session 4
+- Signed deed to Trollskull 100
