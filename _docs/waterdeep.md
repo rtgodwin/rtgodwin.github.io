@@ -19,10 +19,6 @@ You will begin in the famous tavern the [Yawning Portal](https://rtgodwin.com/dn
 - Crime is on the rise. Numerous criminial factions in Waterdeep appear more active, going so far as to fight and murder one another in the streets.
 - Factions are prominent in Waterdeep: Zhentarim, Xanathar Guild, Harpers, Lord's Alliance, Emerald Enclave.
 
-## Your characters
-
-- Try to flesh out your personality traits, ideals, bonds, and flaws.
-
 ## Oleander Resources
 Circle of the Moon - ["Wild Shape" beast list](https://docs.google.com/spreadsheets/d/1dTGapgzFstOdRr5EJEV6sAhtNSYi0QsX-Tgr2GRutWI/edit#gid=2001884058)
 
@@ -51,3 +47,7 @@ Divide everything by 5:
 - Banshee 550
 
 Per character total : 900 XP.
+
+## Post Banshee
+
+-
