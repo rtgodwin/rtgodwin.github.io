@@ -50,31 +50,25 @@ Per character total : 900 XP.
 
 ## Post Banshee Session 4 - 7: XP **per player**
 
-### Session 4
-
-| Accomplishment      |               | sample mean | sample var. |  min |  max  |
-|:-----:|:-------------:|:-----------:|:-----------:|:----:|:-----:|
-| Sales |      Xbox One |     1.66    |     2.77    | 0.02 |  8.72 |
-|       | Playstation 4 |     2.91    |    12.77    | 0.01 | 19.39 |
-| Score |      Xbox One |     7.85    |     0.83    |  5.1 |  9.4  |
-|       | Playstation 4 |     7.82    |     1.80    |  1.0 |  10.0 |
-
-\begin{table}[]
-\begin{tabular}{ll}
-Accomplishment                      & XP \\
-Signed the deed to Trollskull Manor & 20 \\
-Fenced goods                        & 25 \\
-3 Bandits                           & 15 \\
-Spy                                 & 40 \\
-Bandit Captain                      & 90 \\
-Opened a dodgy tavern               & 40 \\
-                                    &    \\
-                                    &    \\
-                                    &    \\
-                                    &    \\
-                                    &    \\
-                                    &    \\
-                                    &    \\
-                                    &   
-\end{tabular}
-\end{table}
+| Accomplishment                      |  XP |
+|-------------------------------------|:---:|
+| Signed the deed to Trollskull Manor |  20 |
+| Fenced goods                        |  25 |
+| 3 Bandits                           |  15 |
+| Spy                                 |  40 |
+| Bandit Captain                      |  90 |
+| Opened a dodgy tavern               |  20 |
+| Swamp Viper                         |  90 |
+| Helped Tindledop transform          |  20 |
+| Evaded the Mourning Warden          |  40 |
+| Fala's quest complete               | 150 |
+| Harper's quest                      | 300 |
+| 3 Improved Scarecrows               | 270 |
+| Bugbear                             |  40 |
+| 3 Giant Wolf Spiders                |  30 |
+| 3 Zombies                           |  30 |
+| Imp                                 |  40 |
+| Witch                               |  60 |
+| Cemetery Puzzle                     |  20 |
+| Gargoyle                            |  90 |
+| Heroes of Willowton                 | 100 |
