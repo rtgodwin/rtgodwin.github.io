@@ -57,13 +57,16 @@ Per character total : 900 XP.
 | 3 Bandits                           |  15 |
 | Spy                                 |  40 |
 | Bandit Captain                      |  90 |
+|-------------------------------------|:---:|
 | Opened a dodgy tavern               |  20 |
 | Swamp Viper                         |  90 |
 | Helped Tindledop transform          |  20 |
 | Evaded the Mourning Warden          |  40 |
 | Fala's quest complete               | 150 |
+|-------------------------------------|:---:|
 | Harper's quest                      | 300 |
 | 3 Improved Scarecrows               | 270 |
+|-------------------------------------|:---:|
 | Bugbear                             |  40 |
 | 3 Giant Wolf Spiders                |  30 |
 | 3 Zombies                           |  30 |
@@ -72,3 +75,5 @@ Per character total : 900 XP.
 | Cemetery Puzzle                     |  20 |
 | Gargoyle                            |  90 |
 | Heroes of Willowton                 | 100 |
+
+$$900 + 1760 = 2660$$ (2700 needed for level 4)
