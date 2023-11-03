@@ -52,6 +52,13 @@ Per character total : 900 XP.
 
 ### Session 4
 
+| Accomplishment      |               | sample mean | sample var. |  min |  max  |
+|:-----:|:-------------:|:-----------:|:-----------:|:----:|:-----:|
+| Sales |      Xbox One |     1.66    |     2.77    | 0.02 |  8.72 |
+|       | Playstation 4 |     2.91    |    12.77    | 0.01 | 19.39 |
+| Score |      Xbox One |     7.85    |     0.83    |  5.1 |  9.4  |
+|       | Playstation 4 |     7.82    |     1.80    |  1.0 |  10.0 |
+
 \begin{table}[]
 \begin{tabular}{ll}
 Accomplishment                      & XP \\
