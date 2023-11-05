@@ -6,6 +6,13 @@ last_modified_at:
 toc: false
 ---
 
+## Changes
+
+- Dalakhar stumbled upon the stone fragment and hastily headed to Backwash BnB. Maybe Renaer knows something, tried to dissuade Dalakhar?
+- Maybe skip the whole Nimblewright fiasco
+- Get the first 1/4 in Gralhund Villa
+- Hear a screm outside the Villa
+
 ## [Emerald Enclave](https://www.dndbeyond.com/sources/wdh/trollskull-alley#EmeraldEnclave) - Cat quest for Oleander / Mirage
 
 Visited by a white cat that speaks the following message in a melodious male voice:
