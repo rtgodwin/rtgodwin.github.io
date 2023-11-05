@@ -10,8 +10,14 @@ toc: false
 
 - Dalakhar stumbled upon the stone fragment and hastily headed to Backwash BnB. Maybe Renaer knows something, tried to dissuade Dalakhar?
 - Maybe skip the whole Nimblewright fiasco
+
+## Gralhund Villa
+
+- Breaking into the Villa from south is possible, but people take notice and will call the watch. Hint they come back at night.
 - Get the first 1/4 in Gralhund Villa
-- Hear a screm outside the Villa
+- Hear a scream outside the Villa
+- Standing outside too long, neighbours notice (percepetion check)
+- G8: At least 6 thugs. First thug takes a turn (DC 13 perception check) and calls out the squishiest member. Random on a fail.
 
 ## [Emerald Enclave](https://www.dndbeyond.com/sources/wdh/trollskull-alley#EmeraldEnclave) - Cat quest for Oleander / Mirage
 
