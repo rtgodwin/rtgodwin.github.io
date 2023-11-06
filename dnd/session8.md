@@ -10,6 +10,15 @@ toc: false
 
 - Dalakhar stumbled upon the stone fragment and hastily headed to Backwash BnB. Maybe Renaer knows something, tried to dissuade Dalakhar?
 - Maybe skip the whole Nimblewright fiasco
+- Need to get them directly from fireball investigation to Gralhund Villa
+- Urstul will escape via portal with the stone, but the next session players catch him immediately, get stone
+
+## Rewrite
+- 
+
+### Future sessions
+- Catch Urstul immeidately. Get stone. Stone whispers to a single player the location, player is unable to communicate the location: DC CON save they throw up trying. Player forgets the location as soon as stone is passed.
+- Keys are in 2 diff lairs, need to heist them.
 
 ## Gralhund Villa
 
