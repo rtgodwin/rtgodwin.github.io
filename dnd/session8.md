@@ -1,6 +1,6 @@
 ---
 title: "Waterdeep: Dragon Heist Notes"
-permalink: /session6/
+permalink: /session8/
 excerpt:
 last_modified_at:
 toc: false
@@ -8,13 +8,14 @@ toc: false
 
 ## Changes
 
-- Dalakhar stumbled upon the stone fragment and hastily headed to Backwash BnB. Maybe Renaer knows something, tried to dissuade Dalakhar?
-- Maybe skip the whole Nimblewright fiasco
-- Need to get them directly from fireball investigation to Gralhund Villa
-- Urstul will escape via portal with the stone, but the next session players catch him immediately, get stone
+- Dalakhar was working for Xanathar, stold the stone, and was being pursued by _Xanathar_ guild members.
+- Urstul and Nimblewright (Zhentarim) coordinated the attack. Either lead to Gralhund.
+- Urstul will escape via portal with the stone.
 
-## Rewrite
-- 
+## Intro
+
+- Recap Mirt and Harper Narrate scarecrow rewards.
+- Wyvern encounter if they travel fast.
 
 ### Future sessions
 - Catch Urstul immeidately. Get stone. Stone whispers to a single player the location, player is unable to communicate the location: DC CON save they throw up trying. Player forgets the location as soon as stone is passed.
