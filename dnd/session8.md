@@ -14,8 +14,14 @@ toc: false
 
 ## Intro
 
-- Recap Mirt and Harper Narrate scarecrow rewards.
-- Wyvern encounter if they travel fast.
+- Recap Mirt (a wealthy noble and seemingly high-ranking Harper). Gained membership to Harpers. You've been to his house, know where he lives. Harpers are a benvolent spy network.
+- You defeated the Scarecrows. You returned to Phaulkonmere. You each are now low ranking members of the Emerald Enclave. Primarily druids and rangers that oppose threats to the natural world such as the undead, scarecrows, and _constructs (robots, automotons)_. _You can enquire about their services, and ask them for help._
+- You return as the heroes of Willowton (Doomhilda seemed a little off). A Wyvern flies overhead. Encounter on a 1-2 from (d4/d6/d8) depending on how fast they travel. You arrive early/late/evening.
+- There are 1d8 patrons, somewhat enjoying themselves. ``Where 'ave you been? Wages are due!'' pay 25gp. Now get $5 \times 1d20+1$gp (chowder was improved slightly). Roll twice because it feels like a lot of time has passed. You've run this thing for a month.
+- Everyone take a turn doing anything they want in the city.
+
+## Paths to Gralhund
+- Emerald enclave knows that Gralhund's have a robot. These things typically get wound up being used for evil.
 
 ### Future sessions
 - Catch Urstul immeidately. Get stone. Stone whispers to a single player the location, player is unable to communicate the location: DC CON save they throw up trying. Player forgets the location as soon as stone is passed.
