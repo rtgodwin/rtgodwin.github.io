@@ -28,8 +28,10 @@ It is just before 8. What is your character doing and how do they react. Quick!
 
 ## Crime Scene
 
+A fast character can look out the window and get a description of Urstul Floxin grabbing the stone and fleeing toward the bent nail.
+
 ### Bodies:
-- Two cloaked male humans (Zhentarim sellswords) clad in leather armor with sheathed longswords
+- Two cloaked male humans (_Xanathar_ sellswords) clad in leather armor with sheathed longswords
 - Two female humans and one male half-elf dressed in plain clothes (servants of wealthy North Ward families, killed while running errands)
 - One male gnome (Dalakhar) wearing a burned cloak and clutching a dagger
 - Avi the water genasi (Embric comes quickly to mourn)
@@ -38,9 +40,30 @@ It is just before 8. What is your character doing and how do they react. Quick!
 
 A search of the bodies accompanied by a successful DC 15 Wisdom (Perception) check reveals the following:
 
-One of the dead male humans has a black, winged snake (the symbol of the Black Network) tattooed on his right forearm.
-The dead gnome has dry waste on his boots and cloak, suggesting he has spent time in the sewers recently. He also has a pouch containing five 100 gp gemstones.
-A character can try to snatch Dalakhar’s pouch without being seen by NPC onlookers, doing so with a successful DC 13 Dexterity (Sleight of Hand) check. On a failed check, the character still acquires the pouch, but someone observes the theft and reports it to City Watch constables once they show up (see “The Watch Arrives” below). This witness to the theft can be silenced with a bribe of 50 gp or more.
+- One of the dead male humans has a palm-sized circle with ten equidistant spokes radiating out from its circumference tattooed on his right forearm.
+- The dead gnome has dry waste on his boots and cloak, suggesting he has spent time in the sewers recently. He also has a pouch containing five 100 gp gemstones.
+- A character can try to snatch Dalakhar’s pouch without being seen by NPC onlookers, doing so with a successful DC 13 Dexterity (Sleight of Hand) check. On a failed check, the character still acquires the pouch, but someone observes the theft and reports it to City Watch constables once they show up (see “The Watch Arrives” below). This witness to the theft can be silenced with a bribe of 50 gp or more.
+
+### After the blast
+
+- 6 guards at each entrance. Another 6 and a sergeant watch over the bodies until the City Watch arrives.
+- Griffon cavalry rider circles the neighbourhood above, watching.
+
+### Watch arrives (20 mins)
+
+City Watch sergeant Saeth Cromley escorts a member of the Watchful Order of Magists and Protectors named Barnibus Blastwind to the crime scene. Barnibus quietly takes charge of the investigation at that point, while Sergeant Cromley directs a force of twenty constables (veterans) to knock on doors and question locals.
+
+Before allowing the corpses to be removed and taken to local temples, Barnibus inspects the scene closely and reaches the following conclusions, which he prefers to keep to himself but might share with other members of the Watchful Order:
+
+- The gnome was running from 2 armed pursuers, who are dead. A third person swooped in right after the fireball.
+- The gnome and his pursuers were moving toward the tavern in Trollskull Alley (which Barnibus will soon come to realize is the characters’ property).
+- Neither the gnome nor his pursuers saw the blast coming.
+
+Given these findings, Barnibus decides to question the tavern’s owners and occupants, with Sergeant Cromley by his side as a witness and bodyguard. Specifically, Barnibus wants to find out the gnome’s identity and whether he was known to anyone. The characters, having never met Dalakhar, have little information to offer unless they decide to lie.
+
+Neither Barnibus nor Sergeant Cromley is quick to jump to conclusions. They both prefer to have ironclad evidence and testimony from reliable witnesses before making any arrests. Even though the characters are suspects by virtue of their proximity to the crime scene, it hardly seems plausible that they would unleash destructive magic so close to their place of business in broad daylight. Consequently, Barnibus intends not to take up too much of their time.
+
+Barnibus and Sergeant Cromley refuse requests by characters to join the investigation. “That would introduce too many new variables into an already confounding equation,” replies Barnibus with a frown. “Trust in the Watch,” Cromley adds dismissively. Characters who seem truthful and honest can press Barnibus for further information by making a DC 15 Charisma (Persuasion) check. On a success, they nudge Barnibus into revealing what he has discovered, as outlined above.
 
 ## Paths to Gralhund
 - Emerald enclave knows that Gralhund's have a robot. These things typically get wound up being used for evil.
