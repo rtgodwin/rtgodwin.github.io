@@ -18,10 +18,34 @@ toc: false
 - You defeated the Scarecrows. You returned to Phaulkonmere. You each are now low ranking members of the Emerald Enclave. Primarily druids and rangers that oppose threats to the natural world such as the undead, scarecrows, and _constructs (robots, automotons)_. _You can enquire about their services, and ask them for help._
 - You return as the heroes of Willowton (Doomhilda seemed a little off). A Wyvern flies overhead. Encounter on a 1-2 from (d4/d6/d8) depending on how fast they travel. You arrive early/late/evening.
 - There are 1d8 patrons, somewhat enjoying themselves. ``Where 'ave you been? Wages are due!'' pay 25gp. Now get $5 \times 1d20+1$gp (chowder was improved slightly). Roll twice because it feels like a lot of time has passed. You've run this thing for a month.
-- Everyone take a turn doing anything they want in the city.
+- Everyone take a turn doing anything they want in the city. [Random conversations](https://www.dndspeak.com/2021/05/13/100-prompts-for-idle-chit-chat-between-characters/)
+
+## Start
+
+> Windows rattle as the roar of an explosion fills Trollskull Alley. Charred bodies and anguished screams fly through the air. A thick cloud of acrid smoke billows outward from the blast, which seems to have occurred right outside your door.
+
+It is just before 8. What is your character doing and how do they react. Quick!
+
+## Crime Scene
+
+### Bodies:
+- Two cloaked male humans (Zhentarim sellswords) clad in leather armor with sheathed longswords
+- Two female humans and one male half-elf dressed in plain clothes (servants of wealthy North Ward families, killed while running errands)
+- One male gnome (Dalakhar) wearing a burned cloak and clutching a dagger
+- Avi the water genasi (Embric comes quickly to mourn)
+
+### Before watch arrives (2 mins):
+
+A search of the bodies accompanied by a successful DC 15 Wisdom (Perception) check reveals the following:
+
+One of the dead male humans has a black, winged snake (the symbol of the Black Network) tattooed on his right forearm.
+The dead gnome has dry waste on his boots and cloak, suggesting he has spent time in the sewers recently. He also has a pouch containing five 100 gp gemstones.
+A character can try to snatch Dalakhar’s pouch without being seen by NPC onlookers, doing so with a successful DC 13 Dexterity (Sleight of Hand) check. On a failed check, the character still acquires the pouch, but someone observes the theft and reports it to City Watch constables once they show up (see “The Watch Arrives” below). This witness to the theft can be silenced with a bribe of 50 gp or more.
 
 ## Paths to Gralhund
 - Emerald enclave knows that Gralhund's have a robot. These things typically get wound up being used for evil.
+- Harpers (also Raener) know that Urstul Floxin, a high ranking Zhent, is operating out of Gralhund Villa for some reason.
+- 
 
 ### Future sessions
 - Catch Urstul immeidately. Get stone. Stone whispers to a single player the location, player is unable to communicate the location: DC CON save they throw up trying. Player forgets the location as soon as stone is passed.
