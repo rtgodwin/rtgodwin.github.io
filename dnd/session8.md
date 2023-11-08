@@ -22,13 +22,14 @@ toc: false
 
 ## Start
 
-> You hear the sound of a massive blast and the sound of shattering glass as something flies through your front windows. Your inn shakes and rattles. Charred bodies and anguished screams fly through the air. A thick cloud of acrid smoke billows outward from the blast, which seems to have occurred right outside your door.
+> You hear the sound of a massive blast and the sound of shattering glass as things crashes through your front windows. Your inn shakes and rattles. Charred bodies and anguished screams fly through the air. A thick cloud of acrid smoke billows outward from the blast, which seems to have occurred right outside your door.
 
 It is just before 8. What is your character doing and how do they react. Quick!
 
 ## Crime Scene
 
-A fast character can look out the window and get a description of Urstul Floxin grabbing the stone and fleeing toward the bent nail.
+- A fast character can look out the window and get a description of Urstul Floxin grabbing the stone and limping away toward the bent nail.
+- A dead sellsword with tattoo blasted through the window. Other smoldering pieces of 
 
 ### Bodies:
 - Two cloaked male humans (_Xanathar_ sellswords) clad in leather armor with sheathed longswords
@@ -66,9 +67,10 @@ Neither Barnibus nor Sergeant Cromley is quick to jump to conclusions. They both
 Barnibus and Sergeant Cromley refuse requests by characters to join the investigation. “That would introduce too many new variables into an already confounding equation,” replies Barnibus with a frown. “Trust in the Watch,” Cromley adds dismissively. Characters who seem truthful and honest can press Barnibus for further information by making a DC 15 Charisma (Persuasion) check. On a success, they nudge Barnibus into revealing what he has discovered, as outlined above.
 
 ## Paths to Gralhund
-- Emerald enclave knows that Gralhund's have a robot. These things typically get wound up being used for evil.
+- Emerald enclave knows that Gralhund's have a robot. These things typically get wound up being used for evil. You should eliminate this unnatural and evil creature.
 - Harpers (also Raener) know that Urstul Floxin, a high ranking Zhent, is operating out of Gralhund Villa for some reason.
-- 
+- Everyone knows that they should inquire at the temple of Gond if they want to learn about nimblewrights. When they get to the temple, they acquire the nimblewright detector, and that can also lead them right to the Gralhunds’ doorstep.
+- Vincent trench approaches them and asks what information they have about the perpetrators of the attack (investigating a dead wife). Trade notes.
 
 ### Future sessions
 - Catch Urstul immeidately. Get stone. Stone whispers to a single player the location, player is unable to communicate the location: DC CON save they throw up trying. Player forgets the location as soon as stone is passed.
