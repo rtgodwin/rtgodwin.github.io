@@ -22,7 +22,7 @@ toc: false
 
 ## Start
 
-> Windows rattle as the roar of an explosion fills Trollskull Alley. Charred bodies and anguished screams fly through the air. A thick cloud of acrid smoke billows outward from the blast, which seems to have occurred right outside your door.
+> You hear the sound of a massive blast and the sound of shattering glass as something flies through your front windows. Your inn shakes and rattles. Charred bodies and anguished screams fly through the air. A thick cloud of acrid smoke billows outward from the blast, which seems to have occurred right outside your door.
 
 It is just before 8. What is your character doing and how do they react. Quick!
 
