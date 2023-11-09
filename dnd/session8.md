@@ -37,7 +37,7 @@ It is just before 8. What is your character doing and how do they react. Quick!
 - One male gnome (Dalakhar) wearing a burned cloak and clutching a dagger
 - Avi the water genasi (Embric comes quickly to mourn)
 
-### Before watch arrives (2 mins):
+### Before guards arrive (2 mins):
 
 A search of the bodies accompanied by a successful DC 15 Wisdom (Perception) check reveals the following:
 
@@ -45,8 +45,9 @@ A search of the bodies accompanied by a successful DC 15 Wisdom (Perception) che
 - The dead gnome has dry waste on his boots and cloak, suggesting he has spent time in the sewers recently. He also has a pouch containing five 100 gp gemstones.
 - A character can try to snatch Dalakhar’s pouch without being seen by NPC onlookers, doing so with a successful DC 13 Dexterity (Sleight of Hand) check. On a failed check, the character still acquires the pouch, but someone observes the theft and reports it to City Watch constables once they show up (see “The Watch Arrives” below). This witness to the theft can be silenced with a bribe of 50 gp or more.
 
-### After the blast
+### Guards arrive
 
+- Cordon off the alley.
 - 6 guards at each entrance. Another 6 and a sergeant watch over the bodies until the City Watch arrives.
 - Griffon cavalry rider circles the neighbourhood above, watching.
 
@@ -66,10 +67,39 @@ Neither Barnibus nor Sergeant Cromley is quick to jump to conclusions. They both
 
 Barnibus and Sergeant Cromley refuse requests by characters to join the investigation. “That would introduce too many new variables into an already confounding equation,” replies Barnibus with a frown. “Trust in the Watch,” Cromley adds dismissively. Characters who seem truthful and honest can press Barnibus for further information by making a DC 15 Charisma (Persuasion) check. On a success, they nudge Barnibus into revealing what he has discovered, as outlined above.
 
+The Watch cast gentle repose spells on corpses to preserve them for 10 days to allow investigators to speak with them.
+
+### Eyewitnesses
+Many other people witnessed the fireball without being caught in the blast. Three of them have important information to share.
+
+#### Fala Lefaliir
+
+> “I was watering plants in the greenhouse on the second floor of my shop when the blast blew out some of the windows. Lucky I wasn’t injured! Through the smoke, I saw a cloaked man take something from the body of a dead gnome, then start limping away. He was badly burned and casting glances over his shoulder, like he was afraid someone might be following him. He was headed toward the Bent Nail.”
+
+Fala saw Urstul Floxin fleeing the scene with the Stone of Golorr in his clutches. He circled around the Bent Nail (see chapter 2, area T2) on his way out of Trollskull Alley.
+
+#### Jezrynne Hornraven
+A Waterdavian born of wealth and privilege, Jezrynne was leaving the Tiger’s Eye (see chapter 2, area T5), having just hired Vincent Trench to spy on her philandering husband, when she witnessed the following:
+
+> “I tell you, it was not a man. More like a puppet shaped like a man. A puppet without strings. It was on the rooftop. It hurled something into the crowd below that caused the explosion. I saw those halflings burned alive! I saw them!”
+
+Jezrynne doesn’t know what the “puppet” hurled to cause the fireball. She took her eyes off the thing during the chaos and doesn’t know where it went.
+
+#### Martem Trec
+This 12-year-old boy watched as his halfling friends perished in the flames. He didn’t see much beyond that, but he found something important after the blast went off:
+
+> “Right after the explosion, I ducked behind a rain barrel. Then I heard a ‘plop’ and found this in the barrel.”
+
+Martem produces a necklace of fireballs with two beads remaining and a broken clasp. As it fled across a rooftop, the nimblewright accidentally yanked on the necklace, which came off, fell to the roof, slid off the edge, and plopped into the rain barrel next to Martem.
+
+He doesn’t know what to make of this object but was planning to keep it. A character can snatch it from him or convince Martem to relinquish it with a successful DC 8 Charisma (Intimidation or Persuasion) check.
+
 ## Paths to Gralhund
 - Emerald enclave knows that Gralhund's have a robot. These things typically get wound up being used for evil. You should eliminate this unnatural and evil creature.
 - Harpers (also Raener) know that Urstul Floxin, a high ranking Zhent, is operating out of Gralhund Villa for some reason.
 - Everyone knows that they should inquire at the temple of Gond if they want to learn about nimblewrights. When they get to the temple, they acquire the nimblewright detector, and that can also lead them right to the Gralhunds’ doorstep.
+- Can follow the description of a limping man to Gralhund Villa.
+- Go to Watch headquarters and hire a priest to cast Speak With Dead.
 - Vincent trench approaches them and asks what information they have about the perpetrators of the attack (investigating a dead wife). Trade notes.
 
 ### Future sessions
