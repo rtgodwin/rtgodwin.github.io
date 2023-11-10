@@ -8,6 +8,7 @@ toc: false
 
 ## Intro
 
+- Dual wielding uses bonus action.
 - Story recap: 1/2 million dragons were embezzled by the former and ousted open lord of Waterdeep: Dagult Neverember. The dragons were never recovered and are rumoured to exist within a vault in the city. By accident, you rescued Renaer Neverember, Dagults son. He was being held captive by some Zhentarim agents. They were interogating him about something called "The Stone of Golorr". It reputedly reveals the location of the stolen gold.
 - Recap: Mirt (a wealthy noble and seemingly high-ranking Harper). 1 renown. You've been to his house, know where he lives. Harpers are a benvolent spy network.
 - You defeated the Scarecrows. You returned to Phaulkonmere. Jeryth Phaulkon, 1 renown. You each are now low ranking members of the Emerald Enclave. Primarily druids and rangers that oppose threats to the natural world such as the undead, scarecrows, and _constructs (robots, automotons)_. _You can enquire about their services, and ask them for help._
@@ -107,7 +108,7 @@ Barnibus and Sergeant Cromley refuse requests by characters to join the investig
 
 > The Watch cast gentle repose spells on corpses to preserve them for 10 days to allow investigators to speak with them.
 
-## Paths to Gralhund
+# Paths to Gralhund
 - Emerald enclave knows that Gralhund's have a nimblewright. These things typically get wound up being used for evil. You should eliminate this unnatural and evil creature.
 - Harpers (also Raener) know that Urstul Floxin, a high ranking Zhent, is operating out of Gralhund Villa for some reason.
 - Everyone knows that they should inquire at the temple of Gond if they want to learn about nimblewrights. When they get to the temple, they acquire the nimblewright detector, and that can also lead them right to the Gralhunds’ doorstep.
@@ -155,11 +156,15 @@ A wayward nimblewright, gifted to the temple by a wizard, has gone missing.
 
 If character's say that a nimblewright threw a fireball: get nimblewright detector and 500gp if they destroy the creature. Detector: crystal ball with a piece of nimblewright that rotates faster the closer it gets.
 
-## Gralhund Villa
+# Infiltrating Gralhund Villa
 
-- Breaking into the Villa from south is possible, but people take notice and will call the watch.
+- 12 ft high walls. DC 15 Athletics without climbing gear / rope.
+- Anything loud calls city watch in 1d6 + 4.
+- Break in through G3 stables. DC 20 Dex picklocks.
+- Breaking into the Villa to G6: DC 20 Athletics. Makes noise.
 - May hear a scream from within the Villa to encourage them to enter.
 - Standing outside too long, neighbours notice (percepetion check).
+- 
 - G8: At least 6 thugs. First thug takes a turn (DC 13 perception check) and calls out the squishiest member. Random on a fail.
 
 # Travelling
