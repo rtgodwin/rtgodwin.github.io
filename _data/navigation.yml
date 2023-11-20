@@ -56,13 +56,15 @@ docs:
         url: /3040/ch8-2.pdf
       - title: 8.3 - Logs
         url: /3040/ch8-3.pdf
-      - title: 8.4 - Interaction terms
-        url: /3040/ch8-4.pdf
-      - title: Dummy-dummy interact - extra
+      - title: 9 part I - Dummy-continuous interactions
+        url: /3040/interaction.pdf
+      - title: 9 part II - Dummy-dummy interactions
         url: /3040/dummydummy.pdf
-      - title: 9 - Heteroskedasticity
+      - title: 9 part III - Differences-in-Differences
+        url: /3040/did.pdf
+      - title: 10 - Heteroskedasticity
         url: /3040/ch9.pdf
-      - title: 10 - Instrumental variables
+      - title: 11 - Instrumental variables
         url: /3040/iv.pdf
   - title: Computer Labs
     children:
