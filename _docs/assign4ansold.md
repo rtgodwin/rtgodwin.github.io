@@ -1,6 +1,6 @@
 ---
 title: "Assignment 4 Answer Key"
-permalink: /3040/assign4ans/
+permalink: /3040/assign4ansold/
 excerpt: "Polynomials, Logs, Interactions, Heteroskedasticity - Answer Key"
 toc: false
 ---
