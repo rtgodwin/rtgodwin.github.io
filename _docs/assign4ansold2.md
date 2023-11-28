@@ -1,6 +1,6 @@
 ---
 title: "Assignment 4 Answer Key"
-permalink: /3040/assign4ansold/
+permalink: /3040/assign4ansold2/
 excerpt: "Polynomials, Logs, Interactions - Answer Key"
 toc: false
 ---
