@@ -116,23 +116,6 @@ predict(mod2, data.frame(carat = 0.6, colour = "D", clarity = "VS2")) - predict(
 
 The same increase in size of 0.1 has almost double the effect when the diamond is 0.5 carats vs. 0.1 carats.
 
-### (d)
-
-Because we are taking the _difference_ between two predicted values, it does not matter what values we choose for the other $X$ variables that are not changing (their effects cancel out). To illustrate this, I will choose different values for `colour` and `clarity`, but the same increase from `carat = 0.1` to `carat = 0.2`:
-
-```r
-predict(mod2, data.frame(carat = 0.2, colour = "E", clarity = "VS1")) - predict(
-  mod2, data.frame(carat = 0.1, colour = "E", clarity = "VS1"))
-```
-
-```
-628.7867
-```
-
-The predicted effect of an increase of 0.1 carats, for when `carat = 0.1`, has not changed compared to above. In fact, since the effects of the other variables (and the intercept) cancel out since they are on both sides of the $-$ sign, we do not need to consider them in our calculation:
-
-$$\hat{price}|_{carat = 0.2} - \hat{price}|_{carat=0.1} = 4351.3(0.2) + 6455.1(0.2^2) - 4351.3(0.1) - 6455.1(0.1^2) = 628.78$$
-
 ## Question 2
 
 Load the data:
@@ -143,7 +126,7 @@ cps <- read.csv("http://rtgodwin.com/data/cps1985.csv")
 
 ### (a)
 
-We can include the interaction term by including `gender * education` in the `lm()` function:
+Estimate the model using the `lm()` function:
 
 ```r
 cps.mod <- lm(log(wage) ~ education + gender + age + experience + gender *
@@ -152,31 +135,27 @@ summary(cps.mod)
 ```
 
 ```
-Coefficients:
-                     Estimate Std. Error t value Pr(>|t|)    
-(Intercept)           0.53764    0.70887   0.758 0.448521    
-education             0.18311    0.11333   1.616 0.106753    
-gendermale            0.69499    0.20315   3.421 0.000672 ***
-age                  -0.06472    0.11345  -0.570 0.568616    
-experience            0.07754    0.11355   0.683 0.494959    
-education:gendermale -0.03362    0.01531  -2.196 0.028545 *  
+CCoefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  0.89621    0.69229   1.295    0.196    
+education    0.17746    0.11371   1.561    0.119    
+gendermale   0.25736    0.03948   6.519 1.66e-10 ***
+age         -0.07961    0.11365  -0.700    0.484    
+experience   0.09234    0.11375   0.812    0.417    
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 0.4509 on 528 degrees of freedom
-Multiple R-squared:  0.2769,	Adjusted R-squared:  0.2701 
-F-statistic: 40.44 on 5 and 528 DF,  p-value: < 2.2e-16
+Residual standard error: 0.4525 on 529 degrees of freedom
+Multiple R-squared:  0.2703,	Adjusted R-squared:  0.2648 
+F-statistic: 48.99 on 4 and 529 DF,  p-value: < 2.2e-16
+
 ```
 
 ### (b)
 
-Since it is a log-linear model, changes in the $X$ variables have _approximate_ $100\times\beta$ percentage change effects on `wage`. From the output above, women with an education make 18.3% more compared to women without an education. The effect for men is different, due to the _interaction_ term in the model. Men with an education make $0.18311 - 0.03362 = 15.0%$ more than men without an education. The interaction term, `education:gendermale` allows for an "adjustment" to be made to the effect for when the dummy variables `education` and `gendermale` both equal 1.
+Since it is a log-linear model, changes in the $X$ variables have _approximate_ $100\times\beta$ percentage change effects on `wage`. From the output above, workers with an education make 17.8% more compared to workers without an education.
 
 ### (c)
-
-Since the interaction term is significant at the 5% level, we reject the null that there is no difference between the return to education for men and women.
-
-### (d)
 
 If there is heteroskedasticity (instead of homoskedasticity), then the standard errors, t-statistics, and p-values, are all wrong.
 
@@ -192,11 +171,11 @@ white(cps.mod)
 # A tibble: 1 × 5
   statistic p.value parameter method       alternative
       <dbl>   <dbl>     <dbl> <chr>        <chr>      
-1      7.37   0.690        10 White's Test greater    
+1      8.00   0.433         8 White's Test greater    
 ```
-The output we are interested in is the p-value of 0.690. We fail to reject the null, and conclude that the error term is homoskedastic.
+The output we are interested in is the p-value of 0.433. We fail to reject the null, and conclude that the error term is homoskedastic.
 
-### (e)
+### (d)
 
 Becuase the consequences of heteroskedasticity are severe (hypothesis tests are wrong), sometimes we ignore the results of the hypothesis test above. Hypothesis tests can be wrong! (Remember type II error.) We estimate the _heteroskedastic robust standard errors_ anyway.
 
@@ -213,13 +192,12 @@ coeftest(cps.mod, vcov = vcovHC(cps.mod, "HC1"))
 ```
 t test of coefficients:
 
-                      Estimate Std. Error t value  Pr(>|t|)    
-(Intercept)           0.537643   0.194521  2.7639 0.0059104 ** 
-education             0.183114   0.011411 16.0471 < 2.2e-16 ***
-gendermale            0.694988   0.191017  3.6384 0.0003013 ***
-age                  -0.064716   0.013117 -4.9339 1.082e-06 ***
-experience            0.077542   0.014099  5.4997 5.936e-08 ***
-education:gendermale -0.033616   0.014731 -2.2819 0.0228902 *  
+             Estimate Std. Error t value  Pr(>|t|)    
+(Intercept)  0.896211   0.135704  6.6041 9.753e-11 ***
+education    0.177461   0.011424 15.5345 < 2.2e-16 ***
+gendermale   0.257361   0.039388  6.5340 1.507e-10 ***
+age         -0.079611   0.011266 -7.0662 5.047e-12 ***
+experience   0.092341   0.012371  7.4644 3.467e-13 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 ```
