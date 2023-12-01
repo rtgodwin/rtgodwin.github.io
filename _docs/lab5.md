@@ -7,7 +7,9 @@ toc: false
 
 ------------------------------------------------------------------------
 
-# Download the CPS data set {#cps}
+# Interaction terms
+
+## Download the CPS data set {#cps}
 
 Download the data from the website using:
 
@@ -15,7 +17,7 @@ Download the data from the website using:
 cps <- read.csv("https://rtgodwin.com/data/cps1985.csv")
 ```
 
-# Estimate a model with an interaction term
+## Estimate a model with an interaction term
 
 ```r
 model1 <- lm(log(wage) ~ education + gender + education*gender + experience + region  
