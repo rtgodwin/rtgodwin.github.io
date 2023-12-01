@@ -55,3 +55,5 @@ or equivalently
 
 $H_0: \beta_{education \times gendermale} = 0$
 
+R has already tested this hypothesis for us. The p-value is 0.097386. It is borderline; we fail to reject the null hypothesis at the 5% level, suggesting there are no differences in the effects of education on wage, between men and women.
+
