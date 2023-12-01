@@ -49,7 +49,9 @@ The interaction term allows for the effect of education on wage to differ betwee
 
 To test to see if there is a difference in the effect of education between men and women, we need to test the significance of the interaction term (it's what's allowing for there to be a difference!). If there is no difference, then the effect of the interaction is 0. The null hypothesis is:
 
-$H_0: effect of education on wage is the same for men and women$
+$H_0: \text{effect of education on wage is the same for men and women}$
+
 or equivalently
+
 $H_0: \beta_{education \times gendermale} = 0$
 
