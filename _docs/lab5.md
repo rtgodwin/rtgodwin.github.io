@@ -82,8 +82,41 @@ $$wage = \beta_0 + \beta_1education + \beta_2urban + \beta_3gender + \beta_4ethn
 using IV estimation, and where _distance_ is an instrument for _education_, we can use:
 
 ```r
+install.packages("ivreg")
+library(ivreg)
 iv <- ivreg(wage ~ education + urban + gender + ethnicity + unemp |
-  distance + urban + gender + ethnicity + unemp, data = college)
+    distance + urban + gender + ethnicity + unemp, data = college)
 summary(iv)
 ```
 
+```
+Coefficients:
+                  Estimate Std. Error t value Pr(>|t|)    
+(Intercept)       -0.65702    1.83641  -0.358   0.7205    
+education          0.64710    0.13594   4.760 1.99e-06 ***
+urbanyes           0.04614    0.06039   0.764   0.4449    
+gendermale         0.07075    0.04997   1.416   0.1569    
+ethnicityhispanic -0.12405    0.08871  -1.398   0.1621    
+ethnicityother     0.22724    0.09863   2.304   0.0213 *  
+unemp              0.13916    0.00912  15.259  < 2e-16 ***
+```
+
+## IV estimation using 2SLS approach
+
+In the first stage we get the LS predicted values from a regression of the endogenous variable _education_ on the instrument, and all other $x$ variables:
+
+```r
+first.stage <- lm(education ~ urban + gender + ethnicity + unemp + distance,
+    data = college)
+education.hat <- first.stage$fitted.values
+```
+
+In the second stage we estimate the original population model, but we replace the variable _distance_ with the predicted values from the first stage:
+
+```r
+iv <- lm(wage ~ education.hat + urban + gender + ethnicity + unemp,
+data = college)
+summary(iv)
+```
+
+The results are the same as from the `ivreg()` package!
