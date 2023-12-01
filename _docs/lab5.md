@@ -79,4 +79,11 @@ To estimate the model:
 
 $$wage = \beta_0 + \beta_1education + \beta_2urban + \beta_3gender + \beta_4ethnicity + \beta_5unemp + \epsilon$$
 
+using IV estimation, and where _distance_ is an instrument for _education_, we can use:
+
+```r
+iv <- ivreg(wage ~ education + urban + gender + ethnicity + unemp |
+  distance + urban + gender + ethnicity + unemp, data = college)
+summary(iv)
+```
 
