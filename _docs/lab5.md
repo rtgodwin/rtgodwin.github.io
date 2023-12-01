@@ -1,5 +1,5 @@
 ---
-title: "Lab 3"
+title: "Lab 5"
 permalink: /3040/lab5/
 excerpt: "Interaction terms and instrumental variables"
 toc: false
