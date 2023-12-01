@@ -59,3 +59,24 @@ $H_0: \beta_{education \times gendermale} = 0$
 
 R has already tested this hypothesis for us. The p-value is 0.097386. It is borderline; we fail to reject the null hypothesis at the 5% level, suggesting there are no differences in the effects of education on wage, between men and women.
 
+# Instrumental variables estimation
+
+## Download the Card (1993) wage data
+
+```r
+college <- read.csv("https://rtgodwin.com/data/collegedist.csv")
+```
+
+The variables in the data are:
+  - _wage_ - the dependent $y$ variable
+  - _education_ - number of years of education of the worker
+  - _distance_ - distance from the nearest college. This will be our instrument $z$.
+  - Other demographic variables used as controls.
+
+## IV estimation using `ivreg()`
+
+To estimate the model:
+
+$$wage = \beta_0 + \beta_1education + \beta_2urban + \beta_3gender + \beta_4ethnicity + \beta_5unemp + \epsilon$$
+
+
