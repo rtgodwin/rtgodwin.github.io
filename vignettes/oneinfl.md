@@ -16,6 +16,7 @@ Functions in this package:
 - `oneinfl(formula, data, dist)` - estimate the new OIZTNB and OIPP models
 - `truncreg(formula, data, dist)` - estimate the standard ZTNB and PP models
 - `oneLRT(model1, model2)` - likelihood ratio test for overdispersion or one-inflation
+- `oneplot(model1, model2, model3, model4)` plot the actual and predicted counts from various models estimated by `oneinfl` or `truncreg`
 - `summary.oneinfl(model)` - create a summary table of estimated parameters, standard errors, z-statistics and _p_-values, estimated average and average absolute one-inflation, and log-likelihood
 
 ## Load package and data
@@ -110,6 +111,18 @@ $pval
 ```
 
 The Wald test also supports the presence of one-inflation.
+
+## Plot actual and predicted counts using `oneplot(model1, model2, model3, model4)`
+
+In Godwin (2023) only the OIZTNB and ZTNB models are plotted, but here we plot all of the estimated models using:
+
+```r
+oneplot(PP, OIPP, ZTNB, OIZTNB, data=data, maxpred=20, ylimit=180)
+```
+
+which produces the following plot:
+
+
 
 ## Summarize using `summary.oneinfl(model)`
 
