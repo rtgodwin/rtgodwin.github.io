@@ -4,6 +4,7 @@ permalink: /test/
 excerpt: 
 toc: false
 author_profile: false
+masthead: false
 ---
 
 # Package `oneinfl` 
