@@ -14,9 +14,9 @@ The R package `oneinfl` estimates one-inflated positive Poisson (OIPP) and one-i
 This vignette illustrates `oneinfl` by reproducing and extending the MedPar results in "One-inflated zero-truncated count regression models" (Godwin, 2023). Please cite this paper when using `oneinfl`.
 
 Functions in this package:
-- `oneinfl(formula, data, dist)`
-- `truncreg(formula, data, dist)`
-- `oneLRT(model1, model2)`
+- `oneinfl(formula, data, dist)` - estimate the new OIZTNB and OIPP models
+- `truncreg(formula, data, dist)` - estimate the standard ZTNB and PP models
+- `oneLRT(model1, model2)` - test for overdispersion or one-inflation
 
 ## Load package and data
 
@@ -44,11 +44,11 @@ OIZTNB <- oneinfl(formula, data, dist="negbin")
 OIPP <- oneinfl(formula, data, dist="Poisson")
 ```
 
-Variables that precede `|` link to the mean function and variables that follow `|` link to one-inflation.
+`formula` is the population model to be estimated, variables that precede `|` link to the mean function and variables that follow `|` link to one-inflation. `data` is a data frame and `dist="negbin` estimated OIZTNB while `dist=Poisson` estimates OIPP.
 
 ## Estimate zero-truncated negative binomial (ZTNB) and positive Poisson (PP) models using `truncreg(formula, data, dist)`
 
-These are the current standard models for treating zero-truncated count data. Estimate them ine `oneinfl` using:
+These are the current standard models for treating zero-truncated count data. Estimate them in `oneinfl` using:
 
 ```r
 formula <- los ~ white + died + type2 + type3
@@ -56,6 +56,12 @@ ZTNB <- truncreg(formula, data, dist="negbin")
 PP <- truncreg(formula, data, dist="Poisson")
 ```
 ## Test for overdispersion and one-inflation using `oneLRT(model1, model2)`
+
+`oneLRT` extracts the log-likelihood and number of parameters estimated in any two models to calculate a likelihood ratio test statistic and its associated _p_-value. It can be used to test hypotheses of nested models.
+
+### Overdispersion
+
+Likelihood ratio test for overdispersion:
 
 ```r
 oneLRT(OIZTNB, OIPP)
@@ -67,8 +73,43 @@ $LRTstat
 $pval
 [1] 0
 ```
+We reject the null hypothesis of no overdispersion. Overdispersion is a well-developed topic that has led many to discard a Poisson model in favour of a negative binomial model. The principle extends to both truncated data (the ZTNB model vs. the PP model) and one-inflation (OIZTNB vs. OIPP).
 
-We reject the null hypothesis of no overdispersion.
+### One-inflation
+
+Likelihood ratio test for one-inflation:
+
+```r
+oneLRT(OIZTNB, ZTNB)
+```
+
+```
+$LRTstat
+[1] 131.4165
+
+$pval
+[1] 0
+```
+
+The LRT supports the presence of one-inflation (the null hypothesis is no one-inflation).
+
+## Test for one-inflation using `oneWald(oneinfl.model)`
+
+Godwin (2023) presents a Wald test for the presence of one-inflation. Only the one-inflated models need be estimated; `oneinfl.model` should be a OIZTNB or OIPP model estimated by `oneinfl`.
+
+```r
+oneWald(OIZTNB)
+```
+
+```
+$W
+[1] 469.1062
+
+$pval
+[1] 0
+```
+
+The Wald test also supports the presence of one-inflation.
 
 ## Summarize using 
 
