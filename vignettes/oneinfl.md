@@ -13,6 +13,10 @@ The R package `oneinfl` package estimates one-inflated positive Poisson (OIPP) a
 
 This vignette illustrates `oneinfl` by reproducing and extending the MedPar results in "One-inflated zero-truncated count regression models" (Godwin, 2023). Please cite this paper when using `oneinfl`.
 
+Functions in this package:
+- `oneinfl(formula, data, dist)`
+- `oneLRT(model1, model2)`
+
 ## Load package and data
 
 Load the `oneinfl` package using:
@@ -29,18 +33,44 @@ data(medpar)
 data = medpar
 ```
 
-## Estimate OIZTNB and OIPP using `oneinfl()`
+## Estimate OIZTNB and OIPP using `oneinfl(formula, data, dist)`
 
 Estimate the one-inflated zero-truncated negative binomial (OIZTNB) model:
 
 ```r
 formula <- los ~ white + died + type2 + type3 | white + died + type2 + type3
 OIZTNB <- oneinfl(formula, data, dist="negbin")
-OIPP <- 
+OIPP <- oneinfl(formula, data, dist="Poisson")
 ```
 
-## 
+Variables that precede `|` link to the mean function ($\lamba = \exp (X\bm{b})$)
 
+## Estimate zero-truncated negative binomial (ZTNB) and positive Poisson (PP) models using `truncreg()`
+
+These are the current standard models for treating zero-truncated count data. Estimate them ine `oneinfl` using:
+
+```r
+formula <- los ~ white + died + type2 + type3
+ZTNB <- truncreg(formula, data, dist="negbin")
+PP <- truncreg(formula, data, dist="Poisson")
+```
+
+## Test for overdispersion and one-inflation using `oneLRT(model1, model2)`
+
+```r
+oneLRT(OIZTNB, OIPP)
+```
+```
+$LRTstat
+[1] 3305.341
+
+$pval
+[1] 0
+```
+
+We reject the null hypothesis of no overdispersion.
+
+## Summarize using 
 
 > People don't kill people, guns kill people.
 
