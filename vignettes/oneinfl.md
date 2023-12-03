@@ -1,5 +1,5 @@
 ---
-title: "Do Republicans cause gun deaths?"
+title: "Package `oneinfl'"
 permalink: /oneinfl/
 excerpt: 
 toc: false
@@ -7,7 +7,18 @@ toc: false
 
 ------------------------------------------------------------------------
 
-This web vignette illustrates the R package `oneinfl` by reproducing the results in "One-inflated zero-truncated count regression models".
+# The `oneinfl` package
+
+The `oneinfl` package estimates one-inflated positive Poisson (OIPP) and one-inflated zero-truncated (OIZTNB) regression models. When count data are truncated so that $y = 1,2,\dots$, it is also often inflated at $y=1$. The current standard model for treating such data is the zero-truncated negative binomial (ZTNB) model. ZTNB fails to account for excess 1s (or too few 1s), resulting in biased and inconsistent estimators.
+
+This web vignette illustrates the R package `oneinfl` by reproducing the MedPar results in "One-inflated zero-truncated count regression models". It also provides some additional results to fully illustrate the capabilities of the package.
+
+Load the `oneinfl` package using:
+
+```r
+
+```
+
 > People don't kill people, guns kill people.
 
 ## Introduction
