@@ -122,7 +122,7 @@ oneplot(PP, OIPP, ZTNB, OIZTNB, data=data, maxpred=20, ylimit=180)
 
 which produces the following plot:
 
-
+![](https://rtgodwin.com/vignettes/medparweb.png)
 
 ## Summarize using `summary.oneinfl(model)`
 
@@ -168,6 +168,6 @@ Log-likelihood:  -4671.06423844655
 
 For example, when the variable $died = 1$, one-inflation increases significantly, but $died$ otherwise does not effect _los_. Average one-inflation is 4.2% (there is an additional 0.042 probability that each person will stay only 1 day). Average absolute one-inflation is 0.068, meaning that some observations have one-deflation (e.g. when $type2$ or $type3$ equals 1).
 
-![](https://rtgodwin.com/3040/images/guns.png)
+
 
 
