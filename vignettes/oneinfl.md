@@ -2,7 +2,7 @@
 title: "Package 'oneinfl'"
 permalink: /oneinfl/
 excerpt: 
-toc: false
+toc: true
 ---
 
 ------------------------------------------------------------------------
@@ -15,6 +15,7 @@ This vignette illustrates `oneinfl` by reproducing and extending the MedPar resu
 
 Functions in this package:
 - `oneinfl(formula, data, dist)`
+- `truncreg(formula, data, dist)`
 - `oneLRT(model1, model2)`
 
 ## Load package and data
@@ -43,9 +44,9 @@ OIZTNB <- oneinfl(formula, data, dist="negbin")
 OIPP <- oneinfl(formula, data, dist="Poisson")
 ```
 
-Variables that precede `|` link to the mean function ($\lamba = \exp (X\bm{b})$)
+Variables that precede `|` link to the mean function and variables that follow `|` link to one-inflation.
 
-## Estimate zero-truncated negative binomial (ZTNB) and positive Poisson (PP) models using `truncreg()`
+## Estimate zero-truncated negative binomial (ZTNB) and positive Poisson (PP) models using `truncreg(formula, data, dist)`
 
 These are the current standard models for treating zero-truncated count data. Estimate them ine `oneinfl` using:
 
@@ -54,7 +55,6 @@ formula <- los ~ white + died + type2 + type3
 ZTNB <- truncreg(formula, data, dist="negbin")
 PP <- truncreg(formula, data, dist="Poisson")
 ```
-
 ## Test for overdispersion and one-inflation using `oneLRT(model1, model2)`
 
 ```r
