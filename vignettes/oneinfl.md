@@ -1,8 +1,8 @@
 ---
-title: "Package 'oneinfl'"
+title: "Package oneinfl"
 permalink: /oneinfl/
 excerpt: 
-toc: true
+toc: false
 ---
 
 ------------------------------------------------------------------------
@@ -16,7 +16,7 @@ This vignette illustrates `oneinfl` by reproducing and extending the MedPar resu
 Functions in this package:
 - `oneinfl(formula, data, dist)` - estimate the new OIZTNB and OIPP models
 - `truncreg(formula, data, dist)` - estimate the standard ZTNB and PP models
-- `oneLRT(model1, model2)` - test for overdispersion or one-inflation
+- `oneLRT(model1, model2)` - likelihood ratio test for overdispersion or one-inflation
 
 ## Load package and data
 
