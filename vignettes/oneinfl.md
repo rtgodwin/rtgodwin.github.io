@@ -1,7 +1,6 @@
 ---
-layout: custom-layout
 title: "Package oneinfl"
-permalink: /oneinfl/
+permalink:
 excerpt: 
 toc: false
 ---
