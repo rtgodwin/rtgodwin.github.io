@@ -3,6 +3,7 @@ title: "Package oneinfl"
 permalink: /test/
 excerpt: 
 toc: false
+author_profile: false
 ---
 
 # Package `oneinfl` 
