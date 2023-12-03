@@ -18,6 +18,7 @@ Functions in this package:
 - `oneLRT(model1, model2)` - likelihood ratio test for overdispersion or one-inflation
 - `oneplot(model1, model2, model3, model4)` plot the actual and predicted counts from various models estimated by `oneinfl` or `truncreg`
 - `summary.oneinfl(model)` - create a summary table of estimated parameters, standard errors, z-statistics and _p_-values, estimated average and average absolute one-inflation, and log-likelihood
+- `signifWald(model, "var.name")` - test the significance of a variable
 
 ## Load package and data
 
@@ -168,6 +169,50 @@ Log-likelihood:  -4671.06423844655
 
 For example, when the variable $died = 1$, one-inflation increases significantly, but $died$ otherwise does not effect _los_. Average one-inflation is 4.2% (there is an additional 0.042 probability that each person will stay only 1 day). Average absolute one-inflation is 0.068, meaning that some observations have one-deflation (e.g. when $type2$ or $type3$ equals 1).
 
+To reproduce the results form Chapter 11.1 in Hilbe (2011), we summarize the ZTNB model using:
 
+```r
+summary.oneinfl(ZTNB)
+```
 
+```
+Call:
+formula:  los ~ white + died + type2 + type3 
+distribution:  negbin 
 
+Coefficients (beta):
+             Estimate Std.Error z_value   p.value    
+b(Intercept)   2.3334   0.07499  31.115 0.000e+00 ***
+bwhite        -0.1318   0.07469  -1.765 7.755e-02   .
+bdied         -0.2512   0.04468  -5.622 1.889e-08 ***
+btype2         0.2601   0.05529   4.704 2.550e-06 ***
+btype3         0.7692   0.08259   9.314 0.000e+00 ***
+
+alpha:
+  Estimate Std.Error z_value p.value    
+1    1.881    0.1034   18.19       0 ***
+
+Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+
+Log-likelihood:  -4736.77246562658 
+```
+
+Taking `exp(ZTNB$beta)` gives the incident risk ratios.
+
+## Tests of significance using `signifWald(model, "var.name")`
+
+Since variables are typically linked to both the rate parameter $\lambda$ and the one-inflating parameter $\omega$, tests of overall significance are joint hypotheses. Testing the overall significance of the variable $white$ for example, we can use:
+
+```r
+signifWald(OIZTNB, "white")
+```
+
+```
+$W
+[1] 3.725885
+
+$pval
+[1] 0.1552153
+```
+
+The _p_-value of 0.155 suggests that the variable does not have a significant effect on
