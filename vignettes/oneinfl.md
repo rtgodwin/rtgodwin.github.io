@@ -1,6 +1,6 @@
 ---
 title: "Do Republicans cause gun deaths?"
-permalink: /oneinfl
+permalink: /oneinfl/
 excerpt: 
 toc: false
 ---
