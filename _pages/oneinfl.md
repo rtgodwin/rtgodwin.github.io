@@ -1,6 +1,6 @@
 ---
 title: "R package `oneinfl`"
-permalink: /test/
+permalink: /oneinfl/
 excerpt: 
 toc: false
 author_profile: true
