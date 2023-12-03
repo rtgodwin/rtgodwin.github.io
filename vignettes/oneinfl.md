@@ -58,7 +58,7 @@ PP <- truncreg(formula, data, dist="Poisson")
 ```
 ## Test for overdispersion and one-inflation using `oneLRT(model1, model2)`
 
-`oneLRT` extracts the log-likelihood and number of parameters estimated in any two models to calculate a likelihood ratio test statistic and its associated _p_-value. It can be used to test hypotheses of nested models.
+`oneLRT` extracts the log-likelihood and number of parameters in any two models estimated by `oneinfl` or `truncreg`. It returns the likelihood ratio test statistic and its associated _p_-value. It can be used to test hypotheses involving nested models.
 
 ### Overdispersion
 
@@ -112,7 +112,47 @@ $pval
 
 The Wald test also supports the presence of one-inflation.
 
-## Summarize using 
+## Summarize using `summary.oneinfl(model)`
+
+`summary.oneinfl(model)` is a custom summary function for OIZTNB, OIPP, ZTNB, and PP models estimated using `oneinfl`, which provides output similar to standard uses of `summary()`. For the OIZTNB model:
+
+```r
+summary.oneinfl(OIZTNB)
+```
+
+```
+Call:
+formula:  los ~ white + died + type2 + type3 | white + died + type2 + type3 
+distribution:  negbin 
+
+Coefficients (beta):
+             Estimate Std.Error z_value   p.value    
+b(Intercept)  2.29913   0.07184  32.005 0.000e+00 ***
+bwhite       -0.09708   0.07138  -1.360 1.738e-01    
+bdied        -0.06814   0.04492  -1.517 1.293e-01    
+btype2        0.23413   0.05349   4.377 1.204e-05 ***
+btype3        0.75580   0.07884   9.586 0.000e+00 ***
+
+Coefficients (gamma):
+             Estimate Std.Error z_value p.value    
+g(Intercept)  -4.2002    0.5060  -8.300 0.00000 ***
+gwhite         0.6594    0.4814   1.370 0.17075    
+gdied          2.3349    0.2359   9.899 0.00000 ***
+gtype2        -0.5413    0.2829  -1.913 0.05569   .
+gtype3        -0.7507    0.4472  -1.679 0.09324   .
+
+alpha:
+  Estimate Std.Error z_value p.value    
+1    2.267     0.146   15.53       0 ***
+
+Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+
+average one-inflation:  0.0416855179433309 
+
+average absolute one-inflation:  0.0680909723883016 
+
+Log-likelihood:  -4671.06423844655
+```
 
 > People don't kill people, guns kill people.
 
