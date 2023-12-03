@@ -1,5 +1,5 @@
 ---
-title: "Package `oneinfl'"
+title: "Package 'oneinfl'"
 permalink: /oneinfl/
 excerpt: 
 toc: false
@@ -7,17 +7,40 @@ toc: false
 
 ------------------------------------------------------------------------
 
-# The `oneinfl` package
+# Package `oneinfl` 
 
-The `oneinfl` package estimates one-inflated positive Poisson (OIPP) and one-inflated zero-truncated (OIZTNB) regression models. When count data are truncated so that $y = 1,2,\dots$, it is also often inflated at $y=1$. The current standard model for treating such data is the zero-truncated negative binomial (ZTNB) model. ZTNB fails to account for excess 1s (or too few 1s), resulting in biased and inconsistent estimators.
+The R package `oneinfl` package estimates one-inflated positive Poisson (OIPP) and one-inflated zero-truncated (OIZTNB) regression models. When count data are truncated so that $y = 1,2,\dots$, it is also often inflated at $y=1$. The current standard model for treating such data is the zero-truncated negative binomial (ZTNB) model. ZTNB fails to account for excess 1s (or too few 1s), resulting in biased and inconsistent estimators.
 
-This web vignette illustrates the R package `oneinfl` by reproducing the MedPar results in "One-inflated zero-truncated count regression models". It also provides some additional results to fully illustrate the capabilities of the package.
+This vignette illustrates `oneinfl` by reproducing and extending the MedPar results in "One-inflated zero-truncated count regression models" (Godwin, 2023). Please cite this paper when using `oneinfl`.
+
+## Load package and data
 
 Load the `oneinfl` package using:
 
 ```r
-
+devtools::install_github("rtgodwin/oneinfl")
+library(oneinfl)
 ```
+
+Load the medpar data from the `msme` package:
+```r
+library(msme)
+data(medpar)
+data = medpar
+```
+
+## Estimate OIZTNB and OIPP using `oneinfl()`
+
+Estimate the one-inflated zero-truncated negative binomial (OIZTNB) model:
+
+```r
+formula <- los ~ white + died + type2 + type3 | white + died + type2 + type3
+OIZTNB <- oneinfl(formula, data, dist="negbin")
+OIPP <- 
+```
+
+## 
+
 
 > People don't kill people, guns kill people.
 
