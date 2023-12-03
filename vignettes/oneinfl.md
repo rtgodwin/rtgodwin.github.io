@@ -18,6 +18,7 @@ Functions in this package:
 - `oneinfl(formula, data, dist)` - estimate the new OIZTNB and OIPP models
 - `truncreg(formula, data, dist)` - estimate the standard ZTNB and PP models
 - `oneLRT(model1, model2)` - likelihood ratio test for overdispersion or one-inflation
+- `summary.oneinfl(model)` - create a summary table of estimated parameters, standard errors, z-statistics and _p_-values, estimated average and average absolute one-inflation, and log-likelihood
 
 ## Load package and data
 
@@ -153,6 +154,8 @@ average absolute one-inflation:  0.0680909723883016
 
 Log-likelihood:  -4671.06423844655
 ```
+
+For example, when the variable $died = 1$, one-inflation increases significantly, but $died$ is not significant 
 
 > People don't kill people, guns kill people.
 
