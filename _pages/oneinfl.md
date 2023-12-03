@@ -1,10 +1,10 @@
 ---
-title: "Package oneinfl"
+title: "R package `oneinfl`"
 permalink: /test/
 excerpt: 
 toc: false
-author_profile: false
-masthead: false
+author_profile: true
+masthead: true
 ---
 
 # Package `oneinfl` 
