@@ -2,12 +2,10 @@
 title: "R package `oneinfl`"
 permalink: /oneinfl/
 excerpt: 
-toc: false
+toc: true
 author_profile: true
 masthead: true
 ---
-
-# Package `oneinfl` 
 
 The R package `oneinfl` estimates one-inflated positive Poisson (OIPP) and one-inflated zero-truncated (OIZTNB) regression models. When count data are truncated so that $y = 1,2,\dots$, it is also often inflated at $y=1$. The current standard model for treating such data is the zero-truncated negative binomial (ZTNB) model. ZTNB fails to account for excess 1s (or too few 1s), resulting in biased and inconsistent estimators.
 
@@ -17,7 +15,7 @@ Functions in this package:
 - `oneinfl(formula, data, dist)` - estimate the new OIZTNB and OIPP models
 - `truncreg(formula, data, dist)` - estimate the standard ZTNB and PP models
 - `oneLRT(model1, model2)` - likelihood ratio test for overdispersion or one-inflation
-- `oneplot(model1, model2, model3, model4)` plot the actual and predicted counts from various models estimated by `oneinfl` or `truncreg`
+- `oneplot(model1, model2, model3, model4)` - plot the actual and predicted counts from various models estimated by `oneinfl` or `truncreg`
 - `summary.oneinfl(model)` - create a summary table of estimated parameters, standard errors, z-statistics and _p_-values, estimated average and average absolute one-inflation, and log-likelihood
 - `signifWald(model, "var.name")` - test the significance of a variable
 
@@ -37,7 +35,7 @@ data(medpar)
 data = medpar
 ```
 
-## Estimate OIZTNB and OIPP using `oneinfl(formula, data, dist)`
+## `oneinfl(formula, data, dist)`: estimate OIZTNB and OIPP
 
 Estimate the one-inflated zero-truncated negative binomial (OIZTNB) model:
 
