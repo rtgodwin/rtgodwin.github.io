@@ -47,7 +47,7 @@ OIPP <- oneinfl(formula, data, dist="Poisson")
 
 `formula` is the population model to be estimated, variables that precede `|` link to the mean function and variables that follow `|` link to one-inflation. `data` is a data frame and `dist="negbin` estimated OIZTNB while `dist=Poisson` estimates OIPP.
 
-## Estimate zero-truncated negative binomial (ZTNB) and positive Poisson (PP) models using `truncreg(formula, data, dist)`
+## `truncreg(formula, data, dist)`: estimate ZTNB and PP models 
 
 These are the current standard models for treating zero-truncated count data. Estimate them in `oneinfl` using:
 
@@ -56,7 +56,7 @@ formula <- los ~ white + died + type2 + type3
 ZTNB <- truncreg(formula, data, dist="negbin")
 PP <- truncreg(formula, data, dist="Poisson")
 ```
-## Test for overdispersion and one-inflation using `oneLRT(model1, model2)`
+## `oneLRT(model1, model2)`: test for overdispersion and one-inflation
 
 `oneLRT` extracts the log-likelihood and number of parameters in any two models estimated by `oneinfl` or `truncreg`. It returns the likelihood ratio test statistic and its associated _p_-value. It can be used to test hypotheses involving nested models.
 
@@ -94,7 +94,7 @@ $pval
 
 The LRT supports the presence of one-inflation (the null hypothesis is no one-inflation).
 
-## Test for one-inflation using `oneWald(oneinfl.model)`
+## `oneWald(oneinfl.model)`: test for one-inflation
 
 Godwin (2023) presents a Wald test for the presence of one-inflation. Only the one-inflated models need be estimated; `oneinfl.model` should be a OIZTNB or OIPP model estimated by `oneinfl`.
 
@@ -112,7 +112,7 @@ $pval
 
 The Wald test also supports the presence of one-inflation.
 
-## Plot actual and predicted counts using `oneplot(model1, model2, model3, model4)`
+## `oneplot(model1, model2, model3, model4)`: plot actual and predicted counts
 
 In Godwin (2023) only the OIZTNB and ZTNB models are plotted, but here we plot all of the estimated models using:
 
@@ -124,7 +124,7 @@ which produces the following plot:
 
 ![](https://rtgodwin.com/vignettes/medparweb.png)
 
-## Summarize using `summary.oneinfl(model)`
+## `summary.oneinfl(model)`: summarize
 
 `summary.oneinfl(model)` is a custom summary function for OIZTNB, OIPP, ZTNB, and PP models estimated using `oneinfl`, which provides output similar to standard uses of `summary()`. For the OIZTNB model:
 
@@ -198,7 +198,7 @@ Log-likelihood:  -4736.77246562658
 
 Taking `exp(ZTNB$beta)` gives the incident risk ratios.
 
-## Tests of significance using `signifWald(model, "var.name")`
+## `signifWald(model, "var.name")`: tests of significance
 
 Since variables are typically linked to both the rate parameter $\lambda$ and the one-inflating parameter $\omega$, tests of overall significance are joint hypotheses. Testing the overall significance of the variable $white$ for example, we can use:
 
