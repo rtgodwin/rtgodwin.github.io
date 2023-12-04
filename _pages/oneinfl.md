@@ -216,4 +216,69 @@ $pval
 
 The _p_-value of 0.155 suggests that the variable does not have a significant effect on $los$, which is contrary to the standard ZTNB model.
 
-## `margins(model, data, at=)`
+## `margins(model, data)`: estimate marginal effects and their standard errors
+
+Marginal effects can be estimated at the default "average effects" (the marginal effect is estimated at each observation and averaged over all observations):
+
+```r
+margins(OIZTNB, data)
+```
+
+```
+Call:
+formula:  los ~ white + died + type2 + type3 | white + died + type2 + type3 
+distribution:  negbin 
+
+Marginal effects:
+      Marginal.effects Std.Error z_value   p.value    
+white           -1.258    0.7344  -1.713 8.668e-02   .
+died            -2.189    0.3964  -5.522 3.343e-08 ***
+type2            2.575    0.5875   4.382 1.174e-05 ***
+type3           10.142    1.4663   6.917 4.616e-12 ***
+
+Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+```
+
+these marginal effects can be compared to other models estimated by `oneinfl`, for example using:
+
+```r
+margins(ZTNB, data)
+```
+
+Marginal effects can be estimated at the "effect at means" (the data is averaged before evaluating the marginal effect):
+
+```r
+margins(OIZTNB, data, at = "EM")
+```
+
+or at a representative case:
+
+```r
+margins(OIZTNB, data, at = list(white = 0, died = 0, type2 = 0, type3 = 0))
+```
+
+## `pred(model, data)`: predicted values
+
+Generate predicted counts from an OIZTNB model:
+
+```r
+pred(OIZTNB, data)
+```
+
+or from an OIPP model:
+
+```r
+pred(ZTNB, data)
+```
+
+## Random variate generation
+
+Random variates can be generated using `roipp(b, g, X, Z)` and `roiztnb(b, g, a, X, Z)`. For example:
+
+```r
+n <- 100
+X <- data.frame(rep(1, n), rnorm(n))
+Z <- X
+roipp(b=c(0, 0), g=c(0, 0), X, Z)
+roiztnb(b=c(0, 0), g=c(0, 0), a=1, X, Z)
+```
