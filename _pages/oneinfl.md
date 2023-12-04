@@ -216,4 +216,4 @@ $pval
 
 The _p_-value of 0.155 suggests that the variable does not have a significant effect on $los$, which is contrary to the standard ZTNB model.
 
-## Estimate marginal effects using `margins(model, data, at=)`
+## `margins(model, data, at=)`
