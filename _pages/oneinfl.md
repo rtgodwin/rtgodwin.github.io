@@ -11,14 +11,6 @@ The R package `oneinfl` estimates one-inflated positive Poisson (OIPP) and one-i
 
 This vignette illustrates `oneinfl` by reproducing and extending the MedPar results in "One-inflated zero-truncated count regression models" (Godwin, 2023). Please cite this paper when using `oneinfl`.
 
-Functions in this package:
-- `oneinfl(formula, data, dist)` - estimate the new OIZTNB and OIPP models
-- `truncreg(formula, data, dist)` - estimate the standard ZTNB and PP models
-- `oneLRT(model1, model2)` - likelihood ratio test for overdispersion or one-inflation
-- `oneplot(model1, model2, model3, model4)` - plot the actual and predicted counts from various models estimated by `oneinfl` or `truncreg`
-- `summary.oneinfl(model)` - create a summary table of estimated parameters, standard errors, z-statistics and _p_-values, estimated average and average absolute one-inflation, and log-likelihood
-- `signifWald(model, "var.name")` - test the significance of a variable
-
 ## Load package and data
 
 Load the `oneinfl` package using:
