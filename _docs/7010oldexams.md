@@ -29,6 +29,8 @@ toc: false
 
 ## Previous finals
 
+[Final Formula Sheet](https://rtgodwin.com/7010/exams/formula.pdf)
+
 | Year                                                  | Answer Key
 | :---------------------------------------------------: | :---------------------------------------------------------: |
 | [2020](https://rtgodwin.com/7010/exams/2020final.pdf) | [Answers](https://rtgodwin.com/7010/exams/2020finalans.pdf) |
