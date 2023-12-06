@@ -77,18 +77,20 @@ Issues that arise in the multiple regression model:
   * approximate percentage changes
   * 3 configurations: lin-log, log-lin, log-log
   * Intepretations of the $\beta$ in these three configurations
+ 
+### Chapter 9
 - Interaction terms
   * $D \times X$ allows for different slopes/lines for different groups
   * Test for differences between groups
+- Dummy-dummy interactions
+  * different effect for different groups
 - DiD
   * minimum wage example
   * fundamental problem of causal inference
   * DiD estimator is the $b$ on the dummy-dummy interaction
   * Picture
-- Dummy-dummy interactions
-  * different effect for different groups
 
-### Chapter 9
+### Chapter 10
 - Hetroskedasticity vs. homoskedasticity
 - What heterosked. and homosked. look like in a plot
 - Implications of heteroskedasticity
@@ -96,7 +98,7 @@ Issues that arise in the multiple regression model:
   * Robust standard errors
 - Testing for het.
 
-### Chapter 10
+### Chapter 11
 - Missing variable problem
 - Instrument, $z$, has two properties
 - IV/2SLS - describe the two stages
