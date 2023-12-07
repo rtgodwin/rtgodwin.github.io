@@ -34,5 +34,5 @@ masthead: false
   - [Veteran](https://dr-eigenvalue.github.io/bestiary/creature/veteran)
   - [Thug](https://dr-eigenvalue.github.io/bestiary/creature/thug)
 
- - G8: At least 6 thugs. First thug takes a turn (DC 13 perception check) and calls out the squishiest member. Random on a fail.
+
 
