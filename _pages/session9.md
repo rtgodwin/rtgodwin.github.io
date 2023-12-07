@@ -7,7 +7,7 @@ author_profile: false
 masthead: false
 ---
 # Links
-- [https://dr-eigenvalue.github.io/bestiary/](Bestiary)
+- [Bestiary](https://dr-eigenvalue.github.io/bestiary/)
 # Recap
 - The dead gnome killed in the fireball outside your door had the stone of Golorr.
 - Stone was taken by an injured man limping away.
