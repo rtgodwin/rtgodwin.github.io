@@ -32,7 +32,8 @@ masthead: false
   - The floor is strewn with bodies. Two thugs holding bloody weapons stand over them. A third figure ascending the stairs, dressed in robes, turns to confront you.
   - [Evil Mage](https://dr-eigenvalue.github.io/bestiary/creature/evil-mage)
   - [Veteran](https://dr-eigenvalue.github.io/bestiary/creature/veteran)
-  - [Thug](https://dr-eigenvalue.github.io/bestiary/creature/thug)
+  - 2 [Thug](https://dr-eigenvalue.github.io/bestiary/creature/thug)
+
 
 
 
