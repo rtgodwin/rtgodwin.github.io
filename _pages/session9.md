@@ -27,6 +27,12 @@ masthead: false
  PCs see the balcony. DC 15 Athletics to climb up without gear.
   - [Cult fanatic](https://dr-eigenvalue.github.io/bestiary/creature/cult-fanatic)
   - 2 [Death Dog](https://dr-eigenvalue.github.io/bestiary/creature/death-dog) with Seeming cast on them
- 
+
+## G8
+  - The floor is strewn with bodies. Two thugs holding bloody weapons stand over them. A third figure ascending the stairs, dressed in robes, turns to confront you.
+  - [Evil Mage](https://dr-eigenvalue.github.io/bestiary/creature/evil-mage)
+  - [Veteran](https://dr-eigenvalue.github.io/bestiary/creature/veteran)
+  - [Thug](https://dr-eigenvalue.github.io/bestiary/creature/thug)
 
  - G8: At least 6 thugs. First thug takes a turn (DC 13 perception check) and calls out the squishiest member. Random on a fail.
+
