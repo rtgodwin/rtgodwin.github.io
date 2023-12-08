@@ -56,5 +56,8 @@ DC 15 lockpick. 3 [specters](https://dr-eigenvalue.github.io/bestiary/creature/s
 
 [Urstul Floxin](https://dr-eigenvalue.github.io/bestiary/creature/assassin) with 50 hp and no poison.
 
+## G16
+> You see Lady Gralhund pass a map and a stone to the Nimblewright. It runs out the balcony and leaps off.
+
 
 
