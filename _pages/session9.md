@@ -40,9 +40,10 @@ PCs see the balcony. DC 18 Athletics to climb up without gear.
 
 ## G8
 > The floor is strewn with bodies. Two thugs holding bloody weapons stand over them. A third figure ascending the stairs, dressed in robes, turns to confront you.
- - [Evil Mage](https://dr-eigenvalue.github.io/bestiary/creature/evil-mage)
- - [Veteran Outlaw]([https://dr-eigenvalue.github.io/bestiary/creature/veteran](https://dr-eigenvalue.github.io/bestiary/creature/veteran-outlaw)) Has a hostage.
- - 2 [Thug](https://dr-eigenvalue.github.io/bestiary/creature/thug)
+
+- [Evil Mage](https://dr-eigenvalue.github.io/bestiary/creature/evil-mage)
+- [Veteran Outlaw]([https://dr-eigenvalue.github.io/bestiary/creature/veteran](https://dr-eigenvalue.github.io/bestiary/creature/veteran-outlaw)) Has a hostage.
+- 2 [Thug](https://dr-eigenvalue.github.io/bestiary/creature/thug)
 
 ## G12
 > In one corner stands an iron lectern with a closed, locked, leather-bound tome resting on it.
