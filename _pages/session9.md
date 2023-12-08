@@ -21,7 +21,8 @@ masthead: false
 
 ## Getting there
 > Gralhunds a rich and power hungry family, Lady Gralhund especially. Not the cleanest reputation (orgies, possible links to Zhentarim).
- - Can follow the Nimblewright tracker to the estate.
+
+- Can follow the Nimblewright tracker to the estate.
 
 ## Infiltrating Gralhund Villa
  - 12 ft high walls. DC 15 Athletics without climbing gear / rope.
