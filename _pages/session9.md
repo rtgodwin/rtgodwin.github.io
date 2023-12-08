@@ -14,6 +14,10 @@ masthead: false
 - Stone was taken by an injured man limping away.
 - Nimblewright launched the fireball. You have a nimblewright detector, and are standing outside the temple of Gond.
 
+## Getting there
+> Gralhunds a rich and power hungry family, Lady Gralhund especially. Not the cleanest reputation (orgies, possible links to Zhentarim).
+ - Can follow the Nimblewright tracker to the estate.
+
 ## Infiltrating Gralhund Villa
  - 12 ft high walls. DC 15 Athletics without climbing gear / rope.
  - Anything loud calls city watch in 1d6 + 4.
@@ -29,10 +33,18 @@ masthead: false
   - 2 [Death Dog](https://dr-eigenvalue.github.io/bestiary/creature/death-dog) with Seeming cast on them
 
 ## G8
-  - The floor is strewn with bodies. Two thugs holding bloody weapons stand over them. A third figure ascending the stairs, dressed in robes, turns to confront you.
+> The floor is strewn with bodies. Two thugs holding bloody weapons stand over them. A third figure ascending the stairs, dressed in robes, turns to confront you.
   - [Evil Mage](https://dr-eigenvalue.github.io/bestiary/creature/evil-mage)
-  - [Veteran](https://dr-eigenvalue.github.io/bestiary/creature/veteran)
+  - [Veteran Outlaw]([https://dr-eigenvalue.github.io/bestiary/creature/veteran](https://dr-eigenvalue.github.io/bestiary/creature/veteran-outlaw)). Has a hostage.
   - 2 [Thug](https://dr-eigenvalue.github.io/bestiary/creature/thug)
+
+## G12
+> In one corner stands an iron lectern with a closed, locked, leather-bound tome resting on it.
+DC 15 lockpick. 3 [specters](https://dr-eigenvalue.github.io/bestiary/creature/specter) appear.
+
+## G13
+> A battle rages between Zhents and guards.
+
 
 
 
