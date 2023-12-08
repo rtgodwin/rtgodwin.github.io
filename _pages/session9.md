@@ -35,7 +35,7 @@ masthead: false
 ## G8
 > The floor is strewn with bodies. Two thugs holding bloody weapons stand over them. A third figure ascending the stairs, dressed in robes, turns to confront you.
   - [Evil Mage](https://dr-eigenvalue.github.io/bestiary/creature/evil-mage)
-  - [Veteran Outlaw]([https://dr-eigenvalue.github.io/bestiary/creature/veteran](https://dr-eigenvalue.github.io/bestiary/creature/veteran-outlaw)). Has a hostage.
+  - [Veteran Outlaw]([https://dr-eigenvalue.github.io/bestiary/creature/veteran](https://dr-eigenvalue.github.io/bestiary/creature/veteran-outlaw)) Has a hostage.
   - 2 [Thug](https://dr-eigenvalue.github.io/bestiary/creature/thug)
 
 ## G12
@@ -44,7 +44,7 @@ masthead: false
 DC 15 lockpick. 3 [specters](https://dr-eigenvalue.github.io/bestiary/creature/specter) appear.
 
 ## G13
-> A battle rages between Zhents and guards.
+> A battle rages between 6 Zhent thugs (20hp) and 4 guards ([Veterans](https://dr-eigenvalue.github.io/bestiary/creature/veteran) with 30hp). Lady Gralhund shouts "the  Watch are on their way!" The southern door is slightly ajar and you can hear someone curse and a boot hitting a door.
 
 
 
