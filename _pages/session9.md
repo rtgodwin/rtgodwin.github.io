@@ -51,6 +51,8 @@ DC 15 lockpick. 3 [specters](https://dr-eigenvalue.github.io/bestiary/creature/s
 ## G13
 > A battle rages between 6 Zhent thugs (20hp) and 4 guards ([Veterans](https://dr-eigenvalue.github.io/bestiary/creature/veteran) with 30hp). Lady Gralhund shouts "the  Watch are on their way!" The southern door is slightly ajar and you can hear someone curse and a boot hitting a door.
 
+Every round: 1d6. On a 1, a guard dies. On a 4-6, a thug dies.
+
 ## G15
 > You see a wounded man wearing burnt clothes trying to kick down a door.
 
