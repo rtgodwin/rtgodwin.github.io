@@ -40,6 +40,7 @@ masthead: false
 
 ## G12
 > In one corner stands an iron lectern with a closed, locked, leather-bound tome resting on it.
+
 DC 15 lockpick. 3 [specters](https://dr-eigenvalue.github.io/bestiary/creature/specter) appear.
 
 ## G13
