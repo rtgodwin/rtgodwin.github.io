@@ -4,6 +4,8 @@ permalink: /7010/oldexams
 excerpt: "ECON 7010 exams"
 last_modified_at:
 toc: false
+sidebar:
+  nav: "pages"
 ---
 
 ## Previous midterms
