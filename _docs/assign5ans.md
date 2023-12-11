@@ -70,7 +70,12 @@ It doesn't look like much of a demand curve. Each data point is actually the res
 
 ### Part (b)
 
+We can try to estimate the demand curve using LS, and add the estimated line to the plot:
 
+```r
+ls.fish <- lm(log(totqty) ~ log(avgprc) + mon + tues + wed + thurs, data=fish)
+abline(ls.fish)
+```
 
 The population model that we are trying to estimate is:
 
