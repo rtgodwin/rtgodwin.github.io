@@ -56,6 +56,10 @@ Load the fish market data:
 fish <- read.csv("https://rtgodwin.com/data/fish.csv")
 ```
 
+The population model that we are trying to estimate is:
+
+$\log (totqty) = \beta_0 + \beta_1 \log (avgprc) + \beta_2mon + \beta_3tues + \beta_4wed + \beta_5thurs + \epsilon$
+
 ### Part (a)
 
 Plot the data using something like:
@@ -77,9 +81,11 @@ ls.fish <- lm(log(totqty) ~ log(avgprc) + mon + tues + wed + thurs, data=fish)
 abline(ls.fish)
 ```
 
-The population model that we are trying to estimate is:
+(Don't worry about the error message from `abline()`). The plot should look something like:
 
-$\log (totqty) = \beta_0 + \beta_1 \log (avgprc) + \beta_2mon + \beta_3tues + \beta_4wed + \beta_5thurs + \epsilon$
+![](https://rtgodwin.com/3040/images/fishablineweb.png)
+
+### Part (c)
 
 The IV model that we estimated in the book (using the `ivreg()` function) was:
 
