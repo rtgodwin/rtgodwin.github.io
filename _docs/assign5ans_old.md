@@ -1,6 +1,6 @@
 ---
 title: "Assignment 5 Answer Key"
-permalink: /3040/assign5ans/
+permalink: /3040/assign5ansold/
 excerpt: "Two-stage least-squares (IV) - Answer Key"
 toc: false
 ---
