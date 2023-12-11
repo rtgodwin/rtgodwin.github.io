@@ -58,7 +58,17 @@ fish <- read.csv("https://rtgodwin.com/data/fish.csv")
 
 ### Part (a)
 
+Plot the data using something like:
 
+```r
+plot(log(fish$avgprc), log(fish$totqty), xlab="log price", ylab="log quantity")
+```
+
+![](https://rtgodwin.com/3040/images/fishweb.png)
+
+It doesn't look like much of a demand curve. Each data point is actually the result of demand and supply intersecting, with both curves likely shifting around for each data point.
+
+### Part (b)
 
 
 
