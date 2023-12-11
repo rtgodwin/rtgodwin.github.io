@@ -9,6 +9,12 @@ toc: false
 
 ## Question 1
 
+Load the CPS data using:
+
+```r
+cps <- read.csv("http://rtgodwin.com/data/cps1985.csv")
+```
+
 ### Part (a)
 
 To estimate the model in R use:
@@ -42,11 +48,19 @@ The estimated effect of education on wage is: 18.3\% for women, and (0.18311 - 0
 
 The interaction term is what allows for a diffenece in the effect of education on wages, between men and women. R has already tested the significance of this variable. With a p-value of 0.0286, the difference is statistically significant at the 5\% level. 
 
+## Question 2
+
 Load the fish market data:
 
 ```r
 fish <- read.csv("https://rtgodwin.com/data/fish.csv")
 ```
+
+### Part (a)
+
+
+
+
 
 The population model that we are trying to estimate is:
 
