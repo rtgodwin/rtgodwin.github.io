@@ -42,11 +42,11 @@ F-statistic: 40.44 on 5 and 528 DF,  p-value: < 2.2e-16
 
 ### Part (b)
 
-The estimated effect of education on wage is: 18.3\% for women, and (0.18311 - 0.03362) 15.0\% for men.
+The estimated effect of education on wage is: 18.3% for women, and (0.18311 - 0.03362) 15.0% for men.
 
 ### Part (c)
 
-The interaction term is what allows for a diffenece in the effect of education on wages, between men and women. R has already tested the significance of this variable. With a p-value of 0.0286, the difference is statistically significant at the 5\% level. 
+The interaction term is what allows for a diffenece in the effect of education on wages, between men and women. R has already tested the significance of this variable. With a p-value of 0.0286, the difference is statistically significant at the 5% level. 
 
 ## Question 2
 
