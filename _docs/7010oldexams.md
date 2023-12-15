@@ -35,7 +35,7 @@ sidebar:
 
 | Year                                                  | Answer Key
 | :---------------------------------------------------: | :---------------------------------------------------------: |
-| [2022](https://rtgodwin.com/7010/exams/2022final.pdf) |  |
+| [2022](https://rtgodwin.com/7010/exams/2022final.pdf) | [Answers](https://rtgodwin.com/7010/exams/2022finalans.pdf) |
 | [2022 Winter](https://rtgodwin.com/7010/exams/2022finalW.pdf) |  |
 | [2020](https://rtgodwin.com/7010/exams/2020final.pdf) | [Answers](https://rtgodwin.com/7010/exams/2020finalans.pdf) |
 | [2019](https://rtgodwin.com/7010/exams/2019final.pdf) |  |
