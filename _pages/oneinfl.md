@@ -4,7 +4,7 @@ permalink: /oneinfl/
 excerpt: 
 toc: true
 author_profile: true
-masthead: true
+masthead: false
 ---
 
 The R package `oneinfl` estimates one-inflated positive Poisson (OIPP) and one-inflated zero-truncated (OIZTNB) regression models. When count data are truncated so that $y = 1,2,\dots$, it is also often inflated at $y=1$. The current standard model for treating such data is the zero-truncated negative binomial (ZTNB) model. ZTNB fails to account for excess 1s (or too few 1s), resulting in biased and inconsistent estimators.
@@ -37,7 +37,7 @@ OIZTNB <- oneinfl(formula, data, dist="negbin")
 OIPP <- oneinfl(formula, data, dist="Poisson")
 ```
 
-`formula` is the population model to be estimated, variables that precede `|` link to the mean function and variables that follow `|` link to one-inflation. `data` is a data frame and `dist="negbin` estimated OIZTNB while `dist=Poisson` estimates OIPP.
+`formula` is the population model to be estimated, variables that precede `|` link to the mean function and variables that follow `|` link to one-inflation. `data` is a data frame and `dist="negbin"` estimates OIZTNB while `dist="Poisson"` estimates OIPP.
 
 ## `truncreg(formula, data, dist)`: estimate ZTNB and PP models 
 
