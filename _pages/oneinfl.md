@@ -257,7 +257,7 @@ Generate predicted counts from an OIZTNB model:
 pred(OIZTNB, data)
 ```
 
-or from an OIPP model:
+or from any of the four models:
 
 ```r
 pred(ZTNB, data)
