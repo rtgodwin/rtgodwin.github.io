@@ -36,177 +36,80 @@ oiztnb <- oneinfl(formula, data, dist = "negbin")
 oipp <- oneinfl(formula, data, dist = "Poisson")
 ```
 
-`formula` is the population model to be estimated, variables that precede `|` link to the mean function and variables that follow `|` link to one-inflation. `data` is a data frame and `dist="negbin"` estimates OIZTNB while `dist="Poisson"` estimates OIPP. See the [`oneinfl`](https://rtgodwin.com/oneinfl) package for ways in which to select between the two models.
+`formula` is the model to be estimated, variables that precede `|` link to the mean function and variables that follow `|` link to one-inflation. `data` is a data frame and `dist="negbin"` estimates OIZTNB while `dist="Poisson"` estimates OIPP. See the [`oneinfl`](https://rtgodwin.com/oneinfl) package for ways in which to select between the two models.
 
 ## Estimate the first-expsore effect
 
-## `oneplot(model1, model2, model3, model4)`: plot actual and predicted counts
+```r
+fee(oiztnb, data)
+```
 
-In Godwin (2023) only the OIZTNB and ZTNB models are plotted, but here we plot all of the estimated models using:
+```
+$where
+[1] "First exposure effect averaged over all data points"
+
+$fee
+[1] -4.322372
+
+$sefee
+          [,1]
+[1,] 0.2151511
+
+$treatment_visits
+[1] -4322.372
+
+```
+
+The first expasure effect has been estimated over all data points (average effects). This is the default. It is estimated that first exposure reduces the number of visits that would have occured by 4.322 (with standard error 0.215). Over a sample size of 1000, this translates to 4322 fewer ``treatment visits''. The first exposure effect can also be estimated for the OIPP model:
 
 ```r
-oneplot(PP, OIPP, ZTNB, OIZTNB, data=data, maxpred=20, ylimit=180)
+fee(oipp, data)
+```
+
+and at the means of the data ("effect at means" or "EM"):
+
+```r
+fee(oiztnb, data, at="EM")
+```
+
+## Marginal effects
+
+Estimate the marginal effects and their standard errors, for all regressors that were supplied in `formula`:
+
+```r
+dfee(oiztnb, data)
+```
+
+```
+$where
+[1] "Marginal first exposure effect averaged over all data points"
+
+$dfee
+         x          d 
+-0.5411328 -4.8098910 
+
+$sefee
+[1] 0.0601530 0.4036359
+```
+
+The marginal effects can also be evaluated for the OIPP model, and at the means of the variables. For example:
+
+```r
+dfee(oipp, data, at="EM")
+```
+
+## Plot the actual data, the factual distribution, and the counterfactual distribution
+
+Plot the estimated factual distribution (either OIZTNB or OIPP), and the associated counterfactual distribution:
+
+```r
+feeplot(oiztnb, data, maxpred = 12)
 ```
 
 which produces the following plot:
 
-![](https://rtgodwin.com/vignettes/medparweb.png)
+![](https://rtgodwin.com/vignettes/feeweb.png)
 
-## `summary.oneinfl(model)`: summarize
+The OIPP and corresponding counterfactual distribution may be plotted using `feeplot(oipp, data, maxpred = 12)`.
 
-`summary.oneinfl(model)` is a custom summary function for OIZTNB, OIPP, ZTNB, and PP models estimated using `oneinfl`, which provides output similar to standard uses of `summary()`. For the OIZTNB model:
-
-```r
-summary.oneinfl(OIZTNB)
-```
-
-```
-Call:
-formula:  los ~ white + died + type2 + type3 | white + died + type2 + type3 
-distribution:  negbin 
-
-Coefficients (beta):
-             Estimate Std.Error z_value   p.value    
-b(Intercept)  2.29913   0.07184  32.005 0.000e+00 ***
-bwhite       -0.09708   0.07138  -1.360 1.738e-01    
-bdied        -0.06814   0.04492  -1.517 1.293e-01    
-btype2        0.23413   0.05349   4.377 1.204e-05 ***
-btype3        0.75580   0.07884   9.586 0.000e+00 ***
-
-Coefficients (gamma):
-             Estimate Std.Error z_value p.value    
-g(Intercept)  -4.2002    0.5060  -8.300 0.00000 ***
-gwhite         0.6594    0.4814   1.370 0.17075    
-gdied          2.3349    0.2359   9.899 0.00000 ***
-gtype2        -0.5413    0.2829  -1.913 0.05569   .
-gtype3        -0.7507    0.4472  -1.679 0.09324   .
-
-alpha:
-  Estimate Std.Error z_value p.value    
-1    2.267     0.146   15.53       0 ***
-
-Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
-
-average one-inflation:  0.0416855179433309 
-
-average absolute one-inflation:  0.0680909723883016 
-
-Log-likelihood:  -4671.06423844655
-```
-
-For example, when the variable $died = 1$, one-inflation increases significantly, but $died$ otherwise does not effect _los_. Average one-inflation is 4.2% (there is an additional 0.042 probability that each person will stay only 1 day). Average absolute one-inflation is 0.068, meaning that some observations have one-deflation (e.g. when $type2$ or $type3$ equals 1).
-
-To reproduce the results form Chapter 11.1 in Hilbe (2011), we summarize the ZTNB model using:
-
-```r
-summary.oneinfl(ZTNB)
-```
-
-```
-Call:
-formula:  los ~ white + died + type2 + type3 
-distribution:  negbin 
-
-Coefficients (beta):
-             Estimate Std.Error z_value   p.value    
-b(Intercept)   2.3334   0.07499  31.115 0.000e+00 ***
-bwhite        -0.1318   0.07469  -1.765 7.755e-02   .
-bdied         -0.2512   0.04468  -5.622 1.889e-08 ***
-btype2         0.2601   0.05529   4.704 2.550e-06 ***
-btype3         0.7692   0.08259   9.314 0.000e+00 ***
-
-alpha:
-  Estimate Std.Error z_value p.value    
-1    1.881    0.1034   18.19       0 ***
-
-Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
-
-Log-likelihood:  -4736.77246562658 
-```
-
-Taking `exp(ZTNB$beta)` gives the incident risk ratios.
-
-## `signifWald(model, "var.name")`: tests of significance
-
-Since variables are typically linked to both the rate parameter $\lambda$ and the one-inflating parameter $\omega$, tests of overall significance are joint hypotheses. Testing the overall significance of the variable $white$ for example, we can use:
-
-```r
-signifWald(OIZTNB, "white")
-```
-
-```
-$W
-[1] 3.725885
-
-$pval
-[1] 0.1552153
-```
-
-The _p_-value of 0.155 suggests that the variable does not have a significant effect on $los$, which is contrary to the standard ZTNB model.
-
-## `margins(model, data)`: estimate marginal effects and their standard errors
-
-Marginal effects can be estimated at the default "average effects" (the marginal effect is estimated at each observation and averaged over all observations):
-
-```r
-margins(OIZTNB, data)
-```
-
-```
-Call:
-formula:  los ~ white + died + type2 + type3 | white + died + type2 + type3 
-distribution:  negbin 
-
-Marginal effects:
-      Marginal.effects Std.Error z_value   p.value    
-white           -1.258    0.7344  -1.713 8.668e-02   .
-died            -2.189    0.3964  -5.522 3.343e-08 ***
-type2            2.575    0.5875   4.382 1.174e-05 ***
-type3           10.142    1.4663   6.917 4.616e-12 ***
-
-Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
-```
-
-these marginal effects can be compared to other models estimated by `oneinfl`, for example using:
-
-```r
-margins(ZTNB, data)
-```
-
-Marginal effects can be estimated at the "effect at means" (the data is averaged before evaluating the marginal effect):
-
-```r
-margins(OIZTNB, data, at = "EM")
-```
-
-or at a representative case:
-
-```r
-margins(OIZTNB, data, at = list(white = 0, died = 0, type2 = 0, type3 = 0))
-```
-
-## `pred(model, data)`: predicted values
-
-Generate predicted counts from an OIZTNB model:
-
-```r
-pred(OIZTNB, data)
-```
-
-or from any of the four models:
-
-```r
-pred(ZTNB, data)
-```
-
-## Random variate generation
-
-Random variates can be generated using `roipp(b, g, X, Z)` and `roiztnb(b, g, a, X, Z)`. For example:
-
-```r
-n <- 100
-X <- data.frame(rep(1, n), rnorm(n))
-Z <- X
-roipp(b=c(0, 0), g=c(0, 0), X, Z)
-roiztnb(b=c(0, 0), g=c(0, 0), a=1, X, Z)
-```
+## Predicted counts
