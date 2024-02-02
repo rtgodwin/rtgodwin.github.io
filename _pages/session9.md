@@ -37,7 +37,7 @@ masthead: false
 ## G2
 PCs see the balcony. DC 17-18 Athletics to climb up without gear.
  - Yells "intruders!" [Cult fanatic](https://dr-eigenvalue.github.io/bestiary/creature/cult-fanatic)
- - 2 [Death Dog](https://dr-eigenvalue.github.io/bestiary/creature/death-dog) with Seeming cast on them
+ - 1 [Death Dog](https://dr-eigenvalue.github.io/bestiary/creature/death-dog) with Seeming cast on them
 
 ## G8
 > The floor is strewn with bodies. Two thugs holding bloody weapons stand over them. A third figure ascending the stairs, dressed in robes, turns to confront you.
