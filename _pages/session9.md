@@ -34,10 +34,43 @@ masthead: false
  - Break in through **G3** stables. DC 20 Dex picklocks.
  - Breaking into the Villa to **G6**: DC 20 Athletics. Makes noise. Guard is called.
 
-## G2
-PCs see the balcony. DC 17-18 Athletics to climb up without gear.
+## G1 Locked Gates
+
+DC 25 Athletics - force them open. DC 20 picklock. Arcane lock (DC +10).
+
+## G2 Yard
+PCs see the balcony. DC 17-18 Athletics to climb up without gear. 20 ft above ground.
+
+Evil groundskeeper. Can avoid with (DC 13) Stealth.
  - Yells "intruders!" [Cult fanatic](https://dr-eigenvalue.github.io/bestiary/creature/cult-fanatic)
- - 1 [Death Dog](https://dr-eigenvalue.github.io/bestiary/creature/death-dog) with Seeming cast on them
+ - 1 [Death Dog](https://dr-eigenvalue.github.io/bestiary/creature/death-dog) with Seeming cast on it.
+
+## G3 Stable door
+
+Thick door, DC 20 to pick. Maybe treasure in saddlebags. Maybe outfit to travel.
+
+## G4 Guard barracks
+
+- Footlockers with personal effects.
+- Lets players know there is a personal guard here.
+
+## G5 Kitchen
+
+An unlocked wooden door leads from the yard to the mansion’s kitchen, which is stocked with cookware and utensils. A large fireplace is used for cooking meals.
+
+## G6 Pantry
+
+This pantry is lined with shelves containing dry foodstuffs, spices, folded tablecloths, and jars of preserves. Casks of fresh water, ale, and wine are also stored here.
+
+**Barred Door**. A back door leads out to the street. This sturdy wooden door is barred shut on the inside. Forcing it open from the outside requires a successful DC 20 Strength (Athletics) check and makes a lot of noise.
+
+**Corpses**. The Zhents have killed two servants, an older male human (the head butler) and a younger male halfling (a cook), and left their bodies on the floor.
+
+## G7 Laundry Room
+
+This room is where servants wash clothing. It contains scrub buckets, wash basins, soap, mops, and chamber pots.
+
+**Corpses**. The Zhents have killed a servant, a middle-aged female human (the head maid), and left her body on the stairs leading up to the servants’ quarters (area G19). The maid has a ring of keys on her belt that opens all the locked doors in the mansion as well as the cabinets in area G8.
 
 ## G8
 > The floor is strewn with bodies. Two thugs holding bloody weapons stand over them. A third figure ascending the stairs, dressed in robes, turns to confront you.
