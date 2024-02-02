@@ -23,19 +23,20 @@ masthead: false
 > Gralhunds a rich and power hungry family, Lady Gralhund especially. Not the cleanest reputation (orgies, possible links to Zhentarim).
 
 - Can follow the Nimblewright tracker to the estate.
+- Encourage a choice between daylight and night.
 
 ## Infiltrating Gralhund Villa
  - 12 ft high walls. DC 15 Athletics without climbing gear / rope.
  - Anything loud calls city watch in 1d6 + 4.
- - May hear a scream from within the Villa to encourage them to enter.
+ - As soon as they get close to initiative, they hear a blood curdling scream coming from a feminine voice.
  - Standing outside too long, neighbours notice (percepetion check).
  - **G1** Break (25 Athletics) pick (20)
  - Break in through **G3** stables. DC 20 Dex picklocks.
  - Breaking into the Villa to **G6**: DC 20 Athletics. Makes noise. Guard is called.
 
 ## G2
-PCs see the balcony. DC 18 Athletics to climb up without gear.
- - Yells "more intruders!" [Cult fanatic](https://dr-eigenvalue.github.io/bestiary/creature/cult-fanatic)
+PCs see the balcony. DC 17-18 Athletics to climb up without gear.
+ - Yells "intruders!" [Cult fanatic](https://dr-eigenvalue.github.io/bestiary/creature/cult-fanatic)
  - 2 [Death Dog](https://dr-eigenvalue.github.io/bestiary/creature/death-dog) with Seeming cast on them
 
 ## G8
