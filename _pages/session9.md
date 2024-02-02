@@ -101,10 +101,27 @@ DC 15 lockpick. 3 [specters](https://dr-eigenvalue.github.io/bestiary/creature/s
 
 Every round: 1d6. On a 1, a guard dies. On a 4-6, a thug dies.
 
-## G15
+## G14 Ballroom
+
+DC15 locked.
+
+## G15a
 > You see a wounded man wearing burnt clothes trying to kick down a door.
 
 [Urstul Floxin](https://dr-eigenvalue.github.io/bestiary/creature/assassin) with 50 hp and no poison.
+
+- Wants to trade Orond fro stone.
+
+## G15b
+
+- teleportation circle on the floor
+- snakes in a cage
+
+Orond knows:
+
+- “The Stone of Golorr is some kind of ancient creature transformed into an artifact. It knows the location of a hidden vault in Waterdeep containing half a million dragons.”
+- “House Gralhund has been bankrolling Black Network operations in Waterdeep, including the plot to kidnap Renaer Neverember and the plot to steal the Stone of Golorr from his father’s gnome spy, Dalakhar.”
+- “My wife was frustrated with the Zhents and their inability to secure the artifact. She gave a necklace of fireballs to her mechanical servant and sent it out to help retrieve the stone. It was careless and caught the Zhents in the fireball by mistake.”
 
 ## G16
 > You see Lady Gralhund pass a map and a stone to the Nimblewright. It runs out the balcony and leaps off.
