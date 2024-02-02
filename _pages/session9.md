@@ -79,6 +79,18 @@ This room is where servants wash clothing. It contains scrub buckets, wash basin
 - [Veteran Outlaw](https://dr-eigenvalue.github.io/bestiary/creature/veteran-outlaw) Has a hostage.
 - 2 [Thug](https://dr-eigenvalue.github.io/bestiary/creature/thug)
 
+## G9 Parlor
+
+Perception - makeshift prison. **Corpses**.
+
+## G10 Den and Trophy room
+
+Hawk and window.
+
+## G11 Orond's Study
+
+DC15 locked. Homo erotic books, statues, and wrestling mat.
+
 ## G12
 > In one corner stands an iron lectern with a closed, locked, leather-bound tome resting on it.
 
