@@ -20,6 +20,9 @@ masthead: false
 - Combat / exploration and puzzles / roleplay?
 - What sort of setting? Pirates / icewind dale icy dungeon / don't care
 - Any off limits topics?
+- Metagaming - you gotta do what your character would do
+- The person who calls it makes the check - maybe you can roleplay why a 2nd or 3rd check could be made
+- In combat try to prep your turn
 
 ## Garmsby
 
