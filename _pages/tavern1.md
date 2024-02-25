@@ -18,7 +18,7 @@ masthead: false
   
 - Plan for game: series of one-shots for now
 - Combat / exploration and puzzles / roleplay?
-- What sort of setting? Pirates / icewind dale icy dungeon / don't care
+- What sort of setting? Pirates / icewind dale icy dungeon and save a town from a curse / go to Candlekeep and help some wizards / don't care
 - Any off limits topics?
 - You have to roleplay - don't have to talk but at least have to narrate what your character is saying or doing
 - Metagaming - you gotta do what your character would do, each player's turn is not a team effort, you have to stfu as much as possible when not your turn, no one can help you
@@ -32,6 +32,12 @@ masthead: false
 - Server (Jumcups) is covered in rat bites. Flinches.
 - You hear a squeek and a sharp cry and a patron yelling "godsdamned rats!"
 - 1 sp to stay, 6cp for a meal
+
+### Secrets
+
+- Perception: something's up, people are too excited
+- Insight: People are hiding something
+- There are indeed rats around
 
 ## Gomery Bulmage
 
