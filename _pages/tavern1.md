@@ -20,8 +20,9 @@ masthead: false
 - Combat / exploration and puzzles / roleplay?
 - What sort of setting? Pirates / icewind dale icy dungeon / don't care
 - Any off limits topics?
-- Metagaming - you gotta do what your character would do
-- The person who calls it makes the check - maybe you can roleplay why a 2nd or 3rd check could be made
+- You have to roleplay - don't have to talk but at least have to narrate what your character is saying or doing
+- Metagaming - you gotta do what your character would do, each player's turn is not a team effort, you have to stfu as much as possible when not your turn, no one can help you
+- The person who calls it makes the check - maybe you can roleplay why a 2nd or 3rd check could be made, or figure out how to help
 - In combat try to prep your turn
 
 ## Garmsby
