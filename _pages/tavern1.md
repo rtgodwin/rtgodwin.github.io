@@ -9,9 +9,19 @@ masthead: false
 ## Links
 - [Bestiary](https://dr-eigenvalue.github.io/bestiary/)
 
-## Garmsby
+## Session 0
+
+- Describe your character in 1-2 sentences. A trait and a flaw. Motivation for adventuring (money / secret / thirst / personal quest) or do you want me to make something up for you. Develop as we go.
 
 > It's a *** nowhere town, after a long days journey on your way to *cough*, you stumble into the inn The Lonely Woodsman exhausted and hungry. You would normally just camp, but their flyers said they were cheap, and you're broke (each roll 4d4 sp).
+  
+- We need to figure out how you know each other or at least why you're travelling together. 
+- Plan for game: series of one-shots for now
+- Combat / exploration and puzzles / roleplay?
+- What sort of setting? Pirates / icewind dale icy dungeon / don't care
+- Any off limits topics?
+
+## Garmsby
 
 - Locals eye them with excitement / anticipation.
 - Innkeeper Gomory Bulmage whines loudly about a rat problem.
