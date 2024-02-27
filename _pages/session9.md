@@ -134,5 +134,11 @@ Orond knows:
 ## G16
 > You see Lady Gralhund pass a map and a stone to the Nimblewright. It runs out the balcony and leaps off.
 
+## End of battle
+
+> What are you doing in my home? What do you want? The watch will deal with you! ** Start timer **
+
+- They can wait until the watch arrives, or run off.
+
 
 
