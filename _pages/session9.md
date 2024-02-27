@@ -83,7 +83,7 @@ This room is where servants wash clothing. It contains scrub buckets, wash basin
 
 ## Recap
 
-- The stone reveals the treasure. A gnome was coming to your bar with the stone. He got fireballed outside your door. The nimblewright that threw the fireball came here. The burned man who retrieved the stone is upstairs trying to kick down a door, a noble is cowering inside. They are Zhents killing guards and servants. If you want to know WTF is going on here you will have to figure it out.
+- The stone reveals the treasure. A gnome was coming to your bar with the stone. He got fireballed outside your door. The nimblewright that threw the fireball came here. The burned man who retrieved the stone is upstairs trying to kick down a door, a noble is cowering inside. You broke into an estate (broke a law). There are Zhents killing guards and servants. If you want to know WTF is going on here you will have to figure it out.
 
 ## G9 Parlor
 
@@ -139,6 +139,13 @@ Orond knows:
 > What are you doing in my home? What do you want? The watch will deal with you! ** Start timer **
 
 - They can wait until the watch arrives, or run off.
+
+### Run away
+
+- The nimblewright detector is out of charges. Roll 1d6 at sunrise to see if it regains a charge (5-6).
+- Wake up in the morning to a regular showing a newspaper article where Yalah Gralhund heralds them as the heroes of Gralhund Villa, and laments the death of Orond.
+- The watch soon shows up to question them and corroborate the story.
+- Players can lie, or face consequences of breaking in.
 
 
 
