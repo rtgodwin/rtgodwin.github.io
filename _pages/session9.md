@@ -103,13 +103,13 @@ DC15 locked. Homo erotic books, statues, and wrestling mat.
 DC 15 lockpick. 3 [specters](https://dr-eigenvalue.github.io/bestiary/creature/specter) appear.
 
 ## G13
-> A battle rages between 6 Zhent thugs (20hp) and 4 guards ([Veterans](https://dr-eigenvalue.github.io/bestiary/creature/veteran) with 30hp). Lady Gralhund shouts "the  Watch are on their way!" The southern door is slightly ajar and you can hear someone curse and a boot hitting a door.
+> A battle rages between 6 Zhent thugs (20hp) and 4 guards ([Veterans](https://dr-eigenvalue.github.io/bestiary/creature/veteran) with 30hp). A noblewoman wearing chain mail atop a beuatiful gown, and who looks as formidable as she does magnificient, shouts "the Watch are on their way!" The southern door is ajar and you can see the burned cloak man hacking through a door.
 
-Every round: 1d6. On a 1, a guard dies. On a 4-6, a thug dies.
+- Make them choose who to help.
 
-## G14 Ballroom
+Every round: 1d8. On a 1-3, a guard dies. On a 4-8, a thug dies.
 
-DC15 locked.
+## G14 Ballroom - DC15 locked.
 
 ## G15a
 > You see a wounded man wearing burnt clothes trying to kick down a door.
