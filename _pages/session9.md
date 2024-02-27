@@ -79,6 +79,12 @@ This room is where servants wash clothing. It contains scrub buckets, wash basin
 - [Veteran Outlaw](https://dr-eigenvalue.github.io/bestiary/creature/veteran-outlaw) Has a hostage.
 - 2 [Thug](https://dr-eigenvalue.github.io/bestiary/creature/thug)
 
+# Session 10
+
+## Recap
+
+- The stone reveals the treasure. A gnome was coming to your bar with the stone. He got fireballed outside your door. The nimblewright that threw the fireball came here. The burned man who retrieved the stone is upstairs trying to kick down a door, a noble is cowering inside. They are Zhents killing guards and servants. If you want to know WTF is going on here you will have to figure it out.
+
 ## G9 Parlor
 
 Perception - makeshift prison. **Corpses**.
@@ -110,7 +116,7 @@ DC15 locked.
 
 [Urstul Floxin](https://dr-eigenvalue.github.io/bestiary/creature/assassin) with 50 hp and no poison.
 
-- Wants to trade Orond fro stone.
+- Wants to trade Orond for stone.
 
 ## G15b
 
@@ -118,6 +124,8 @@ DC15 locked.
 - snakes in a cage
 
 Orond knows:
+
+> Please! Don't hurt me! I'll tell you want you want to know! Oh, you're not here to kill me?
 
 - “The Stone of Golorr is some kind of ancient creature transformed into an artifact. It knows the location of a hidden vault in Waterdeep containing half a million dragons.”
 - “House Gralhund has been bankrolling Black Network operations in Waterdeep, including the plot to kidnap Renaer Neverember and the plot to steal the Stone of Golorr from his father’s gnome spy, Dalakhar.”
