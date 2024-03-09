@@ -34,6 +34,7 @@ Secret: the Ooze has Arcane Flux from consuming a magical item.
 
 ##  Brynwyn
 
+- So she's a miserable racist, isn't it what's in her heart that counts? Plus, she says she really likes your peoples food.
 - Classic dragon slaying quest. Is essentially a mercenary until she is powerful enough to kill the dragon that wronged her ancestors years ago.
 
 ## Leafy
