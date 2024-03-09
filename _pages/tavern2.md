@@ -18,6 +18,25 @@ masthead: false
 
 ## Nyx
 
-- The Gnomes of the small village of Gladmilion Prairie enjoy a rich and lavish lifestyle due to their trade of the Gladmilion Poppy, the cultivation of which unfortunately renders all male gnomes utterly impotent.
+- The Gnomes of the small village of Gladmilion enjoy a rich and lavish lifestyle due to their trade of the Gladmilion Poppy, the cultivation of which unfortunately renders all male gnomes utterly impotent.
 - The profitability of the Gladmilion Poppy afforded the residents a permanent solution: a Gnomelight Vigorvine. In a prank gone awry, Nyx destroyed the Vigorvine, and must raise the funds for, and return with, a replacement.
-- She has latched onto the druid Leafy, and has been asking some weird questions about plants. She thinks she can get it from the grove that Leafy is travelling to. 
+- She has latched onto the druid Leafy, and has been asking some weird questions about plants. She thinks she can get it from the grove that Leafy is travelling to.
+
+## Mick
+
+- You're a simple guy who knows what he likes, and what he likes is his pet slime. This is an awakened Gray Ooze that has a telepathic link with Mick.
+- No one knows Mick is carrying a bucket of disgusting, potentially dangerous, slime in his pack.
+- The Ooze is sick. Mick needs to administer a healing potion every tenday, and feed it a non-magical metal weapon.
+- Mick you don't actually know what is wrong with your ooze and that is part of your quest.
+- The guy really likes his darts. To a fault. Like, instead of pulling out his sword in a fight, he pulled out some darts first. You know this is going to be a problem.
+
+Secret: the Ooze has Arcane Flux from consuming a magical item.
+
+##  Brynwyn
+
+- Classic dragon slaying quest. Is essentially a mercenary until she is powerful enough to kill the dragon that wronged her ancestors years ago.
+
+## Leafy
+
+# 
+
