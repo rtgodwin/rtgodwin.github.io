@@ -39,5 +39,24 @@ Secret: the Ooze has Arcane Flux from consuming a magical item.
 
 ## Leafy
 
-# 
+- Needs to travel to a distant grove to prove their worldliness.
 
+## Srimar
+
+- A discredited academic.
+
+# Travel to Gladnum
+
+> After 3 days journey of camping in the wilds you are again ready to try your luck at an inn.
+> Two guards greet you at the town gates. (Red potatoes) What is your business in Gladnum?
+> You make your way to the Gilded Goose.
+
+### Tavern: The Studded Goose
+Owner: Ristan Stanran, Male Human
+Location: In a side street near the town gate. The street outside has a weird smell.
+
+- Has a hearth. 30 or so patrons. Dartboard and a cardtable. Loud cheering a drunkeness, pretty rowdy. 
+> Eyes you up and sees your weapons. Please. Just no fighting. A round on the house. Just stay out of trouble. Please, I beg you.
+
+Roll a d100, and a d6(reroll 6) and d4 to determine participants.
+[Random conversations](https://www.dndspeak.com/2021/05/13/100-prompts-for-idle-chit-chat-between-characters/)
