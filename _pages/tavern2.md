@@ -72,6 +72,7 @@ Roll a d100, and a d6(reroll 6) and d4 to determine participants.
 - Make a ranged attack with your dart to see what ring you hit.
 - Roll again DC10 x2, DC15 x3, DC20 50pt or trip 20.
 - Win your bet.
+- A guy with some fancy darts steps up.
 
 > One half-orc draws his sword: ``say that again''. Attacks. What do you do?
 
