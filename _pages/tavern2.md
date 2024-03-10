@@ -49,7 +49,7 @@ Secret: the Ooze has Arcane Flux from consuming a magical item.
 
 > After 3 days journey of camping in the wilds you are again ready to try your luck at an inn.
 > Two guards greet you at the town gates. (Red potatoes) What is your business in Gladnum?
-> You make your way to the Gilded Goose.
+> You make your way to the Gilded Goose. You eye a job board on the way.
 
 ### Tavern: The Studded Goose
 Owner: Ristan Stanran, Male Human
@@ -60,3 +60,12 @@ Location: In a side street near the town gate. The street outside has a weird sm
 
 Roll a d100, and a d6(reroll 6) and d4 to determine participants.
 [Random conversations](https://www.dndspeak.com/2021/05/13/100-prompts-for-idle-chit-chat-between-characters/)
+
+> The party hears a group of 5 half-orcs yelling insults at an adjacent table of 3 half-elfs.
+
+### Darts
+- Make a ranged attack with your dart to see what ring you hit.
+- Roll again DC10 x2, DC15 x3, DC20 50pt or trip 20.
+- Win your bet.
+
+
