@@ -49,7 +49,7 @@ Secret: the Ooze has Arcane Flux from consuming a magical item.
 
 > After 3 days journey of camping in the wilds you are again ready to try your luck at an inn.
 > Two guards greet you at the town gates. (Red potatoes) What is your business in Gladnum?
-> You make your way to the Gilded Goose. You eye a job board on the way.
+> You make your way to the Gilded Goose. You eye a job board with a couple adds on the way in.
 
 ### Tavern: The Studded Goose
 Owner: Ristan Stanran, Male Human
@@ -57,15 +57,31 @@ Location: In a side street near the town gate. The street outside has a weird sm
 
 - Has a hearth. 30 or so patrons. Dartboard and a cardtable. Loud cheering a drunkeness, pretty rowdy. 
 > Eyes you up and sees your weapons. Please. Just no fighting. A round on the house. Just stay out of trouble. Please, I beg you.
+> The party hears a group of 4 half-orcs yelling insults at an adjacent table of 2 half-elfs.
 
 Roll a d100, and a d6(reroll 6) and d4 to determine participants.
 [Random conversations](https://www.dndspeak.com/2021/05/13/100-prompts-for-idle-chit-chat-between-characters/)
+> Old man looking for grammy's apple pie.
+> Greencloaks got Bess! A few people shake their heads and cry out. Most shrug sadly.
 
-> The party hears a group of 5 half-orcs yelling insults at an adjacent table of 3 half-elfs.
+- Greencloaks are cultists that have setup camp that have been trying to kidnap townspeople for their ritual. They have so far been unsuccessful. They have only been targetting Dwarves.
+
+> Insults escalate.
 
 ### Darts
 - Make a ranged attack with your dart to see what ring you hit.
 - Roll again DC10 x2, DC15 x3, DC20 50pt or trip 20.
 - Win your bet.
 
+> One half-orc draws his sword: ``say that again''. Attacks. What do you do?
+
+- Someone needs to inevitably die.
+- The tavern freezes in anticipation.
+- Innkeeper: no no no
+- Within moments Jarzon appears.
+ 
+> A pale, bald, hooded figure in a crimson cloak, and with glowing red eyes appears as if out of nowhere. He is accompanied by a giant half-orc clad in platemail and a skull helmet, with a giant great axe at his side. ``You have once again upheld your side of the terms. Yesss. Business is good. Cackles.'' Hands him 1 red gold for each corpse. The innkeeper shudders. Drogear, prepare the corpses. (Casts mass teleport).
+
+- Innkeeper tries to give the blood money to the PCs.
+- Which job do you choose?
 
