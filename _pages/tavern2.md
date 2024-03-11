@@ -61,10 +61,10 @@ Location: In a side street near the town gate. The street outside has a weird sm
 
 Roll a d100, and a d6(reroll 6) and d4 to determine participants.
 [Random conversations](https://www.dndspeak.com/2021/05/13/100-prompts-for-idle-chit-chat-between-characters/)
-> Old man looking for grammy's apple pie.
+
 > Greencloaks got Bess! A few people shake their heads and cry out. Most shrug sadly.
 
-- Greencloaks are cultists that have setup camp that have been trying to kidnap townspeople for their ritual. They have so far been unsuccessful. They have only been targetting Dwarves.
+- Greencloaks are Goblin cultists that have setup camp that have been trying to kidnap townspeople for their ritual. They have so far been unsuccessful. They have only been targetting Dwarves.
 
 > Insults escalate.
 
@@ -74,7 +74,7 @@ Roll a d100, and a d6(reroll 6) and d4 to determine participants.
 - Win your bet.
 - A guy with some fancy darts steps up.
 
-> One half-orc draws his sword: ``say that again''. Attacks. What do you do?
+> One half-orc draws his sword: "say that again". "Your mother was a pig-faced scumbreed savage." Attacks. What do you do?
 
 - Someone needs to inevitably die.
 - The tavern freezes in anticipation.
@@ -84,5 +84,5 @@ Roll a d100, and a d6(reroll 6) and d4 to determine participants.
 > A pale, bald, hooded figure in a crimson cloak, and with glowing red eyes appears as if out of nowhere. He is accompanied by a giant half-orc clad in platemail and a skull helmet, with a giant great axe at his side. ``You have once again upheld your side of the terms. Yesss. Business is good. Cackles.'' Hands him 1 red gold for each corpse. The innkeeper shudders. Drogear, prepare the corpses. (Casts mass teleport).
 
 - Innkeeper tries to give the blood money to the PCs.
-- Which job do you choose?
+
 
