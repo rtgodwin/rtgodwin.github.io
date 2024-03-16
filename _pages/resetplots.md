@@ -7,8 +7,10 @@ author_profile: true
 masthead: true
 ---
 
-# Power: Poisson data under GLM variance assumption
-- [Omitted squared term](https://rtgodwin.com/reset/myInteractivePlot.html)
+# DGP: Poisson. Null model estimated by PPML.
+## Power - omitted squared term 
+[Unadjusted power](https://rtgodwin.com/reset/actual_power_Poisson_squared.html)
+[Size-adjusted power](https://rtgodwin.com/reset/adjusted_power_Poisson_squared.html)
 
 
 
