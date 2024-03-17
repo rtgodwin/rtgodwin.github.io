@@ -20,9 +20,14 @@ masthead: true
 
 [Size](https://rtgodwin.com/reset/size_glm.html)
 
+## Power: omitted variable that is correlated to $x_1$
+
+[Unadjusted power](https://rtgodwin.com/reset/actual_power_glm.html)
+
+[Size-adjusted power](https://rtgodwin.com/reset/adjusted_power_glm.html)
+
+## Power: omitted term $x_1^2$
+
 [Unadjusted power](https://rtgodwin.com/reset/actual_power_glm_squared.html)
 
 [Size-adjusted power](https://rtgodwin.com/reset/adjusted_power_glm_squared.html)
-
-
-
