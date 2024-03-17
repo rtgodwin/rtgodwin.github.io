@@ -8,11 +8,21 @@ masthead: true
 ---
 
 # DGP: Poisson. Null model estimated by PPML.
-## Power - omitted squared term 
+## Size and Power - omitted squared term
+
+[Size](https://rtgodwin.com/reset/size_Poisson.html)
 
 [Unadjusted power](https://rtgodwin.com/reset/actual_power_Poisson_squared.html)
 
 [Size-adjusted power](https://rtgodwin.com/reset/adjusted_power_Poisson_squared.html)
+
+# DGP: log-Normal $y$ with GLM variance assumption (Case 1).
+
+[Size](https://rtgodwin.com/reset/size_glm.html)
+
+[Unadjusted power](https://rtgodwin.com/reset/actual_power_glm_squared.html)
+
+[Size-adjusted power](https://rtgodwin.com/reset/adjusted_power_glm_squared.html)
 
 
 
