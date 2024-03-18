@@ -31,3 +31,19 @@ masthead: true
 [Unadjusted power](https://rtgodwin.com/reset/actual_power_glm_squared.html)
 
 [Size-adjusted power](https://rtgodwin.com/reset/adjusted_power_glm_squared.html)
+
+# DGP: log-Normal $y$ with PPML variance assumption (Case 2).
+
+[Size](https://rtgodwin.com/reset/size_robust.html)
+
+## Power: omitted variable that is correlated to $x_1$
+
+[Unadjusted power](https://rtgodwin.com/reset/actual_power_robust.html)
+
+[Size-adjusted power](https://rtgodwin.com/reset/adjusted_power_robust.html)
+
+## Power: omitted term $x_1^2$
+
+[Unadjusted power](https://rtgodwin.com/reset/actual_power_robust_squared.html)
+
+[Size-adjusted power](https://rtgodwin.com/reset/adjusted_power_robust_squared.html)
