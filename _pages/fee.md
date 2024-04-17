@@ -60,7 +60,7 @@ $treatment_visits
 
 ```
 
-The first expasure effect has been estimated over all data points (average effects). This is the default. It is estimated that first exposure reduces the number of visits that would have occured by 4.322 (with standard error 0.215). Over a sample size of 1000, this translates to 4322 fewer ``treatment visits''. The first exposure effect can also be estimated for the OIPP model:
+The first exposure effect has been estimated over all data points (average effects). This is the default. It is estimated that first exposure reduces the number of visits that would have occured by 4.322 (with standard error 0.215). Over a sample size of 1000, this translates to 4322 fewer ``treatment visits''. The first exposure effect can also be estimated for the OIPP model:
 
 ```r
 fee(oipp, data)
