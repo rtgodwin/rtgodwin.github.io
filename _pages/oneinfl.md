@@ -282,3 +282,4 @@ To evaluate $E[y_i | \hat{\theta_i}]$ use:
 ```r
 predict.oneinfl(model = OIZTNB, data = medpar)
 ```
+for example.
