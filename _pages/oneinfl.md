@@ -277,7 +277,7 @@ roiztnb(b=c(0, 0), g=c(0, 0), a=1, X, Z)
 
 ## Generate the expected response
 
-To evaluate $E[y_i | \hat{\theta_i}] use:
+To evaluate $$E[y_i | \hat{\theta_i}]$$ use:
 
 ```r
 predict.oneinfl(model = OIZTNB, data = medpar)
