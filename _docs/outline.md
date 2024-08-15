@@ -9,20 +9,20 @@ toc: false
 ## Course Info
 
 Instructor: Ryan Godwin  
-Office Hour: Friday, 1:15 - 2:15  
+Office Hour: Tuesday, 2:45 - 3:45  
 Office Location: 646 Fletcher Argue  
 email: ryan.godwin@umanitoba.ca  
 
 | Section | Time              | Days          | Location               | CRN   |
 | :-----: | :---------------: | :-----------: | :--------------------: | :---: | 
-| A01     | 1:00 pm - 2:15 pm | TR            | DRAKE CENTRE 108       | 12952 | 
+| A01     | 4:00 pm - 5:15 pm | TR            | TBD       | 12952 | 
 
 Attendance is mandatory.
 {: .notice--danger}
 
 ## Course Description
 
-The principal objective of this course is to provide a basic introduction to econometric theory and its application. Much of the emphasis of the course is on the linear multiple regression model, under standard assumptions. The course begins with a review of probability and statistics, and ordinary least squares (OLS).
+The principal objective of this course is to provide a basic introduction to econometric theory and its application. Much of the emphasis of the course is on the linear multiple regression model, under standard assumptions. The course begins with a review of probability and statistics, and ordinary least squares (OLS). We then begin to use the linear regression model as a basis for _causal inference_.
 
 ## Required Textbook
 [I wrote the textbook we'll use and it's available here.](https://rtgodwin.com/introeconometrics.pdf)
@@ -41,7 +41,7 @@ rtgodwin.com/3040
 | Assessment                   	| Weight 	|
 |------------------------------	|--------	|
 | Assignments                  	| 15%    	|
-| Midterm Exam<br>(October 24)	| 35%    	|
+| Midterm Exam<br>(October 22)	| 35%    	|
 | Final Exam                   	| 50%    	|
 
 ### Assignments
@@ -64,7 +64,7 @@ Students appealing any term work (including, assignments, midterm, final exam) w
 
 A missed assessment will result in make-up work, or reweighting of your grade.
 
-Nov. 21, 2023, is the last day for voluntary withdrawal from the course.
+Nov. 19, 2024, is the last day for voluntary withdrawal from the course.
 
 ## Academic Integrity
 
