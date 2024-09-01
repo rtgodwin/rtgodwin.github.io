@@ -17,9 +17,6 @@ email: ryan.godwin@umanitoba.ca
 | :-----: | :---------------: | :-----------: | :--------------------: | :---: | 
 | A01     | 4:00 pm - 5:15 pm | TR            | DRAKE CENTRE 117       | 12952 | 
 
-Attendance is mandatory.
-{: .notice--danger}
-
 ## Course Description
 
 The principal objective of this course is to provide a basic introduction to econometric theory and its application. Much of the emphasis of the course is on the linear multiple regression model, under standard assumptions. The course begins with a review of probability and statistics, and ordinary least squares (OLS). We then begin to use the linear regression model as a basis for _causal inference_.
