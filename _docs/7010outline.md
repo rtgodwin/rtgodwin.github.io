@@ -12,7 +12,7 @@ sidebar:
 
 | Instructor | Time              | Days          | Location                  | CRN   | Office Hour |
 | :------: | :---------------: | :-----------: | :--------------------: | :---: | :----: |
-| Ryan Godwin | 4:00 pm - 5:15 pm | TR            | UNIVERSITY COLLEGE 241 | 22341 | Friday, 12:00 - 1:00 |
+| Ryan Godwin | 1:00 pm - 2:15 pm | TR            | HELEN GLASS CENTRE 350 | 22341 | Tuesday, 2:45 - 3:45 |
 
 email: ryan.godwin@umanitoba.ca
 
@@ -37,7 +37,7 @@ rtgodwin.com/7010
 | Assessment                   	| Weight 	|
 |------------------------------	|--------	|
 | Assignments                  	| 15%    	|
-| Midterm Exam<br>(October 19) 	| 30%    	|
+| Midterm Exam<br>(October 22) 	| 30%    	|
 | Final Exam                   	| 55%    	|
 
 ### Assignments
@@ -60,7 +60,7 @@ Students appealing any term work (including, assignments, midterm, final exam) w
 
 A missed assessment will result in make-up work, or reweighting of your grade.
 
-Nov. 21, 2022, is the last day for voluntary withdrawal from the course.
+Nov. 19, 2024, is the last day for voluntary withdrawal from the course.
 
 ## Academic Integrity
 
