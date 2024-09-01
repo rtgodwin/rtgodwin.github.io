@@ -15,7 +15,7 @@ email: ryan.godwin@umanitoba.ca
 
 | Section | Time              | Days          | Location               | CRN   |
 | :-----: | :---------------: | :-----------: | :--------------------: | :---: | 
-| A01     | 4:00 pm - 5:15 pm | TR            | TBD       | 12952 | 
+| A01     | 4:00 pm - 5:15 pm | TR            | DRAKE CENTRE 117       | 12952 | 
 
 Attendance is mandatory.
 {: .notice--danger}
