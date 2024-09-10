@@ -15,6 +15,7 @@ sidebar:
 | Ryan Godwin | 1:00 pm - 2:15 pm | TR            | TIER 214 | 22341 | Tuesday, 2:45 - 3:45 |
 
 email: ryan.godwin@umanitoba.ca
+
 office location: 646 Fletcher Argue
 
 ## Course Description
