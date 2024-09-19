@@ -160,8 +160,8 @@ pages:
       #  url: /7010/lab2/
   - title: Assignments
     children:
-      #- title: "Assignment 1"
-      #  url: /7010/assign1/
+      - title: "Assignment 1"
+        url: /7010/assign1/
       #- title: "Assignment 1 Answers"
       #  url: /7010/assign1ans/
       #- title: "Assignment 2"
