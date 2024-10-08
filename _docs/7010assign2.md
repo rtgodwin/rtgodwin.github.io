@@ -34,4 +34,4 @@ to the assignment 2 dropbox on UM Learn.
     hist(b2, xlim = c(-2.5,-1.5)) # View the simulated sampling distribution
     ```
     
-3.  Any exercise question that does not include an answer key. (Chapter 7 exercises on asymptotics have been added to the book.)
+3.  Any exercise question that does not include an answer key.
