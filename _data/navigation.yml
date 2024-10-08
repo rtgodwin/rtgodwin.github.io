@@ -86,8 +86,8 @@ docs:
     children:
       - title: "Assignment 1"
         url: https://rtgodwin.com/3040/assignments/assign1.pdf
-      #- title: "Assignment 2"
-      #  url: https://rtgodwin.com/3040/assignments/assign2.pdf
+      - title: "Assignment 2"
+        url: https://rtgodwin.com/3040/assignments/assign2.pdf
       #- title: "Assignment 2 Answers"
       #  url: https://rtgodwin.com/3040/assign2ans/
       #- title: "Assignment 3"
@@ -162,10 +162,10 @@ pages:
     children:
       - title: "Assignment 1"
         url: /7010/assign1/
-      #- title: "Assignment 1 Answers"
-      #  url: /7010/assign1ans/
-      #- title: "Assignment 2"
-      #  url: /7010/assign2/
+      - title: "Assignment 1 Answers"
+        url: /7010/assign1ans/
+      - title: "Assignment 2"
+        url: /7010/assign2/
       #- title: "Assignment 3"
       #  url: https://rtgodwin.com/7010/assignments/assign3.pdf
       #- title: "Assignment 4"
