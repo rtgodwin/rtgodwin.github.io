@@ -13,7 +13,7 @@ Indirectly "yes", but I will ultimately argue "no".
 
 ## Introduction
 
-Lots of people in the US are killed by guns. Guns are a leading cause of death among children. Mass shootings happen nearly daily. Gun laws and controls are a hotly debated and divisive political issue in the US. (Each of these statements should have a citation if this was serious research). In other parts of the world, it is obvious to us that they are crazy with their guns and that they need to stop.
+Lots of people in the US are killed by guns. Guns are a leading cause of death among children. Mass shootings happen nearly daily. Gun laws and controls are a hotly debated and divisive political issue in the US. (Citations needed!)
 
 I will use data on gun deaths to illustrate _Omitted Variable Bias_, and to also explore the link between gun ownership and gun deaths.
 
