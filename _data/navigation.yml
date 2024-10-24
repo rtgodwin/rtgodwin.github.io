@@ -72,12 +72,12 @@ docs:
         url: /3040/lab1/
       - title: "Video for Lab 1"
         url: https://www.youtube.com/watch?v=CXToeZnajco
-      #- title: "2. Least Squares"
-      #  url: /3040/lab2/
-      #- title: "Gun deaths and OVB"
-      #  url: /3040/guns/
-      #- title: "3. Multiple Regression"
-      #  url: /3040/lab3/
+      - title: "2. Least Squares"
+        url: /3040/lab2/
+      - title: "Gun deaths and OVB"
+        url: /3040/guns/
+      - title: "3. Multiple Regression"
+        url: /3040/lab3/
       #- title: "4. Polynomials, logs, and interactions"
       #  url: /3040/lab4/
       #- title: "5. Assignment 5 help"
