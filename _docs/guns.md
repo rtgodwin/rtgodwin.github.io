@@ -9,8 +9,6 @@ toc: false
 
 Indirectly "yes", but I will ultimately argue "no".
 
-> People don't kill people, guns kill people.
-
 ## Introduction
 
 Lots of people in the US are killed by guns. Guns are a leading cause of death among children. Mass shootings happen nearly daily. Gun laws and controls are a hotly debated and divisive political issue in the US. (Citations needed!)
