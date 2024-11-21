@@ -78,8 +78,8 @@ docs:
         url: /3040/guns/
       - title: "3. Multiple Regression"
         url: /3040/lab3/
-      #- title: "4. Polynomials, logs, and interactions"
-      #  url: /3040/lab4/
+      - title: "4. Polynomials, logs, and interactions"
+        url: /3040/lab4/
       #- title: "5. Assignment 5 help"
       #  url: /3040/lab5/
   - title: Assignments
@@ -94,8 +94,8 @@ docs:
         url: https://rtgodwin.com/3040/assignments/assign3.pdf
       #- title: "Assignment 3 Answers"
       #  url: https://rtgodwin.com/3040/assign3ans/
-      #- title: "Assignment 4"
-      #  url: https://rtgodwin.com/3040/assignments/assign4.pdf
+      - title: "Assignment 4"
+        url: https://rtgodwin.com/3040/assignments/assign4.pdf
       #- title: "Assignment 4 Answers"
       #  url: https://rtgodwin.com/3040/assign4ans/
       #- title: "Assignment 5"
