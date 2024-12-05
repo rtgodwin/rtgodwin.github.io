@@ -53,15 +53,15 @@ sidebar:
  - Joining the spline at the knots: slides 12, pg. 10
  - Deriving the Newton-Raphson by Taylor series approximation: slides 12, pg. 16-17
 
-## Course overview (post midterm)
+# Course overview (post midterm)
 
-# Chapter 7: Asymptotics
+## Chapter 7: Asymptotics
  - Why consider asymptotic properties of estimators?
  - What is consistency? (two versions)
  - The plim() operator and the consistency of various estimators ($b$, $\hat{\sigma}^2$, $s^2$)
  - Asymptotic efficiency, and why the $\sqrt{n}$ is needed to avoid a "spike"
 
-# Chapter 8: IV
+## Chapter 8: IV
  - The missing variable problem, and the resulting inconsistency of LS
  - Two properties to make an instrument "valid"
  - Some intuition behind how the instrument is used
@@ -70,7 +70,7 @@ sidebar:
  - Testing (Hausman, exogeneity, weak instruments)
  - Returns to education example
 
-# Chapter 9: Multiple hypotheses
+## Chapter 9: Multiple hypotheses
  - What a multiple hypothesis is
  - Why t-tests can't be used
  - Wald test, then the F-test (and which one to use)
@@ -78,7 +78,7 @@ sidebar:
  - Conducting an F-test using $R^2$ from a restricted and an unrestricted model
  - Testing for differences
 
-# Chapter 10: Non-linear effects and NLS
+## Chapter 10: Non-linear effects and NLS
  - Avoiding NLS and keeping LS: linearizing and polynomial approximation
  - Reasons to estimate non-linear model directly (for example gravity model)
  - Definition of NLS estimator
@@ -87,7 +87,7 @@ sidebar:
  - Convergence, iterations, tolerance
  - Issues in estimation (singularity, cycling, etc.)
 
-# Chapter 11: Heteroskedasticity
+## Chapter 11: Heteroskedasticity
  - Define het.
  - Consequences of het. (inconsistent s.e., LS is inefficient)
  - Testing for het.
@@ -95,7 +95,7 @@ sidebar:
  - The GLS estimator
  - Clustering
 
-# Chapter 12: Time series
+## Chapter 12: Time series
  - AR process
  - variance of an AR(1) error term
  - $|\rho| < 1$ and $|\rho| = 1$
