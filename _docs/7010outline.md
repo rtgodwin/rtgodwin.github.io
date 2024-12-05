@@ -36,11 +36,11 @@ rtgodwin.com/7010
 
 ## Evaluation
 
-| Assessment                   	| Weight 	|
-|------------------------------	|--------	|
-| Assignments                  	| 15%    	|
-| Midterm Exam<br>(October 22) 	| 30%    	|
-| Final Exam                   	| 55%    	|
+| Assessment                   	| Weight A| Weight B|
+|------------------------------	|--------	|-------- |
+| Assignments                  	| 15%    	| 15%     |
+| Midterm Exam<br>(October 22) 	| 30%    	| 20%     |
+| Final Exam                   	| 55%    	| 65%     |
 
 ### Assignments
 
