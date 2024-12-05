@@ -42,7 +42,7 @@ rtgodwin.com/7010
 | Midterm Exam<br>(October 22) 	| 30%    	| 20%     |
 | Final Exam                   	| 55%    	| 65%     |
 
-Grade is calculated under bot A and B, the maximum is automatically chosen.
+Grade is calculated under both A and B, the maximum is automatically chosen.
 
 ### Assignments
 
