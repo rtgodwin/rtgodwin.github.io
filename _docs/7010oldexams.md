@@ -98,5 +98,5 @@ sidebar:
 ## Chapter 12: Time series
  - AR process
  - variance of an AR(1) error term
- - $|\rho| < 1$ and $|\rho| = 1$
+ - $\abs{\rho} < 1$ and $\abs{\rho} = 1$
  - random walks and spurious regressions
