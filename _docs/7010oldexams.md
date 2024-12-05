@@ -73,6 +73,7 @@ sidebar:
 ## Chapter 9: Multiple hypotheses
  - What a multiple hypothesis is
  - Why t-tests can't be used
+ - $R$ and $q$ matrices
  - Wald test, then the F-test (and which one to use)
  - The RLS estimator and what it tells us about "imposing restrictions" on a model
  - Conducting an F-test using $R^2$ from a restricted and an unrestricted model
