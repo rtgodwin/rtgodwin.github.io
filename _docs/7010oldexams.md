@@ -93,7 +93,7 @@ sidebar:
  - Testing for het.
  - Fixing het.
  - The GLS estimator
- - Clustering
+ - Clustering (group sizes determine $P$ matrix, apply GLS directly)
 
 ## Chapter 12: Time series
  - AR process
