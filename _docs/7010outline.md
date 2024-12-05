@@ -42,6 +42,8 @@ rtgodwin.com/7010
 | Midterm Exam<br>(October 22) 	| 30%    	| 20%     |
 | Final Exam                   	| 55%    	| 65%     |
 
+Grade is calculated under bot A and B, the maximum is automatically chosen.
+
 ### Assignments
 
 There will be 5 assignments, each worth 3% of your grade. You will use RStudio and work with data in order to complete your assignments. All assignments must be completed independently.
