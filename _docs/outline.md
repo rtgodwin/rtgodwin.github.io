@@ -39,16 +39,17 @@ rtgodwin.com/3040
 | Assessment                   	| Weight 	|
 |------------------------------	|--------	|
 | Assignments                  	| 15%    	|
-| Midterm Exam<br>(October 22)	| 35%    	|
-| Final Exam                   	| 50%    	|
+| Midterm 1<br>(February 3)	    | 20%    	|
+| Midterm 2<br>(March 10)  	    | 20%    	|
+| Final Exam                   	| 45%    	|
 
 ### Assignments
 
 There will be 5 assignments, each worth 3% of your grade. You will use RStudio and work with data in order to complete your assignments. All assignments must be completed independently.
 
-### Midterm and Final
+### Midterms and Final
 
-These will be closed book exams. The midterm will take place in the regular class room/time. The final exam will be scheduled by the university. The final exam is *cumulative*.
+These will be closed book exams. The midterms will take place in the regular class room/time. The final exam will be scheduled by the university. The final exam is *cumulative*.
 
 ## Grading
 
