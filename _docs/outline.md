@@ -9,13 +9,14 @@ toc: false
 ## Course Info
 
 Instructor: Ryan Godwin  
-Office Hour: Tuesday, 2:45 - 3:45  
+Office Hour: Monday, 2:00 - 3:00  
 Office Location: 646 Fletcher Argue  
 email: ryan.godwin@umanitoba.ca  
 
-| Section | Time              | Days          | Location               | CRN   |
-| :-----: | :---------------: | :-----------: | :--------------------: | :---: | 
-| A01     | 4:00 pm - 5:15 pm | TR            | DRAKE CENTRE 117       | 12952 | 
+| Section | Time                | Days          | Location               | CRN   |
+| :-----: | :-----------------: | :-----------: | :--------------------: | :---: | 
+| A01     | 10:30 am - 11:20 am | MWF           | TIER 406               | 53007 | 
+| A02     | 11:30 am - 12:20 pm | MWF           | TIER 301               | 58511 |
 
 ## Course Description
 
@@ -61,7 +62,7 @@ Students appealing any term work (including, assignments, midterm, final exam) w
 
 A missed assessment will result in make-up work, or reweighting of your grade.
 
-Nov. 19, 2024, is the last day for voluntary withdrawal from the course.
+Mar. 19, 2025, is the last day for voluntary withdrawal from the course.
 
 ## Academic Integrity
 
