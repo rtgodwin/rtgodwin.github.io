@@ -6,4 +6,4 @@ toc: false
 author_profile: false
 masthead: false
 ---
-Link to roll20 campaign: (https://app.roll20.net/join/18908891/7X3yUA)[https://app.roll20.net/join/18908891/7X3yUA]
+Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://app.roll20.net/join/18908891/7X3yUA)
