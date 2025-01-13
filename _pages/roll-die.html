@@ -8,17 +8,18 @@ permalink: /roll-die/
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Die Roller</title>
+    <title>Assignment 1</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
-            margin-top: 50px;
+            margin: 20px;
         }
         button {
             padding: 10px 20px;
             font-size: 16px;
             cursor: pointer;
+            margin: 10px;
         }
         #result {
             margin: 20px auto;
@@ -39,33 +40,10 @@ permalink: /roll-die/
             border-radius: 50%;
             position: absolute;
         }
-        /* Layouts for each die face */
-        .face-1 .pip { top: 50%; left: 50%; transform: translate(-50%, -50%); }
-        .face-2 .pip:nth-child(1) { top: 20%; left: 20%; }
-        .face-2 .pip:nth-child(2) { bottom: 20%; right: 20%; }
-        .face-3 .pip:nth-child(1) { top: 20%; left: 20%; }
-        .face-3 .pip:nth-child(2) { top: 50%; left: 50%; transform: translate(-50%, -50%); }
-        .face-3 .pip:nth-child(3) { bottom: 20%; right: 20%; }
-        .face-4 .pip:nth-child(1) { top: 20%; left: 20%; }
-        .face-4 .pip:nth-child(2) { top: 20%; right: 20%; }
-        .face-4 .pip:nth-child(3) { bottom: 20%; left: 20%; }
-        .face-4 .pip:nth-child(4) { bottom: 20%; right: 20%; }
-        .face-5 .pip:nth-child(1) { top: 20%; left: 20%; }
-        .face-5 .pip:nth-child(2) { top: 20%; right: 20%; }
-        .face-5 .pip:nth-child(3) { bottom: 20%; left: 20%; }
-        .face-5 .pip:nth-child(4) { bottom: 20%; right: 20%; }
-        .face-5 .pip:nth-child(5) { top: 50%; left: 50%; transform: translate(-50%, -50%); }
-        .face-6 .pip:nth-child(1) { top: 20%; left: 20%; }
-        .face-6 .pip:nth-child(2) { top: 20%; right: 20%; }
-        .face-6 .pip:nth-child(3) { top: 50%; left: 20%; }
-        .face-6 .pip:nth-child(4) { top: 50%; right: 20%; }
-        .face-6 .pip:nth-child(5) { bottom: 20%; left: 20%; }
-        .face-6 .pip:nth-child(6) { bottom: 20%; right: 20%; }
-
         table {
             margin: 20px auto;
             border-collapse: collapse;
-            width: auto; /* Adjust table width to fit content */
+            width: auto;
         }
         table, th, td {
             border: 1px solid black;
@@ -74,14 +52,21 @@ permalink: /roll-die/
             padding: 10px;
             text-align: center;
         }
-        tfoot td {
-            font-weight: bold;
-        }
     </style>
 </head>
 <body>
-    <h1>Die Roller</h1>
-    <button onclick="rollDie()">Roll</button>
+    <h1>Assignment 1</h1>
+    <p>
+        You suspect that your friend Jimothy is cheating at dice. They seem to be rolling a lot of 6s!
+        You grab their die, and collect a quick sample of die rolls. You use this sample to try to figure
+        out if they are using a "loaded die". 
+    </p>
+    <p>
+        (1) Roll the die, and collect a sample. <br>
+        (2) Observe the results to hypothesize whether the die is fair.
+    </p>
+
+    <button onclick="rollDie()">Roll the Die</button>
     <div id="result"></div>
 
     <table>
@@ -94,19 +79,17 @@ permalink: /roll-die/
         <tbody id="history">
             <!-- History will be appended here -->
         </tbody>
-        <tfoot>
-            <tr>
-                <td>Total Rolls</td>
-                <td id="total-rolls">0</td>
-            </tr>
-        </tfoot>
     </table>
 
     <script>
         let rollCount = 0;
 
         function rollDie() {
-            // Define probabilities for each side
+            const roll = generateDieRoll();
+            updateRollHistory(roll);
+        }
+
+        function generateDieRoll() {
             const probabilities = [
                 { number: 1, weight: 1 },
                 { number: 2, weight: 1 },
@@ -116,65 +99,26 @@ permalink: /roll-die/
                 { number: 6, weight: 3 } // 6 is three times as likely to appear
             ];
 
-            // Generate the final result based on probabilities
             const totalWeight = probabilities.reduce((sum, item) => sum + item.weight, 0);
             const random = Math.random() * totalWeight;
 
             let cumulativeWeight = 0;
-            let finalNumber;
             for (const { number, weight } of probabilities) {
                 cumulativeWeight += weight;
                 if (random < cumulativeWeight) {
-                    finalNumber = number;
-                    break;
+                    return number;
                 }
             }
-
-            // Start scrambling effect
-            const resultDiv = document.getElementById('result');
-            let scrambleInterval;
-
-            function scramble() {
-                const randomFace = Math.ceil(Math.random() * 6);
-                displayDieFace(randomFace, resultDiv);
-            }
-
-            // Display the final result after scrambling
-            scrambleInterval = setInterval(scramble, 50);
-
-            setTimeout(() => {
-                clearInterval(scrambleInterval);
-                displayDieFace(finalNumber, resultDiv);
-                updateHistory(finalNumber);
-            }, 500);
         }
 
-        function displayDieFace(number, container) {
-            container.innerHTML = ''; // Clear previous face
-            container.className = ''; // Reset classes
-            container.classList.add(`face-${number}`); // Add the appropriate face class
-
-            // Add the correct number of pips
-            for (let i = 0; i < number; i++) {
-                const pip = document.createElement('div');
-                pip.classList.add('pip');
-                container.appendChild(pip);
-            }
-        }
-
-        function updateHistory(roll) {
+        function updateRollHistory(roll) {
             rollCount++;
 
-            // Update table
             const historyTable = document.getElementById('history');
             const newRow = document.createElement('tr');
             newRow.innerHTML = `<td>${rollCount}</td><td>${roll}</td>`;
             historyTable.appendChild(newRow);
-
-            // Update total rolls
-            document.getElementById('total-rolls').textContent = rollCount;
         }
     </script>
 </body>
 </html>
-
