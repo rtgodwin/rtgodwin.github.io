@@ -45,4 +45,42 @@ permalink: /roll-die/
                 { number: 6, weight: 3 } // 6 is three times as likely to appear
             ];
 
-   
+            // Unicode for die faces
+            const dieFaces = ["⚀", "⚁", "⚂", "⚃", "⚄", "⚅"];
+
+            // Generate the final result based on probabilities
+            const totalWeight = probabilities.reduce((sum, item) => sum + item.weight, 0);
+            const random = Math.random() * totalWeight;
+
+            let cumulativeWeight = 0;
+            let finalNumber;
+            for (const { number, weight } of probabilities) {
+                cumulativeWeight += weight;
+                if (random < cumulativeWeight) {
+                    finalNumber = number;
+                    break;
+                }
+            }
+
+            // Start scrambling effect
+            const resultDiv = document.getElementById('result');
+            let scrambleInterval;
+
+            function scramble() {
+                // Randomly display one of the die faces
+                const randomFace = dieFaces[Math.floor(Math.random() * 6)];
+                resultDiv.textContent = randomFace;
+            }
+
+            // Start the scrambling effect
+            scrambleInterval = setInterval(scramble, 50);
+
+            // Stop scrambling and show the final result after 0.5 seconds
+            setTimeout(() => {
+                clearInterval(scrambleInterval);
+                resultDiv.textContent = dieFaces[finalNumber - 1];
+            }, 500);
+        }
+    </script>
+</body>
+</html>
