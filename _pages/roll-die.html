@@ -61,6 +61,19 @@ permalink: /roll-die/
         .face-6 .pip:nth-child(4) { top: 50%; right: 25%; }
         .face-6 .pip:nth-child(5) { bottom: 25%; left: 25%; }
         .face-6 .pip:nth-child(6) { bottom: 25%; right: 25%; }
+
+        table {
+            margin: 20px auto;
+            border-collapse: collapse;
+            width: 50%;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -68,7 +81,32 @@ permalink: /roll-die/
     <button onclick="rollDie()">Roll</button>
     <div id="result"></div>
 
+    <table>
+        <thead>
+            <tr>
+                <th>Roll #</th>
+                <th>Result</th>
+            </tr>
+        </thead>
+        <tbody id="history">
+            <!-- History will be appended here -->
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total Rolls</td>
+                <td id="total-rolls">0</td>
+            </tr>
+            <tr>
+                <td>Sample Average</td>
+                <td id="sample-average">0.00</td>
+            </tr>
+        </tfoot>
+    </table>
+
     <script>
+        let rollCount = 0;
+        let rollSum = 0;
+
         function rollDie() {
             // Define probabilities for each side
             const probabilities = [
@@ -109,6 +147,7 @@ permalink: /roll-die/
             setTimeout(() => {
                 clearInterval(scrambleInterval);
                 displayDieFace(finalNumber, resultDiv);
+                updateHistory(finalNumber);
             }, 500);
         }
 
@@ -124,7 +163,21 @@ permalink: /roll-die/
                 container.appendChild(pip);
             }
         }
+
+        function updateHistory(roll) {
+            rollCount++;
+            rollSum += roll;
+
+            // Update table
+            const historyTable = document.getElementById('history');
+            const newRow = document.createElement('tr');
+            newRow.innerHTML = `<td>${rollCount}</td><td>${roll}</td>`;
+            historyTable.appendChild(newRow);
+
+            // Update totals
+            document.getElementById('total-rolls').textContent = rollCount;
+            document.getElementById('sample-average').textContent = (rollSum / rollCount).toFixed(2);
+        }
     </script>
 </body>
 </html>
-
