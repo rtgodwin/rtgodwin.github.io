@@ -22,16 +22,16 @@ permalink: /roll-die/
         }
         #result {
             margin-top: 20px;
-            font-size: 24px;
+            font-size: 48px; /* Larger font size for the die face */
             font-weight: bold;
-            height: 30px; /* Ensure consistent space for the result */
+            height: 60px; /* Ensure consistent space for the result */
         }
     </style>
 </head>
 <body>
     <h1>Die Roller</h1>
     <button onclick="rollDie()">Roll</button>
-    <div id="result">Click "Roll" to see your result!</div>
+    <div id="result">🎲</div>
 
     <script>
         function rollDie() {
@@ -45,40 +45,4 @@ permalink: /roll-die/
                 { number: 6, weight: 3 } // 6 is three times as likely to appear
             ];
 
-            // Generate the final result based on probabilities
-            const totalWeight = probabilities.reduce((sum, item) => sum + item.weight, 0);
-            const random = Math.random() * totalWeight;
-
-            let cumulativeWeight = 0;
-            let finalNumber;
-            for (const { number, weight } of probabilities) {
-                cumulativeWeight += weight;
-                if (random < cumulativeWeight) {
-                    finalNumber = number;
-                    break;
-                }
-            }
-
-            // Start scrambling effect
-            const resultDiv = document.getElementById('result');
-            let scrambleInterval;
-            let scrambleCount = 0;
-
-            function scramble() {
-                // Randomly display numbers 1-6
-                resultDiv.textContent = `You rolled: ${Math.ceil(Math.random() * 6)}`;
-                scrambleCount++;
-            }
-
-            // Start the scrambling effect
-            scrambleInterval = setInterval(scramble, 50);
-
-            // Stop scrambling and show the final result after 0.5 seconds
-            setTimeout(() => {
-                clearInterval(scrambleInterval);
-                resultDiv.textContent = `You rolled: ${finalNumber}`;
-            }, 500);
-        }
-    </script>
-</body>
-</html>
+   
