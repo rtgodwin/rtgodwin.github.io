@@ -28,19 +28,19 @@ permalink: /roll-die/
     </style>
 </head>
 <body>
-    <h1>Loaded Die Roller</h1>
+    <h1>Die Roller</h1>
     <button onclick="rollDie()">Roll</button>
     <div id="result"></div>
 
     <script>
         function rollDie() {
             const probabilities = [
-                { number: 1, weight: 10 },
-                { number: 2, weight: 20 },
-                { number: 3, weight: 15 },
-                { number: 4, weight: 25 },
-                { number: 5, weight: 20 },
-                { number: 6, weight: 10 }
+                { number: 1, weight: 1 },
+                { number: 2, weight: 1 },
+                { number: 3, weight: 1 },
+                { number: 4, weight: 1 },
+                { number: 5, weight: 1 },
+                { number: 6, weight: 2 }
             ];
             const totalWeight = probabilities.reduce((sum, item) => sum + item.weight, 0);
             const random = Math.random() * totalWeight;
