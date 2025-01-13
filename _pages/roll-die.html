@@ -116,9 +116,22 @@ permalink: /roll-die/
         let rollCount = 0;
 
         function rollDie() {
-            const roll = generateDieRoll();
-            displayDieFace(roll);
-            updateRollHistory(roll);
+            const finalRoll = generateDieRoll();
+            const container = document.getElementById('result');
+            let scrambleInterval;
+
+            // Start scrambling the die face
+            scrambleInterval = setInterval(() => {
+                const randomFace = Math.ceil(Math.random() * 6);
+                displayDieFace(randomFace, container);
+            }, 50);
+
+            // Stop scrambling after 0.5 seconds and show the final roll
+            setTimeout(() => {
+                clearInterval(scrambleInterval);
+                displayDieFace(finalRoll, container);
+                updateRollHistory(finalRoll);
+            }, 500);
         }
 
         function generateDieRoll() {
@@ -143,8 +156,7 @@ permalink: /roll-die/
             }
         }
 
-        function displayDieFace(number) {
-            const container = document.getElementById('result');
+        function displayDieFace(number, container) {
             container.innerHTML = ''; // Clear previous face
             container.className = ''; // Reset classes
             container.classList.add(`face-${number}`); // Add the appropriate face class
