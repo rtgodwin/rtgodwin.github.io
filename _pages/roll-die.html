@@ -24,8 +24,8 @@ permalink: /roll-die/
             margin: 20px auto;
             width: 100px;
             height: 100px;
-            border: 2px solid black; /* Thin border */
-            border-radius: 8px; /* Rounded corners */
+            border: 2px solid black;
+            border-radius: 8px;
             display: flex;
             align-items: center;
             justify-content: center;
@@ -65,7 +65,7 @@ permalink: /roll-die/
         table {
             margin: 20px auto;
             border-collapse: collapse;
-            width: 50%;
+            width: auto; /* Adjust table width to fit content */
         }
         table, th, td {
             border: 1px solid black;
@@ -73,6 +73,9 @@ permalink: /roll-die/
         th, td {
             padding: 10px;
             text-align: center;
+        }
+        tfoot td {
+            font-weight: bold;
         }
     </style>
 </head>
@@ -96,16 +99,11 @@ permalink: /roll-die/
                 <td>Total Rolls</td>
                 <td id="total-rolls">0</td>
             </tr>
-            <tr>
-                <td>Sample Average</td>
-                <td id="sample-average">0.00</td>
-            </tr>
         </tfoot>
     </table>
 
     <script>
         let rollCount = 0;
-        let rollSum = 0;
 
         function rollDie() {
             // Define probabilities for each side
@@ -166,7 +164,6 @@ permalink: /roll-die/
 
         function updateHistory(roll) {
             rollCount++;
-            rollSum += roll;
 
             // Update table
             const historyTable = document.getElementById('history');
@@ -174,9 +171,8 @@ permalink: /roll-die/
             newRow.innerHTML = `<td>${rollCount}</td><td>${roll}</td>`;
             historyTable.appendChild(newRow);
 
-            // Update totals
+            // Update total rolls
             document.getElementById('total-rolls').textContent = rollCount;
-            document.getElementById('sample-average').textContent = (rollSum / rollCount).toFixed(2);
         }
     </script>
 </body>
