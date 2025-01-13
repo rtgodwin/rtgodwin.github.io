@@ -43,14 +43,19 @@ permalink: /roll-die/
         table {
             margin: 20px auto;
             border-collapse: collapse;
-            width: auto;
-        }
-        table, th, td {
-            border: 1px solid black;
+            width: 50%;
+            max-width: 400px;
         }
         th, td {
+            border: 1px solid black;
             padding: 10px;
             text-align: center;
+        }
+        th {
+            background-color: #f2f2f2;
+        }
+        tfoot td {
+            font-weight: bold;
         }
     </style>
 </head>
@@ -79,6 +84,11 @@ permalink: /roll-die/
         <tbody id="history">
             <!-- History will be appended here -->
         </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">Total Rolls: <span id="total-rolls">0</span></td>
+            </tr>
+        </tfoot>
     </table>
 
     <script>
@@ -118,6 +128,9 @@ permalink: /roll-die/
             const newRow = document.createElement('tr');
             newRow.innerHTML = `<td>${rollCount}</td><td>${roll}</td>`;
             historyTable.appendChild(newRow);
+
+            // Update total rolls in the footer
+            document.getElementById('total-rolls').textContent = rollCount;
         }
     </script>
 </body>
