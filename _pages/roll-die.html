@@ -23,8 +23,8 @@ permalink: /roll-die/
         }
         #result {
             margin: 20px auto;
-            width: 120px; /* Larger width for better spacing */
-            height: 120px; /* Larger height for better spacing */
+            width: 120px;
+            height: 120px;
             border: 2px solid black;
             border-radius: 8px;
             display: flex;
@@ -34,34 +34,12 @@ permalink: /roll-die/
             position: relative;
         }
         .pip {
-            width: 15px; /* Smaller pip size */
+            width: 15px;
             height: 15px;
             background-color: black;
             border-radius: 50%;
             position: absolute;
         }
-        /* Layouts for each die face */
-        .face-1 .pip { top: 50%; left: 50%; transform: translate(-50%, -50%); }
-        .face-2 .pip:nth-child(1) { top: 30%; left: 30%; }
-        .face-2 .pip:nth-child(2) { bottom: 30%; right: 30%; }
-        .face-3 .pip:nth-child(1) { top: 30%; left: 30%; }
-        .face-3 .pip:nth-child(2) { top: 50%; left: 50%; transform: translate(-50%, -50%); }
-        .face-3 .pip:nth-child(3) { bottom: 30%; right: 30%; }
-        .face-4 .pip:nth-child(1) { top: 30%; left: 30%; }
-        .face-4 .pip:nth-child(2) { top: 30%; right: 30%; }
-        .face-4 .pip:nth-child(3) { bottom: 30%; left: 30%; }
-        .face-4 .pip:nth-child(4) { bottom: 30%; right: 30%; }
-        .face-5 .pip:nth-child(1) { top: 30%; left: 30%; }
-        .face-5 .pip:nth-child(2) { top: 30%; right: 30%; }
-        .face-5 .pip:nth-child(3) { bottom: 30%; left: 30%; }
-        .face-5 .pip:nth-child(4) { bottom: 30%; right: 30%; }
-        .face-5 .pip:nth-child(5) { top: 50%; left: 50%; transform: translate(-50%, -50%); }
-        .face-6 .pip:nth-child(1) { top: 30%; left: 30%; }
-        .face-6 .pip:nth-child(2) { top: 30%; right: 30%; }
-        .face-6 .pip:nth-child(3) { top: 50%; left: 30%; }
-        .face-6 .pip:nth-child(4) { top: 50%; right: 30%; }
-        .face-6 .pip:nth-child(5) { bottom: 30%; left: 30%; }
-        .face-6 .pip:nth-child(6) { bottom: 30%; right: 30%; }
         table {
             margin: 20px auto;
             border-collapse: collapse;
@@ -113,8 +91,11 @@ permalink: /roll-die/
         </tfoot>
     </table>
 
+    <button onclick="exportToCSV()">Export Results to CSV</button>
+
     <script>
         let rollCount = 0;
+        const results = [];
 
         function rollDie() {
             const finalRoll = generateDieRoll();
@@ -171,6 +152,7 @@ permalink: /roll-die/
 
         function updateRollHistory(roll) {
             rollCount++;
+            results.push(roll);
 
             const historyTable = document.getElementById('history');
             const newRow = document.createElement('tr');
@@ -179,8 +161,20 @@ permalink: /roll-die/
 
             document.getElementById('total-rolls').textContent = rollCount;
         }
+
+        function exportToCSV() {
+            const csvContent = "data:text/csv;charset=utf-8," 
+                + "Roll #,Result\n" 
+                + results.map((result, index) => `${index + 1},${result}`).join("\n");
+
+            const encodedUri = encodeURI(csvContent);
+            const link = document.createElement("a");
+            link.setAttribute("href", encodedUri);
+            link.setAttribute("download", "results.csv");
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
     </script>
 </body>
 </html>
-
-
