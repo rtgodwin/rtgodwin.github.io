@@ -1,3 +1,8 @@
+---
+layout: default
+title: Loaded Die Roller
+permalink: /loaded-die/
+---
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -29,7 +34,6 @@
 
     <script>
         function rollDie() {
-            // Define the probabilities for each side
             const probabilities = [
                 { number: 1, weight: 10 },
                 { number: 2, weight: 20 },
@@ -38,14 +42,9 @@
                 { number: 5, weight: 20 },
                 { number: 6, weight: 10 }
             ];
-
-            // Calculate the total weight
             const totalWeight = probabilities.reduce((sum, item) => sum + item.weight, 0);
-
-            // Generate a random number within the range of the total weight
             const random = Math.random() * totalWeight;
 
-            // Determine which number corresponds to the random value
             let cumulativeWeight = 0;
             for (const { number, weight } of probabilities) {
                 cumulativeWeight += weight;
