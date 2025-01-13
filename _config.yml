@@ -156,6 +156,7 @@ footer:
 include:
   - .htaccess
   - _pages
+  - pages/die-roll.html
 exclude:
   - "*.sublime-project"
   - "*.sublime-workspace"
