@@ -40,7 +40,7 @@ permalink: /roll-die/
             border-radius: 50%;
             position: absolute;
         }
-        /* Layouts for each die face */
+        /* Pip Layouts */
         .face-1 .pip { top: 50%; left: 50%; transform: translate(-50%, -50%); }
         .face-2 .pip:nth-child(1) { top: 30%; left: 30%; }
         .face-2 .pip:nth-child(2) { bottom: 30%; right: 30%; }
@@ -162,8 +162,7 @@ permalink: /roll-die/
 
         function displayDieFace(number, container) {
             container.innerHTML = ''; // Clear previous face
-            container.className = ''; // Reset classes
-            container.classList.add(`face-${number}`); // Add the appropriate face class
+            container.className = `face-${number}`; // Apply the correct face class
 
             for (let i = 0; i < number; i++) {
                 const pip = document.createElement('div');
@@ -200,4 +199,3 @@ permalink: /roll-die/
     </script>
 </body>
 </html>
-
