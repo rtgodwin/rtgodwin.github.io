@@ -10,76 +10,129 @@ permalink: /roll-die/
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 1</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            text-align: center;
-            margin: 20px;
-        }
-        button {
-            padding: 10px 20px;
-            font-size: 16px;
-            cursor: pointer;
-            margin: 10px;
-        }
-        #result {
-            margin: 20px auto;
-            width: 120px;
-            height: 120px;
-            border: 2px solid black;
-            border-radius: 8px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            background-color: white;
-            position: relative;
-        }
-        .pip {
-            width: 15px;
-            height: 15px;
-            background-color: black;
-            border-radius: 50%;
-            position: absolute;
-        }
-        /* Pip Layouts */
-        .face-1 .pip { top: 50%; left: 50%; transform: translate(-50%, -50%); }
-        .face-2 .pip:nth-child(1) { top: 30%; left: 30%; }
-        .face-2 .pip:nth-child(2) { bottom: 30%; right: 30%; }
-        .face-3 .pip:nth-child(1) { top: 30%; left: 30%; }
-        .face-3 .pip:nth-child(2) { top: 50%; left: 50%; transform: translate(-50%, -50%); }
-        .face-3 .pip:nth-child(3) { bottom: 30%; right: 30%; }
-        .face-4 .pip:nth-child(1) { top: 30%; left: 30%; }
-        .face-4 .pip:nth-child(2) { top: 30%; right: 30%; }
-        .face-4 .pip:nth-child(3) { bottom: 30%; left: 30%; }
-        .face-4 .pip:nth-child(4) { bottom: 30%; right: 30%; }
-        .face-5 .pip:nth-child(1) { top: 30%; left: 30%; }
-        .face-5 .pip:nth-child(2) { top: 30%; right: 30%; }
-        .face-5 .pip:nth-child(3) { bottom: 30%; left: 30%; }
-        .face-5 .pip:nth-child(4) { bottom: 30%; right: 30%; }
-        .face-5 .pip:nth-child(5) { top: 50%; left: 50%; transform: translate(-50%, -50%); }
-        .face-6 .pip:nth-child(1) { top: 20%; left: 30%; }
-        .face-6 .pip:nth-child(2) { top: 20%; right: 30%; }
-        .face-6 .pip:nth-child(3) { top: 50%; left: 30%; transform: translateY(-50%); }
-        .face-6 .pip:nth-child(4) { top: 50%; right: 30%; transform: translateY(-50%); }
-        .face-6 .pip:nth-child(5) { bottom: 20%; left: 30%; }
-        .face-6 .pip:nth-child(6) { bottom: 20%; right: 30%; }
-        table {
-            margin: 20px auto;
-            border-collapse: collapse;
-            width: 50%;
-            max-width: 400px;
-        }
-        th, td {
-            border: 1px solid black;
-            padding: 10px;
-            text-align: center;
-        }
-        th {
-            background-color: #f2f2f2;
-        }
-        tfoot td {
-            font-weight: bold;
-        }
-    </style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        margin: 20px;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+        margin: 10px;
+    }
+    #result {
+        margin: 20px auto;
+        width: 120px;
+        height: 120px;
+        border: 2px solid black;
+        border-radius: 8px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: white;
+        position: relative;
+    }
+    .pip {
+        width: 15px;
+        height: 15px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+    }
+    /* Layouts for each die face */
+    .face-1 .pip { 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+    }
+    .face-2 .pip:nth-child(1) { 
+        top: 20%; 
+        left: 50%; 
+        transform: translateX(-50%); 
+    }
+    .face-2 .pip:nth-child(2) { 
+        bottom: 20%; 
+        left: 50%; 
+        transform: translateX(-50%); 
+    }
+    .face-3 .pip:nth-child(1) { 
+        top: 20%; 
+        left: 30%; 
+    }
+    .face-3 .pip:nth-child(2) { 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+    }
+    .face-3 .pip:nth-child(3) { 
+        bottom: 20%; 
+        right: 30%; 
+    }
+    .face-4 .pip:nth-child(1) { 
+        top: 20%; 
+        left: 30%; 
+    }
+    .face-4 .pip:nth-child(2) { 
+        top: 20%; 
+        right: 30%; 
+    }
+    .face-4 .pip:nth-child(3) { 
+        bottom: 20%; 
+        left: 30%; 
+    }
+    .face-4 .pip:nth-child(4) { 
+        bottom: 20%; 
+        right: 30%; 
+    }
+    .face-5 .pip:nth-child(1) { 
+        top: 20%; 
+        left: 30%; 
+    }
+    .face-5 .pip:nth-child(2) { 
+        top: 20%; 
+        right: 30%; 
+    }
+    .face-5 .pip:nth-child(3) { 
+        bottom: 20%; 
+        left: 30%; 
+    }
+    .face-5 .pip:nth-child(4) { 
+        bottom: 20%; 
+        right: 30%; 
+    }
+    .face-5 .pip:nth-child(5) { 
+        top: 50%; 
+        left: 50%; 
+        transform: translate(-50%, -50%); 
+    }
+    .face-6 .pip:nth-child(1) { 
+        top: 20%; 
+        left: 30%; 
+    }
+    .face-6 .pip:nth-child(2) { 
+        top: 20%; 
+        right: 30%; 
+    }
+    .face-6 .pip:nth-child(3) { 
+        top: 50%; 
+        left: 30%; 
+        transform: translateY(-50%); 
+    }
+    .face-6 .pip:nth-child(4) { 
+        top: 50%; 
+        right: 30%; 
+        transform: translateY(-50%); 
+    }
+    .face-6 .pip:nth-child(5) { 
+        bottom: 20%; 
+        left: 30%; 
+    }
+    .face-6 .pip:nth-child(6) { 
+        bottom: 20%; 
+        right: 30%; 
+    }
+</style>
 </head>
 <body>
     <h1>Assignment 1</h1>
