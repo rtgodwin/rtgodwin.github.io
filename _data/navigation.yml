@@ -84,6 +84,8 @@ docs:
       #  url: /3040/lab5/
   - title: Assignments
     children:
+      - title: "Assignment 1"
+        url: https://rtgodwin.com/jimothy/
       #- title: "Assignment 1"
       #  url: https://rtgodwin.com/3040/assignments/assign1.pdf
       #- title: "Assignment 2"
