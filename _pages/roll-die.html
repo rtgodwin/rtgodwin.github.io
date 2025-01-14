@@ -194,12 +194,12 @@ permalink: /roll-die/
 
         function generateDieRoll() {
             const probabilities = [
-                { number: 1, weight: 1 },
+                { number: 1, weight: .5 },
                 { number: 2, weight: 1 },
                 { number: 3, weight: 1 },
                 { number: 4, weight: 1 },
                 { number: 5, weight: 1 },
-                { number: 6, weight: 3 } // 6 is three times as likely to appear
+                { number: 6, weight: 4 } // 6 is three times as likely to appear
             ];
 
             const totalWeight = probabilities.reduce((sum, item) => sum + item.weight, 0);
