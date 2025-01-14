@@ -25,6 +25,14 @@ masthead: false
         align-items: center;
         justify-content: center;
     }
+
+    #button-container {
+        display: flex;
+        justify-content: center; /* Centers the buttons horizontally */
+        gap: 10px; /* Adds spacing between buttons */
+        margin: 20px 0;
+    }
+  
     #result {
         margin: 20px auto;
         width: 120px;
@@ -150,7 +158,10 @@ masthead: false
         <b>4.</b> If the die is "fair", it has an expected (mean) roll of 3.5. Test the hypothesis that Jimothy's die has a mean of 3.5. Is Jimothy cheating? What do you tell them?
     </p>
 
-    <button onclick="rollDie()">Roll the Die</button>
+    <div id="button-container">
+        <button onclick="rollDie()">Roll the Die</button>
+        <button onclick="exportToCSV()">Export Results to CSV</button>
+    </div>
     <div id="result"></div>
 
   <table>
@@ -170,8 +181,6 @@ masthead: false
         </tfoot>
     </table>
     
-    <button onclick="exportToCSV()">Export Results to CSV</button>
-
     <script>
         let rollCount = 0;
         const results = [];
