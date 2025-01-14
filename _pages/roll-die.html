@@ -40,6 +40,28 @@ permalink: /roll-die/
             border-radius: 50%;
             position: absolute;
         }
+        /* Layouts for each die face */
+        .face-1 .pip { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+        .face-2 .pip:nth-child(1) { top: 30%; left: 30%; }
+        .face-2 .pip:nth-child(2) { bottom: 30%; right: 30%; }
+        .face-3 .pip:nth-child(1) { top: 30%; left: 30%; }
+        .face-3 .pip:nth-child(2) { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+        .face-3 .pip:nth-child(3) { bottom: 30%; right: 30%; }
+        .face-4 .pip:nth-child(1) { top: 30%; left: 30%; }
+        .face-4 .pip:nth-child(2) { top: 30%; right: 30%; }
+        .face-4 .pip:nth-child(3) { bottom: 30%; left: 30%; }
+        .face-4 .pip:nth-child(4) { bottom: 30%; right: 30%; }
+        .face-5 .pip:nth-child(1) { top: 30%; left: 30%; }
+        .face-5 .pip:nth-child(2) { top: 30%; right: 30%; }
+        .face-5 .pip:nth-child(3) { bottom: 30%; left: 30%; }
+        .face-5 .pip:nth-child(4) { bottom: 30%; right: 30%; }
+        .face-5 .pip:nth-child(5) { top: 50%; left: 50%; transform: translate(-50%, -50%); }
+        .face-6 .pip:nth-child(1) { top: 20%; left: 30%; }
+        .face-6 .pip:nth-child(2) { top: 20%; right: 30%; }
+        .face-6 .pip:nth-child(3) { top: 50%; left: 30%; transform: translateY(-50%); }
+        .face-6 .pip:nth-child(4) { top: 50%; right: 30%; transform: translateY(-50%); }
+        .face-6 .pip:nth-child(5) { bottom: 20%; left: 30%; }
+        .face-6 .pip:nth-child(6) { bottom: 20%; right: 30%; }
         table {
             margin: 20px auto;
             border-collapse: collapse;
@@ -178,3 +200,4 @@ permalink: /roll-die/
     </script>
 </body>
 </html>
+
