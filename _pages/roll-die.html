@@ -140,8 +140,10 @@ permalink: /roll-die/
         out if they are using a "loaded die". 
     </p>
     <p>
-        (1) Roll the die, and collect a sample. <br>
-        (2) Observe the results to hypothesize whether the die is fair.
+        1. Roll the die, and collect a sample. Download your sample by clicking the "Export Results to CSV" button.<br>
+        2. Load the data into R using: <code>mydata <- read.csv(file.choose())</code>.
+        3. Estimate the expected die roll using the sample mean.
+        4. If the die is "fair", it has an expected (mean) roll of 3.5. Test the hypothesis that Jimothy's die has an expected value of 3.5. Is Jimothy cheating?
     </p>
 
     <button onclick="rollDie()">Roll the Die</button>
