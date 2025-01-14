@@ -237,26 +237,10 @@ permalink: /roll-die/
         }
 
         function exportToCSV() {
-            // CSV header
-            const csvContent = [
-                ["Roll #", "Result"], // Header row
-                ...results.map((result, index) => [index + 1, result]) // Map results to rows
-            ]
-            .map(row => row.join(",")) // Join each row with commas
-            .join("\n"); // Join all rows with newlines
     // CSV header and data
     const csvContent = ["Result", ...results]
         .join("\n"); // Join rows with newlines
 
-            // Encode CSV content and create a downloadable file
-            const encodedUri = "data:text/csv;charset=utf-8," + encodeURIComponent(csvContent);
-            const link = document.createElement("a");
-            link.setAttribute("href", encodedUri);
-            link.setAttribute("download", "results.csv");
-            document.body.appendChild(link);
-            link.click();
-            document.body.removeChild(link);
-      }
     // Encode CSV content and create a downloadable file
     const encodedUri = "data:text/csv;charset=utf-8," + encodeURIComponent(csvContent);
     const link = document.createElement("a");
