@@ -11,3 +11,9 @@ masthead: false
 
 Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://app.roll20.net/join/18908891/7X3yUA)
 
+## Avaialble source material in roll20
+- Player's Handbook (2014)
+- Tasha's Cauldron of Everything
+- Xanathar's Guide to Everything
+
+## Invitation letter
