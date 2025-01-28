@@ -1,6 +1,6 @@
 ---
 title: "ECON 3040 - Annotated Slides Winter 2025"
-permalink: /3040/annotated
+permalink: https:/rtgodwin.com/3040/annotated
 excerpt: "ECON 3040 Annotated Slides"
 last_modified_at:
 toc: false
