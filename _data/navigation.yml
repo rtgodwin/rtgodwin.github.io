@@ -92,8 +92,8 @@ docs:
         url: https://rtgodwin.com/3040/assignments/assign2.pdf
       #- title: "Assignment 2 Answers"
       #  url: https://rtgodwin.com/3040/assign2ans/
-      #- title: "Assignment 3"
-      #  url: https://rtgodwin.com/3040/assignments/assign3.pdf
+      - title: "Assignment 3"
+        url: https://rtgodwin.com/3040/assignments/assign3.pdf
       #- title: "Assignment 3 Answers"
       #  url: https://rtgodwin.com/3040/assign3ans/
       #- title: "Assignment 4"
