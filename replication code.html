@@ -1,0 +1,863 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+<title> </title>
+<style type="text/css">
+/**
+ * Prism.s theme ported from highlight.js's xcode style
+ */
+pre code {
+  padding: 1em;
+}
+.token.comment {
+  color: #007400;
+}
+.token.punctuation {
+  color: #999;
+}
+.token.tag,
+.token.selector {
+  color: #aa0d91;
+}
+.token.boolean,
+.token.number,
+.token.constant,
+.token.symbol {
+  color: #1c00cf;
+}
+.token.property,
+.token.attr-name,
+.token.string,
+.token.char,
+.token.builtin {
+  color: #c41a16;
+}
+.token.inserted {
+  background-color: #ccffd8;
+}
+.token.deleted {
+  background-color: #ffebe9;
+}
+.token.operator,
+.token.entity,
+.token.url,
+.language-css .token.string,
+.style .token.string {
+  color: #9a6e3a;
+}
+.token.atrule,
+.token.attr-value,
+.token.keyword {
+  color: #836c28;
+}
+.token.function,
+.token.class-name {
+  color: #DD4A68;
+}
+.token.regex,
+.token.important,
+.token.variable {
+  color: #5c2699;
+}
+.token.important,
+.token.bold {
+  font-weight: bold;
+}
+.token.italic {
+  font-style: italic;
+}
+</style>
+<style type="text/css">
+body {
+  font-family: sans-serif;
+  max-width: 800px;
+  margin: auto;
+  padding: 1em;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+body, .footnotes, code { font-size: .9em; }
+li li { font-size: .95em; }
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+pre, img { max-width: 100%; }
+pre, pre:hover {
+  white-space: pre-wrap;
+  word-break: break-all;
+}
+pre code {
+  display: block;
+  overflow-x: auto;
+}
+code { font-family: 'DejaVu Sans Mono', 'Droid Sans Mono', 'Lucida Console', Consolas, Monaco, monospace; }
+:not(pre) > code, code[class] { background-color: #F8F8F8; }
+code.language-undefined, pre > code:not([class]) {
+  background-color: inherit;
+  border: 1px solid #eee;
+}
+table {
+  margin: auto;
+  border-top: 1px solid #666;
+}
+table thead th { border-bottom: 1px solid #ddd; }
+th, td { padding: 5px; }
+thead, tfoot, tr:nth-child(even) { background: #eee; }
+blockquote {
+  color: #666;
+  margin: 0;
+  padding-left: 1em;
+  border-left: 0.5em solid #eee;
+}
+hr, .footnotes::before { border: 1px dashed #ddd; }
+.frontmatter { text-align: center; }
+#TOC .numbered li { list-style: none; }
+#TOC .numbered { padding-left: 0; }
+#TOC .numbered ul { padding-left: 1em; }
+table, .body h2 { border-bottom: 1px solid #666; }
+.body .appendix, .appendix ~ h2 { border-bottom-style: dashed; }
+.footnote-ref a::before { content: "["; }
+.footnote-ref a::after { content: "]"; }
+section.footnotes::before {
+  content: "";
+  display: block;
+  max-width: 20em;
+}
+
+@media print {
+  body {
+    font-size: 12pt;
+    max-width: 100%;
+  }
+  tr, img { page-break-inside: avoid; }
+}
+@media only screen and (min-width: 992px) {
+  pre { white-space: pre; }
+}
+</style>
+</head>
+<body>
+<div class="frontmatter">
+<div class="title"><h1>Replication code for: One-inflated zero-truncated count regression models</h1></div>
+<div class="author"><h2>Ryan T. Godwin</h2></div>
+<div class="date"><h3></h3></div>
+</div>
+<div class="body">
+<pre><code class="language-r">## Load the oneinfl package
+install.packages(&quot;oneinfl&quot;)
+</code></pre>
+<pre><code>## Installing package into 'C:/Users/ryang/AppData/Local/R/win-library/4.4'
+## (as 'lib' is unspecified)
+</code></pre>
+<pre><code>## package 'oneinfl' successfully unpacked and MD5 sums checked
+## 
+## The downloaded binary packages are in
+## 	C:\Users\ryang\AppData\Local\Temp\RtmpYjoew5\downloaded_packages
+</code></pre>
+<pre><code class="language-r">library(oneinfl)
+
+## Section 5: Simulation studies
+
+# For the &quot;Poisson&quot; part of Table 1. Reproduces the top row of the table. Increase
+# &quot;n&quot; for additional rows. &quot;nrep&quot; can be reduced to save computational time, but
+# won't reproduce results exactly. At &quot;n &lt;- 200&quot;, takes approx. 10 minutes to run.
+
+set.seed(1)
+n &lt;- 200
+
+b0 &lt;- -2
+b1 &lt;- .4
+b2 &lt;- 0.2
+g0 &lt;- -21
+g1 &lt;- 2
+g2 &lt;- 0.5
+
+b &lt;- c(b0, b1, b2)
+g &lt;- c(g0, g1, g2)
+
+formula &lt;- y ~ x1 + x2 | x1 + x2
+
+nrep &lt;- 10000
+bs &lt;- matrix(, nrow=nrep, ncol=3)
+gs &lt;- matrix(, nrow=nrep, ncol=3)
+ppbs &lt;- matrix(, nrow=nrep, ncol=3)
+
+for(i in 1:nrep) {
+  
+  x1 &lt;- rnorm(n,10,1) 
+  x2 &lt;- sample(c(0,1), n, replace=T)
+  X &lt;- data.frame(rep(1,n), x1, x2)
+  Z &lt;- X
+  
+  y &lt;- roipp(b, g, X, Z)
+  #barplot(table(y))
+  data &lt;- data.frame(y, x1, x2)
+  mymodel &lt;- oneinfl(formula, data, dist = &quot;Poisson&quot;)
+  bs[i,] &lt;- mymodel$b
+  gs[i,] &lt;- mymodel$g
+  
+  ppmodel &lt;- truncreg(y ~ x1 + x2, data, dist = &quot;Poisson&quot;)
+  ppbs[i,] &lt;- ppmodel$b
+}
+
+100 * (colSums(bs) / nrep - b) / b
+</code></pre>
+<pre><code>## [1]  0.16711987  0.04664234 -0.23491981
+</code></pre>
+<pre><code class="language-r">100 * (colSums(gs) / nrep - g) / g
+</code></pre>
+<pre><code>## [1] 3.244641 3.275834 3.021585
+</code></pre>
+<pre><code class="language-r">100 * (colSums(ppbs) / nrep - b) / b
+</code></pre>
+<pre><code>## [1] -258.07852 -141.20306  -75.61516
+</code></pre>
+<pre><code class="language-r"># For the first row of the &quot;Negative Binomial&quot; part of Table 1. n &lt;- 200 must be
+# increased to reproduce additional rows. Takes approx. 30 minutes.
+
+set.seed(1)
+n &lt;- 200
+
+b0 &lt;- -2
+b1 &lt;- .4
+b2 &lt;- 0.2
+g0 &lt;- -21
+g1 &lt;- 2
+g2 &lt;- 0.5
+alpha &lt;- 10
+
+b &lt;- c(b0, b1, b2)
+g &lt;- c(g0, g1, g2)
+
+formula &lt;- y ~ x1 + x2 | x1 + x2
+
+nrep &lt;- 10000
+bs &lt;- matrix(, nrow=nrep, ncol=3)
+gs &lt;- matrix(, nrow=nrep, ncol=3)
+as &lt;- numeric(n)
+ztnbbs &lt;- matrix(, nrow=nrep, ncol=3)
+ztnbas &lt;- numeric(n)
+
+for(i in 1:nrep) {
+  
+  x1 &lt;- rnorm(n,10,1) 
+  x2 &lt;- sample(c(0,1), n, replace=T)
+  X &lt;- data.frame(rep(1,n), x1, x2)
+  Z &lt;- X
+  
+  y &lt;- roiztnb(b, g, alpha, X, Z)
+  df &lt;- data.frame(y, x1, x2)
+  mymodel &lt;- oneinfl(formula, df, dist = &quot;negbin&quot;)
+  bs[i,] &lt;- mymodel$b
+  gs[i,] &lt;- mymodel$g
+  as[i] &lt;- mymodel$alpha
+  
+  ztnbmodel &lt;- truncreg(y ~ x1 + x2, df, dist = &quot;negbin&quot;)
+  ztnbbs[i,] &lt;- ztnbmodel$b
+  ztnbas[i] &lt;- ztnbmodel$alpha
+  
+}
+
+100 * (colSums(bs) / nrep - b) / b
+</code></pre>
+<pre><code>## [1] -0.10047578 -0.09975944 -0.66880222
+</code></pre>
+<pre><code class="language-r">100 * (colSums(gs) / nrep - g) / g
+</code></pre>
+<pre><code>## [1] 3.216478 3.247665 2.988251
+</code></pre>
+<pre><code class="language-r">100 * (sum(as) / nrep - alpha) / alpha
+</code></pre>
+<pre><code>## [1] 27.76931
+</code></pre>
+<pre><code class="language-r">100 * (colSums(ztnbbs) / nrep - b) / b
+</code></pre>
+<pre><code>## [1] -331.58534 -194.81544  -89.33777
+</code></pre>
+<pre><code class="language-r">100 * (sum(ztnbas) / nrep - alpha) / alpha
+</code></pre>
+<pre><code>## [1] -96.02316
+</code></pre>
+<pre><code class="language-r">## Section 6.1: MedPar data
+# Load the data
+install.packages(&quot;msme&quot;)
+</code></pre>
+<pre><code>## Installing package into 'C:/Users/ryang/AppData/Local/R/win-library/4.4'
+## (as 'lib' is unspecified)
+</code></pre>
+<pre><code>## package 'msme' successfully unpacked and MD5 sums checked
+## 
+## The downloaded binary packages are in
+## 	C:\Users\ryang\AppData\Local\Temp\RtmpYjoew5\downloaded_packages
+</code></pre>
+<pre><code class="language-r">library(msme)
+</code></pre>
+<pre><code>## Loading required package: MASS
+</code></pre>
+<pre><code>## Loading required package: lattice
+</code></pre>
+<pre><code class="language-r">data(medpar)
+
+# Table 2
+df &lt;- medpar
+formula &lt;- los ~ white + died + type2 + type3 | white + died + type2 + type3
+OIZTNB &lt;- oneinfl(formula, df, dist=&quot;negbin&quot;)
+summary(OIZTNB) 
+</code></pre>
+<pre><code>## Call:
+## formula:  los ~ white + died + type2 + type3 | white + died + type2 + type3 
+## distribution:  negbin 
+## 
+## Coefficients (beta):
+##              Estimate Std.Error z_value   p.value    
+## b(Intercept)  2.29913   0.07184  32.005 0.000e+00 ***
+## bwhite       -0.09708   0.07138  -1.360 1.738e-01    
+## bdied        -0.06814   0.04492  -1.517 1.293e-01    
+## btype2        0.23413   0.05349   4.377 1.204e-05 ***
+## btype3        0.75580   0.07884   9.586 0.000e+00 ***
+## 
+## Coefficients (gamma):
+##              Estimate Std.Error z_value p.value    
+## g(Intercept)  -4.2002    0.5060  -8.300 0.00000 ***
+## gwhite         0.6594    0.4814   1.370 0.17075    
+## gdied          2.3349    0.2359   9.899 0.00000 ***
+## gtype2        -0.5413    0.2829  -1.913 0.05569   .
+## gtype3        -0.7507    0.4472  -1.679 0.09324   .
+## 
+## alpha:
+##   Estimate Std.Error z_value p.value    
+## 1    2.267     0.146   15.53       0 ***
+## 
+## Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+## 
+## average one-inflation:  0.0416855179433309
+## average absolute one-inflation:  0.0680909723883016
+## Log-likelihood:  -4671.06423844655
+</code></pre>
+<pre><code class="language-r">margins(OIZTNB, df) 
+</code></pre>
+<pre><code>## Call:
+## formula:  los ~ white + died + type2 + type3 | white + died + type2 + type3 
+## distribution:  negbin 
+## 
+## Marginal effects:
+##       Marginal.effects Std.Error z_value   p.value    
+## white           -1.258    0.7344  -1.713 8.668e-02   .
+## died            -2.189    0.3964  -5.522 3.343e-08 ***
+## type2            2.575    0.5875   4.382 1.174e-05 ***
+## type3           10.142    1.4663   6.917 4.616e-12 ***
+## 
+## Signif. codes:  0 ***' 0.001 **' 0.01 *' 0.05 .' 0.1  ' 1
+</code></pre>
+<pre><code class="language-r">formula &lt;- los ~ white + died + type2 + type3
+ZTNB &lt;- truncreg(formula, df, dist=&quot;negbin&quot;)
+summary(ZTNB) 
+</code></pre>
+<pre><code>## Call:
+## formula:  los ~ white + died + type2 + type3 
+## distribution:  negbin 
+## 
+## Coefficients (beta):
+##              Estimate Std.Error z_value   p.value    
+## b(Intercept)   2.3334   0.07499  31.115 0.000e+00 ***
+## bwhite        -0.1318   0.07469  -1.765 7.755e-02   .
+## bdied         -0.2512   0.04468  -5.622 1.889e-08 ***
+## btype2         0.2601   0.05529   4.704 2.550e-06 ***
+## btype3         0.7692   0.08259   9.314 0.000e+00 ***
+## 
+## alpha:
+##   Estimate Std.Error z_value p.value    
+## 1    1.881    0.1034   18.19       0 ***
+## 
+## Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+## 
+## Log-likelihood:  -4736.77246562658
+</code></pre>
+<pre><code class="language-r">margins(ZTNB, df)
+</code></pre>
+<pre><code>## Call:
+## formula:  los ~ white + died + type2 + type3 
+## distribution:  negbin 
+## 
+## Marginal effects:
+##       Marginal.effects Std.Error z_value   p.value    
+## white           -1.296    0.7762  -1.669 9.503e-02   .
+## died            -2.238    0.3868  -5.785 7.233e-09 ***
+## type2            2.639    0.6163   4.283 1.846e-05 ***
+## type3           10.159    1.5303   6.638 3.171e-11 ***
+## 
+## Signif. codes:  0 ***' 0.001 **' 0.01 *' 0.05 .' 0.1  ' 1
+</code></pre>
+<pre><code class="language-r"># Testing
+oneWald(OIZTNB)
+</code></pre>
+<pre><code>## $W
+## [1] 469.1062
+## 
+## $pval
+## [1] 0
+</code></pre>
+<pre><code class="language-r">oneLRT(OIZTNB, ZTNB)
+</code></pre>
+<pre><code>## $LRTstat
+## [1] 131.4165
+## 
+## $pval
+## [1] 0
+</code></pre>
+<pre><code class="language-r">signifWald(OIZTNB, &quot;white&quot;)
+</code></pre>
+<pre><code>## $W
+## [1] 3.725885
+## 
+## $pval
+## [1] 0.1552153
+</code></pre>
+<pre><code class="language-r"># Figure 1
+oneplot(OIZTNB, ZTNB, df=df, maxpred=15)
+</code></pre>
+<p><img src="data:image/png;base64,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" alt="plot of chunk unnamed-chunk-1" /></p>
+<pre><code class="language-r">## Section 6.2: Arizona Medicare data
+library(COUNT)
+</code></pre>
+<pre><code>## Loading required package: sandwich
+</code></pre>
+<pre><code class="language-r">data(azdrg112)
+df &lt;- azdrg112
+
+# Table 3
+OIZTNB.2 &lt;- oneinfl(los ~ gender + type1 + age75 | gender + type1 + age75, df=df, dist=&quot;negbin&quot;)
+summary(OIZTNB.2)
+</code></pre>
+<pre><code>## Call:
+## formula:  los ~ gender + type1 + age75 | gender + type1 + age75 
+## distribution:  negbin 
+## 
+## Coefficients (beta):
+##              Estimate Std.Error z_value  p.value    
+## b(Intercept)   0.7436   0.06622  11.228 0.000000 ***
+## bgender       -0.1778   0.04659  -3.817 0.000135 ***
+## btype1         0.9226   0.05605  16.462 0.000000 ***
+## bage75         0.1554   0.04975   3.123 0.001790  **
+## 
+## Coefficients (gamma):
+##              Estimate Std.Error  z_value   p.value    
+## g(Intercept)  -2.1308    0.1989 -10.7126 0.000e+00 ***
+## ggender        0.5973    0.2054   2.9088 3.628e-03  **
+## gtype1        -1.3396    0.1829  -7.3229 2.427e-13 ***
+## gage75        -0.1225    0.2058  -0.5953 5.517e-01    
+## 
+## alpha:
+##   Estimate Std.Error z_value p.value    
+## 1    2.143    0.2289   9.364       0 ***
+## 
+## Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+## 
+## average one-inflation:  -0.16397156546163
+## average absolute one-inflation:  0.16397156546163
+## Log-likelihood:  -4123.85968057303
+</code></pre>
+<pre><code class="language-r">margins(OIZTNB.2, df)
+</code></pre>
+<pre><code>## Call:
+## formula:  los ~ gender + type1 + age75 | gender + type1 + age75 
+## distribution:  negbin 
+## 
+## Marginal effects:
+##        Marginal.effects Std.Error z_value   p.value    
+## gender          -0.7266    0.1654  -4.392 1.125e-05 ***
+## type1            2.6973    0.1355  19.902 0.000e+00 ***
+## age75            0.5520    0.1810   3.049 2.294e-03  **
+## 
+## Signif. codes:  0 ***' 0.001 **' 0.01 *' 0.05 .' 0.1  ' 1
+</code></pre>
+<pre><code class="language-r">ZTNB.2 &lt;- truncreg(los ~ gender + type1 + age75, df, dist=&quot;negbin&quot;)
+summary(ZTNB.2)
+</code></pre>
+<pre><code>## Call:
+## formula:  los ~ gender + type1 + age75 
+## distribution:  negbin 
+## 
+## Coefficients (beta):
+##              Estimate Std.Error z_value   p.value    
+## b(Intercept)   1.0505   0.04280  24.540 0.000e+00 ***
+## bgender       -0.1659   0.03534  -4.695 2.673e-06 ***
+## btype1         0.7367   0.03977  18.524 0.000e+00 ***
+## bage75         0.1307   0.03775   3.462 5.369e-04 ***
+## 
+## alpha:
+##   Estimate Std.Error z_value p.value    
+## 1    3.782    0.2804   13.49       0 ***
+## 
+## Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+## 
+## Log-likelihood:  -4177.06389065033
+</code></pre>
+<pre><code class="language-r">margins(ZTNB.2, df)
+</code></pre>
+<pre><code>## Call:
+## formula:  los ~ gender + type1 + age75 
+## distribution:  negbin 
+## 
+## Marginal effects:
+##        Marginal.effects Std.Error z_value   p.value    
+## gender          -0.7292    0.1592  -4.580 4.650e-06 ***
+## type1            2.6991    0.1338  20.166 0.000e+00 ***
+## age75            0.5795    0.1728   3.354 7.954e-04 ***
+## 
+## Signif. codes:  0 ***' 0.001 **' 0.01 *' 0.05 .' 0.1  ' 1
+</code></pre>
+<pre><code class="language-r"># Testing
+oneWald(OIZTNB.2)
+</code></pre>
+<pre><code>## $W
+## [1] 690.5574
+## 
+## $pval
+## [1] 0
+</code></pre>
+<pre><code class="language-r">oneLRT(OIZTNB.2, ZTNB.2)
+</code></pre>
+<pre><code>## $LRTstat
+## [1] 106.4084
+## 
+## $pval
+## [1] 0
+</code></pre>
+<pre><code class="language-r"># Figure 2
+oneplot(OIZTNB.2, ZTNB.2, df=df, maxpred=11, ylimit=390)
+</code></pre>
+<p><img src="data:image/png;base64,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" alt="plot of chunk unnamed-chunk-1" /></p>
+<pre><code class="language-r">## Section 6.3: Recreation demand. Data is also from &quot;COUNT&quot; package.
+data(loomis)
+df &lt;- loomis
+df &lt;- df[complete.cases(df), ]
+
+# Table 4
+formula &lt;- anvisits ~ gender + income2 + income3 + income4 + travel2 + travel3 | gender + income2 + income3 + income4 + travel2 + travel3
+OIZTNB.3 &lt;- oneinfl(formula, df, dist=&quot;negbin&quot;)
+summary(OIZTNB.3)
+</code></pre>
+<pre><code>## Call:
+## formula:  anvisits ~ gender + income2 + income3 + income4 + travel2 + travel3 |  
+##  formula:      gender + income2 + income3 + income4 + travel2 + travel3 
+## distribution:  negbin 
+## 
+## Coefficients (beta):
+##              Estimate Std.Error z_value   p.value    
+## b(Intercept)   3.4145    0.4297  7.9458 1.998e-15 ***
+## bgender        0.4694    0.1963  2.3914 1.679e-02   *
+## bincome2       0.1887    0.2848  0.6627 5.075e-01    
+## bincome3      -0.5263    0.3133 -1.6800 9.297e-02   .
+## bincome4      -0.7804    0.2697 -2.8939 3.804e-03  **
+## btravel2      -0.4987    0.2086 -2.3907 1.682e-02   *
+## btravel3      -2.1424    0.2886 -7.4244 1.132e-13 ***
+## 
+## Coefficients (gamma):
+##               Estimate Std.Error  z_value   p.value    
+## g(Intercept) -3.480031    0.9862 -3.52857 4.178e-04 ***
+## ggender      -0.530470    0.3427 -1.54771 1.217e-01    
+## gincome2      0.346603    0.6042  0.57363 5.662e-01    
+## gincome3      1.141761    0.5877  1.94261 5.206e-02   .
+## gincome4      0.003421    0.5554  0.00616 9.951e-01    
+## gtravel2      1.982466    0.7668  2.58542 9.726e-03  **
+## gtravel3      4.827657    0.7633  6.32452 2.540e-10 ***
+## 
+## alpha:
+##   Estimate Std.Error z_value   p.value    
+## 1   0.4872   0.09618   5.065 4.081e-07 ***
+## 
+## Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+## 
+## average one-inflation:  0.242633905334975
+## average absolute one-inflation:  0.264602639179767
+## Log-likelihood:  -1116.286418086
+</code></pre>
+<pre><code class="language-r">margins(OIZTNB.3, df)
+</code></pre>
+<pre><code>## Call:
+## formula:  anvisits ~ gender + income2 + income3 + income4 + travel2 + travel3 |  
+##  formula:      gender + income2 + income3 + income4 + travel2 + travel3 
+## distribution:  negbin 
+## 
+## Marginal effects:
+##         Marginal.effects Std.Error z_value   p.value    
+## gender             8.554     1.990  4.2989 1.717e-05 ***
+## income2            4.154     7.756  0.5356 5.922e-01    
+## income3          -14.199     6.082 -2.3347 1.956e-02   *
+## income4          -17.004     5.664 -3.0024 2.679e-03  **
+## travel2          -16.782     5.991 -2.8011 5.093e-03  **
+## travel3          -40.751     4.588 -8.8823 0.000e+00 ***
+## 
+## Signif. codes:  0 ***' 0.001 **' 0.01 *' 0.05 .' 0.1  ' 1
+</code></pre>
+<pre><code class="language-r">ZTNB.3 &lt;- truncreg(anvisits ~ gender + income2 + income3 + income4 + travel2 + travel3, df, dist=&quot;negbin&quot;)
+summary(ZTNB.3)
+</code></pre>
+<pre><code>## Call:
+## formula:  anvisits ~ gender + income2 + income3 + income4 + travel2 + travel3 
+## distribution:  negbin 
+## 
+## Coefficients (beta):
+##              Estimate Std.Error  z_value  p.value    
+## b(Intercept)  -0.3259    1.0241  -0.3182 0.750299    
+## bgender        0.8408    0.2810   2.9919 0.002773  **
+## bincome2       1.1661    0.4840   2.4093 0.015983   *
+## bincome3      -0.9575    0.4195  -2.2827 0.022450   *
+## bincome4      -0.3259    0.4297  -0.7584 0.448204    
+## btravel2      -0.5822    0.3578  -1.6272 0.103700    
+## btravel3      -4.1408    0.3557 -11.6410 0.000000 ***
+## 
+## alpha:
+##   Estimate Std.Error z_value p.value 
+## 1 0.007729  0.006475   1.194  0.2326 
+## 
+## Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+## 
+## Log-likelihood:  -1165.82439770087
+</code></pre>
+<pre><code class="language-r">margins(ZTNB.3, df)
+</code></pre>
+<pre><code>## Call:
+## formula:  anvisits ~ gender + income2 + income3 + income4 + travel2 + travel3 
+## distribution:  negbin 
+## 
+## Marginal effects:
+##         Marginal.effects Std.Error z_value   p.value    
+## gender             14.01      3.55  3.9463 7.936e-05 ***
+## income2            41.26     23.85  1.7301 8.361e-02   .
+## income3           -24.20      9.56 -2.5315 1.136e-02   *
+## income4           -10.28     12.19 -0.8433 3.991e-01    
+## travel2           -20.31     13.97 -1.4538 1.460e-01    
+## travel3           -54.93     12.83 -4.2803 1.867e-05 ***
+## 
+## Signif. codes:  0 ***' 0.001 **' 0.01 *' 0.05 .' 0.1  ' 1
+</code></pre>
+<pre><code class="language-r"># Testing
+oneWald(OIZTNB.3)
+</code></pre>
+<pre><code>## $W
+## [1] 99.79372
+## 
+## $pval
+## [1] 0
+</code></pre>
+<pre><code class="language-r">oneLRT(OIZTNB.3, ZTNB.3)
+</code></pre>
+<pre><code>## $LRTstat
+## [1] 99.07596
+## 
+## $pval
+## [1] 0
+</code></pre>
+<pre><code class="language-r"># Figure 3
+oneplot(OIZTNB.3, ZTNB.3, df=df, maxpred=9, ylim=120)
+</code></pre>
+<p><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAfgAAAH4CAMAAACR9g9NAAAAjVBMVEUAAAAAADoAAGYAAP8AOjoAOmYAOpAAZrY6AAA6ADo6AGY6OmY6OpA6kJA6kLY6kNtmAABmADpmAGZmOgBmOpBmtv+QOgCQOjqQOmaQZgCQtpCQ27aQ29uQ2/+2ZgC2tma225C2/7a2/9u2//++vr7bkDrb25Db/7bb////AAD/tmb/25D//7b//9v////6MpBWAAAACXBIWXMAAAsSAAALEgHS3X78AAARRklEQVR4nO2di3rbthlAlaiz3SytnbZ2tm5Wu8XqIsnS+z/eeL9IoADwAvzQf873JRYpAKJ4iCshYnUClaxiHwDEAfFKQbxSEK8UxCsF8UpBvFIQrxTEKwXxSkG8UhCvFMQrBfFKQbxSEK8UxCsF8UpBvFIQrxTEKwXxSkG8UhCvFMQrBfFKQbxSEK8UxCsF8UpBvFIQrxTEKwXxSkG8UhCvFMQrBfFKQbxSEK8UxCsF8UpBvFIQrxTEKwXxSkG8UhCvFMQrxS7+8LDK+fgtwNFAMKzijy/Pxd/93ffFDwbCYRX//su33l+4DcjxSrHX8e9P1PE3CK16pSBeKU7duQ+vNO5uDafG3fHlEfE3hmN3bnPfEb+qWfTI1LBaCMun2g6r6s5tf/h0keMRPwsLncap4rPu3GP+Z3vZn0P8LEgVv0xcaEC8UhCvFMQrRaj4aqjeNFiP+FkQKr4YvRkbFxyQKv70/uV1dFywI1b8InGhAfFKqU/jW4ExyOF82LTdUU+UuQiEeOkgXikD4vPZzc9Fr+rDv55WH//MtOZqy92V5OzNv/36XO7LXn/8VkXqJmv51ClHDJMwi8+b1JnePEPv7/769O1Qiq92V+I3j6d9przZV73qJWv51ClHDJMYLurff6kMHxrxvd35rfKqqG/2NRMnEC+dIfGbfNDs8Dmf3NwVX+6ur4ds+7m7b9OMtCFeOubT+P703Jbprfje7irHt/uqV1eStXzqlCMGT8ynsRD942tekh8+/VlW39syW2e7e3V8u696dSVZy6dOOWLwZOA0bldFiz1v1Wf6P37Ltn/Kcni5uxJ/fCnClPuqQPmOK8laPnXKEYMfjNwpBfFKQbxSEK8UxCtl6DRmLfR83D1rwO+LKVA/vxR/7v56yJvteeeteFbJ80B0xEunPY3r9brdvb37Xvymoeq5Fd3z4vXhIR+bq0dx6m77lWTHvL1YXGhoTuN63TFfDrk3g3TlBLhS9ac/7tt3jl8Rnyhm8eUTSI4v1VjN9q4asy/+27TjtuVg/rVkR729WFxoGBB/X/zZlOL35Z2XWvz7b9+bOn7oETURxXdrLBjEXMeX4qscn998yanFn7aPTVH/MtC6iyZ+3buAYZCBu3PdOn5TZv9W/PHr73Xtv0F8ogzdpPn4rW7VN08ca8QXTfvixdjJ74uJX68x78bQadzX/fj/lh34+6744hatkH58/3kMtXivxzSoJPmRu9Vbj9J7f98b4i9BvFJuTXyu/nwP4g3cnvhMPeLt3J743Q7xDtyc+F0G4u2Yz8moW7H2ZF3f9om7uvR+YR7xl7TnZLfrv+N9K9ac7Ji3feKuDN7PzSP+kuac5Ker+4b/rVhjsqPe9olLjh9HfU7KE9Z5w/9WrCnZcW/7xDXV8fTj7XSL+q73EbdizcmOedsnrqFVj3gHBs7JmFuxDsk6vu0T19CPR7wDA+dkzK1Yh2Qd3/aJi/hxDHTnxtyKtSfr+rZPXMSPw3hOjqNuxVqTdX7bJ65B/Butejs3N3KHeDduU/wa8Takih9eVBjxsyBU/JUlRhE/C0LFX1lU2EH8eSWP+EuEip+W4xFvR6j4K4sKI34WpIp3jmsWv0a8hWnLCg5j+dQpR3y2aRJ/luURL4WFu3OIl8rSjTvEC2VMd26gFkF8SpDjlbJ0d+5tvUO8RBZv1b8hXiSIVwrilbK8+F4lj3gp2LtzzosKIz4l7CacFxVGfEo4mHB9rtKA+DfES2T5Oh7xIgkgvlvWI14KiFcK4pWCeKWEEN9p3iFeCgHEd7M84qWAeKUgXimIV0oQ8W3rDvFSQLxSEK+UEOI7lTzipRBGfJPlES8FxCsF8UpBvFIQr5Qg4lvziJcC4pWCeKUgXimhxFfmES8FxCsF8UoJI76p5BEvBcQrJZj40jzipYB4pSBeKYhXSiDxtXnESwHxSkG8UhCvFMQrJaD43DzipYB4pYQSX5X1iJcC4pUSUnxmHvFSQLxSEK8UxCslmPiydYd4KdhNTFxpsp/lES8Fq4mp684hXiZWE4aVJgfiIj4lyPFKsZuYuNJkT/zbbq7jhokEbdUjXg5jxHutJn1W1s9y0DAdp+7c/XaGoh7xorA37r6+nrb3mf/PExt3iBeFU3du+zhDd64Qv8K8EALneMRLwamOf5ytjke8FMJ15wrziJdCaPEnzMsA8UpBvFIQrxTEKyW4eMzLIKT4zDzipYB4pSBeKeHFY14EiFcK4pUSVPzbGvFSiCAe8xJAvFIQrxTEKwXxSokhHvMCCCv+bV2ERHx8EK8UxCslinjMxwfxSkG8UgKLX1HJCwHxSokjHvPRQbxSSnnvT/ej47abiE+IWt5+tfrwOjJuvYn4hOjIO76sVs8j4xabHuIxH5ta3uEhz/GGB904xK03XcSfyPIyqOv4yweWusZtNxGfEKFb9YgXQiVvn9XuW9/WHeITpirqv+TOD598avhp4jEfmVJe+Wxyw5PJHeK2m4hPiEpe8Wxyw6PsXOI2m07iKetlELxxh3gZRBOP+bg0rfqBVSgc4jabiE+IegDHa6y2F7fdRHxCVOK9hmr7cdtNxCdEJW/zOD5us4n4hKiL+nB1POZFEL5Vj3gRIF4plbzjy+ruf19C3KRBvAzqsfrHw+fv5rH6uVaTvhCP+Zg03blMvLFTN9vasogXRTfHb005frbVpBEviraOX62MJf38OZ5KXgL2Vv1cq0kjXhQRunOU9RIYM3I3cjVpxEuiK29rHLA/PDznLQBDAwDxCdOVN9id2zzPsbYs4iXRlbc3FfXZ1ZCvKzxjdw7zEujV8cbZGFl232d1wP7y97SITxiHVv2muCgMv6NGfMLE6M4hXgC9ot5zKgbiE6aSt72v//OP22z6i8d8NLqTLX2nXCI+YZq7c6eAOZ6yPj7du3O+D0BCfMJEadVT1scH8UqJMNnyhHgB2Cdb2uK2m4hPCOtkS2vcdtNdPK276FgnW1rjtptjxGM+EtbJlva4zSbiEyJOqx7x0Qn/+/gCxMemquO/+j65uo3bbo4Sj/k4RPh9fA7iY5ObGFfQTxJPWR+bUvx/QtfxiI9NYWIzZv4N4pMmUqueSj42kfrxiI8N4pUSSzyVfGQEiMd8DBCvFMQrBfFKQbxSJIjHfASiiSfLxwXxSkG8UkSIx3x4EK8UxCslnngq+aggXikyxGM+OIhXCuKVIkX8DvVhkSF+t8N8YCKK7zwdYYf50EgQv9thPjgSxJPjIyBCPHV8eGSIPyE+NELE52A+JDHFYz4idvGzrybdgvh4WMUvsLZsw5l4zAfEKn7+1aRbzsVjPhyicjzmw2Gv4+dfTboB8fGQ1KrPwXwgxoifupp0C+aj4Sj+8MnwdKRFxGM+DPZW/fBahIhPGJfGXaY8YI7HfBBcivr3p7u/AorHfAjc6vjDg+mhl0uJx3wAonbnyPLxECke88sjUzzmF0eoeMwvDeKVIlU85hdGrHjML0tk8ZiPBeKVIlg85pdEsnjML4ho8ZhfDsQrJbZ4zEdCuHjML4V08ZhfCMQrRbx4zC+DfPGYX4QExGN+CaKLJ8vHIQXxmF+AJMRjfn7SEI/52UG8UhIRj/m5SUU85mcmvnjMRwHxSklHPOZnJSHxmJ+TlMRjfkYQrxQB4jEfgzjiVz3WKzOGj8T8XEQS39u59igdMD8TiFdKauIxPxPJiWc10nlIUjzmpyNB/ID5gaKeNepmITXxrEY6E6mJJ8fPRHLiyzoe9VNJT3wlHfPTSFB8BZl+EiLEm81bDw31E0hZPOX9BNIWT6YfTeLiUT8W+9ldYjXpGcVT3o/DenYXWVt2VvFk+jFYz+4iq0nPKx71I5CR443mvZofmPfEfnaXWE16fvFkek9ktOpnEE+m92OM+OmrSS8inkzvg1N37sPrwo27ecSj3gOnxt3x5XFp8Qbzo2ohzDvi2J3b3C8pfl0wi3gyvSOu3bntD5frSYsUj3o3XLpzj/mf7WV/brZZtmuj+fEdDszbkdCdm108md6OBPGN+bUp7DhQb0GQ+OrFPOLL8h79g4gQ3+vONe4nimci9lWEiL8sAaaLx/w1RIqv5U84thM/urmOWPF52InuMX8F0eIzJmX8yjruDUgXn3Mm3+NKaIzj/pwUxOc07suu34ijpdDvIV98+3CsjPL/9cVzshyPGPcNCYjv7jOP8fnNy8R9TmLiB8b1fafn4T458W2enzS66+V+4PmLoyobMSQqvvN6lPiTj/vRz2qVTHLiL6ZpjW3ln5zdI/563FDiTUEHOnn2K6Lt5A1fBIi/Hjem+DLomX3XLn/h/ko3H/HX48YXX9Da9hjruTqqj/jrcYWIL+i2/V2+ytX7OYi/HleS+Bwf8Y15k3zEX48rTXxd1Lv577byzuQj/npcqeJ7W8MXQM92L+sj/npcceLN3Tmzf9PO2j7ir8cVKP4Ka1N5YAhX2F/kCOKiVnzFuo/5e76d2TdcCYhPTHzFVfWrWncl3FQGID5N8W1Rb8j+nSNoO32IbzdvQvzFvt793657xNebKYu/dkNn1Z0E8LYuta/7V8DgEUz9dcBSIN7he3Y/KnNfeO+UBFfGe/PAMtXflHinqTL+3/hiKkgus74KOhgGfcuLxPFzgl4htyXeI1mf79lP4LLar1K9vALqasHlUzxuLMwB4h2+53kShkc1GVLtXgE7u1U/8ZMvEcQ7fM/xqTZF/+7sGrjoNa7LGsTN5wylA+Idvuf4VE11/PkN4G4FcX0IsU0W8aOT9fmeU1K9Np+zNwmg3y48LxZ6qt2uDsuXmi8u4iew2+3OSwID3R4E4scl6/M9F0n1nI7zne0y8OolmkG8w/dcJNULhvL67vI6sBQMLiDe4XsukuolbipdqgQH1Ir3GOSLP2h8DjleTLKB785N9o74eYMGY/IvvRE/a9B0QPysQdMB8bMGTQfEzxo0nadnIH7WoOmUDoifNSjip5/Kmxcft1ZA/KxB02kzIn7WoIif/p0R30129mrBHvrwUKS67GrS85yfGxbvEdYNa+gw68dPDBs/2dsTXy8t2llidKBs8SiOnIL6N35jJrvQSfBPdi7xV3I8JIz9Mnl/Ki4nQx0PCSNiFAnCg3ilIF4piFcK4pWCeKUgXimIVwrilYJ4pSBeKYhXCuKVgnilIF4pS4o/fHK8h59P63t2THTvMzWgnkViZ+s+5eD4svrw6p6q61fLToLzF/MJO8CC4veuB/f+5fV0+NHtXOYX0/be9RC2ztfTxjVgEdRnOpJj2PwkbB2TfX96dg47xHLiNx9+d8zx+1ykx5l3L0n+/qtjqsevjnm4N/nQKfgXxyv683fnpIuwjukOIaKoP7mfnxzXHH/8+m/Xor6YX+ZYJH/+p3NRf3I/WJ8cf0Pijy+Pzqk+ONewj851fF7TOOb6w8NzcebdcPeTXXuupXdR1HtcfCZkiH9/cvZ+cj6ZmR33xl2OW23jl92cWwP5pbd3bbFljbuf3SsnIyLE55nIBzdDZZPa44pyS/b9Nx/xG9fPz68Qn+Lbs6lxgQTxPt79zo9zjs+TPf7D7XA3HkW9e6PRJ8cX7QHnro0ZCeJ9ert5YPfazasf75psVhk7d6I98vDe44tlYaf+voWRO6UgXimIVwrilYJ4pSBeKYhXCuKVgnilIF4piFcK4pWCeKUgXimIVwrilYJ4pSBeKYhXCuKVgngjPj8CShPEG0H8TfP+lM9oLqdL56qzf/kv41bPPjOoE0Wz+HzW/f7u++Yx/78W/9Bs3TaaxZd2898ivX95rcW3f24b1eKLH0Lljo9fEa8IcrxS8jo+M1zW8cUPET8iXgXdVn3+s8mffqnFH19o1cNNgnilIF4piFcK4pWCeKUgXimIVwrilYJ4pSBeKYhXCuKVgnilIF4piFcK4pWCeKX8HwG+WWtBX/aLAAAAAElFTkSuQmCC" alt="plot of chunk unnamed-chunk-1" /></p>
+<pre><code class="language-r"># Comparison to glm.nb()
+library(MASS)
+glmlmnb &lt;- glm.nb(anvisits ~ gender + factor(income) + factor(travel), data=df)
+summary(glmlmnb)
+</code></pre>
+<pre><code>## 
+## Call:
+## glm.nb(formula = anvisits ~ gender + factor(income) + factor(travel), 
+##     data = df, init.theta = 0.8128559417, link = log)
+## 
+## Coefficients:
+##                 Estimate Std. Error z value Pr(&gt;|z|)    
+## (Intercept)       3.5065     0.2868  12.225  &lt; 2e-16 ***
+## gender            0.4863     0.1326   3.668 0.000245 ***
+## factor(income)2   0.2511     0.2022   1.242 0.214368    
+## factor(income)3  -0.6834     0.2144  -3.187 0.001439 ** 
+## factor(income)4  -0.5818     0.1977  -2.942 0.003261 ** 
+## factor(travel)2  -0.5700     0.1566  -3.639 0.000273 ***
+## factor(travel)3  -2.6389     0.1716 -15.381  &lt; 2e-16 ***
+## ---
+## Signif. codes:  0 '***' 0.001 '**' 0.01 '*' 0.05 '.' 0.1 ' ' 1
+## 
+## (Dispersion parameter for Negative Binomial(0.8129) family taken to be 1)
+## 
+##     Null deviance: 689.22  on 341  degrees of freedom
+## Residual deviance: 363.59  on 335  degrees of freedom
+## AIC: 2582.6
+## 
+## Number of Fisher Scoring iterations: 1
+## 
+## 
+##               Theta:  0.8129 
+##           Std. Err.:  0.0593 
+## 
+##  2 x log-likelihood:  -2566.6200
+</code></pre>
+<pre><code class="language-r">## Section 6.4: Fishing trips
+install.packages(&quot;foreign&quot;)
+</code></pre>
+<pre><code>## Installing package into 'C:/Users/ryang/AppData/Local/R/win-library/4.4'
+## (as 'lib' is unspecified)
+</code></pre>
+<pre><code>## package 'foreign' successfully unpacked and MD5 sums checked
+## 
+## The downloaded binary packages are in
+## 	C:\Users\ryang\AppData\Local\Temp\RtmpYjoew5\downloaded_packages
+</code></pre>
+<pre><code class="language-r">library(foreign)
+df &lt;- read.dta(&quot;https://rtgodwin.com/data/subject.dta&quot;)
+
+# Table 5
+formula &lt;- NTRIPS ~ AVLONG + BAD + CROWD1 + INC + MPERMILE + FOFT1 + WORK1 | AVLONG + BAD + CROWD1 + INC + MPERMILE + FOFT1 + WORK1
+OIZTNB.4 &lt;- oneinfl(formula, df, dist = &quot;negbin&quot;)
+summary(OIZTNB.4)
+</code></pre>
+<pre><code>## Call:
+## formula:  NTRIPS ~ AVLONG + BAD + CROWD1 + INC + MPERMILE + FOFT1 + WORK1 |  
+##  formula:      AVLONG + BAD + CROWD1 + INC + MPERMILE + FOFT1 + WORK1 
+## distribution:  negbin 
+## 
+## Coefficients (beta):
+##               Estimate Std.Error  z_value   p.value    
+## b(Intercept)  2.188192  0.103373  21.1678 0.000e+00 ***
+## bAVLONG      -0.283995  0.026906 -10.5553 0.000e+00 ***
+## bBAD         -0.147301  0.077993  -1.8887 5.894e-02   .
+## bCROWD1      -0.025764  0.033047  -0.7796 4.356e-01    
+## bINC          0.001001  0.001032   0.9705 3.318e-01    
+## bMPERMILE     1.012869  0.443413   2.2843 2.236e-02   *
+## bFOFT1       -0.190088  0.034755  -5.4694 4.516e-08 ***
+## bWORK1        0.118410  0.033658   3.5180 4.348e-04 ***
+## 
+## Coefficients (gamma):
+##              Estimate Std.Error z_value   p.value    
+## g(Intercept) -2.32275  0.283616 -8.1898 2.220e-16 ***
+## gAVLONG       0.25548  0.046180  5.5323 3.161e-08 ***
+## gBAD          0.19118  0.206209  0.9271 3.539e-01    
+## gCROWD1       0.07463  0.090504  0.8245 4.096e-01    
+## gINC          0.00250  0.002629  0.9512 3.415e-01    
+## gMPERMILE    -3.02748  1.461473 -2.0715 3.831e-02   *
+## gFOFT1        0.41578  0.086906  4.7842 1.716e-06 ***
+## gWORK1        0.02545  0.091523  0.2781 7.810e-01    
+## 
+## alpha:
+##   Estimate Std.Error z_value p.value    
+## 1    1.397    0.1632   8.561       0 ***
+## 
+## Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+## 
+## average one-inflation:  -0.0221051956832215
+## average absolute one-inflation:  0.047671414492766
+## Log-likelihood:  -2851.82877040832
+</code></pre>
+<pre><code class="language-r">margins(OIZTNB.4, df)
+</code></pre>
+<pre><code>## Call:
+## formula:  NTRIPS ~ AVLONG + BAD + CROWD1 + INC + MPERMILE + FOFT1 + WORK1 |  
+##  formula:      AVLONG + BAD + CROWD1 + INC + MPERMILE + FOFT1 + WORK1 
+## distribution:  negbin 
+## 
+## Marginal effects:
+##          Marginal.effects Std.Error  z_value   p.value    
+## AVLONG          -1.674383  0.166314 -10.0676 0.000e+00 ***
+## BAD             -0.795008  0.365812  -2.1733 2.976e-02   *
+## CROWD1          -0.175464  0.185951  -0.9436 3.454e-01    
+## INC              0.004344  0.005786   0.7508 4.528e-01    
+## MPERMILE         6.941088  2.531932   2.7414 6.117e-03  **
+## FOFT1           -1.232849  0.199962  -6.1654 7.030e-10 ***
+## WORK1            0.637671  0.192160   3.3184 9.052e-04 ***
+## 
+## Signif. codes:  0 ***' 0.001 **' 0.01 *' 0.05 .' 0.1  ' 1
+</code></pre>
+<pre><code class="language-r">ZTNB.4 &lt;- truncreg(NTRIPS ~ AVLONG + BAD + CROWD1 + INC + MPERMILE + FOFT1 + WORK1, df, dist=&quot;negbin&quot;)
+summary(ZTNB.4)
+</code></pre>
+<pre><code>## Call:
+## formula:  NTRIPS ~ AVLONG + BAD + CROWD1 + INC + MPERMILE + FOFT1 + WORK1 
+## distribution:  negbin 
+## 
+## Coefficients (beta):
+##                Estimate Std.Error  z_value   p.value    
+## b(Intercept)  2.1523785 0.0905367  23.7735 0.000e+00 ***
+## bAVLONG      -0.2568544 0.0217481 -11.8104 0.000e+00 ***
+## bBAD         -0.1507364 0.0698623  -2.1576 3.096e-02   *
+## bCROWD1      -0.0341243 0.0298342  -1.1438 2.527e-01    
+## bINC          0.0004125 0.0009202   0.4482 6.540e-01    
+## bMPERMILE     1.1877897 0.4073606   2.9158 3.548e-03  **
+## bFOFT1       -0.2140346 0.0306926  -6.9735 3.092e-12 ***
+## bWORK1        0.0967090 0.0301915   3.2032 1.359e-03  **
+## 
+## alpha:
+##   Estimate Std.Error z_value p.value    
+## 1    1.451    0.1189    12.2       0 ***
+## 
+## Signif. codes:  0 `***' 0.001 `**' 0.01 `*' 0.05 `.' 0.1 ` ' 1
+## 
+## Log-likelihood:  -2858.71598109464
+</code></pre>
+<pre><code class="language-r">margins(ZTNB.4, df)
+</code></pre>
+<pre><code>## Call:
+## formula:  NTRIPS ~ AVLONG + BAD + CROWD1 + INC + MPERMILE + FOFT1 + WORK1 
+## distribution:  negbin 
+## 
+## Marginal effects:
+##          Marginal.effects Std.Error  z_value   p.value    
+## AVLONG          -1.445694  0.138637 -10.4279 0.000e+00 ***
+## BAD             -0.814024  0.363445  -2.2397 2.511e-02   *
+## CROWD1          -0.192067  0.168140  -1.1423 2.533e-01    
+## INC              0.002322  0.005181   0.4481 6.541e-01    
+## MPERMILE         6.685423  2.316452   2.8861 3.901e-03  **
+## FOFT1           -1.204684  0.181925  -6.6219 3.547e-11 ***
+## WORK1            0.544322  0.172017   3.1644 1.554e-03  **
+## 
+## Signif. codes:  0 ***' 0.001 **' 0.01 *' 0.05 .' 0.1  ' 1
+</code></pre>
+<pre><code class="language-r"># Testing
+oneWald(OIZTNB.4)
+</code></pre>
+<pre><code>## $W
+## [1] 395.965
+## 
+## $pval
+## [1] 0
+</code></pre>
+<pre><code class="language-r">oneLRT(OIZTNB.4, ZTNB.4)
+</code></pre>
+<pre><code>## $LRTstat
+## [1] 13.77442
+## 
+## $pval
+## [1] 0.08783784
+</code></pre>
+<pre><code class="language-r"># Figure 4
+oneplot(OIZTNB.4, ZTNB.4, df=df, maxpred=14, ylimit=170)
+</code></pre>
+<p><img src="data:image/png;base64,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" alt="plot of chunk unnamed-chunk-1" /></p>
+<pre><code class="language-r">sessionInfo() 
+</code></pre>
+<pre><code>## R version 4.4.2 (2024-10-31 ucrt)
+## Platform: x86_64-w64-mingw32/x64
+## Running under: Windows 11 x64 (build 22631)
+## 
+## Matrix products: default
+## 
+## 
+## locale:
+## [1] LC_COLLATE=English_Canada.utf8  LC_CTYPE=English_Canada.utf8    LC_MONETARY=English_Canada.utf8 LC_NUMERIC=C                    LC_TIME=English_Canada.utf8    
+## 
+## time zone: America/Winnipeg
+## tzcode source: internal
+## 
+## attached base packages:
+## [1] stats     graphics  grDevices utils     datasets  methods   base     
+## 
+## other attached packages:
+## [1] foreign_0.8-88 COUNT_1.3.4    sandwich_3.1-0 msme_0.5.3     lattice_0.22-6 MASS_7.3-61    oneinfl_1.0.1 
+## 
+## loaded via a namespace (and not attached):
+## [1] zoo_1.8-12     compiler_4.4.2 tools_4.4.2    grid_4.4.2     knitr_1.49     xfun_0.50      evaluate_0.23
+</code></pre>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/components/prism-core.min.js" defer></script>
+<script src="https://cdn.jsdelivr.net/npm/prismjs@1.29.0/plugins/autoloader/prism-autoloader.min.js" defer></script>
+</body>
+</html>
