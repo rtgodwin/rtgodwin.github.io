@@ -34,7 +34,47 @@ toc: false
 | [2014](https://rtgodwin.com/3040/exams/final2014.pdf) | [Answers](https://rtgodwin.com/3040/exams/final2014ans.pdf) |
 | [2013](https://rtgodwin.com/3040/exams/final2013.pdf) | [Answers](https://rtgodwin.com/3040/exams/final2013ans.pdf) |
 
-## Final exam review topics (from Winter 2023)
+## Final exam review topics
+
+### Chapter 2
+- Define / calculate (true) mean (from a prob. function)
+- Same for variance
+- Properties of mean / variance (if you multiply by $c$, variance is multiplied by $c^2$)
+- Know what cov. and corr. are measuring (very similar - corr. is between -1 and 1)
+- Skip blizzard/midterm example
+- Basic result of CLT, and how it applies to sample average and LS estimator (it makes them Normal)
+
+### Chapter 3
+- Estimators (y-bar, LS intercept and slope) are random variables. Explain why
+- Bias / efficiency / consistency (define these terms either in a sentence or an equation)
+- Know that $\bar{y}$ and LS is unbiased / efficient / consistent under some assumptions.
+- GM theorem - establishes efficiency
+- Define: significance, type I and II error, critical value, confidence interval, p-value
+- Basics of hypothesis testing
+- Why t-test instead of z-test, and how the distribution changes from Normal to t when we use $s^2$
+- $\hat{\sigma}^2$ (biased) and $s^2$ (unbiased)
+- degrees of freedom
+
+### Chapter 4
+- Most models from econ are straight lines (linear)
+- Begin to define the components of the pop. model
+- The importance of the error term (epsilon)
+- Predicted values and residuals
+- Least squares is derived by min. sum of squared residuals
+- LS is unbiased / efficient / consistent (don't bother with the 6 assumptions)
+
+### Chapter 5
+- R-square: define it. Pick it out in R output
+- To derive: take sample variance of both sides of $y = \hat{y} + e$
+- TSS / ESS / RSS terminology
+- no fit / perfect fit (draw diagram)
+
+- Hypothesis testing: calculate a t-stat, get the decision to reject/fail to reject correct.
+- Reject H0 when: p-value is small (< 0.05) / t-stat is greater than crit. value (e.g. 1.96) / if hypothesis is outside the C.I.
+- var(b1) tells us when the LS estimator becomes more efficient (3 things)
+
+- Definition of dummy variables
+- Interpretating the beta on a dummy variable
 
 ### Chapter 6
 - Why we need multiple "X" variables - OVB
