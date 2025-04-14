@@ -90,13 +90,12 @@ cps <- read.csv("http://rtgodwin.com/data/cps1985.csv")
 Estimate the model using the `lm()` function:
 
 ```r
-cps.mod <- lm(log(wage) ~ education + gender + age + experience + gender *
-                education, data = cps)
+cps.mod <- lm(log(wage) ~ education + gender + age + experience, data = cps)
 summary(cps.mod)
 ```
 
 ```
-CCoefficients:
+Coefficients:
             Estimate Std. Error t value Pr(>|t|)    
 (Intercept)  0.89621    0.69229   1.295    0.196    
 education    0.17746    0.11371   1.561    0.119    
@@ -114,31 +113,11 @@ F-statistic: 48.99 on 4 and 529 DF,  p-value: < 2.2e-16
 
 ### (b)
 
-Since it is a log-linear model, changes in the $X$ variables have _approximate_ $100\times\beta$ percentage change effects on `wage`. From the output above, workers with an education make 17.8% more compared to workers without an education.
+The estimated effect of education on wage has a percentage change interpretation, since wage is in logs. Each additional year of education is associated with an approximate 17.8% increase in wage. However, with a p-value of 0.119 the effect is not significant.
 
 ### (c)
 
 If there is heteroskedasticity (instead of homoskedasticity), then the standard errors, t-statistics, and p-values, are all wrong.
-
-We can test for heteroskedasticity using White's test. The null hypothesis is that we have _homoskedasticity_, that is, $H_0:\operatorname{var}(\epsilon_i) = \sigma^2 \quad ; \quad \forall i$. The alternative hypothesis is heteroskedasticity. White's test requires we install a package, before performing the test:
-
-```r
-install.packages("skedastic")
-library(skedastic)
-white(cps.mod)
-```
-
-```
-# A tibble: 1 × 5
-  statistic p.value parameter method       alternative
-      <dbl>   <dbl>     <dbl> <chr>        <chr>      
-1      8.00   0.433         8 White's Test greater    
-```
-The output we are interested in is the p-value of 0.433. We fail to reject the null, and conclude that the error term is homoskedastic.
-
-### (d)
-
-Becuase the consequences of heteroskedasticity are severe (hypothesis tests are wrong), sometimes we ignore the results of the hypothesis test above. Hypothesis tests can be wrong! (Remember type II error.) We estimate the _heteroskedastic robust standard errors_ anyway.
 
 We need to install two packages before we can estimate the "robust" standard errors (and associated t-statistics and p-values):
 
@@ -164,3 +143,33 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 ```
 
 There are some very important differences from the output in part (a). Under heteroskedasticity, all of the variables are now statistically significant!
+
+## Question 3
+
+### (a)
+
+```r
+did <- read.csv("https://rtgodwin.com/data/card.csv")
+did.mod <- lm(EMP ~ STATE + TIME + STATE * TIME + CO_OWNED, data = did)
+summary(did.mod)
+```
+
+```
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  24.3025     1.1169  21.759  < 2e-16 ***
+STATE        -2.9418     1.2141  -2.423 0.015625 *  
+TIME         -2.2833     1.5403  -1.482 0.138637    
+CO_OWNED     -2.6611     0.7141  -3.727 0.000208 ***
+STATE:TIME    2.7500     1.7170   1.602 0.109659    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 9.432 on 763 degrees of freedom
+Multiple R-squared:  0.02533,	Adjusted R-squared:  0.02022 
+F-statistic: 4.957 on 4 and 763 DF,  p-value: 0.0005991
+```
+
+### (b)
+
+The DiD estimate is the coefficient on the interaction term: 2.75.
