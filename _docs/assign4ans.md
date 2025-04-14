@@ -25,45 +25,6 @@ summary(mod1)
 ```
 Coefficients:
             Estimate Std. Error t value Pr(>|t|)    
-(Intercept)   1553.8      452.8   3.431 0.000686 ***
-carat         7590.7     2770.9   2.739 0.006530 ** 
-I(carat^2)     669.0     4823.2   0.139 0.889771    
-I(carat^3)    3067.1     2541.7   1.207 0.228502    
-colourE      -1279.3      169.9  -7.532 6.16e-13 ***
-colourF      -1695.7      159.4 -10.638  < 2e-16 ***
-colourG      -2058.0      162.9 -12.632  < 2e-16 ***
-colourH      -2558.6      165.1 -15.493  < 2e-16 ***
-colourI      -3251.9      174.2 -18.664  < 2e-16 ***
-clarityVS1   -1199.8      123.6  -9.707  < 2e-16 ***
-clarityVS2   -1585.1      132.8 -11.934  < 2e-16 ***
-clarityVVS1   -308.7      131.4  -2.349 0.019493 *  
-clarityVVS2   -863.4      122.7  -7.036 1.38e-11 ***
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 576.8 on 295 degrees of freedom
-Multiple R-squared:  0.9724,	Adjusted R-squared:  0.9713 
-F-statistic: 865.9 on 12 and 295 DF,  p-value: < 2.2e-16
-```
-
-`colour` and `clarity` are categorical variables - R has automatically created a _system_ of dummy variables for us.
-
-### (b)
-
-The model estimated above has a polynomial with a cubed term in it, so that the degree is 3 ($r = 3$). From the summary output above, we see that the variable $carat^3$ is _insignificant_ (the p-value is 0.228502). That is, we fail to reject to the null hypothesis that the effect of $carat^3$ is zero - we can drop this variable from the model. We now estimate a model with $r=2$:
-
-$$price = \beta_0 + \beta_1carat + \beta_2carat^2 + ...$$
-
-To estimate this model in R, we can use:
-
-```r
-mod2 <- lm(price ~ carat + I(carat^2) + colour + clarity, data = diam)
-summary(mod2)
-```
-
-```
-Coefficients:
-            Estimate Std. Error t value Pr(>|t|)    
 (Intercept)   2028.6      224.2   9.049  < 2e-16 ***
 carat         4351.3      687.6   6.328 9.16e-10 ***
 I(carat^2)    6455.1      522.5  12.353  < 2e-16 ***
@@ -84,15 +45,15 @@ Multiple R-squared:  0.9723,	Adjusted R-squared:  0.9712
 F-statistic:   943 on 11 and 296 DF,  p-value: < 2.2e-16
 ```
 
-We now see that the the highest order term in the polynomial ($carat^2$) is now significant (p-value is approximately 0). We stop estimating models and testing: the degree of the polynomial is 2 ($r=2$).
+`colour` and `clarity` are categorical variables - R has automatically created a _system_ of dummy variables for us.
 
-### (c)
+### (b)
 
 The effect of a 0.1 increase in `carat` will have a **non-constant** effect on `price` (that is the appeal of the polynomial model). In a polynomial model, we can interpret the estimated results by considering specific scenarios. For example, let's get the predicted increase in `price` due to an increase in `carat` of 0.1, when the diamond has a size of 0.1:
 
 ```r
-predict(mod2, data.frame(carat = 0.2, colour = "D", clarity = "VS2")) - predict(
-  mod2, data.frame(carat = 0.1, colour = "D", clarity = "VS2"))
+predict(mod1, data.frame(carat = 0.2, colour = "D", clarity = "VS2")) - predict(
+  mod1, data.frame(carat = 0.1, colour = "D", clarity = "VS2"))
 ```
 
 ```
@@ -106,8 +67,8 @@ When using the `predict` function, we must choose values for all of the $X$ vari
 The whole point of the non-linear model is that the effect of `carat` on `price` is non-constant. To illustrate that you understand this, you need to get the predicted effect of an increase of carats of 0.1, _for a different starting value_. For example, I will compare the effect of a 0.1 increase for when `carat = 0.5`:
 
 ```r
-predict(mod2, data.frame(carat = 0.6, colour = "D", clarity = "VS2")) - predict(
-  mod2, data.frame(carat = 0.5, colour = "D", clarity = "VS2"))
+predict(mod1, data.frame(carat = 0.6, colour = "D", clarity = "VS2")) - predict(
+  mod1, data.frame(carat = 0.5, colour = "D", clarity = "VS2"))
 ```
 
 ```
