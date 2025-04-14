@@ -18,7 +18,7 @@ diam <- read.csv("https://rtgodwin.com/data/diamond.csv")
 ### (a)
 
 ```r
-mod1 <- lm(price ~ carat + I(carat^2) + I(carat^3) + colour + clarity, data = diam)
+mod1 <- lm(price ~ carat + I(carat^2) + colour + clarity, data = diam)
 summary(mod1)
 ```
 
