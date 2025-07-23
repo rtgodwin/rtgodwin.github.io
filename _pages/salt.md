@@ -13,7 +13,7 @@ Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://a
 
 ## Session 7 magic items
 
-<!-- Table with Week 1 items linked to Roll20 and Price centered -->
+<!-- Week 1 items with prices at 50% of listed values -->
 
 <table>
   <thead>
@@ -24,38 +24,23 @@ Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://a
     </tr>
     <tr>
       <th>Item</th>
-      <th style="text-align:center;">Price</th>
+      <th style="text-align:center;">Price (50%)</th>
       <th></th><th></th><th></th><th></th>
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/True%20Strike" target="_blank">Spell scroll: True Strike</a></td>
-      <td style="text-align:center;">10</td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Bag%20of%20Holding" target="_blank">Bag of Holding</a></td>
-      <td style="text-align:center;">300</td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Decanter%20of%20Endless%20Water" target="_blank">Decanter of Endless Water</a></td>
-      <td style="text-align:center;">135000</td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Potion%20of%20Speed" target="_blank">Potion of Speed</a></td>
-      <td style="text-align:center;">400</td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Helm%20of%20Telepathy" target="_blank">Helm of Telepathy</a></td>
-      <td style="text-align:center;">12000</td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Items%3AAdamantine%20Chain%20Mail" target="_blank">Adamantine armor (chain)</a></td>
-      <td style="text-align:center;">300</td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Ring%20of%20Lightning%20Resistance" target="_blank">Ring of Lightning Resistance</a></td>
-      <td style="text-align:center;">6000</td><td></td><td></td><td></td><td></td>
-    </tr>
+    <tr><td><a href="https://roll20.net/compendium/dnd5e/True%20Strike" target="_blank">Spell scroll: True Strike</a></td><td style="text-align:center;">5</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td><a href="https://roll20.net/compendium/dnd5e/Bag%20of%20Holding" target="_blank">Bag of Holding</a></td><td style="text-align:center;">150</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td><a href="https://roll20.net/compendium/dnd5e/Decanter%20of%20Endless%20Water" target="_blank">Decanter of Endless Water</a></td><td style="text-align:center;">67500</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td><a href="https://roll20.net/compendium/dnd5e/Potion%20of%20Speed" target="_blank">Potion of Speed</a></td><td style="text-align:center;">200</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td><a href="https://roll20.net/compendium/dnd5e/Helm%20of%20Telepathy" target="_blank">Helm of Telepathy</a></td><td style="text-align:center;">6000</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td><a href="https://roll20.net/compendium/dnd5e/Items%3AAdamantine%20Chain%20Mail" target="_blank">Adamantine armor (chain)</a></td><td style="text-align:center;">150</td><td></td><td></td><td></td><td></td></tr>
+    <tr><td><a href="https://roll20.net/compendium/dnd5e/Ring%20of%20Lightning%20Resistance" target="_blank">Ring of Lightning Resistance</a></td><td style="text-align:center;">3000</td><td></td><td></td><td></td><td></td></tr>
   </tbody>
 </table>
+
+### Consignment
+
+Any magical item can be obtained for the listed price here: https://drive.google.com/file/d/0B8XAiXpOfz9cMWt1RTBicmpmUDg/view?resourcekey=0-ceHUken0_UhQ3Apa6g4SJA
+
+(The weekly items are 50% off).
