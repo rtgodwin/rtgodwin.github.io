@@ -15,6 +15,8 @@ Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://a
 
 <!-- 6-column table with Item and Price under Week 1 and Price centered -->
 
+<!-- 6-column table with centered Price column under Week 1 -->
+
 <table>
   <thead>
     <tr>
