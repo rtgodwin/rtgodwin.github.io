@@ -13,9 +13,7 @@ Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://a
 
 ## Session 7 magic items
 
-<!-- 6-column table with Item and Price under Week 1 and Price centered -->
-
-<!-- 6-column table with centered Price column under Week 1 -->
+<!-- Table with Week 1 items linked to Roll20 -->
 
 <table>
   <thead>
@@ -27,19 +25,37 @@ Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://a
     <tr>
       <th>Item</th>
       <th style="text-align:center;">Price</th>
-      <th></th>
-      <th></th>
-      <th></th>
-      <th></th>
+      <th></th><th></th><th></th><th></th>
     </tr>
   </thead>
   <tbody>
-    <tr><td>Spell scroll : True Strike</td><td style="text-align:center;">10</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>Bag of Holding</td><td style="text-align:center;">300</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>Decanter of Endless Water</td><td style="text-align:center;">135000</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>Potion of Speed</td><td style="text-align:center;">400</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>Helm of Telepathy</td><td style="text-align:center;">12000</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>Adamantine armor (chain)</td><td style="text-align:center;">300</td><td></td><td></td><td></td><td></td></tr>
-    <tr><td>Ring of Resistance</td><td style="text-align:center;">6000</td><td></td><td></td><td></td><td></td></tr>
+    <tr>
+      <td><a href="https://roll20.net/compendium/dnd5e/True%20Strike" target="_blank">Spell scroll: True Strike</a></td>
+      <td style="text-align:center;">10</td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td><a href="https://roll20.net/compendium/dnd5e/Bag%20of%20Holding" target="_blank">Bag of Holding</a></td>
+      <td style="text-align:center;">300</td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td><a href="https://roll20.net/compendium/dnd5e/Decanter%20of%20Endless%20Water" target="_blank">Decanter of Endless Water</a></td>
+      <td style="text-align:center;">135000</td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td><a href="https://roll20.net/compendium/dnd5e/Potion%20of%20Speed" target="_blank">Potion of Speed</a></td>
+      <td style="text-align:center;">400</td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td><a href="https://roll20.net/compendium/dnd5e/Helm%20of%20Telepathy" target="_blank">Helm of Telepathy</a></td>
+      <td style="text-align:center;">12000</td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td><a href="https://roll20.net/compendium/dnd5e/Items%3AAdamantine%20Chain%20Mail" target="_blank">Adamantine armor (chain)</a></td>
+      <td style="text-align:center;">300</td><td></td><td></td><td></td><td></td>
+    </tr>
+    <tr>
+      <td><a href="https://roll20.net/compendium/dnd5e/Ring%20of%20Resistance" target="_blank">Ring of Resistance</a></td>
+      <td style="text-align:center;">6000</td><td></td><td></td><td></td><td></td>
+    </tr>
   </tbody>
 </table>
