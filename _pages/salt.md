@@ -13,9 +13,7 @@ Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://a
 
 ## Session 7 magic items
 
-<!-- 4-column table with merged headers using HTML -->
-
-<!-- 4-column table with item names and prices -->
+<!-- 4-column table with Item and Price under Group A -->
 
 <table>
   <thead>
@@ -25,20 +23,21 @@ Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://a
     </tr>
     <tr>
       <th>Item</th>
-      <th></th>
       <th>Price</th>
+      <th></th>
       <th></th>
     </tr>
   </thead>
   <tbody>
-    <tr><td colspan="2">Spell scroll : True Strike</td><td colspan="2">10</td></tr>
-    <tr><td colspan="2">Bag of Holding</td><td colspan="2">300</td></tr>
-    <tr><td colspan="2">Decanter of Endless Water</td><td colspan="2">135000</td></tr>
-    <tr><td colspan="2">Potion of Speed</td><td colspan="2">400</td></tr>
-    <tr><td colspan="2">Helm of Telepathy</td><td colspan="2">12000</td></tr>
-    <tr><td colspan="2">Adamantine armor (chain)</td><td colspan="2">300</td></tr>
-    <tr><td colspan="2">Ring of Resistance</td><td colspan="2">6000</td></tr>
+    <tr><td>Spell scroll : True Strike</td><td>10</td><td></td><td></td></tr>
+    <tr><td>Bag of Holding</td><td>300</td><td></td><td></td></tr>
+    <tr><td>Decanter of Endless Water</td><td>135000</td><td></td><td></td></tr>
+    <tr><td>Potion of Speed</td><td>400</td><td></td><td></td></tr>
+    <tr><td>Helm of Telepathy</td><td>12000</td><td></td><td></td></tr>
+    <tr><td>Adamantine armor (chain)</td><td>300</td><td></td><td></td></tr>
+    <tr><td>Ring of Resistance</td><td>6000</td><td></td><td></td></tr>
   </tbody>
 </table>
+
 
 
