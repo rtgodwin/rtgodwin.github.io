@@ -77,12 +77,13 @@ Sell all of your items at face value. Take 500 gp for the contraband. You have c
     <tr>
       <td><a href="https://roll20.net/compendium/dnd5e/Ring%20of%20Lightning%20Resistance" target="_blank">Ring of Lightning Resistance</a></td>
       <td style="text-align:center;">3000</td>
-      <td><a href="https://roll20.net/compendium/dnd5e/Hand%20Crossbow" target="_blank">Crossbow, Hand</a></td>
-      <td style="text-align:center;"></td>
+      <td><a href="https://roll20.net/compendium/dnd5e/Items%3AHand%20Crossbow%20%2B1" target="_blank">+1 Hand Crossbow</a></td>
+      <td style="text-align:center;">540</td>
       <td></td><td></td>
     </tr>
   </tbody>
 </table>
+
 
 
 ### Consignment
