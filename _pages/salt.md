@@ -13,7 +13,7 @@ Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://a
 
 ## Session 7 magic items
 
-<!-- Table with Week 1 items linked to Roll20 -->
+<!-- Table with Week 1 items linked to Roll20 and Price centered -->
 
 <table>
   <thead>
@@ -54,7 +54,7 @@ Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://a
       <td style="text-align:center;">300</td><td></td><td></td><td></td><td></td>
     </tr>
     <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Ring%20of%20Resistance" target="_blank">Ring of Resistance</a></td>
+      <td><a href="https://roll20.net/compendium/dnd5e/Ring%20of%20Lightning%20Resistance" target="_blank">Ring of Lightning Resistance</a></td>
       <td style="text-align:center;">6000</td><td></td><td></td><td></td><td></td>
     </tr>
   </tbody>
