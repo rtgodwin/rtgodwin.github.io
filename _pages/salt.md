@@ -11,7 +11,9 @@ masthead: false
 
 Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://app.roll20.net/join/18908891/7X3yUA)
 
-## Session 7 magic items
+## Session 7 notes
+
+Sell all of your items at face value. Take 500 gp for the contraband. You have chosen to lie to the council about the smuggled goods.
 
 <table>
   <thead>
