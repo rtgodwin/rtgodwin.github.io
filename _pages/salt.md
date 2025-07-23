@@ -13,7 +13,7 @@ Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://a
 
 ## Session 7 notes
 
-Sell all of your items at face value. Take 500 gp for the contraband. You have chosen to lie to the council about the smuggled goods.
+Sell all of your items at face value. Take 500 gp for the contraband. You have chosen to lie to the council about the smuggled goods. Doomhilda: take 50 gp for your reward from previous quest. You all got a 100 gp advance on the 500 gp reward for neutralizing the smuggling ship.
 
 <table>
   <thead>
@@ -83,8 +83,6 @@ Sell all of your items at face value. Take 500 gp for the contraband. You have c
     </tr>
   </tbody>
 </table>
-
-
 
 ### Consignment
 
