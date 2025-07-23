@@ -88,4 +88,6 @@ Sell all of your items at face value. Take 500 gp for the contraband. You have c
 
 Any magical item can be obtained for the listed price here: https://drive.google.com/file/d/0B8XAiXpOfz9cMWt1RTBicmpmUDg/view?resourcekey=0-ceHUken0_UhQ3Apa6g4SJA
 
+For example: a +1 Longsword is 1000 gp. 
+
 (The weekly items are 50% off).
