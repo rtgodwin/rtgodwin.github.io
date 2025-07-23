@@ -13,13 +13,13 @@ Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://a
 
 ## Session 7 magic items
 
-<!-- 4-column table with Item and Price under Group A -->
+<!-- 4-column table with Item and Price under Week 1 -->
 
 <table>
   <thead>
     <tr>
-      <th colspan="2">Group A</th>
-      <th colspan="2">Group B</th>
+      <th colspan="2">Week 1</th>
+      <th colspan="2">Week 2</th>
     </tr>
     <tr>
       <th>Item</th>
@@ -38,6 +38,7 @@ Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://a
     <tr><td>Ring of Resistance</td><td>6000</td><td></td><td></td></tr>
   </tbody>
 </table>
+
 
 
 
