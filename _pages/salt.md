@@ -13,12 +13,11 @@ Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://a
 
 ## Session 7 magic items
 
-<!-- Table with merged column headers using HTML -->
+<!-- 4-column table with merged headers using HTML -->
 
 <table>
   <thead>
     <tr>
-      <th rowspan="2">Row Label</th>
       <th colspan="2">Group A</th>
       <th colspan="2">Group B</th>
     </tr>
@@ -30,26 +29,13 @@ Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://a
     </tr>
   </thead>
   <tbody>
-    <tr>
-      <td>Row 1</td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Row 2</td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Row 3</td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Row 4</td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Row 5</td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Row 6</td><td></td><td></td><td></td><td></td>
-    </tr>
-    <tr>
-      <td>Row 7</td><td></td><td></td><td></td><td></td>
-    </tr>
+    <tr><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td></tr>
+    <tr><td></td><td></td><td></td><td></td></tr>
   </tbody>
 </table>
+
