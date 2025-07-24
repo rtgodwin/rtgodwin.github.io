@@ -11,9 +11,13 @@ masthead: false
 
 Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://app.roll20.net/join/18908891/7X3yUA)
 
-## Session 7 notes
+## July 22nd notes
 
-Sell all of your items at face value. Take 500 gp for the contraband. You have chosen to lie to the council about the smuggled goods. Doomhilda: take 50 gp for your reward from previous quest. You all got a 100 gp advance on the 500 gp reward for neutralizing the smuggling ship.
+Doomhilda: take 50 gp for your reward from previous quest.
+
+### Buying items
+
+Weekly magic items for sale:
 
 <table>
   <thead>
@@ -84,10 +88,26 @@ Sell all of your items at face value. Take 500 gp for the contraband. You have c
   </tbody>
 </table>
 
-### Consignment
+#### Consignment
 
 Any magical item can be obtained for the listed price here: https://drive.google.com/file/d/0B8XAiXpOfz9cMWt1RTBicmpmUDg/view?resourcekey=0-ceHUken0_UhQ3Apa6g4SJA
 
-For example: a +1 Longsword is 1000 gp. 
+For example: a +1 Longsword is 1000 gp.
 
 (The weekly items are 50% off).
+
+### Downtime activities
+
+Spend the week (15 mins at start of next session):
+
+- sell all of your items at face value
+- selling your contraband through Kreb for 500 gp
+- finding / buying items
+- investigating slime / dreams / patron
+- appeasing your patron
+
+### Smuggler's ship
+
+You all got a 100 gp advance on the 500 gp reward for taking care of the smuggling ship.
+
+The town council believes a smuggling ship is likely to return soon, possibly around the next new moon, and suspects it is transporting large quantities of weapons. They’ve ordered nightly patrols at likely rendezvous points but do not want to endanger volunteers by forcing a confrontation. Instead, they task the you with boarding the ship when it appears, discovering who is receiving the weapons, assessing any threat, and eliminating any pirate danger. To aid in this mission, the council provides a fishing boat, nonmagical equipment as needed, and two guards to assist with sailing.
