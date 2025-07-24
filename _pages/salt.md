@@ -11,8 +11,6 @@ masthead: false
 
 ## July 22nd notes
 
-Doomhilda: take 50 gp for your reward from previous quest.
-
 ### Buying items
 
 Weekly magic items for sale:
