@@ -106,7 +106,7 @@ Spend the week (15 mins at start of next session):
 
 ### Smuggler's ship
 
-You all got a 100 gp advance on the 500 gp reward for taking care of the smuggling ship.
+You all got a 100 gp advance on the 500 gp reward for accepting the quest to take care of the smuggling ship.
 
 The town council believes a smuggling ship is likely to return soon, possibly around the next new moon, and suspects it is transporting large quantities of weapons. They’ve ordered nightly patrols at likely rendezvous points but do not want to endanger volunteers by forcing a confrontation. Instead, they task the you with boarding the ship when it appears, discovering who is receiving the weapons, assessing any threat, and eliminating any pirate danger. To aid in this mission, the council provides a fishing boat, nonmagical equipment as needed, and two guards to assist with sailing.
 
