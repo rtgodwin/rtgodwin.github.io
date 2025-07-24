@@ -9,8 +9,6 @@ masthead: false
 
 ![](https://files.d20.io/images/80411677/2YjtcD7blVP_p5K2D7cJgw/max.png?1556830272)
 
-Link to roll20 campaign: [https://app.roll20.net/join/18908891/7X3yUA](https://app.roll20.net/join/18908891/7X3yUA)
-
 ## July 22nd notes
 
 Doomhilda: take 50 gp for your reward from previous quest.
@@ -90,7 +88,7 @@ Weekly magic items for sale:
 
 #### Consignment
 
-Any magical item can be obtained for the listed price here: https://drive.google.com/file/d/0B8XAiXpOfz9cMWt1RTBicmpmUDg/view?resourcekey=0-ceHUken0_UhQ3Apa6g4SJA
+Any magical item can be obtained for the listed price here: [https://drive.google.com/file/d/0B8XAiXpOfz9cMWt1RTBicmpmUDg/view?resourcekey=0-ceHUken0_UhQ3Apa6g4SJA]()
 
 For example: a +1 Longsword is 1000 gp.
 
@@ -111,3 +109,5 @@ Spend the week (15 mins at start of next session):
 You all got a 100 gp advance on the 500 gp reward for taking care of the smuggling ship.
 
 The town council believes a smuggling ship is likely to return soon, possibly around the next new moon, and suspects it is transporting large quantities of weapons. They’ve ordered nightly patrols at likely rendezvous points but do not want to endanger volunteers by forcing a confrontation. Instead, they task the you with boarding the ship when it appears, discovering who is receiving the weapons, assessing any threat, and eliminating any pirate danger. To aid in this mission, the council provides a fishing boat, nonmagical equipment as needed, and two guards to assist with sailing.
+
+Spend 10 minutes coming up with a plan, and then off you go!
