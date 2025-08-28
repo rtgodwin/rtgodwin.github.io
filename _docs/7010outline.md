@@ -12,7 +12,7 @@ sidebar:
 
 | Instructor | Time              | Days          | Location                  | CRN   | Office Hour |
 | :------: | :---------------: | :-----------: | :--------------------: | :---: | :----: |
-| Ryan Godwin | 1:00 pm - 2:15 pm | TR            | TIER 214 | 22341 | Tuesday, 2:45 - 3:45 |
+| Ryan Godwin | 1:00 pm - 2:15 pm | TR            | HUMAN ECOLOGY 304 | 22341 | Tuesday, 2:30 - 3:30 |
 
 email: ryan.godwin@umanitoba.ca
 
@@ -36,11 +36,11 @@ rtgodwin.com/7010
 
 ## Evaluation
 
-| Assessment                   	| Weight A| Weight B|
-|------------------------------	|--------	|-------- |
-| Assignments                  	| 15%    	| 15%     |
-| Midterm Exam<br>(October 22) 	| 30%    	| 20%     |
-| Final Exam                   	| 55%    	| 65%     |
+| Assessment                   	| Weight  | 
+|------------------------------	|--------	|
+| Assignments                  	| 10%    	|
+| Midterm Exam<br>(October 22) 	| 35%    	|
+| Final Exam                   	| 55%    	|
 
 Grade is calculated under both A and B, the maximum is automatically chosen.
 
@@ -64,7 +64,7 @@ Students appealing any term work (including, assignments, midterm, final exam) w
 
 A missed assessment will result in make-up work, or reweighting of your grade.
 
-Nov. 19, 2024, is the last day for voluntary withdrawal from the course.
+Nov. 18, 2025, is the last day for voluntary withdrawal from the course.
 
 ## Academic Integrity
 
@@ -77,7 +77,7 @@ Ignorance is not a defense. Familiarize yourself with section 2.5 of Academic Mi
 I own the copyright to all course content. Sharing my content (e.g. on Course Hero) is illegal!
 {: .notice--danger}
 
-All course material is copyrighted by Ryan Godwin, 2022. No audio or video recording of this material, lectures, or presentations is allowed in any format, openly or surreptitiously, in whole or in part without permission of Ryan Godwin. Course materials are for the participant’s private study and research, and must not be shared. Violation of these and other Academic Integrity principles, will lead to serious disciplinary action.
+All course material is copyrighted by Ryan Godwin, 2025. No audio or video recording of this material, lectures, or presentations is allowed in any format, openly or surreptitiously, in whole or in part without permission of Ryan Godwin. Course materials are for the participant’s private study and research, and must not be shared. Violation of these and other Academic Integrity principles, will lead to serious disciplinary action.
 {: .notice--warning}
 
 ## Statement of Academic Integrity / Misconduct from the U of M
