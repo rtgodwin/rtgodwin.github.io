@@ -9,14 +9,13 @@ toc: false
 ## Course Info
 
 Instructor: Ryan Godwin  
-Office Hour: Monday, 2:00 - 3:00  
+Office Hour: Tuesday, 2:30 - 3:30  
 Office Location: 646 Fletcher Argue  
 email: ryan.godwin@umanitoba.ca  
 
 | Section | Time                | Days          | Location               | CRN   |
 | :-----: | :-----------------: | :-----------: | :--------------------: | :---: | 
-| A01     | 10:30 am - 11:20 am | MWF           | TIER 406               | 53007 | 
-| A02     | 11:30 am - 12:20 pm | MWF           | TIER 301               | 58511 |
+| A01     | 4:00 pm - 5:15 pm   | TR            | TIER 401               | 12952 | 
 
 ## Course Description
 
@@ -63,7 +62,7 @@ Students appealing any term work (including, assignments, midterm, final exam) w
 
 A missed assessment will result in make-up work, or reweighting of your grade.
 
-Mar. 19, 2025, is the last day for voluntary withdrawal from the course.
+Nov. 18, 2025, is the last day for voluntary withdrawal from the course.
 
 ## Academic Integrity
 
@@ -76,7 +75,7 @@ Ignorance is not a defense. Familiarize yourself with section 2.5 of Academic Mi
 I own the copyright to all course content. Sharing my content (e.g. on Course Hero) is illegal!
 {: .notice--danger}
 
-All course material is copyrighted by Ryan Godwin, 2023. No audio or video recording of this material, lectures, or presentations is allowed in any format, openly or surreptitiously, in whole or in part without permission of Ryan Godwin. Course materials are for the participant’s private study and research, and must not be shared. Violation of these and other Academic Integrity principles, will lead to serious disciplinary action.
+All course material is copyrighted by Ryan Godwin, 2025. No audio or video recording of this material, lectures, or presentations is allowed in any format, openly or surreptitiously, in whole or in part without permission of Ryan Godwin. Course materials are for the participant’s private study and research, and must not be shared. Violation of these and other Academic Integrity principles, will lead to serious disciplinary action.
 {: .notice--warning}
 
 ## Statement of Academic Integrity / Misconduct from the U of M
