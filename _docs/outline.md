@@ -38,8 +38,8 @@ rtgodwin.com/3040
 | Assessment                   	| Weight 	|
 |------------------------------	|--------	|
 | Assignments                  	| 15%    	|
-| Midterm 1<br>(February 3)	    | 20%    	|
-| Midterm 2<br>(March 10)  	    | 20%    	|
+| Midterm 1<br>(October 7)	    | 20%    	|
+| Midterm 2<br>(November 4)	    | 20%    	|
 | Final Exam                   	| 45%    	|
 
 ### Assignments
@@ -107,9 +107,9 @@ Students are encouraged to make use of technology, including generative artifici
 *	Linear Regression with Multiple Regressors
 *	Hypothesis Tests in Multiple Regression
 *	Nonlinear Regression Functions
+*	Differences in differences
 *	Heteroskedasticity
 *	Instrumental Variables
-*	Panel Data
 
 ## Student Accessibility Services
 Students with disabilities should contact Student Accessibility Services to facilitate the implementation of accommodations, and meet with me to discuss the accommodations recommended by Student Accessibility Services.
