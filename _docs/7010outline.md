@@ -46,7 +46,7 @@ Grade is calculated under both A and B, the maximum is automatically chosen.
 
 ### Assignments
 
-There will be 5 assignments, each worth 3% of your grade. You will use RStudio and work with data in order to complete your assignments. All assignments must be completed independently.
+There will be 5 assignments, each worth 2% of your grade. You will use RStudio and work with data in order to complete some of the assignments. All assignments must be completed independently.
 
 ### Midterm and Final
 
