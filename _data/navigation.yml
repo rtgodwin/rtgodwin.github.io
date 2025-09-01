@@ -26,46 +26,46 @@ docs:
         url: /3040/slides1.pdf
       - title: 2 - Probability Review
         url: /3040/slides2.pdf
-      - title: 3 - Statistics Review
-        url: /3040/slides3.pdf
-      - title: 4.1 - Fitting a line through data
-        url: /3040/ch4-1.pdf
-      - title: 4.2 - Least Squares 1
-        url: /3040/ch4-2.pdf
-      - title: 4.3 - Least Squares 2
-        url: /3040/ch4-3.pdf
-      - title: 5.1 - R-square
-        url: /3040/ch5-1.pdf
-      - title: 5.2 - Hypothesis Testing
-        url: /3040/ch5-2.pdf
-      - title: 5.3 - Dummy variables
-        url: /3040/ch5-3.pdf
-      - title: 6.1 - Multiple Regression
-        url: /3040/ch6-1.pdf
-      - title: 6.2 - Multiple Regression II
-        url: /3040/ch6-2.pdf
-      - title: 6.3 - Adjusted R-square
-        url: /3040/ch6-3.pdf
-      - title: 7.1 - Joint hypothesis tests I
-        url: /3040/ch7-1.pdf
-      - title: 7.2 - Joint hypothesis tests II
-        url: /3040/ch7-2.pdf
-      - title: 8.1 - Non-linear I
-        url: /3040/ch8-1.pdf
-      - title: 8.2 - Non-linear II
-        url: /3040/ch8-2.pdf
-      - title: 8.3 - Logs
-        url: /3040/ch8-3.pdf
-      - title: 9 part I - Dummy-continuous interactions
-        url: /3040/interaction.pdf
-      - title: 9 part II - Dummy-dummy interactions
-        url: /3040/dummydummy.pdf
-      - title: 9 part III - Differences-in-Differences
-        url: /3040/did.pdf
-      - title: 10 - Heteroskedasticity
-        url: /3040/ch9.pdf
-      - title: 11 - Instrumental variables
-        url: /3040/iv.pdf
+      #- title: 3 - Statistics Review
+      #  url: /3040/slides3.pdf
+      #- title: 4.1 - Fitting a line through data
+      #  url: /3040/ch4-1.pdf
+      #- title: 4.2 - Least Squares 1
+      #  url: /3040/ch4-2.pdf
+      #- title: 4.3 - Least Squares 2
+      #  url: /3040/ch4-3.pdf
+      #- title: 5.1 - R-square
+      #  url: /3040/ch5-1.pdf
+      #- title: 5.2 - Hypothesis Testing
+      #  url: /3040/ch5-2.pdf
+      #- title: 5.3 - Dummy variables
+      #  url: /3040/ch5-3.pdf
+      #- title: 6.1 - Multiple Regression
+      #  url: /3040/ch6-1.pdf
+      #- title: 6.2 - Multiple Regression II
+      #  url: /3040/ch6-2.pdf
+      #- title: 6.3 - Adjusted R-square
+      #  url: /3040/ch6-3.pdf
+      #- title: 7.1 - Joint hypothesis tests I
+      #  url: /3040/ch7-1.pdf
+      #- title: 7.2 - Joint hypothesis tests II
+      #  url: /3040/ch7-2.pdf
+      #- title: 8.1 - Non-linear I
+      #  url: /3040/ch8-1.pdf
+      #- title: 8.2 - Non-linear II
+      #  url: /3040/ch8-2.pdf
+      #- title: 8.3 - Logs
+      #  url: /3040/ch8-3.pdf
+      #- title: 9 part I - Dummy-continuous interactions
+      #  url: /3040/interaction.pdf
+      #- title: 9 part II - Dummy-dummy interactions
+      #  url: /3040/dummydummy.pdf
+      #- title: 9 part III - Differences-in-Differences
+      #  url: /3040/did.pdf
+      #- title: 10 - Heteroskedasticity
+      #  url: /3040/ch9.pdf
+      #- title: 11 - Instrumental variables
+      #  url: /3040/iv.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
@@ -74,34 +74,34 @@ docs:
         url: https://www.youtube.com/watch?v=CXToeZnajco
       - title: "2. Least Squares"
         url: /3040/lab2/
-      - title: "3. Gun deaths and OVB"
-        url: /3040/guns/
-      - title: "4. Multiple Regression"
-        url: /3040/lab3/
-      - title: "5. Polynomials, logs, and interactions"
-        url: /3040/lab4/
-      - title: "5. Assignment 5 help"
-        url: /3040/lab5/
+      #- title: "3. Gun deaths and OVB"
+      #  url: /3040/guns/
+      #- title: "4. Multiple Regression"
+      #  url: /3040/lab3/
+      #- title: "5. Polynomials, logs, and interactions"
+      #  url: /3040/lab4/
+      #- title: "5. Assignment 5 help"
+      #  url: /3040/lab5/
   - title: Assignments
     children:
       - title: "Assignment 1"
         url: https://rtgodwin.com/jimothy/
       #- title: "Assignment 1"
       #  url: https://rtgodwin.com/3040/assignments/assign1.pdf
-      - title: "Assignment 2"
-        url: https://rtgodwin.com/3040/assignments/assign2.pdf
+      #- title: "Assignment 2"
+      #  url: https://rtgodwin.com/3040/assignments/assign2.pdf
       #- title: "Assignment 2 Answers"
       #  url: https://rtgodwin.com/3040/assign2ans/
-      - title: "Assignment 3"
-        url: https://rtgodwin.com/3040/assignments/assign3.pdf
+      #- title: "Assignment 3"
+      #  url: https://rtgodwin.com/3040/assignments/assign3.pdf
       #- title: "Assignment 3 Answers"
       #  url: https://rtgodwin.com/3040/assign3ans/
-      - title: "Assignment 4"
-        url: https://rtgodwin.com/3040/assignments/assign4.pdf
+      #- title: "Assignment 4"
+      #  url: https://rtgodwin.com/3040/assignments/assign4.pdf
       #- title: "Assignment 4 Answers"
       #  url: https://rtgodwin.com/3040/assign4ans/
-      - title: "Assignment 5 (not graded)"
-        url: https://rtgodwin.com/3040/assignments/assign5.pdf
+      #- title: "Assignment 5 (not graded)"
+      #  url: https://rtgodwin.com/3040/assignments/assign5.pdf
       #- title: "Assignment 5 Answers"
       #  url: https://rtgodwin.com/3040/assign5ans/
 
