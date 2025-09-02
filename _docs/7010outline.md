@@ -39,7 +39,7 @@ rtgodwin.com/7010
 | Assessment                   	| Weight  | 
 |------------------------------	|--------	|
 | Assignments                  	| 10%    	|
-| Midterm Exam<br>(October 22) 	| 35%    	|
+| Midterm Exam<br>(October 21) 	| 35%    	|
 | Final Exam                   	| 55%    	|
 
 ### Assignments
