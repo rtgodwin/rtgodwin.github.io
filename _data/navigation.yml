@@ -158,20 +158,20 @@ pages:
         url: /7010/lab1/
       - title: "Video for Lab 1"
         url: https://www.youtube.com/watch?v=CXToeZnajco
-      #- title: "2. Assignment 1 hints"
-      #  url: /7010/lab2/
+      - title: "2. Assignment 1 hints"
+        url: /7010/lab2/
   - title: Assignments
     children:
       - title: "Assignment 1"
         url: /7010/assign1/
-      - title: "Assignment 1 Answers"
-        url: /7010/assign1ans/
+      #- title: "Assignment 1 Answers"
+      #  url: /7010/assign1ans/
       #- title: "Assignment 2"
       #  url: /7010/assign2/
-      - title: "Assignment 3"
-        url: https://rtgodwin.com/7010/assignments/assign3.pdf
-      - title: "Assignment 4"
-        url: https://rtgodwin.com/7010/assignments/assign4.pdf
+      #- title: "Assignment 3"
+      #  url: https://rtgodwin.com/7010/assignments/assign3.pdf
+      #- title: "Assignment 4"
+      #  url: https://rtgodwin.com/7010/assignments/assign4.pdf
 
   # - title: "About"
   #   url: https://mmistakes.github.io/minimal-mistakes/about/
