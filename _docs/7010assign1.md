@@ -7,7 +7,7 @@ sidebar:
   nav: "pages"
 ---
 
-**Due: Sept. 28th**. Worth 3% of your mark. For each answer include the R
+**Due: Sept. 22nd**. Worth 3% of your mark. For each answer include the R
 code that you use, as well as a brief explanation. Upload your answers
 to the assignment 1 dropbox on UM Learn.
 
