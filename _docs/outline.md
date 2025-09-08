@@ -15,7 +15,7 @@ email: ryan.godwin@umanitoba.ca
 
 | Section | Time                | Days          | Location               | CRN   |
 | :-----: | :-----------------: | :-----------: | :--------------------: | :---: | 
-| A01     | 4:00 pm - 5:15 pm   | TR            | TIER 401               | 12952 | 
+| A01     | 4:00 pm - 5:15 pm   | TR            | 360 Helen Glass        | 12952 | 
 
 ## Course Description
 
