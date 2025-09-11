@@ -26,8 +26,8 @@ docs:
         url: /3040/slides1.pdf
       - title: 2 - Probability Review
         url: /3040/slides2.pdf
-      #- title: 3 - Statistics Review
-      #  url: /3040/slides3.pdf
+      - title: 3 - Statistics Review
+        url: /3040/slides3.pdf
       #- title: 4.1 - Fitting a line through data
       #  url: /3040/ch4-1.pdf
       #- title: 4.2 - Least Squares 1
