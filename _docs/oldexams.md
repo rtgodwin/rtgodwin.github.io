@@ -5,6 +5,26 @@ excerpt: "ECON 3040 exams"
 last_modified_at:
 toc: false
 ---
+## Fall 2025 Midterm info:
+
+The midterm will cover up to and including Chapter 5.1. Bring a non-programmable calculator, student ID, and writing implements. The exam takes place in the regular classroom at the regular time, on October 7th.
+
+**Note: in previous years, we only had _one_ midterm. You have two. This means that the sample midterms contain additional material that has not yet been covered in this course.**
+You should **ignore** the follow questions:
+- 2023 Fall: 6, 7, 9, 11
+- 2023 A02: 7, 8, 10, 11(c), 11(d), 12
+- 2023 A01: 7, 8, 10, 11(c), 11(d), 12
+- 2022: 7, 8, 10(d), 11
+- 2021: All questions are appropriate, but are difficult (this was an open-book, online exam).
+- 2020: 9, 10(d), 11
+- Going back further than 2020 is risky.
+
+You will see in the sample midterms that you will be provided with a formula sheet and table of standard normal probabilities.
+
+Ignore the following practice questions from the end of each chapter:
+- Ch.2: 3
+- Ch.3: 3, 4, 5
+- Ch.5: 3-7 
 
 ## Previous midterms
 
