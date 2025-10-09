@@ -36,12 +36,12 @@ docs:
         url: /3040/ch4-3.pdf
       - title: 5.1 - R-square
         url: /3040/ch5-1.pdf
-      #- title: 5.2 - Hypothesis Testing
-      #  url: /3040/ch5-2.pdf
-      #- title: 5.3 - Dummy variables
-      #  url: /3040/ch5-3.pdf
-      #- title: 6.1 - Multiple Regression
-      #  url: /3040/ch6-1.pdf
+      - title: 5.2 - Hypothesis Testing
+        url: /3040/ch5-2.pdf
+      - title: 5.3 - Dummy variables
+        url: /3040/ch5-3.pdf
+      - title: 6.1 - Multiple Regression
+        url: /3040/ch6-1.pdf
       #- title: 6.2 - Multiple Regression II
       #  url: /3040/ch6-2.pdf
       #- title: 6.3 - Adjusted R-square
