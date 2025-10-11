@@ -18,71 +18,45 @@ Weekly magic items for sale:
 <table>
   <thead>
     <tr>
-      <th colspan="2">Week 1</th>
-      <th colspan="2">Week 2</th>
       <th colspan="2">Week 3</th>
     </tr>
     <tr>
       <th>Item</th>
       <th style="text-align:center;">Price</th>
-      <th>Item</th>
-      <th style="text-align:center;">Price</th>
-      <th></th>
-      <th></th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/True%20Strike" target="_blank">Spell scroll: True Strike</a></td>
-      <td style="text-align:center;">5</td>
-      <td><a href="https://roll20.net/compendium/dnd5e/Potion%20of%20Healing" target="_blank">Potion of Healing</a></td>
-      <td style="text-align:center;">25</td>
-      <td></td><td></td>
-    </tr>
-    <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Bag%20of%20Holding" target="_blank">Bag of Holding</a></td>
-      <td style="text-align:center;">150</td>
-      <td><a href="https://roll20.net/compendium/dnd5e/Potion%20of%20Animal%20Friendship" target="_blank">Potion of Animal Friendship</a></td>
-      <td style="text-align:center;">100</td>
-      <td></td><td></td>
-    </tr>
-    <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Decanter%20of%20Endless%20Water" target="_blank">Decanter of Endless Water</a></td>
-      <td style="text-align:center;">67500</td>
-      <td><a href="https://roll20.net/compendium/dnd5e/Eyes%20of%20Minute%20Seeing" target="_blank">Eyes of Minute Seeing</a></td>
-      <td style="text-align:center;">1250</td>
-      <td></td><td></td>
-    </tr>
-    <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Potion%20of%20Speed" target="_blank">Potion of Speed</a></td>
-      <td style="text-align:center;">200</td>
-      <td><a href="https://roll20.net/compendium/dnd5e/Potion%20of%20Vitality" target="_blank">Potion of Vitality</a></td>
-      <td style="text-align:center;">480</td>
-      <td></td><td></td>
-    </tr>
-    <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Helm%20of%20Telepathy" target="_blank">Helm of Telepathy</a></td>
-      <td style="text-align:center;">6000</td>
-      <td><a href="https://roll20.net/compendium/dnd5e/Potion%20of%20Supreme%20Healing" target="_blank">Potion of Supreme Healing</a></td>
-      <td style="text-align:center;">675</td>
-      <td></td><td></td>
-    </tr>
-    <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Items%3AAdamantine%20Chain%20Mail" target="_blank">Adamantine armor (chain)</a></td>
-      <td style="text-align:center;">150</td>
-      <td><a href="https://roll20.net/compendium/dnd5e/Bracers%20of%20Archery" target="_blank">Bracers of Archery</a></td>
+      <td><a href="https://roll20.net/compendium/dnd5e/Items%3ARing%20of%20Warmth?expansion=33335" target="_blank">Ring of Warmth</a></td>
       <td style="text-align:center;">1000</td>
-      <td></td><td></td>
     </tr>
     <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Ring%20of%20Lightning%20Resistance" target="_blank">Ring of Lightning Resistance</a></td>
-      <td style="text-align:center;">3000</td>
-      <td><a href="https://roll20.net/compendium/dnd5e/Items%3AHand%20Crossbow%20%2B1" target="_blank">+1 Hand Crossbow</a></td>
-      <td style="text-align:center;">540</td>
-      <td></td><td></td>
+      <td><a href="https://roll20.net/compendium/dnd5e/Items%3AMace%20%2B1?expansion=33335" target="_blank">Mace +1</a></td>
+      <td style="text-align:center;">1005</td>
+    </tr>
+    <tr>
+      <td><a href="https://roll20.net/compendium/dnd5e/Spells%3ACreate%20or%20Destroy%20Water?expansion=33335" target="_blank">Spell scroll (1st level): Create or Destroy Water</a></td>
+      <td style="text-align:center;">60</td>
+    </tr>
+    <tr>
+      <td><a href="https://roll20.net/compendium/dnd5e/Items%3ADust%20of%20Sneezing%20and%20Choking?expansion=33359" target="_blank">Dust of Sneezing and Choking</a></td>
+      <td style="text-align:center;">480</td>
+    </tr>
+    <tr>
+      <td><a href="https://roll20.net/compendium/dnd5e/Items%3APotion%20of%20Superior%20Healing?expansion=33335" target="_blank">Potion of Superior Healing</a></td>
+      <td style="text-align:center;">450</td>
+    </tr>
+    <tr>
+      <td><a href="https://roll20.net/compendium/dnd5e/Items%3ABag%20of%20Devouring?expansion=33335" target="_blank">Bag of Devouring</a></td>
+      <td style="text-align:center;">—</td>
+    </tr>
+    <tr>
+      <td><a href="https://roll20.net/compendium/dnd5e/Items%3APotion%20of%20Storm%20Giant%20Strength?expansion=33335" target="_blank">Potion of Storm Giant Strength</a></td>
+      <td style="text-align:center;">—</td>
     </tr>
   </tbody>
 </table>
+
 
 #### Consignment
 
