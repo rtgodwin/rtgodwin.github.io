@@ -27,32 +27,32 @@ Weekly magic items for sale:
   </thead>
   <tbody>
     <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Items%3ARing%20of%20Warmth?expansion=33335" target="_blank">Ring of Warmth</a></td>
+      <td><a href="https://roll20.net/compendium/dnd5e/Ring%20of%20Warmth#content" target="_blank">Ring of Warmth</a></td>
       <td style="text-align:center;">1000</td>
     </tr>
     <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Items%3AMace%20%2B1?expansion=33335" target="_blank">Mace +1</a></td>
-      <td style="text-align:center;">1005</td>
+      <td><a href="https://roll20.net/compendium/dnd5e/Mace%20+1#content" target="_blank">Mace +1</a></td>
+      <td style="text-align:center;">1000</td>
     </tr>
     <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Spells%3ACreate%20or%20Destroy%20Water?expansion=33335" target="_blank">Spell scroll (1st level): Create or Destroy Water</a></td>
+      <td><a href="https://roll20.net/compendium/dnd5e/Create%20or%20Destroy%20Water#content" target="_blank">Spell scroll (1st level): Create or Destroy Water</a></td>
       <td style="text-align:center;">60</td>
     </tr>
     <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Items%3ADust%20of%20Sneezing%20and%20Choking?expansion=33359" target="_blank">Dust of Sneezing and Choking</a></td>
+      <td><a href="https://roll20.net/compendium/dnd5e/Dust%20of%20Sneezing%20and%20Choking#content" target="_blank">Dust of Sneezing and Choking</a></td>
       <td style="text-align:center;">480</td>
     </tr>
     <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Items%3APotion%20of%20Superior%20Healing?expansion=33335" target="_blank">Potion of Superior Healing</a></td>
+      <td><a href="https://www.dndbeyond.com/magic-items/5134-potion-of-healing-superior?srsltid=AfmBOor4slp3X1Rx3X6egnJ_6PJqFgtfy6UdkCz4ZNj5qMMsqn3QnoRF" target="_blank">Potion of Superior Healing</a></td>
       <td style="text-align:center;">450</td>
     </tr>
     <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Items%3ABag%20of%20Devouring?expansion=33335" target="_blank">Bag of Devouring</a></td>
-      <td style="text-align:center;">—</td>
+      <td><a href="https://www.dndbeyond.com/magic-items/5411-ammunition-3?srsltid=AfmBOoqQgQNAVZaOIJxZ6uuVpbElT38-0y-zCSxk0ikBy2qsAXIp75i0" target="_blank">Ammunition +3</a></td>
+      <td style="text-align:center;">400</td>
     </tr>
     <tr>
-      <td><a href="https://roll20.net/compendium/dnd5e/Items%3APotion%20of%20Storm%20Giant%20Strength?expansion=33335" target="_blank">Potion of Storm Giant Strength</a></td>
-      <td style="text-align:center;">—</td>
+      <td><a href="https://roll20.net/compendium/dnd5e/Potion%20of%20Giant%20Strength#content" target="_blank">Potion of Storm Giant Strength</a></td>
+      <td style="text-align:center;">5000</td>
     </tr>
   </tbody>
 </table>
