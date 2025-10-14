@@ -42,14 +42,14 @@ docs:
         url: /3040/ch5-3.pdf
       - title: 6.1 - Multiple Regression
         url: /3040/ch6-1.pdf
-      #- title: 6.2 - Multiple Regression II
-      #  url: /3040/ch6-2.pdf
-      #- title: 6.3 - Adjusted R-square
-      #  url: /3040/ch6-3.pdf
-      #- title: 7.1 - Joint hypothesis tests I
-      #  url: /3040/ch7-1.pdf
-      #- title: 7.2 - Joint hypothesis tests II
-      #  url: /3040/ch7-2.pdf
+      - title: 6.2 - Multiple Regression II
+        url: /3040/ch6-2.pdf
+      - title: 6.3 - Adjusted R-square
+        url: /3040/ch6-3.pdf
+      - title: 7.1 - Joint hypothesis tests I
+        url: /3040/ch7-1.pdf
+      - title: 7.2 - Joint hypothesis tests II
+        url: /3040/ch7-2.pdf
       #- title: 8.1 - Non-linear I
       #  url: /3040/ch8-1.pdf
       #- title: 8.2 - Non-linear II
