@@ -10,6 +10,15 @@ sidebar:
 
 ## Previous midterms
 
+For the 2025 Fall midterm: the exam covers everything up to "Critical Values" (slide 19 in simple hypothesis testing)
+
+Ignore the following questions when you review past midterms:
+- 2022 Fall: 5, 6
+- 2019 Midterm 2: All questions except 2
+- 2016 midterm 2
+- 2015 midterm 2
+- 2014 midterm 2
+
 [Midterm Formula Sheet](https://rtgodwin.com/7010/exams/midformula.pdf)
 
 | Year                                                  | Answer Key
