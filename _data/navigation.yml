@@ -166,8 +166,8 @@ pages:
         url: /7010/assign1/
       #- title: "Assignment 1 Answers"
       #  url: /7010/assign1ans/
-      #- title: "Assignment 2"
-      #  url: /7010/assign2/
+      - title: "Assignment 2"
+        url: /7010/assign2/
       #- title: "Assignment 3"
       #  url: https://rtgodwin.com/7010/assignments/assign3.pdf
       #- title: "Assignment 4"
