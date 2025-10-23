@@ -12,11 +12,7 @@ to the assignment 2 dropbox on UM Learn.
 
 ------------------------------------------------------------------------
 
-1.  Exercise question 7, from Chapter 5.
-
-    OR
-
-    Run the following code several times, changing just _one thing_ each time you run it. Do this in order to show that the LS estimator is _consistent_. Your answer should include several histograms.
+1.  Run the following code several times, changing just _one thing_ each time you run it. Do this in order to show that the LS estimator is _consistent_. Your answer should include several histograms.
 
     ```r
     nrep <- 1000 # The number of times the experiment will run.
@@ -34,4 +30,3 @@ to the assignment 2 dropbox on UM Learn.
     hist(b2, xlim = c(-2.5,-1.5)) # View the simulated sampling distribution
     ```
     
-3.  Any exercise question that does not include an answer key.
