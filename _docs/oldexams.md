@@ -7,7 +7,7 @@ toc: false
 ---
 ## Fall 2025 Midterm 2 info:
 
-Midterm 2 will cover Chapters 5.2 - 8.2 (stop right befor "Logarithms"). Bring a non-programmable calculator, student ID, and writing implements. The exam takes place in the regular classroom at the regular time, on November 4th.
+Midterm 2 will cover Chapters 5.2 - 8.2 (stop right before "Logarithms"). Bring a non-programmable calculator, student ID, and writing implements. The exam takes place in the regular classroom at the regular time, on November 4th.
 
 You can now do the following questions from the previous midterms:
 - 2023 Fall: 6, 7, 9, 11
