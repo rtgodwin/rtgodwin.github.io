@@ -42,7 +42,7 @@ rtgodwin.com/7010
 | Midterm Exam<br>(October 21) 	| 35%    	 | 30%      | 20%      | 
 | Final Exam                   	| 55%    	 | 55%      | 65%      |
 
-I will calculate the weight under A-C, then use the maximum.
+I will calculate marks under A-C, then use the maximum.
 
 ### Assignments
 
