@@ -36,11 +36,13 @@ rtgodwin.com/7010
 
 ## Evaluation
 
-| Assessment                   	| Weight  | 
-|------------------------------	|--------	|
-| Assignments                  	| 10%    	|
-| Midterm Exam<br>(October 21) 	| 35%    	|
-| Final Exam                   	| 55%    	|
+| Assessment                   	| Weight A | Weight B | Weight C | 
+|------------------------------	|----------|----------|----------|
+| Assignments                  	| 10%    	 | 15%      | 15%      |
+| Midterm Exam<br>(October 21) 	| 35%    	 | 30%      | 20%      | 
+| Final Exam                   	| 55%    	 | 55%      | 65%      |
+
+I will calculate the weight under A-C, then use the maximum.
 
 ### Assignments
 
