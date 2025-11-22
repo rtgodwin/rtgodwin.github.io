@@ -9,7 +9,12 @@ masthead: false
 
 ![](https://files.d20.io/images/80411677/2YjtcD7blVP_p5K2D7cJgw/max.png?1556830272)
 
-## July 22nd notes
+## You have taken the Sea Ghost
+- Dead Wizard
+- Everyone else crammed on the jolly boat and escaped
+- 2 bandits still tied up
+- You have neutralized the threat.
+- You have not found any weapons, or evidence of who or where weapons are being smuggled to. 
 
 ### Buying items
 
