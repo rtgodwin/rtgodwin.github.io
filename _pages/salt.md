@@ -18,6 +18,20 @@ masthead: false
 
 <span class="spoiler">[Schematic of the entire ship.](https://www.worldanvil.com/w/matelo-kaloje-dm-tzaritsa/a/sea-ghost-vehicle-1)</span>
 
+10 crew minimum, 20 is a full complement. Specific roles that are needed to maintain crew quality:
+
+  - **Captain**. The captain issues orders. The best captains have high Intelligence and Charisma scores, as well as proficiency with water vehicles and the Intimidation and Persuasion skills.
+
+  - **First Mate**. This specialist keeps the crew’s morale high by providing supervision, encouragement, and discipline. A first mate benefits from a high Charisma score, as well as proficiency with the Intimidation and Persuasion skills.
+
+  - **Bosun**. The bosun (or boatswain) provides technical advice to the captain and crew and leads repair and maintenance efforts. A good bosun has a high Strength score, as well as proficiency with carpenter’s tools and the Athletics skill.
+
+  - **Quartermaster**. The quartermaster plots the ship’s course, relying on knowledge of nautical charts and a study of weather and sea conditions. A reliable quartermaster tends to have a high Wisdom score, as well as proficiency with navigator’s tools and the Nature skill.
+
+  - **Surgeon**. The ship’s surgeon tends to injuries, keeps illnesses from spreading throughout the ship, and oversees sanitation. A capable surgeon benefits from a high Intelligence score, as well as proficiency with herbalism kits and the Medicine skill.
+
+  - **Cook**. A ship’s cook works with the limited ingredients aboard a ship to make meals. A skilled cook keeps the crew’s morale in top shape, while a poor one drags down the entire crew’s performance. A talented cook has a high Constitution score, as well as proficiency with brewer’s supplies and cook’s utensils.
+
 ### Buying items
 
 Weekly magic items for sale:
