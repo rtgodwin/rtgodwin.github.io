@@ -48,7 +48,7 @@ Ignore the following questions when you review past midterms:
 | [2022](https://rtgodwin.com/7010/exams/2022final.pdf) | [Answers](https://rtgodwin.com/7010/exams/2022finalans.pdf) |
 | [2022 Winter](https://rtgodwin.com/7010/exams/2022finalW.pdf) |  |
 | [2020](https://rtgodwin.com/7010/exams/2020final.pdf) | [Answers](https://rtgodwin.com/7010/exams/2020finalans.pdf) |
-| [2019](https://rtgodwin.com/7010/exams/2019final.pdf) |  |
+| [2019](https://rtgodwin.com/7010/exams/2019final.pdf) | [Answers](https://rtgodwin.com/7010/exams/2019finans.pdf) |
 | [2016](https://rtgodwin.com/7010/exams/2016final.pdf) | [Answers](https://rtgodwin.com/7010/exams/2016finalans.pdf) |
 | [2015](https://rtgodwin.com/7010/exams/2015final.pdf) | [Answers](https://rtgodwin.com/7010/exams/2015finalans.pdf) |
 | [2014](https://rtgodwin.com/7010/exams/2014final.pdf) | [Answers](https://rtgodwin.com/7010/exams/2014finalans.pdf) |
