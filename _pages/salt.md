@@ -10,13 +10,10 @@ masthead: false
 ![](https://files.d20.io/images/80411677/2YjtcD7blVP_p5K2D7cJgw/max.png?1556830272)
 
 ## You have taken the Sea Ghost
-- Dead Wizard
-- Everyone else crammed on the jolly boat and escaped
-- 2 bandits still tied up
-- You have neutralized the threat.
-- You have not found any weapons, or evidence of who or where weapons are being smuggled to.
 
 <span class="spoiler">[Schematic of the entire ship.](https://www.worldanvil.com/w/matelo-kaloje-dm-tzaritsa/a/sea-ghost-vehicle-1)</span>
+
+Ship modifier: -10 (+ 2 each expert role) + crew/5
 
 10 crew minimum, 20 is a full complement. Specific roles that are needed to maintain crew quality:
 
