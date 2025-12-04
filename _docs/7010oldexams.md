@@ -54,15 +54,21 @@ Ignore the following questions when you review past midterms:
 | [2014](https://rtgodwin.com/7010/exams/2014final.pdf) | [Answers](https://rtgodwin.com/7010/exams/2014finalans.pdf) |
 | [2013](https://rtgodwin.com/7010/exams/2013final.pdf) | [Answers](https://rtgodwin.com/7010/exams/2013finalans.pdf) |
 
+# Course overview (post midterm)
+
 ## Proofs that we skipped. References are to the lecture slides.
  - Distribution of the t-test statistic: slides 8, pg. 18
  - Khinchin's theorem, weak law of large numbers for proving the consistency of $s^2$: slides 9, pg. 14
  - Deriving the RLS estimator: slides 11, pg. 21-22
  - RLS estimator has smaller variance than LS estimator: slides 11, pg. 26-28
- - Joining the spline at the knots: slides 12, pg. 10
  - Deriving the Newton-Raphson by Taylor series approximation: slides 12, pg. 16-17
 
-# Course overview (post midterm)
+## Skipped Sections
+ - Asymptotic Distribution of the LS Estimator
+ - Simple F-test in a Cobb-Douglas model
+ - F-test in Cobb-Douglas again
+ - Splines
+ - Feasible generalized least squares (FGLS)
 
 ## Chapter 7: Asymptotics
  - Why consider asymptotic properties of estimators?
@@ -104,9 +110,3 @@ Ignore the following questions when you review past midterms:
  - Fixing het.
  - The GLS estimator
  - Clustering (group sizes determine $P$ matrix, apply GLS directly)
-
-## Chapter 12: Time series
- - AR process
- - variance of an AR(1) error term
- - $\lvert \rho \rvert < 1$ and $\lvert \rho \rvert = 1$
- - random walks and spurious regressions
