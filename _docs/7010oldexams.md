@@ -89,7 +89,7 @@ Ignore the following questions when you review past midterms:
  - What a multiple hypothesis is
  - Why t-tests can't be used
  - $R$ and $q$ matrices
- - Wald test, then the F-test (and which one to use)
+ - Wald test, then the F-test
  - The RLS estimator and what it tells us about "imposing restrictions" on a model
  - Conducting an F-test using $R^2$ from a restricted and an unrestricted model
  - Testing for differences
