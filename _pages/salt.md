@@ -13,9 +13,9 @@ masthead: false
 
 <span class="spoiler">[Schematic of the entire ship.](https://www.worldanvil.com/w/matelo-kaloje-dm-tzaritsa/a/sea-ghost-vehicle-1)</span>
 
-Ship modifier: -10 (+ 2 each expert role) + crew/5
+Ship modifier: -9 (+ 2 each expert role) + crew/5
 
-10 crew minimum, 20 is a full complement. Specific roles that are needed to maintain crew quality:
+10 crew minimum, 15 is a full complement. Specific roles that are needed to maintain crew quality:
 
   - **Captain**. The captain issues orders. The best captains have high Intelligence and Charisma scores, as well as proficiency with water vehicles and the Intimidation and Persuasion skills.
 
