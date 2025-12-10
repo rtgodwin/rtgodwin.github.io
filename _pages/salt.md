@@ -31,7 +31,7 @@ Ship modifier: -10 (+ 2 each expert role) + crew/5
 
 ### Buying items
 
-Weekly magic items for sale:
+Weekly magic items for sale (take 50% off):
 
 <table>
   <thead>
@@ -81,23 +81,3 @@ Weekly magic items for sale:
 [Any magical item can be obtained for the listed price here.](https://drive.google.com/file/d/0B8XAiXpOfz9cMWt1RTBicmpmUDg/view?resourcekey=0-ceHUken0_UhQ3Apa6g4SJA)
 
 For example: a +1 Longsword is 1000 gp.
-
-(The weekly items are 50% off).
-
-### Downtime activities
-
-Spend the week (15 mins at start of next session):
-
-- sell all of your items at face value
-- selling your contraband through Kreb for 500 gp
-- finding / buying items
-- investigating slime / dreams / patron
-- appeasing your patron
-
-### Smuggler's ship
-
-You all got a 100 gp advance on the 500 gp reward for accepting the quest to take care of the smuggling ship.
-
-The town council believes a smuggling ship is likely to return soon, possibly around the next new moon, and suspects it is transporting large quantities of weapons. They’ve ordered nightly patrols at likely rendezvous points but do not want to endanger volunteers by forcing a confrontation. Instead, they task the you with boarding the ship when it appears, discovering who is receiving the weapons, assessing any threat, and eliminating any pirate danger. To aid in this mission, the council provides a fishing boat, nonmagical equipment as needed, and two guards to assist with sailing.
-
-Spend 10 minutes coming up with a plan, and then off you go!
