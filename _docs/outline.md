@@ -7,15 +7,17 @@ toc: false
 ---
 
 ## Course Info
-
+Winter 2026
 Instructor: Ryan Godwin  
-Office Hour: Tuesday, 2:30 - 3:30  
+Office Hour: Tuesday, 12:30 - 1:30  
 Office Location: 646 Fletcher Argue  
 email: ryan.godwin@umanitoba.ca  
 
 | Section | Time                | Days          | Location               | CRN   |
 | :-----: | :-----------------: | :-----------: | :--------------------: | :---: | 
-| A01     | 4:00 pm - 5:15 pm   | TR            | 360 Helen Glass        | 12952 | 
+| A01     | 2:30 PM - 3:45 PM   | TR            | TBD                    | 53007 |
+| A02     | 4:00 PM - 5:15 PM   | TR            | TBD                    | 58511 | 
+
 
 ## Course Description
 
@@ -38,8 +40,8 @@ rtgodwin.com/3040
 | Assessment                   	| Weight 	|
 |------------------------------	|--------	|
 | Assignments                  	| 15%    	|
-| Midterm 1<br>(October 7)	    | 20%    	|
-| Midterm 2<br>(November 4)	    | 20%    	|
+| Midterm 1<br>(February 3)	    | 20%    	|
+| Midterm 2<br>(March 12) 	    | 20%    	|
 | Final Exam                   	| 45%    	|
 
 ### Assignments
@@ -62,7 +64,7 @@ Students appealing any term work (including, assignments, midterm, final exam) w
 
 A missed assessment will result in make-up work, or reweighting of your grade.
 
-Nov. 18, 2025, is the last day for voluntary withdrawal from the course.
+March 19, 2026, is the last day for voluntary withdrawal from the course.
 
 ## Academic Integrity
 
@@ -96,7 +98,7 @@ Acts of academic misconduct include, but are not limited to:
 
 ## Generative AI (ChatGPT)
 
-Students are encouraged to make use of technology, including generative artificial intelligence (ChatGPT) tools to contribute to their understanding of course materials. However, students are ultimately accountable for the work they submit to be assessed and assigned grades.
+Students may not use AI to write R code.
 
 ## Tentative Course Topics
 
@@ -110,6 +112,7 @@ Students are encouraged to make use of technology, including generative artifici
 *	Differences in differences
 *	Heteroskedasticity
 *	Instrumental Variables
+*	Panel Data
 
 ## Student Accessibility Services
 Students with disabilities should contact Student Accessibility Services to facilitate the implementation of accommodations, and meet with me to discuss the accommodations recommended by Student Accessibility Services.
