@@ -15,8 +15,8 @@ email: ryan.godwin@umanitoba.ca
 
 | Section | Time                | Days          | Location               | CRN   |
 | :-----: | :-----------------: | :-----------: | :--------------------: | :---: | 
-| A01     | 2:30 PM - 3:45 PM   | TR            | TBD                    | 53007 |
-| A02     | 4:00 PM - 5:15 PM   | TR            | TBD                    | 58511 | 
+| A01     | 2:30 PM - 3:45 PM   | TR            | TIER 303               | 53007 |
+| A02     | 4:00 PM - 5:15 PM   | TR            | TIER 213               | 58511 | 
 
 
 ## Course Description
