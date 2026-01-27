@@ -5,25 +5,27 @@ excerpt: "ECON 3040 exams"
 last_modified_at:
 toc: false
 ---
-## Fall 2025 Midterm 2 info:
+## Fall 2026 Midterm 1 info:
 
-Midterm 2 will cover Chapters 5.2 - 8.2 (stop right before "Logarithms"). Bring a non-programmable calculator, student ID, and writing implements. The exam takes place in the regular classroom at the regular time, on November 4th.
+Midterm 1 will cover Chapters 2 - 5.2 (stop right before "Dummy Variables"). Bring a non-programmable calculator, student ID, and writing implements. The exam takes place in the regular classroom at the regular time, on February 3rd.
 
-You can now do the following questions from the previous midterms:
-- 2023 Fall: 6, 7, 9, 11
-- 2023 A02: 7, 8, 10, 11(c), 11(d), 12
-- 2023 A01: 7, 8, 10, 11(c), 11(d), 12
-- 2022: 7, 8, 10(d), (f), (g), (h), (i)
-- 2021: 4
-- 2020: 9, 10(d), 11
+When looking at previous midterms for practice, omit the following questions:
+- 2023 Fall: 9, 11
+- 2023 A02: 10, 12
+- 2023 A01: 10, 12
+- 2022: 10 (f), (g), (h), (i)
+- 2021: 
+- 2020: 9, 11
 - Going back further than 2020 is risky.
 
+<!---
 For practice with Chapters 6, 7, and the beginning of 8, you can look at the finals questions:
 - 2023: 6, 7, 8, 9, 12, 13
 - 2022: 3, 4, 5, 7
 - 2020: 3, 4, 5, 7, 8
 
 You can also look at the practice questions at the end of each chapter.
+--->
 
 ## Previous midterms
 
