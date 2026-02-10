@@ -88,8 +88,8 @@ docs:
         url: https://rtgodwin.com/jimothy/
       #- title: "Assignment 1"
       #  url: https://rtgodwin.com/3040/assignments/assign1.pdf
-      #- title: "Assignment 2"
-      #  url: https://rtgodwin.com/3040/assignments/assign2.pdf
+      - title: "Assignment 2"
+        url: https://rtgodwin.com/3040/assignments/assign2.pdf
       #- title: "Assignment 2 Answers"
       #  url: https://rtgodwin.com/3040/assign2ans/
       #- title: "Assignment 3"
