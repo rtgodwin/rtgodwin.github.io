@@ -7,46 +7,29 @@ toc: false
 
 ------------------------------------------------------------------------
 
-Each question is worth 0.5 marks, for a total of 3 marks. Part marks are given where possible.
-
 ### Question 1
-
-Download the data using:
-
-```r
-mydata <- read.csv("https://rtgodwin.com/data/vidsales.csv")
-```
-
-There is no "Answers" part for this question.
-
-### Question 2
 
 There are several ways to create the subsample, but the one recommended in class is:
 
 ```r
-sub <- subset(mydata, Platform == "PS4" | Platform == "XOne")
+sub <- subset(mydata, Platform == "PS4" | Platform == "XOne" | Platform == "Wii")
 ```
 
-Alternatively, you could use:
+### Question 2
+
+Students should use code that looks something like:
 
 ```r
-sub <- mydata[mydata$Platform == "PS4" | mydata$Platform == "XOne", ]
+plot(sub$Score, sub$Sales)
 ```
 
-You could also create two separate subsamples:
-
-```r
-subX <- subset(mydata, Platform == "PS4")
-subP <- subset(mydata, Platform == "XOne")
-```
-
-and then combine them into one subsample:
-
-```r
-sub <- rbind(subX, subP)
-```
+and include the scatterplot in their assignment.
 
 ### Question 3
+
+This question is asking students to estimate the $$\beta$$ in a model such as:
+
+$$Sales = \beta_0 + \beta_1Score + \epsilon$$
 
 Answers should be presented in a table:
 
