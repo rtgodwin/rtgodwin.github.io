@@ -27,9 +27,40 @@ and include the scatterplot in their assignment.
 
 ### Question 3
 
-This question is asking students to estimate the $$\beta$$ in a model such as:
+This question is asking students to estimate the $$\beta_1$$ in a model such as:
 
 $$Sales = \beta_0 + \beta_1Score + \epsilon$$
+
+They could estimate the model using something like:
+
+```r
+mod1 <- lm(Sales ~ Score, data = sub) 
+summary(mod1)
+```
+Then, using the output:
+```
+Call:
+lm(formula = Sales ~ Score, data = sub)
+
+Residuals:
+   Min     1Q Median     3Q    Max 
+-3.280 -1.833 -1.038  0.222 80.462 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  -2.8895     1.1321  -2.552    0.011 *  
+Score         0.6867     0.1560   4.401 1.32e-05 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 5.155 on 497 degrees of freedom
+Multiple R-squared:  0.03751,	Adjusted R-squared:  0.03557 
+F-statistic: 19.37 on 1 and 497 DF,  p-value: 1.319e-05
+```
+
+should say something like: "Video games that score 1 point higher, make an additional $686,700 in sales, on average."
+
+
 
 Answers should be presented in a table:
 
