@@ -1,6 +1,6 @@
 ---
-title: "Assignment 1 Answer Key"
-permalink: /3040/assign1ans/
+title: "Assignment 2 Answer Key"
+permalink: /3040/assign2ans2026/
 excerpt: "Sales from different video game consoles - Answer Key"
 toc: false
 ---
