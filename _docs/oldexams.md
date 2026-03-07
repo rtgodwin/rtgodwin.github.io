@@ -7,9 +7,9 @@ toc: false
 ---
 ## Fall 2026 Midterm 1 info:
 
-Midterm 1 will cover Chapters 2 - 5.2 (stop right before "Dummy Variables"). Bring a non-programmable calculator, student ID, and writing implements. The exam takes place in the regular classroom at the regular time, on February 3rd.
+Midterm 2 will cover Chapters 5.3 - 9. Bring a non-programmable calculator, student ID, and writing implements. The exam takes place in the regular classroom at the regular time, on March 12th.
 
-When looking at previous midterms for practice, omit the following questions:
+For practice, you can look at the following miidterm questions:
 - 2023 Fall: 9, 11
 - 2023 A02: 10, 12
 - 2023 A01: 10, 12
@@ -18,14 +18,12 @@ When looking at previous midterms for practice, omit the following questions:
 - 2020: 9, 11
 - Going back further than 2020 is risky.
 
-<!---
-For practice with Chapters 6, 7, and the beginning of 8, you can look at the finals questions:
-- 2023: 6, 7, 8, 9, 12, 13
-- 2022: 3, 4, 5, 7
+For practice with Chapters 6 - 9, you can look at the finals questions (2023 is the best one to look at):
+- 2023: 6, 7, 8, 9, 10, 12, 13, 14
+- 2022: 3, 4, 5, 7, 8
 - 2020: 3, 4, 5, 7, 8
 
 You can also look at the practice questions at the end of each chapter.
---->
 
 ## Previous midterms
 
