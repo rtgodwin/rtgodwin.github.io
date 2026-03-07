@@ -5,7 +5,7 @@ excerpt: "ECON 3040 exams"
 last_modified_at:
 toc: false
 ---
-## Fall 2026 Midterm 1 info:
+## Fall 2026 Midterm 2 info:
 
 Midterm 2 will cover Chapters 5.3 - 9. Bring a non-programmable calculator, student ID, and writing implements. The exam takes place in the regular classroom at the regular time, on March 12th.
 
