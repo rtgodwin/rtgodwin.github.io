@@ -7,6 +7,7 @@ toc: false
 
 ------------------------------------------------------------------------
 
+<!--
 ### Question 1
 
 To estimate the model:
@@ -35,9 +36,10 @@ The estimated slope of 29.325 is interpreted as: it is estimated that an increas
 ### Question 2
 
 The reason that we should include the other variable in the model is to avoid omitted variable bias (OVB). If a variable is correlated with education, and also determines wage, then leaving it out of the model will cause least-squares estimation to be biased. So, we need to estimate a "multiple regression model" that includes these other variables.
+-->
 
-### Question 3
-
+### Question 1
+#### Part (a)
 To estimate the model with wage on the LHS and all other variable on the RHS, we can use either:
 
 ```r
@@ -73,11 +75,7 @@ F-statistic: 61.51 on 7 and 1836 DF,  p-value: < 2.2e-16
 
 The model has become more accurate in terms of describing the wage data (the $R^2$ is now 0.19 instead of 0.07), but the main difference to point out is the estimated returns to education. In this estimated model, the effect of education on wage is now 47.6 cents. This is 1.5 times the effect that was estimated in the model in question 1. The model in question 1 was suffering from omitted variable bias.
 
-### Question 4
-
-We need to look at the _Adjusted R-squared_ $\bar{R}^2$, not the _Multiple R-squared_ $R^2$. The answer is 18.69%.
-
-### Question 5
+#### Part (b)
 
 The three variables: `sinmom14yes`, `momed`, and `daded` all have small t-statistics which indicate they are all _individually_ insignificant. However, we know that dropping them all from the model, all at once, requires that all 3 variables be _jointly_ insignificant. To justify dropping these 3 variables from the model, we need to use an F-test and test the null hypothesis:
 
