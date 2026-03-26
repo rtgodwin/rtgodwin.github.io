@@ -66,6 +66,8 @@ docs:
         url: /3040/ch9.pdf
       - title: 11 - Instrumental variables
         url: /3040/iv.pdf
+      - title: 12 - Panel data
+        url: /3040/panel.pdf
   - title: Computer Labs
     children:
       - title: "1. Intro to R and RStudio"
