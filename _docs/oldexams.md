@@ -5,6 +5,8 @@ excerpt: "ECON 3040 exams"
 last_modified_at:
 toc: false
 ---
+<--!
+
 ## Fall 2026 Midterm 2 info:
 
 Midterm 2 will cover Chapters 5.3 - 9. Bring a non-programmable calculator, student ID, and writing implements. The exam takes place in the regular classroom at the regular time, on March 12th.
@@ -24,6 +26,7 @@ For practice with Chapters 6 - 9, you can look at the finals questions (2023 is 
 - 2020: 3, 4, 5, 7, 8
 
 You can also look at the practice questions at the end of each chapter.
+-->
 
 ## Previous midterms
 
@@ -163,3 +166,9 @@ Issues that arise in the multiple regression model:
 - IV/2SLS - describe the two stages
 - wage/education example
 - demand example
+
+### Chapter 12
+- What is panel data
+- What kind of missing variable can fixed effects / within estimator deal with
+- What is the within / fixed effects estimator
+- How to subtract the averaged model toeliminate $m_i$
