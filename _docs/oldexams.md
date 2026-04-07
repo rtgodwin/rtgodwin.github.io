@@ -33,7 +33,7 @@ The final exam is cumulative, but with more emphasis on the later topics. All pr
 
 [Formula Sheet](https://rtgodwin.com/3040/exams/formula%20sheet.pdf)
 
-
+[Midterm Review](https://rtgodwin.com/3040/exams/midtermreview.pdf)
 
 ## Previous midterms
 
