@@ -173,5 +173,6 @@ Issues that arise in the multiple regression model:
 ### Chapter 12
 - What is panel data
 - What kind of missing variable can fixed effects / within estimator deal with
-- What is the within / fixed effects estimator
-- How to subtract the averaged model toeliminate $m_i$
+- How to subtract the averaged model to eliminate $m_i$
+- What is the within / fixed effects estimators, and how to construct them
+
