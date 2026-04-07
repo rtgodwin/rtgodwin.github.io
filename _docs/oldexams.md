@@ -31,6 +31,10 @@ You can also look at the practice questions at the end of each chapter.
 
 The final exam is cumulative, but with more emphasis on the later topics. All practice questions from previous exams are now relevant. Please look at the previous final to get an idea of the format of the exam.
 
+[Formula Sheet](https://rtgodwin.com/3040/exams/formula%20sheet.pdf)
+
+
+
 ## Previous midterms
 
 | Year                                                  | Answer Key
