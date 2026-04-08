@@ -156,8 +156,9 @@ Issues that arise in the multiple regression model:
 - DiD
   * minimum wage example
   * fundamental problem of causal inference
+  * how to calculate the DiD estimate from a table
+  * parallel trends assumption
   * DiD estimator is the $b$ on the dummy-dummy interaction
-  * Picture
 
 ### Chapter 10
 - Hetroskedasticity vs. homoskedasticity
