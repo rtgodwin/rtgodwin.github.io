@@ -9,6 +9,38 @@ toc: false
 
 ## Question 1
 
+### (a)
+
+```r
+did <- read.csv("https://rtgodwin.com/data/card.csv")
+did.mod <- lm(EMP ~ STATE + TIME + STATE * TIME + CO_OWNED, data = did)
+summary(did.mod)
+```
+
+```
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept)  24.3025     1.1169  21.759  < 2e-16 ***
+STATE        -2.9418     1.2141  -2.423 0.015625 *  
+TIME         -2.2833     1.5403  -1.482 0.138637    
+CO_OWNED     -2.6611     0.7141  -3.727 0.000208 ***
+STATE:TIME    2.7500     1.7170   1.602 0.109659    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 9.432 on 763 degrees of freedom
+Multiple R-squared:  0.02533,	Adjusted R-squared:  0.02022 
+F-statistic: 4.957 on 4 and 763 DF,  p-value: 0.0005991
+```
+
+The `CO_OWNED` variable helps control for differences in the _treatment_ and _control_ groups. The _parallel trends_ assumption says that the treatment and control groups must be identical (except for the minimum wage policy), but this is not realistic. Additional control variables, like `CO_OWNED`, help establish parallel trends.
+
+### (b)
+
+The DiD estimate is the coefficient on the interaction term: 2.75.
+
+## Question 1
+
 Download the data:
 
 ```r
@@ -144,32 +176,3 @@ Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’
 
 There are some very important differences from the output in part (a). Under heteroskedasticity, all of the variables are now statistically significant!
 
-## Question 3
-
-### (a)
-
-```r
-did <- read.csv("https://rtgodwin.com/data/card.csv")
-did.mod <- lm(EMP ~ STATE + TIME + STATE * TIME + CO_OWNED, data = did)
-summary(did.mod)
-```
-
-```
-Coefficients:
-            Estimate Std. Error t value Pr(>|t|)    
-(Intercept)  24.3025     1.1169  21.759  < 2e-16 ***
-STATE        -2.9418     1.2141  -2.423 0.015625 *  
-TIME         -2.2833     1.5403  -1.482 0.138637    
-CO_OWNED     -2.6611     0.7141  -3.727 0.000208 ***
-STATE:TIME    2.7500     1.7170   1.602 0.109659    
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 9.432 on 763 degrees of freedom
-Multiple R-squared:  0.02533,	Adjusted R-squared:  0.02022 
-F-statistic: 4.957 on 4 and 763 DF,  p-value: 0.0005991
-```
-
-### (b)
-
-The DiD estimate is the coefficient on the interaction term: 2.75.
