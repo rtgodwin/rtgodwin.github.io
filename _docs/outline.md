@@ -15,13 +15,11 @@ email: ryan.godwin@umanitoba.ca
 
 | Section | Time                | Days          | Location               | CRN   |
 | :-----: | :-----------------: | :-----------: | :--------------------: | :---: | 
-| A01     | 2:30 PM - 3:45 PM   | TR            | TIER 303               | 53007 |
-| A02     | 4:00 PM - 5:15 PM   | TR            | TIER 213               | 58511 | 
-
+| A01     | 2:30 PM - 3:45 PM   | TR            | HUMAN ECOLOGY 207      | 12952 |
 
 ## Course Description
 
-The principal objective of this course is to provide a basic introduction to econometric theory and its application. Much of the emphasis of the course is on the linear multiple regression model, under standard assumptions. The course begins with a review of probability and statistics, and ordinary least squares (OLS). We then begin to use the linear regression model as a basis for _causal inference_.
+The principal objective of this course is to provide a basic introduction to econometric theory and its application. Much of the emphasis of the course is on the linear multiple regression model, under standard assumptions. The course begins with a review of probability and statistics, and ordinary least squares (OLS). We then begin to use the linear regression model as a basis for _causal inference_. We then explore topics such as differences-in-differences, heteroskedasticity and clustering, instrumental variables, and panel data.
 
 ## Required Textbook
 [I wrote the textbook we'll use and it's available here.](https://rtgodwin.com/introeconometrics.pdf)
@@ -39,9 +37,9 @@ rtgodwin.com/3040
 
 | Assessment                   	| Weight 	|
 |------------------------------	|--------	|
-| Assignments                  	| 15%    	|
-| Midterm 1<br>(February 3)	    | 20%    	|
-| Midterm 2<br>(March 12) 	    | 20%    	|
+| Assignments                  	| 10%    	|
+| Midterm 1<br>(February 3)	    | 22.5%  	|
+| Midterm 2<br>(March 12) 	    | 22.5%  	|
 | Final Exam                   	| 45%    	|
 
 ### Assignments
