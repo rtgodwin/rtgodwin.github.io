@@ -38,13 +38,13 @@ rtgodwin.com/3040
 | Assessment                   	| Weight 	|
 |------------------------------	|--------	|
 | Assignments                  	| 10%    	|
-| Midterm 1<br>(February 3)	    | 22.5%  	|
-| Midterm 2<br>(March 12) 	    | 22.5%  	|
+| Midterm 1<br>(October 8)	    | 22.5%  	|
+| Midterm 2<br>(November 5)	    | 22.5%  	|
 | Final Exam                   	| 45%    	|
 
 ### Assignments
 
-There will be 5 assignments, each worth 3% of your grade. You will use RStudio and work with data in order to complete your assignments. All assignments must be completed independently.
+There will be 5 assignments, each worth 2% of your grade. You will use RStudio and work with data in order to complete your assignments. All assignments must be completed independently.
 
 ### Midterms and Final
 
@@ -72,10 +72,10 @@ March 19, 2026, is the last day for voluntary withdrawal from the course.
 
 Ignorance is not a defense. Familiarize yourself with section 2.5 of Academic Misconduct Procedures.
 
-I own the copyright to all course content. Sharing my content (e.g. on Course Hero) is illegal!
+I own the copyright to all course content.
 {: .notice--danger}
 
-All course material is copyrighted by Ryan Godwin, 2025. No audio or video recording of this material, lectures, or presentations is allowed in any format, openly or surreptitiously, in whole or in part without permission of Ryan Godwin. Course materials are for the participant’s private study and research, and must not be shared. Violation of these and other Academic Integrity principles, will lead to serious disciplinary action.
+All course material is copyrighted by Ryan Godwin, 2026. No audio or video recording of this material, lectures, or presentations is allowed in any format, openly or surreptitiously, in whole or in part without permission of Ryan Godwin. Course materials are for the participant’s private study and research, and must not be shared. Violation of these and other Academic Integrity principles, may lead to serious disciplinary action.
 {: .notice--warning}
 
 ## Statement of Academic Integrity / Misconduct from the U of M
@@ -94,9 +94,11 @@ Acts of academic misconduct include, but are not limited to:
  - Academic Fraud
  - Personation
 
-## Generative AI (ChatGPT)
+## Generative AI (ChatGPT, Claude)
 
-Students may not use AI to write R code.
+Do not use any AI for the assignments in this course. Zero. I will show you how to do all the R coding. Write the assignments 100\% by yourself, do not generate anything.
+
+**Emailing me**: Scenario (A) - You enter a prompt to generate an email. I put your email into AI and ask it for your prompt. Scenario (B) we cut out the middleman and you send me your prompt directly. Please try to choose (B).
 
 ## Tentative Course Topics
 
