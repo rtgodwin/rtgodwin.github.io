@@ -12,7 +12,7 @@ sidebar:
 
 | Instructor | Time              | Days          | Location                  | CRN   | Office Hour |
 | :------: | :---------------: | :-----------: | :--------------------: | :---: | :----: |
-| Ryan Godwin | 1:00 pm - 2:15 pm | TR            | HUMAN ECOLOGY 304 | 22341 | Tuesday, 2:30 - 3:30 |
+| Ryan Godwin | 1:00 pm - 2:15 pm | TR            | HUMAN ECOLOGY 304 | 22341 | Tuesday, 10:30 - 11:30 |
 
 email: ryan.godwin@umanitoba.ca
 
@@ -73,7 +73,7 @@ Students appealing any term work (including, assignments, midterm, final exam) w
 
 A missed assessment will result in make-up work, or reweighting of your grade.
 
-Nov. 18, 2025, is the last day for voluntary withdrawal from the course.
+Nov. 20, 2026, is the last day for voluntary withdrawal from the course.
 
 ## Academic Integrity
 
@@ -89,7 +89,7 @@ I own the copyright to all course content. Sharing my content (e.g. on Course He
 All course material is copyrighted by Ryan Godwin, 2025. No audio or video recording of this material, lectures, or presentations is allowed in any format, openly or surreptitiously, in whole or in part without permission of Ryan Godwin. Course materials are for the participant’s private study and research, and must not be shared. Violation of these and other Academic Integrity principles, will lead to serious disciplinary action.
 {: .notice--warning}
 
-## Statement of Academic Integrity / Misconduct from the U of M
+## Statement of Academic Integrity / Misconduct from U of M
 Academic integrity is the commitment to upholding the values of honesty, trust, fairness, respect, responsibility and courage in all scholarly activities (International Center for Academic Integrity (ICAI), 2013). Academic misconduct is any violation of the principles of academic integrity.
 
 Students should acquaint themselves with the University’s Student Discipline Bylaw and related Procedures on academic misconduct (see Section 2.2.1) found in the Academic Calendar. Ignorance of the regulations and policies relating to academic misconduct is not a valid excuse for violating them.
@@ -105,9 +105,9 @@ Acts of academic misconduct include, but are not limited to:
  - Academic Fraud
  - Personation
 
-## Generative AI (ChatGPT)
+## Generative AI (ChatGPT / Claude)
 
-Students are encouraged to make use of technology, including generative artificial intelligence (ChatGPT) tools to contribute to their understanding of course materials. However, students are ultimately accountable for the work they submit to be assessed and assigned grades.
+Students are not permitted to use AI.
 
 ## Tentative Course Topics
 
