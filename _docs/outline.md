@@ -78,7 +78,7 @@ I own the copyright to all course content.
 All course material is copyrighted by Ryan Godwin, 2026. No audio or video recording of this material, lectures, or presentations is allowed in any format, openly or surreptitiously, in whole or in part without permission of Ryan Godwin. Course materials are for the participant’s private study and research, and must not be shared. Violation of these and other Academic Integrity principles, may lead to serious disciplinary action.
 {: .notice--warning}
 
-## Statement of Academic Integrity / Misconduct from the U of M
+## Statement of Academic Integrity / Misconduct from U of M
 Academic integrity is the commitment to upholding the values of honesty, trust, fairness, respect, responsibility and courage in all scholarly activities (International Center for Academic Integrity (ICAI), 2013). Academic misconduct is any violation of the principles of academic integrity.
 
 Students should acquaint themselves with the University’s Student Discipline Bylaw and related Procedures on academic misconduct (see Section 2.2.1) found in the Academic Calendar. Ignorance of the regulations and policies relating to academic misconduct is not a valid excuse for violating them.
@@ -96,9 +96,9 @@ Acts of academic misconduct include, but are not limited to:
 
 ## Generative AI (ChatGPT, Claude)
 
-Do not use any AI for the assignments in this course. Zero. I will show you how to do all the R coding. Write the assignments 100\% by yourself, do not generate anything.
+Do not use any AI for the assignments in this course. Zero. I will show you how to do all the R coding. Write the assignments 100% by yourself, do not generate anything.
 
-**Emailing me**: Scenario (A) - You enter a prompt to generate an email. I put your email into AI and ask it for your prompt. Scenario (B) we cut out the middleman and you send me your prompt directly. Please try to choose (B).
+**Emailing me**: Please do not use AI to generate emails.
 
 ## Tentative Course Topics
 
