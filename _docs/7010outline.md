@@ -73,7 +73,7 @@ Students appealing any term work (including, assignments, midterm, final exam) w
 
 A missed assessment will result in make-up work, or reweighting of your grade.
 
-Nov. 20, 2026, is the last day for voluntary withdrawal from the course.
+Nov. 24, 2026, is the last day for voluntary withdrawal from the course.
 
 ## Academic Integrity
 
