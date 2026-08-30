@@ -7,7 +7,7 @@ toc: false
 ---
 
 ## Course Info
-Winter 2026
+Fall 2026  
 Instructor: Ryan Godwin  
 Office Hour: Tuesday, 12:30 - 1:30  
 Office Location: 646 Fletcher Argue  
