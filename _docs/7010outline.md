@@ -55,7 +55,7 @@ rtgodwin.com/7010
 
 ### Assignments
 
-There will be 5 assignments, each worth 2% of your grade. You will use RStudio and work with data in order to complete some of the assignments. All assignments must be completed independently.
+There will be approximately 10 assignments, each worth approximately 1% of your grade. You will use RStudio and work with data in order to complete some of the assignments. All assignments must be completed independently.
 
 ### Midterm and Final
 
