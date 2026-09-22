@@ -1,19 +1,19 @@
 ---
-title: "7010 Assignment 1"
-permalink: /7010/assign1/
-excerpt: "Assignment 1"
+title: "7010 Assignment 2"
+permalink: /7010/assign2/
+excerpt: "Assignment 2"
 toc: false
 sidebar:
   nav: "pages"
 ---
 
-**Due: Sept. 26th**. Worth 3% of your mark. For each answer include the R
+**Due: Sept. 29th**. Worth 2% of your mark. For each answer include the R
 code that you use, as well as a brief explanation. Upload your answers
 to the assignment 1 dropbox on UM Learn.
 
 ------------------------------------------------------------------------
 
-1.  Download any data set that contains at least 3 variables.
+1.  Download/use any data set that contains at least 3 variables.
 
 2.  In R, use LS to estimate a population model of the form:
     $$\boldsymbol{y} = X\boldsymbol{\beta} + \boldsymbol{\epsilon}
