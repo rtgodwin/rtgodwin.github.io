@@ -1,7 +1,7 @@
 ---
-title: "7010 Assignment 2"
-permalink: /7010/assign2/
-excerpt: "Assignment 2"
+title: "7010 Assignment 3"
+permalink: /7010/assign3/
+excerpt: "Assignment 3"
 toc: false
 sidebar:
   nav: "pages"
