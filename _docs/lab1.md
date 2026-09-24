@@ -418,7 +418,7 @@ The above line creates a new data set, by selecting only the rows from
 `mydata` which have `Sales >= 2`. The new data set shows up in the
 top-right panel. Check the sample size.
 
-## Hint for Assignment 1, Question 2. Create a subsample using the "or" `|` operator.
+## Create a subsample using the "or" `|` operator.
 
 To create a subsample that includes two (or more) video game publishers (let's take "Nintendo" and "Atari" as an example), we can use the "or" operator `|`:
 
