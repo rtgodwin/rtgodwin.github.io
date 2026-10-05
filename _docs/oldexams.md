@@ -5,12 +5,27 @@ excerpt: "ECON 3040 exams"
 last_modified_at:
 toc: false
 ---
+## Fall 2026 Midterm 1 info:
+
+Midterm 1 will cover Chapters 2 - 5.2. Bring a non-programmable calculator, student ID, and writing implements. The exam takes place in the regular classroom at the regular time, on October 8th.
+
+For practice, you can look at the following midterm questions:
+- 2023 Fall: 1-8, 10
+- 2023 A02: 1-9, 11 (a), (b), (d), (e)
+- 2023 A01: 1-9, 11 (a), (b), (d), (e)
+- 2022: 1-9, 10 (a) - (e)
+- 2021: ALL
+- 2020: 1-8, 10
+- Going back further than 2020 is risky.
+
+Also look at the practice questions at the end of each chapter.
+
 <!--
 ## Fall 2026 Midterm 2 info:
 
 Midterm 2 will cover Chapters 5.3 - 9. Bring a non-programmable calculator, student ID, and writing implements. The exam takes place in the regular classroom at the regular time, on March 12th.
 
-For practice, you can look at the following miidterm questions:
+For practice, you can look at the following midterm questions:
 - 2023 Fall: 9, 11
 - 2023 A02: 10, 12
 - 2023 A01: 10, 12
