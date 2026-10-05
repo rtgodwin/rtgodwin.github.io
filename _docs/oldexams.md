@@ -20,6 +20,10 @@ For practice, you can look at the following midterm questions:
 
 Also look at the practice questions at the end of each chapter.
 
+Here is the formula sheet (not all formulas have been covered yet):
+
+[Formula Sheet](https://rtgodwin.com/3040/exams/formula%20sheet.pdf)
+
 <!--
 ## Fall 2026 Midterm 2 info:
 
@@ -42,6 +46,7 @@ For practice with Chapters 6 - 9, you can look at the finals questions (2023 is 
 You can also look at the practice questions at the end of each chapter.
 -->
 
+<!--
 ## Final exam info:
 
 The final exam is cumulative, but with more emphasis on the later topics. All practice questions from previous exams are now relevant. Please look at the previous final to get an idea of the format of the exam.
@@ -49,6 +54,8 @@ The final exam is cumulative, but with more emphasis on the later topics. All pr
 [Formula Sheet](https://rtgodwin.com/3040/exams/formula%20sheet.pdf)
 
 [Midterm Review](https://rtgodwin.com/3040/exams/midtermreview.pdf)
+
+-->
 
 ## Previous midterms
 
