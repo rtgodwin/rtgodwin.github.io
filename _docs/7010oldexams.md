@@ -10,12 +10,14 @@ sidebar:
 
 ## Previous midterms
 
-For the 2025 Fall midterm: the exam covers everything up to "Critical Values" (slide 19 in simple hypothesis testing)
+For the 2026 Fall midterm: the exam covers everything up to and including "Slutsky's theorem"
 
+<!--
 For the final exam, ignore the following questions when you review past midterms:
 - 2022 Winter: ignore the entire exam
 - 2020: ignore all questions except #1
 - 2016 Mid 2: ignore #8
+-->
 
 [Midterm Formula Sheet](https://rtgodwin.com/7010/exams/midformula.pdf)
 
