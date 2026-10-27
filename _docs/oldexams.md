@@ -5,6 +5,7 @@ excerpt: "ECON 3040 exams"
 last_modified_at:
 toc: false
 ---
+<!--
 ## Fall 2026 Midterm 1 info:
 
 Midterm 1 will cover Chapters 2 - 5.2. Bring a non-programmable calculator, student ID, and writing implements. The exam takes place in the regular classroom at the regular time, on October 8th.
@@ -23,13 +24,13 @@ Also look at the practice questions at the end of each chapter.
 Here is the formula sheet (not all formulas have been covered yet):
 
 [Formula Sheet](https://rtgodwin.com/3040/exams/formula%20sheet.pdf)
+-->
 
-<!--
 ## Fall 2026 Midterm 2 info:
 
 Midterm 2 will cover Chapters 5.3 - 9. Bring a non-programmable calculator, student ID, and writing implements. The exam takes place in the regular classroom at the regular time, on March 12th.
 
-For practice, you can look at the following midterm questions:
+You can look at the following midterm questions:
 - 2023 Fall: 9, 11
 - 2023 A02: 10, 12
 - 2023 A01: 10, 12
@@ -44,7 +45,7 @@ For practice with Chapters 6 - 9, you can look at the finals questions (2023 is 
 - 2020: 3, 4, 5, 7, 8
 
 You can also look at the practice questions at the end of each chapter.
--->
+
 
 <!--
 ## Final exam info:
